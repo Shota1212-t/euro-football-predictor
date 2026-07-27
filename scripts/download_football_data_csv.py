@@ -9,6 +9,7 @@ import csv
 import io
 import urllib.error
 import urllib.request
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,6 +48,16 @@ def download_csv(season: str, division: str, destination: Path) -> None:
     print(f"downloaded: {destination.relative_to(ROOT)}")
 
 
+def normalize_match_date(value: str, path: Path) -> str:
+    text = (value or "").strip()
+    for date_format in ("%d/%m/%Y", "%d/%m/%y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(text, date_format).date().isoformat()
+        except ValueError:
+            continue
+    raise RuntimeError(f"Unsupported match date {text!r}: {path}")
+
+
 def reduced_rows(path: Path):
     raw = path.read_bytes().decode("utf-8-sig", errors="replace")
     reader = csv.DictReader(io.StringIO(raw))
@@ -57,7 +68,9 @@ def reduced_rows(path: Path):
         raise RuntimeError(f"CSV is missing columns {sorted(missing)}: {path}")
     for row in reader:
         if row.get("Date") and row.get("HomeTeam") and row.get("AwayTeam") and row.get("FTR"):
-            yield {column: row.get(column, "") for column in REQUIRED_COLUMNS}
+            reduced = {column: row.get(column, "") for column in REQUIRED_COLUMNS}
+            reduced["Date"] = normalize_match_date(row["Date"], path)
+            yield reduced
 
 
 def main() -> None:
