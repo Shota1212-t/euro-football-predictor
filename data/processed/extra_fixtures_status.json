@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "updated_at": "2026-07-26T13:12:33.614909+00:00",
+  "records": 209,
+  "official_records": 189,
+  "supplemental_records": 20,
+  "manual_records": 0,
+  "thesportsdb_teams_success": 30,
+  "thesportsdb_teams_unavailable": 63,
+  "coverage": {
+    "league": "Football-Data.co.uk",
+    "champions_league": "available",
+    "other_european_and_domestic_cups": "partial_last_event_only",
+    "extra_time_and_penalties": "partial"
+  },
+  "failures": []
+}

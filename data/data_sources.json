@@ -1,0 +1,51 @@
+[
+  {
+    "name": "football-data.org",
+    "purpose": "現在の試合日程・順位表",
+    "data_fetched": "fixtures, standings",
+    "update_frequency": "毎日",
+    "notes": "無料枠はリクエスト数に制限あり。API keyは.envで管理。"
+  },
+  {
+    "name": "Football-Data.co.uk",
+    "purpose": "過去の試合結果・オッズ・スタッツ（モデル学習用）",
+    "data_fetched": "historical results, odds",
+    "update_frequency": "シーズン中は週次",
+    "notes": "CSV配布。ml/data_loader.pyが読み込む。"
+  },
+  {
+    "name": "API-FOOTBALL",
+    "purpose": "追加の日程・国内カップ・欧州大会補完",
+    "data_fetched": "fixtures (cup/european)",
+    "update_frequency": "毎日",
+    "notes": "疲労指数の算出に必要な直近試合数の補完に使用。"
+  },
+  {
+    "name": "TheSportsDB",
+    "purpose": "チームロゴ・選手画像・プロフィール",
+    "data_fetched": "logos, photos, profiles",
+    "update_frequency": "週次",
+    "notes": "画像が取得できない場合はイニシャル表示にフォールバック。"
+  },
+  {
+    "name": "OpenFootball",
+    "purpose": "チーム名・リーグ名のマスタ正規化",
+    "data_fetched": "master data",
+    "update_frequency": "月次",
+    "notes": null
+  },
+  {
+    "name": "OpenLigaDB",
+    "purpose": "ブンデスリーガ系データの補完",
+    "data_fetched": "Bundesliga results",
+    "update_frequency": "毎日",
+    "notes": null
+  },
+  {
+    "name": "StatsBomb Open Data",
+    "purpose": "xGなどイベント分析のデモ用",
+    "data_fetched": "event data (一部大会のみ)",
+    "update_frequency": "-",
+    "notes": "無料公開分のみ。本番運用には別途契約が必要。"
+  }
+]

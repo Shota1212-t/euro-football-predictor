@@ -1,0 +1,3744 @@
+[
+  {
+    "id": "fd-cl-551981",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-16T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-77",
+      "fd-57"
+    ],
+    "home_team_id": "fd-77",
+    "away_team_id": "fd-57",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552049",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-16T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-674",
+      "fd-3929"
+    ],
+    "home_team_id": "fd-674",
+    "away_team_id": "fd-3929",
+    "home_score": 1,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551941",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-16T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-109",
+      "fd-4"
+    ],
+    "home_team_id": "fd-109",
+    "away_team_id": "fd-4",
+    "home_score": 4,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551991",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-16T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1903",
+      "fd-611"
+    ],
+    "home_team_id": "fd-1903",
+    "away_team_id": "fd-611",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552012",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-16T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-73",
+      "fd-94"
+    ],
+    "home_team_id": "fd-73",
+    "away_team_id": "fd-94",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551927",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-16T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-86",
+      "fd-516"
+    ],
+    "home_team_id": "fd-86",
+    "away_team_id": "fd-516",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552023",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-17T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-930",
+      "fd-5721"
+    ],
+    "home_team_id": "fd-930",
+    "away_team_id": "fd-5721",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552031",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-17T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-654",
+      "fd-11034"
+    ],
+    "home_team_id": "fd-654",
+    "away_team_id": "fd-11034",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551936",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-17T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-678",
+      "fd-108"
+    ],
+    "home_team_id": "fd-678",
+    "away_team_id": "fd-108",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551946",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-17T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-64",
+      "fd-78"
+    ],
+    "home_team_id": "fd-64",
+    "away_team_id": "fd-78",
+    "home_score": 3,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551959",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-17T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-102"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-102",
+    "home_score": 4,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551908",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-17T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5",
+      "fd-61"
+    ],
+    "home_team_id": "fd-5",
+    "away_team_id": "fd-61",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551975",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-18T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1876",
+      "fd-3"
+    ],
+    "home_team_id": "fd-1876",
+    "away_team_id": "fd-3",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551995",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-18T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-851",
+      "fd-548"
+    ],
+    "home_team_id": "fd-851",
+    "away_team_id": "fd-548",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551958",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-18T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-67",
+      "fd-81"
+    ],
+    "home_team_id": "fd-67",
+    "away_team_id": "fd-81",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551965",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-18T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-65",
+      "fd-113"
+    ],
+    "home_team_id": "fd-65",
+    "away_team_id": "fd-113",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552000",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-18T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-19",
+      "fd-610"
+    ],
+    "home_team_id": "fd-19",
+    "away_team_id": "fd-610",
+    "home_score": 5,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552027",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-18T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-498",
+      "fd-10601"
+    ],
+    "home_team_id": "fd-498",
+    "away_team_id": "fd-10601",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551982",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-102",
+      "fd-851"
+    ],
+    "home_team_id": "fd-102",
+    "away_team_id": "fd-851",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551930",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-10601",
+      "fd-86"
+    ],
+    "home_team_id": "fd-10601",
+    "away_team_id": "fd-86",
+    "home_score": 0,
+    "away_score": 5,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551951",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-610",
+      "fd-64"
+    ],
+    "home_team_id": "fd-610",
+    "away_team_id": "fd-64",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551997",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-19"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-19",
+    "home_score": 5,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552015",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-516",
+      "fd-678"
+    ],
+    "home_team_id": "fd-516",
+    "away_team_id": "fd-678",
+    "home_score": 4,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552020",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5721",
+      "fd-73"
+    ],
+    "home_team_id": "fd-5721",
+    "away_team_id": "fd-73",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551915",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-11034",
+      "fd-5"
+    ],
+    "home_team_id": "fd-11034",
+    "away_team_id": "fd-5",
+    "home_score": 1,
+    "away_score": 5,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551917",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-61",
+      "fd-1903"
+    ],
+    "home_team_id": "fd-61",
+    "away_team_id": "fd-1903",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551935",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-09-30T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-108",
+      "fd-930"
+    ],
+    "home_team_id": "fd-108",
+    "away_team_id": "fd-930",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552039",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-611",
+      "fd-1876"
+    ],
+    "home_team_id": "fd-611",
+    "away_team_id": "fd-1876",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552044",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3929",
+      "fd-67"
+    ],
+    "home_team_id": "fd-3929",
+    "away_team_id": "fd-67",
+    "home_score": 0,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551944",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-4",
+      "fd-77"
+    ],
+    "home_team_id": "fd-4",
+    "away_team_id": "fd-77",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551952",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-81",
+      "fd-524"
+    ],
+    "home_team_id": "fd-81",
+    "away_team_id": "fd-524",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551968",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-548",
+      "fd-65"
+    ],
+    "home_team_id": "fd-548",
+    "away_team_id": "fd-65",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551972",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3",
+      "fd-674"
+    ],
+    "home_team_id": "fd-3",
+    "away_team_id": "fd-674",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551978",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-57",
+      "fd-654"
+    ],
+    "home_team_id": "fd-57",
+    "away_team_id": "fd-654",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552002",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-94",
+      "fd-109"
+    ],
+    "home_team_id": "fd-94",
+    "away_team_id": "fd-109",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552026",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-01T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-113",
+      "fd-498"
+    ],
+    "home_team_id": "fd-113",
+    "away_team_id": "fd-498",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551955",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-81",
+      "fd-654"
+    ],
+    "home_team_id": "fd-81",
+    "away_team_id": "fd-654",
+    "home_score": 6,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552045",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-10601",
+      "fd-11034"
+    ],
+    "home_team_id": "fd-10601",
+    "away_team_id": "fd-11034",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551938",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3929",
+      "fd-108"
+    ],
+    "home_team_id": "fd-3929",
+    "away_team_id": "fd-108",
+    "home_score": 0,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551945",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1876",
+      "fd-4"
+    ],
+    "home_team_id": "fd-1876",
+    "away_team_id": "fd-4",
+    "home_score": 2,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551960",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3",
+      "fd-524"
+    ],
+    "home_team_id": "fd-3",
+    "away_team_id": "fd-524",
+    "home_score": 2,
+    "away_score": 7,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551964",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-94",
+      "fd-65"
+    ],
+    "home_team_id": "fd-94",
+    "away_team_id": "fd-65",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551976",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-57",
+      "fd-78"
+    ],
+    "home_team_id": "fd-57",
+    "away_team_id": "fd-78",
+    "home_score": 4,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551992",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-67",
+      "fd-1903"
+    ],
+    "home_team_id": "fd-67",
+    "away_team_id": "fd-1903",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552048",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-21T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-674",
+      "fd-113"
+    ],
+    "home_team_id": "fd-674",
+    "away_team_id": "fd-113",
+    "home_score": 6,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552025",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-610",
+      "fd-5721"
+    ],
+    "home_team_id": "fd-610",
+    "away_team_id": "fd-5721",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552040",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T16:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-77",
+      "fd-611"
+    ],
+    "home_team_id": "fd-77",
+    "away_team_id": "fd-611",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551947",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-19",
+      "fd-64"
+    ],
+    "home_team_id": "fd-19",
+    "away_team_id": "fd-64",
+    "home_score": 1,
+    "away_score": 5,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551984",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-102",
+      "fd-930"
+    ],
+    "home_team_id": "fd-102",
+    "away_team_id": "fd-930",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552016",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-498",
+      "fd-516"
+    ],
+    "home_team_id": "fd-498",
+    "away_team_id": "fd-516",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552022",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-548",
+      "fd-73"
+    ],
+    "home_team_id": "fd-548",
+    "away_team_id": "fd-73",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551910",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5",
+      "fd-851"
+    ],
+    "home_team_id": "fd-5",
+    "away_team_id": "fd-851",
+    "home_score": 4,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551919",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-61",
+      "fd-678"
+    ],
+    "home_team_id": "fd-61",
+    "away_team_id": "fd-678",
+    "home_score": 5,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551925",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-10-22T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-86",
+      "fd-109"
+    ],
+    "home_team_id": "fd-86",
+    "away_team_id": "fd-109",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551979",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-930",
+      "fd-57"
+    ],
+    "home_team_id": "fd-930",
+    "away_team_id": "fd-57",
+    "home_score": 0,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551999",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-113",
+      "fd-19"
+    ],
+    "home_team_id": "fd-113",
+    "away_team_id": "fd-19",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552003",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-109",
+      "fd-498"
+    ],
+    "home_team_id": "fd-109",
+    "away_team_id": "fd-498",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552009",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-3929"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-3929",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552021",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-73",
+      "fd-1876"
+    ],
+    "home_team_id": "fd-73",
+    "away_team_id": "fd-1876",
+    "home_score": 4,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552024",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5721",
+      "fd-548"
+    ],
+    "home_team_id": "fd-5721",
+    "away_team_id": "fd-548",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552029",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-654",
+      "fd-674"
+    ],
+    "home_team_id": "fd-654",
+    "away_team_id": "fd-674",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551909",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-5"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-5",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551924",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-04T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-64",
+      "fd-86"
+    ],
+    "home_team_id": "fd-64",
+    "away_team_id": "fd-86",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552014",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-11034",
+      "fd-94"
+    ],
+    "home_team_id": "fd-11034",
+    "away_team_id": "fd-94",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551922",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-611",
+      "fd-61"
+    ],
+    "home_team_id": "fd-611",
+    "away_team_id": "fd-61",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551937",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-108",
+      "fd-10601"
+    ],
+    "home_team_id": "fd-108",
+    "away_team_id": "fd-10601",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551939",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-65",
+      "fd-4"
+    ],
+    "home_team_id": "fd-65",
+    "away_team_id": "fd-4",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551954",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-851",
+      "fd-81"
+    ],
+    "home_team_id": "fd-851",
+    "away_team_id": "fd-81",
+    "home_score": 3,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551971",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1903",
+      "fd-3"
+    ],
+    "home_team_id": "fd-1903",
+    "away_team_id": "fd-3",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551985",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-516",
+      "fd-102"
+    ],
+    "home_team_id": "fd-516",
+    "away_team_id": "fd-102",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552033",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-678",
+      "fd-610"
+    ],
+    "home_team_id": "fd-678",
+    "away_team_id": "fd-610",
+    "home_score": 0,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552047",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-05T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-67",
+      "fd-77"
+    ],
+    "home_team_id": "fd-67",
+    "away_team_id": "fd-77",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551990",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-678",
+      "fd-1903"
+    ],
+    "home_team_id": "fd-678",
+    "away_team_id": "fd-1903",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552043",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-610",
+      "fd-3929"
+    ],
+    "home_team_id": "fd-610",
+    "away_team_id": "fd-3929",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551940",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-4",
+      "fd-94"
+    ],
+    "home_team_id": "fd-4",
+    "away_team_id": "fd-94",
+    "home_score": 4,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551963",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-65",
+      "fd-3"
+    ],
+    "home_team_id": "fd-65",
+    "away_team_id": "fd-3",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552004",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5721",
+      "fd-109"
+    ],
+    "home_team_id": "fd-5721",
+    "away_team_id": "fd-109",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552017",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-516",
+      "fd-67"
+    ],
+    "home_team_id": "fd-516",
+    "away_team_id": "fd-67",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552035",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-930",
+      "fd-77"
+    ],
+    "home_team_id": "fd-930",
+    "away_team_id": "fd-77",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552037",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-113",
+      "fd-611"
+    ],
+    "home_team_id": "fd-113",
+    "away_team_id": "fd-611",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551916",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-61",
+      "fd-81"
+    ],
+    "home_team_id": "fd-61",
+    "away_team_id": "fd-81",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552042",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-11034",
+      "fd-548"
+    ],
+    "home_team_id": "fd-11034",
+    "away_team_id": "fd-548",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552046",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1876",
+      "fd-10601"
+    ],
+    "home_team_id": "fd-1876",
+    "away_team_id": "fd-10601",
+    "home_score": 3,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551948",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-64",
+      "fd-674"
+    ],
+    "home_team_id": "fd-64",
+    "away_team_id": "fd-674",
+    "home_score": 1,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551961",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-73"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-73",
+    "home_score": 5,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551983",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-19",
+      "fd-102"
+    ],
+    "home_team_id": "fd-19",
+    "away_team_id": "fd-102",
+    "home_score": 0,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551994",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-498",
+      "fd-851"
+    ],
+    "home_team_id": "fd-498",
+    "away_team_id": "fd-851",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551911",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-57",
+      "fd-5"
+    ],
+    "home_team_id": "fd-57",
+    "away_team_id": "fd-5",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551928",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-654",
+      "fd-86"
+    ],
+    "home_team_id": "fd-654",
+    "away_team_id": "fd-86",
+    "home_score": 3,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551934",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-11-26T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-108"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-108",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552032",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T15:30:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-10601",
+      "fd-654"
+    ],
+    "home_team_id": "fd-10601",
+    "away_team_id": "fd-654",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551912",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5",
+      "fd-498"
+    ],
+    "home_team_id": "fd-5",
+    "away_team_id": "fd-498",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551953",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-81",
+      "fd-19"
+    ],
+    "home_team_id": "fd-81",
+    "away_team_id": "fd-19",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552008",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-674",
+      "fd-78"
+    ],
+    "home_team_id": "fd-674",
+    "away_team_id": "fd-78",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552018",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3929",
+      "fd-516"
+    ],
+    "home_team_id": "fd-3929",
+    "away_team_id": "fd-516",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552019",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-73",
+      "fd-930"
+    ],
+    "home_team_id": "fd-73",
+    "away_team_id": "fd-930",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552041",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-548",
+      "fd-610"
+    ],
+    "home_team_id": "fd-548",
+    "away_team_id": "fd-610",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551918",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-102",
+      "fd-61"
+    ],
+    "home_team_id": "fd-102",
+    "away_team_id": "fd-61",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551931",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-09T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-108",
+      "fd-64"
+    ],
+    "home_team_id": "fd-108",
+    "away_team_id": "fd-64",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552013",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-94",
+      "fd-1876"
+    ],
+    "home_team_id": "fd-94",
+    "away_team_id": "fd-1876",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552034",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-611",
+      "fd-678"
+    ],
+    "home_team_id": "fd-611",
+    "away_team_id": "fd-678",
+    "home_score": 2,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551942",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-4",
+      "fd-5721"
+    ],
+    "home_team_id": "fd-4",
+    "away_team_id": "fd-5721",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551969",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-77",
+      "fd-524"
+    ],
+    "home_team_id": "fd-77",
+    "away_team_id": "fd-524",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551974",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3",
+      "fd-67"
+    ],
+    "home_team_id": "fd-3",
+    "away_team_id": "fd-67",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551977",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-851",
+      "fd-57"
+    ],
+    "home_team_id": "fd-851",
+    "away_team_id": "fd-57",
+    "home_score": 0,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551989",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1903",
+      "fd-113"
+    ],
+    "home_team_id": "fd-1903",
+    "away_team_id": "fd-113",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552005",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-109",
+      "fd-11034"
+    ],
+    "home_team_id": "fd-109",
+    "away_team_id": "fd-11034",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551923",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2025-12-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-86",
+      "fd-65"
+    ],
+    "home_team_id": "fd-86",
+    "away_team_id": "fd-65",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551996",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T15:30:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-10601",
+      "fd-851"
+    ],
+    "home_team_id": "fd-10601",
+    "away_team_id": "fd-851",
+    "home_score": 1,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551966",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5721",
+      "fd-65"
+    ],
+    "home_team_id": "fd-5721",
+    "away_team_id": "fd-65",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551943",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-73",
+      "fd-4"
+    ],
+    "home_team_id": "fd-73",
+    "away_team_id": "fd-4",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551962",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-498",
+      "fd-524"
+    ],
+    "home_team_id": "fd-498",
+    "away_team_id": "fd-524",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551973",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-654",
+      "fd-3"
+    ],
+    "home_team_id": "fd-654",
+    "away_team_id": "fd-3",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552011",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-94",
+      "fd-678"
+    ],
+    "home_team_id": "fd-94",
+    "away_team_id": "fd-678",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552038",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1876",
+      "fd-113"
+    ],
+    "home_team_id": "fd-1876",
+    "away_team_id": "fd-113",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551929",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-86",
+      "fd-548"
+    ],
+    "home_team_id": "fd-86",
+    "away_team_id": "fd-548",
+    "home_score": 6,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551933",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-20T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-108",
+      "fd-57"
+    ],
+    "home_team_id": "fd-108",
+    "away_team_id": "fd-57",
+    "home_score": 1,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552001",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-611",
+      "fd-19"
+    ],
+    "home_team_id": "fd-611",
+    "away_team_id": "fd-19",
+    "home_score": 3,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552010",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-610",
+      "fd-78"
+    ],
+    "home_team_id": "fd-610",
+    "away_team_id": "fd-78",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551949",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-516",
+      "fd-64"
+    ],
+    "home_team_id": "fd-516",
+    "away_team_id": "fd-64",
+    "home_score": 0,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551956",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-930",
+      "fd-81"
+    ],
+    "home_team_id": "fd-930",
+    "away_team_id": "fd-81",
+    "home_score": 2,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551986",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-102",
+      "fd-77"
+    ],
+    "home_team_id": "fd-102",
+    "away_team_id": "fd-77",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551988",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-109",
+      "fd-1903"
+    ],
+    "home_team_id": "fd-109",
+    "away_team_id": "fd-1903",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552036",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-67",
+      "fd-674"
+    ],
+    "home_team_id": "fd-67",
+    "away_team_id": "fd-674",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551914",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5",
+      "fd-3929"
+    ],
+    "home_team_id": "fd-5",
+    "away_team_id": "fd-3929",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551921",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-21T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-61",
+      "fd-11034"
+    ],
+    "home_team_id": "fd-61",
+    "away_team_id": "fd-11034",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551950",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-64",
+      "fd-611"
+    ],
+    "home_team_id": "fd-64",
+    "away_team_id": "fd-611",
+    "home_score": 6,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551957",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-81",
+      "fd-1876"
+    ],
+    "home_team_id": "fd-81",
+    "away_team_id": "fd-1876",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551967",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-65",
+      "fd-610"
+    ],
+    "home_team_id": "fd-65",
+    "away_team_id": "fd-610",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551970",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3",
+      "fd-94"
+    ],
+    "home_team_id": "fd-3",
+    "away_team_id": "fd-94",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551980",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-57",
+      "fd-10601"
+    ],
+    "home_team_id": "fd-57",
+    "away_team_id": "fd-10601",
+    "home_score": 3,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551987",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3929",
+      "fd-102"
+    ],
+    "home_team_id": "fd-3929",
+    "away_team_id": "fd-102",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551993",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-851",
+      "fd-516"
+    ],
+    "home_team_id": "fd-851",
+    "away_team_id": "fd-516",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551998",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-19",
+      "fd-73"
+    ],
+    "home_team_id": "fd-19",
+    "away_team_id": "fd-73",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552006",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-548",
+      "fd-109"
+    ],
+    "home_team_id": "fd-548",
+    "away_team_id": "fd-109",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552007",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-5721"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-5721",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552028",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-77",
+      "fd-498"
+    ],
+    "home_team_id": "fd-77",
+    "away_team_id": "fd-498",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552030",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-678",
+      "fd-654"
+    ],
+    "home_team_id": "fd-678",
+    "away_team_id": "fd-654",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552050",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-67"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-67",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552051",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-11034",
+      "fd-930"
+    ],
+    "home_team_id": "fd-11034",
+    "away_team_id": "fd-930",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551913",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-674",
+      "fd-5"
+    ],
+    "home_team_id": "fd-674",
+    "away_team_id": "fd-5",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551920",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-113",
+      "fd-61"
+    ],
+    "home_team_id": "fd-113",
+    "away_team_id": "fd-61",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551926",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1903",
+      "fd-86"
+    ],
+    "home_team_id": "fd-1903",
+    "away_team_id": "fd-86",
+    "home_score": 4,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-551932",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-01-28T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-4",
+      "fd-108"
+    ],
+    "home_team_id": "fd-4",
+    "away_team_id": "fd-108",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552055",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-17T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-610",
+      "fd-109"
+    ],
+    "home_team_id": "fd-610",
+    "away_team_id": "fd-109",
+    "home_score": 5,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552052",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-17T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-1903",
+      "fd-86"
+    ],
+    "home_team_id": "fd-1903",
+    "away_team_id": "fd-86",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552053",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-17T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-548",
+      "fd-524"
+    ],
+    "home_team_id": "fd-548",
+    "away_team_id": "fd-524",
+    "home_score": 2,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552057",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-17T20:15:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-4",
+      "fd-102"
+    ],
+    "home_team_id": "fd-4",
+    "away_team_id": "fd-102",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552054",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-18T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-611",
+      "fd-67"
+    ],
+    "home_team_id": "fd-611",
+    "away_team_id": "fd-67",
+    "home_score": 1,
+    "away_score": 6,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552056",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-18T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-851",
+      "fd-78"
+    ],
+    "home_team_id": "fd-851",
+    "away_team_id": "fd-78",
+    "home_score": 3,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552058",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-18T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-654",
+      "fd-3"
+    ],
+    "home_team_id": "fd-654",
+    "away_team_id": "fd-3",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552059",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-18T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5721",
+      "fd-108"
+    ],
+    "home_team_id": "fd-5721",
+    "away_team_id": "fd-108",
+    "home_score": 3,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552064",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-24T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-851"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-851",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552062",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-24T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-67",
+      "fd-611"
+    ],
+    "home_team_id": "fd-67",
+    "away_team_id": "fd-611",
+    "home_score": 3,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552066",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-24T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3",
+      "fd-654"
+    ],
+    "home_team_id": "fd-3",
+    "away_team_id": "fd-654",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552067",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-24T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-108",
+      "fd-5721"
+    ],
+    "home_team_id": "fd-108",
+    "away_team_id": "fd-5721",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552065",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-25T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-102",
+      "fd-4"
+    ],
+    "home_team_id": "fd-102",
+    "away_team_id": "fd-4",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552060",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-86",
+      "fd-1903"
+    ],
+    "home_team_id": "fd-86",
+    "away_team_id": "fd-1903",
+    "home_score": 2,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552061",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-548"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-548",
+    "home_score": 2,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552063",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-02-25T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-109",
+      "fd-610"
+    ],
+    "home_team_id": "fd-109",
+    "away_team_id": "fd-610",
+    "home_score": 3,
+    "away_score": 2,
+    "had_extra_time_or_penalties": true,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552069",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-10T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-610",
+      "fd-64"
+    ],
+    "home_team_id": "fd-610",
+    "away_team_id": "fd-64",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552071",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-102",
+      "fd-5"
+    ],
+    "home_team_id": "fd-102",
+    "away_team_id": "fd-5",
+    "home_score": 1,
+    "away_score": 6,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552072",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-67",
+      "fd-81"
+    ],
+    "home_team_id": "fd-67",
+    "away_team_id": "fd-81",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552073",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-10T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-73"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-73",
+    "home_score": 5,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552075",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-11T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-3",
+      "fd-57"
+    ],
+    "home_team_id": "fd-3",
+    "away_team_id": "fd-57",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552068",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-11T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-61"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-61",
+    "home_score": 5,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552070",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-11T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-86",
+      "fd-65"
+    ],
+    "home_team_id": "fd-86",
+    "away_team_id": "fd-65",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552074",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-11T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5721",
+      "fd-498"
+    ],
+    "home_team_id": "fd-5721",
+    "away_team_id": "fd-498",
+    "home_score": 3,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552082",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-17T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-498",
+      "fd-5721"
+    ],
+    "home_team_id": "fd-498",
+    "away_team_id": "fd-5721",
+    "home_score": 5,
+    "away_score": 0,
+    "had_extra_time_or_penalties": true,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552076",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-17T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-61",
+      "fd-524"
+    ],
+    "home_team_id": "fd-61",
+    "away_team_id": "fd-524",
+    "home_score": 0,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552078",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-17T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-65",
+      "fd-86"
+    ],
+    "home_team_id": "fd-65",
+    "away_team_id": "fd-86",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552083",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-17T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-57",
+      "fd-3"
+    ],
+    "home_team_id": "fd-57",
+    "away_team_id": "fd-3",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552080",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-18T17:45:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-81",
+      "fd-67"
+    ],
+    "home_team_id": "fd-81",
+    "away_team_id": "fd-67",
+    "home_score": 7,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552077",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-18T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-64",
+      "fd-610"
+    ],
+    "home_team_id": "fd-64",
+    "away_team_id": "fd-610",
+    "home_score": 4,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552079",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-18T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5",
+      "fd-102"
+    ],
+    "home_team_id": "fd-5",
+    "away_team_id": "fd-102",
+    "home_score": 4,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552081",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-03-18T20:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-73",
+      "fd-78"
+    ],
+    "home_team_id": "fd-73",
+    "away_team_id": "fd-78",
+    "home_score": 3,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556719",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-07T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-86",
+      "fd-5"
+    ],
+    "home_team_id": "fd-86",
+    "away_team_id": "fd-5",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556721",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-07T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-498",
+      "fd-57"
+    ],
+    "home_team_id": "fd-498",
+    "away_team_id": "fd-57",
+    "home_score": 0,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556718",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-08T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-64"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-64",
+    "home_score": 2,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556720",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-08T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-81",
+      "fd-78"
+    ],
+    "home_team_id": "fd-81",
+    "away_team_id": "fd-78",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556722",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-14T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-64",
+      "fd-524"
+    ],
+    "home_team_id": "fd-64",
+    "away_team_id": "fd-524",
+    "home_score": 0,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556724",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-14T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-81"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-81",
+    "home_score": 1,
+    "away_score": 2,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556723",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-15T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5",
+      "fd-86"
+    ],
+    "home_team_id": "fd-5",
+    "away_team_id": "fd-86",
+    "home_score": 4,
+    "away_score": 3,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-556725",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-15T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-57",
+      "fd-498"
+    ],
+    "home_team_id": "fd-57",
+    "away_team_id": "fd-498",
+    "home_score": 0,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "tsdb-2275722",
+    "source": "TheSportsDB",
+    "competition_name": "English League Championship",
+    "competition_type": "unknown",
+    "kickoff": "2026-04-26T11:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-1076"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "3",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "fd-cl-552092",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-28T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-5"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-5",
+    "home_score": 5,
+    "away_score": 4,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552093",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-04-29T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-78",
+      "fd-57"
+    ],
+    "home_team_id": "fd-78",
+    "away_team_id": "fd-57",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "tsdb-2275734",
+    "source": "TheSportsDB",
+    "competition_name": "English League Championship",
+    "competition_type": "unknown",
+    "kickoff": "2026-05-02T11:30:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-349"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "3",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "fd-cl-552095",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-05-05T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-57",
+      "fd-78"
+    ],
+    "home_team_id": "fd-57",
+    "away_team_id": "fd-78",
+    "home_score": 1,
+    "away_score": 0,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "fd-cl-552094",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-05-06T19:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-5",
+      "fd-524"
+    ],
+    "home_team_id": "fd-5",
+    "away_team_id": "fd-524",
+    "home_score": 1,
+    "away_score": 1,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "official"
+  },
+  {
+    "id": "tsdb-2475703",
+    "source": "TheSportsDB",
+    "competition_name": "English League Championship",
+    "competition_type": "unknown",
+    "kickoff": "2026-05-23T14:30:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-322"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "fd-cl-552096",
+    "source": "football-data.org",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-05-30T16:00:00Z",
+    "status": "FINISHED",
+    "team_ids": [
+      "fd-524",
+      "fd-57"
+    ],
+    "home_team_id": "fd-524",
+    "away_team_id": "fd-57",
+    "home_score": 5,
+    "away_score": 4,
+    "had_extra_time_or_penalties": true,
+    "data_quality": "official"
+  },
+  {
+    "id": "tsdb-2502467",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-11T19:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-559"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2521536",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-17T12:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-88"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2527312",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-17T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-82"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2521554",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-18T11:30:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-354"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "5",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2467926",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-18T15:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-66"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "0",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2482850",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-18T16:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-92"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2482847",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-18T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-263"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2537237",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-18T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-285"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2497708",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-22T16:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-512"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "0",
+    "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2504428",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-24T17:30:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-79"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2542010",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-25T08:30:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-80"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2541994",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-25T10:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-546"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2504440",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-25T15:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-535"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2502512",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-25T16:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-519"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2527388",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-25T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-558"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2527407",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-25T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-84"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "3",
+    "away_score": "3",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2527405",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-25T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-77"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  }
+]

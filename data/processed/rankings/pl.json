@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "current_matchday": 1,
+    "source": "football-data.org",
+    "updated_at": "2026-07-25T04:53:34.667661+00:00",
+    "state": "preseason",
+    "message": "シーズン開幕前のため、選手ランキングはまだありません。",
+    "available_types": [
+      "goals",
+      "assists",
+      "appearances"
+    ],
+    "unavailable_types": [
+      "yellow_cards",
+      "red_cards"
+    ]
+  },
+  "goals": [],
+  "assists": [],
+  "appearances": [],
+  "yellow_cards": [],
+  "red_cards": []
+}

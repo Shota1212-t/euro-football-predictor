@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-07-24T14:14:42.521170+00:00",
+  "success": true,
+  "targets": 6,
+  "fetched": 6,
+  "cache_hits": 0,
+  "players_total": 946,
+  "managers_total": 36,
+  "teams_with_players": 93,
+  "teams_without_players": 3,
+  "missing_team_names": [
+    "FC Internazionale Milano",
+    "RC Deportivo La Coruña",
+    "Stade Rennais FC 1901"
+  ]
+}

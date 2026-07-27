@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-07-25T04:54:02.615044+00:00",
+  "success": true,
+  "source": "football-data.org",
+  "leagues": 5,
+  "states": {
+    "pl": "preseason",
+    "laliga": "preseason",
+    "seriea": "preseason",
+    "bundesliga": "preseason",
+    "ligue1": "preseason"
+  },
+  "available_types": [
+    "goals",
+    "assists",
+    "appearances"
+  ],
+  "unavailable_types": [
+    "yellow_cards",
+    "red_cards"
+  ]
+}

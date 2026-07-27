@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pl",
+    "name": "Premier League",
+    "country": "England",
+    "season": "2025/2026"
+  },
+  {
+    "id": "laliga",
+    "name": "La Liga",
+    "country": "Spain",
+    "season": "2025/2026"
+  },
+  {
+    "id": "seriea",
+    "name": "Serie A",
+    "country": "Italy",
+    "season": "2025/2026"
+  },
+  {
+    "id": "bundesliga",
+    "name": "Bundesliga",
+    "country": "Germany",
+    "season": "2025/2026"
+  },
+  {
+    "id": "ligue1",
+    "name": "Ligue 1",
+    "country": "France",
+    "season": "2025/2026"
+  }
+]

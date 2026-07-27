@@ -1,0 +1,101 @@
+# ========================================
+# 秘密情報
+# ========================================
+.env
+.env.*
+!.env.example
+frontend/.env.local
+frontend/.env.*
+backend/.env
+
+# ========================================
+# Node.js / Next.js
+# ========================================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# ========================================
+# ログ・一時ファイル
+# ========================================
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ========================================
+# APIキャッシュ
+# ========================================
+data/cache/
+
+# ========================================
+# 各種バックアップ
+# ========================================
+data/*_backup/
+data/**/*_backup/
+data/manager_backup/
+data/team_id_backup/
+data/thesportsdb_backup/
+data/squad_reconciliation_backup/
+data/rankings_backup/
+
+# ========================================
+# 生データ・学習途中データ
+# 復元または再取得できるもの
+# ========================================
+data/raw/
+data/processed/matches.csv
+data/processed/training_data.csv
+
+# ========================================
+# 比較用・旧学習モデル
+# 本番モデルだけ例外的に管理する
+# ========================================
+ml/models/*.joblib
+ml/models/*.pt
+ml/models/*.pth
+
+# 本番で使用するモデル
+!ml/models/lightgbm_model.joblib
+
+# モデル情報
+!ml/models/lightgbm_metadata.json
+
+# ========================================
+# Jupyter
+# ========================================
+.ipynb_checkpoints/
+
+# ========================================
+# IDE
+# ========================================
+.vscode/
+.idea/
+*.code-workspace
+
+LOCAL_DEV_NOTES.txt
+check_thesportsdb_events.py
+data/predictions/*_backup.json
+data/predictions/matches_before_real_predictions.json

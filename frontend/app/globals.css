@@ -1,0 +1,508 @@
+/* Euro Football Predictor - ダークテーマ / データダッシュボード風 UI
+   カラー・タイポグラフィはUI設計書 3〜4章に準拠 */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #07111f;
+  color: #f8fafc;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, 'Noto Sans JP', system-ui, sans-serif;
+  background: radial-gradient(circle at 80% -10%, #16325a55, transparent 35%), #07111f;
+  color: #f8fafc;
+  font-size: 14px;
+}
+
+/* ---------- レイアウト ---------- */
+
+.side {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 224px;
+  background: #091423;
+  border-right: 1px solid #24364f;
+  padding: 22px 14px;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 8px 24px;
+}
+.brand b {
+  font-size: 16px;
+  line-height: 1.15;
+}
+.brand small {
+  display: block;
+  color: #64748b;
+  font-size: 9px;
+  margin-top: 5px;
+}
+.ball {
+  font-size: 28px;
+}
+
+.side nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.side nav a {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: #94a3b8;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px 12px;
+}
+.side nav a:hover,
+.side nav a.active {
+  background: #132c4b;
+  color: #60a5fa;
+}
+
+.main {
+  margin-left: 224px;
+  padding: 24px 28px 50px;
+  max-width: 1800px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 22px;
+}
+.top h1 {
+  font-size: 26px;
+  margin: 5px 0;
+}
+.crumb,
+.muted {
+  color: #94a3b8;
+  font-size: 12px;
+}
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.controls button,
+.tab {
+  background: #101d2f;
+  border: 1px solid #24364f;
+  color: #cbd5e1;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.updated {
+  color: #22c55e;
+  font-size: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+}
+.span12 { grid-column: span 12; }
+.span8  { grid-column: span 8; }
+.span7  { grid-column: span 7; }
+.span6  { grid-column: span 6; }
+.span5  { grid-column: span 5; }
+.span4  { grid-column: span 4; }
+
+.card {
+  background: linear-gradient(145deg, #111f33, #0d1929);
+  border: 1px solid #24364f;
+  border-radius: 9px;
+  padding: 17px;
+  box-shadow: 0 8px 26px #0003;
+}
+.card h2,
+.sectionTitle {
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ---------- 試合カード ---------- */
+
+.match {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.match .muted {
+  display: flex;
+  justify-content: space-between;
+}
+.versus {
+  display: grid;
+  grid-template-columns: 1fr 34px 1fr;
+  align-items: center;
+  margin: 16px 0;
+}
+.versus div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.versus div:last-child {
+  justify-content: flex-end;
+}
+.versus em {
+  text-align: center;
+  color: #64748b;
+  font-style: normal;
+}
+
+.crest {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 900;
+  color: white;
+  border: 2px solid #ffffff44;
+  flex: none;
+}
+
+.prob {
+  height: 25px;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 25px;
+  background: #111;
+}
+.prob .home { background: #166534; }
+.prob .draw { background: #854d0e; }
+.prob .away { background: #1e3a8a; }
+
+.prediction {
+  margin-top: 10px;
+  color: #94a3b8;
+}
+.prediction b { color: #22c55e; }
+.prediction span { float: right; }
+
+/* ---------- 数値・統計 ---------- */
+
+.metricRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.stat {
+  border: 1px solid #24364f;
+  background: #0b1626;
+  border-radius: 7px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.stat span,
+.stat small {
+  color: #94a3b8;
+  font-size: 12px;
+}
+.stat b {
+  font-size: 28px;
+}
+
+.ring {
+  width: 132px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: conic-gradient(#3b82f6 0 var(--pct, 48%), #1e293b var(--pct, 48%) 100%);
+  margin: 16px auto;
+  position: relative;
+}
+.ring::before {
+  content: '';
+  position: absolute;
+  inset: 12px;
+  border-radius: 50%;
+  background: #101d2f;
+}
+.ring b {
+  z-index: 1;
+  font-size: 28px;
+}
+
+/* ---------- テーブル ---------- */
+
+.tableWrap {
+  overflow: auto;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 690px;
+}
+.table th {
+  text-align: left;
+  color: #64748b;
+  font-size: 11px;
+  border-bottom: 1px solid #24364f;
+  padding: 10px;
+}
+.table td {
+  padding: 11px 10px;
+  border-bottom: 1px solid #1b2a3e;
+}
+.teamcell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  gap: 3px;
+}
+.form i {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  font-style: normal;
+  font-size: 10px;
+}
+.form .W { background: #166534; }
+.form .D { background: #854d0e; }
+.form .L { background: #991b1b; }
+
+.fatigue {
+  font-size: 11px;
+  padding: 5px 8px;
+  border-radius: 999px;
+}
+.fatigue.low  { background: #14532d; color: #86efac; }
+.fatigue.mid  { background: #713f12; color: #fde047; }
+.fatigue.high { background: #7f1d1d; color: #fca5a5; }
+
+.tabs {
+  display: flex;
+  gap: 7px;
+  margin: 0 0 16px;
+  overflow: auto;
+}
+.tab.active {
+  background: #1d4ed8;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding: 25px;
+}
+.hero h2 {
+  font-size: 27px;
+  margin: 0 0 5px;
+}
+.heroInfo {
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+}
+
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 180px 1fr;
+  text-align: center;
+}
+.comparison > div {
+  padding: 9px;
+  border-bottom: 1px solid #24364f;
+}
+.comparison .label {
+  color: #94a3b8;
+}
+
+.reasons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.reasons li {
+  padding: 11px 0;
+  border-bottom: 1px solid #24364f;
+}
+.reasons li::before {
+  content: '◆';
+  color: #3b82f6;
+  margin-right: 10px;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+.status::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+.status.Warning::before { background: #facc15; }
+.status.Failed::before  { background: #ef4444; }
+.status.Running::before { background: #3b82f6; }
+
+.sourceGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px;
+}
+.source {
+  padding: 20px;
+}
+.source b {
+  display: block;
+  margin-bottom: 8px;
+}
+.source p {
+  color: #94a3b8;
+  min-height: 35px;
+}
+
+.bar {
+  height: 7px;
+  background: #1e293b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.bar i {
+  height: 100%;
+  display: block;
+  background: #3b82f6;
+}
+
+/* ---------- 画面状態（Loading / Empty / Error / Stale） ---------- */
+
+.state {
+  text-align: center;
+  color: #94a3b8;
+  padding: 40px 20px;
+}
+.state-error {
+  border-color: #7f1d1d;
+}
+.state-empty {
+  border-style: dashed;
+}
+.skeleton {
+  background: linear-gradient(90deg, #101d2f 25%, #16273f 37%, #101d2f 63%);
+  background-size: 400% 100%;
+  animation: skeleton-loading 1.4s ease infinite;
+  border-radius: 6px;
+}
+@keyframes skeleton-loading {
+  0% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+}
+.stale-banner {
+  background: #713f12;
+  color: #fde047;
+  border-radius: 7px;
+  padding: 10px 14px;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+/* ---------- レスポンシブ（UI設計書 20章） ---------- */
+
+@media (max-width: 1000px) {
+  .span8, .span7, .span6, .span5, .span4 {
+    grid-column: span 12;
+  }
+  .sourceGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .controls .updated {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .side {
+    width: 66px;
+    padding: 16px 8px;
+  }
+  .side .brand div,
+  .side nav span {
+    display: none;
+  }
+  .side nav a {
+    justify-content: center;
+  }
+  .main {
+    margin-left: 66px;
+    padding: 18px 12px;
+  }
+  .top {
+    align-items: start;
+  }
+  .controls button:first-child {
+    display: none;
+  }
+  .top h1 {
+    font-size: 21px;
+  }
+  .grid {
+    display: block;
+  }
+  .grid > * {
+    margin-bottom: 12px;
+  }
+  .metricRow {
+    grid-template-columns: 1fr;
+  }
+  .comparison {
+    grid-template-columns: 1fr 90px 1fr;
+    font-size: 12px;
+  }
+  .sourceGrid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    align-items: flex-start;
+  }
+  .heroInfo {
+    display: none;
+  }
+  .versus b {
+    font-size: 12px;
+  }
+  .mobileHide {
+    display: none;
+  }
+}

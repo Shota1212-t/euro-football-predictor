@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "current_matchday": 1,
+    "source": "football-data.org",
+    "updated_at": "2026-07-25T04:53:55.684642+00:00",
+    "state": "preseason",
+    "message": "シーズン開幕前のため、選手ランキングはまだありません。",
+    "available_types": [
+      "goals",
+      "assists",
+      "appearances"
+    ],
+    "unavailable_types": [
+      "yellow_cards",
+      "red_cards"
+    ]
+  },
+  "goals": [],
+  "assists": [],
+  "appearances": [],
+  "yellow_cards": [],
+  "red_cards": []
+}

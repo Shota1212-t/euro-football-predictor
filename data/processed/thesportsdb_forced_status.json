@@ -1,0 +1,26 @@
+{
+  "updated_at": "2026-07-24T14:19:11.079835+00:00",
+  "updated_teams": [
+    {
+      "team_id": "fd-108",
+      "team_name": "FC Internazionale Milano",
+      "thesportsdb_id": "133681",
+      "roster_count": 10
+    },
+    {
+      "team_id": "fd-529",
+      "team_name": "Stade Rennais FC 1901",
+      "thesportsdb_id": "133719",
+      "roster_count": 10
+    }
+  ],
+  "players_total": 964,
+  "staff_total": 48,
+  "managers_total": 38,
+  "teams_with_players": 95,
+  "teams_without_players": 1,
+  "missing_team_names": [
+    "RC Deportivo La Coruña"
+  ],
+  "deportivo_note": "RC Deportivo La Coruna remained unmatched to avoid linking the women, reserve, or another Deportivo club by mistake."
+}

@@ -1,0 +1,90 @@
+{
+  "model_name": "LightGBM",
+  "model_version": "lightgbm_no_odds_uncalibrated_v2",
+  "trained_at": "2026-07-24T18:44:01.519712",
+  "production_variant": "no_odds",
+  "production_calibration": "uncalibrated",
+  "selection_reason": "Production fixtures do not provide B365 odds. Calibration is used only when Log Loss and Brier Score improve without materially reducing draw recall.",
+  "class_weight": "balanced",
+  "features": [
+    "home_recent_points",
+    "away_recent_points",
+    "recent_points_diff",
+    "home_recent_gf",
+    "away_recent_gf",
+    "recent_gf_diff",
+    "home_recent_ga",
+    "away_recent_ga",
+    "recent_ga_diff",
+    "home_recent_shots",
+    "away_recent_shots",
+    "home_recent_sot",
+    "away_recent_sot",
+    "home_days_rest",
+    "away_days_rest",
+    "rest_days_diff",
+    "home_history_count",
+    "away_history_count"
+  ],
+  "feature_count": 18,
+  "excluded_features": [
+    "B365H",
+    "B365D",
+    "B365A"
+  ],
+  "train_end": "2025-09-28",
+  "validation_start": "2025-09-28",
+  "test_start": "2026-01-31",
+  "evaluation_type": "chronological_holdout",
+  "overall_accuracy": 0.4062927496580027,
+  "macro_f1": 0.37996017845603824,
+  "log_loss": 1.1443584482914668,
+  "brier_score": 0.685429155586881,
+  "expected_calibration_error": 0.106262292550409,
+  "draw_precision": 0.22085889570552147,
+  "draw_recall": 0.1978021978021978,
+  "draw_f1": 0.20869565217391303,
+  "confusion_matrix": [
+    [
+      148,
+      75,
+      91
+    ],
+    [
+      80,
+      36,
+      66
+    ],
+    [
+      70,
+      52,
+      113
+    ]
+  ],
+  "class_metrics": {
+    "home_win": {
+      "precision": 0.4966442953020134,
+      "recall": 0.4713375796178344,
+      "f1-score": 0.48366013071895425,
+      "support": 314.0
+    },
+    "draw": {
+      "precision": 0.22085889570552147,
+      "recall": 0.1978021978021978,
+      "f1-score": 0.20869565217391303,
+      "support": 182.0
+    },
+    "away_win": {
+      "precision": 0.4185185185185185,
+      "recall": 0.4808510638297872,
+      "f1-score": 0.44752475247524753,
+      "support": 235.0
+    }
+  },
+  "total_predictions": 731,
+  "correct_predictions": 297,
+  "by_league": [],
+  "operational_results_available": false,
+  "operational_note": "表示値は時系列ホールドアウトテスト731試合の評価結果です。運用開始後の実試合的中率ではありません。",
+  "probability_note": "本番モデルは未校正です。確率値はモデル出力の参考値であり、現実の発生確率として断定できません。"
+}

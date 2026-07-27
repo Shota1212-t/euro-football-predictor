@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-07-26T13:59:15.827332+00:00",
+  "total_teams": 96,
+  "cached_teams": 96,
+  "verified_managers": 0,
+  "provisional_managers": 38,
+  "missing_managers": 58,
+  "published_managers": 38,
+  "orphan_manager_ids": 0,
+  "duplicate_team_assignments": 0,
+  "communication_failures": [],
+  "published": true,
+  "backup_path": "data/manager_backup/20260726_225915",
+  "verification_policy": {
+    "verified": "football-data.org team coach",
+    "provisional": "TheSportsDB primary manager when football-data.org coach is empty",
+    "missing": "neither source supplied a current-manager candidate"
+  }
+}

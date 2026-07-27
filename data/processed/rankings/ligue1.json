@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "current_matchday": 1,
+    "source": "football-data.org",
+    "updated_at": "2026-07-25T04:54:02.574390+00:00",
+    "state": "preseason",
+    "message": "シーズン開幕前のため、選手ランキングはまだありません。",
+    "available_types": [
+      "goals",
+      "assists",
+      "appearances"
+    ],
+    "unavailable_types": [
+      "yellow_cards",
+      "red_cards"
+    ]
+  },
+  "goals": [],
+  "assists": [],
+  "appearances": [],
+  "yellow_cards": [],
+  "red_cards": []
+}
