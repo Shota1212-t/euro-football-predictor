@@ -1,17 +1,24 @@
 """データアクセス層。"""
 from __future__ import annotations
 import json
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 from .config import PROCESSED_DIR, PREDICTIONS_DIR, DATA_DIR
+
+
+@lru_cache(maxsize=64)
+def _read_json_cached(path_text: str):
+    path = Path(path_text)
+    with path.open(encoding="utf-8") as file:
+        return json.load(file)
 
 
 def _read_json(path: Path, default: Any):
     if not path.exists():
         return default
     try:
-        with path.open(encoding="utf-8") as file:
-            return json.load(file)
+        return _read_json_cached(str(path.resolve()))
     except (json.JSONDecodeError, OSError):
         return default
 
