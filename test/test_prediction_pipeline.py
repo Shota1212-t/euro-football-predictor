@@ -113,8 +113,6 @@ def test_second_division_team_aliases(prediction_module):
 
 def test_second_division_csv_files_are_available(prediction_module):
     files = sorted(prediction_module.SECOND_DIVISION_DIR.glob("*.csv"))
-    if not files:
-        pytest.skip("data/raw is intentionally excluded from Git; run this check locally with the CSV dataset")
     assert len(files) == 15
     expected_codes = {"E1", "SP2", "D2", "I2", "F2"}
     actual_codes = {path.name.split("_")[0] for path in files}
@@ -128,7 +126,16 @@ def test_saved_predictions_use_second_division_history():
         for item in predictions
         if item.get("data_quality") == "second_division_history"
     ]
-    assert len(second_division) == 11
+    estimated = [
+        item
+        for item in predictions
+        if item.get("data_quality") == "estimated"
+    ]
+
+    # The exact count changes when a promoted club gains usable first-division
+    # history. Test the contract instead of a historical snapshot count.
+    assert second_division, "2部履歴を使用した予測がありません"
+    assert not estimated, "リーグ平均補完へ戻った予測があります"
     assert all(
         "second_division" in set(item.get("history_source", {}).values())
         for item in second_division
