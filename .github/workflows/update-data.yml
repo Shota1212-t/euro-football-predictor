@@ -1,0 +1,91 @@
+name: Update football data
+
+on:
+  schedule:
+    # 00:17 UTC = 09:17 JST. Avoids the high-load start of the hour.
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-football-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Fetch, predict, validate and publish data
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - name: Verify required secret
+        run: |
+          if [ -z "$FOOTBALL_DATA_API_KEY" ]; then
+            echo "FOOTBALL_DATA_API_KEY is not configured"
+            exit 1
+          fi
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-ci.txt
+
+      - name: Download historical CSV data
+        run: python scripts/download_football_data_csv.py
+
+      - name: Run full update pipeline
+        run: python scripts/update_all.py
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Check generated files for credentials
+        shell: python
+        run: |
+          from pathlib import Path
+
+          forbidden = (
+              "FOOTBALL_DATA_API_KEY",
+              "API_FOOTBALL_KEY",
+              "THESPORTSDB_API_KEY",
+              "X-Auth-Token",
+              "x-apisports-key",
+          )
+          roots = (Path("data/processed"), Path("data/predictions"))
+          for root in roots:
+              for path in root.rglob("*.json"):
+                  text = path.read_text(encoding="utf-8")
+                  for token in forbidden:
+                      if token in text:
+                          raise SystemExit(f"Credential marker found in {path}: {token}")
+          print("credential scan passed")
+
+      - name: Commit updated public data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/data_status.json data/processed data/predictions
+          if git diff --cached --quiet; then
+            echo "No public data changes to commit"
+            exit 0
+          fi
+          git commit -m "data: automated daily update"
+          git push
