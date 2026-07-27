@@ -3453,40 +3453,6 @@
     "data_quality": "official"
   },
   {
-    "id": "tsdb-2502467",
-    "source": "TheSportsDB",
-    "competition_name": "Club Friendlies",
-    "competition_type": "unknown",
-    "kickoff": "2026-07-11T19:00:00Z",
-    "status": "FT",
-    "team_ids": [
-      "fd-559"
-    ],
-    "home_team_id": null,
-    "away_team_id": null,
-    "home_score": "1",
-    "away_score": "0",
-    "had_extra_time_or_penalties": false,
-    "data_quality": "supplemental_last_event_only"
-  },
-  {
-    "id": "tsdb-2521536",
-    "source": "TheSportsDB",
-    "competition_name": "Club Friendlies",
-    "competition_type": "unknown",
-    "kickoff": "2026-07-17T12:00:00Z",
-    "status": "FT",
-    "team_ids": [
-      "fd-88"
-    ],
-    "home_team_id": null,
-    "away_team_id": null,
-    "home_score": "1",
-    "away_score": "2",
-    "had_extra_time_or_penalties": false,
-    "data_quality": "supplemental_last_event_only"
-  },
-  {
     "id": "tsdb-2527312",
     "source": "TheSportsDB",
     "competition_name": "Club Friendlies",
@@ -3738,6 +3704,40 @@
     "away_team_id": null,
     "home_score": "2",
     "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2542011",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-26T08:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-88"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "0",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2504461",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-26T19:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-559"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "1",
     "had_extra_time_or_penalties": false,
     "data_quality": "supplemental_last_event_only"
   }

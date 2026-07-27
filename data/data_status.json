@@ -2,7 +2,7 @@
   {
     "source": "football-data.org",
     "data_type": "Fixtures",
-    "last_updated": "2026-07-24T14:41:54+00:00",
+    "last_updated": "2026-07-27T13:53:53+00:00",
     "records": "1752 fixtures",
     "status": "Success",
     "error": null,
@@ -12,7 +12,7 @@
   {
     "source": "football-data.org",
     "data_type": "Standings",
-    "last_updated": "2026-07-24T14:41:54+00:00",
+    "last_updated": "2026-07-27T13:53:53+00:00",
     "records": "5 leagues",
     "status": "Success",
     "error": null,
@@ -22,7 +22,7 @@
   {
     "source": "football-data.org",
     "data_type": "Player rankings",
-    "last_updated": "2026-07-25T04:54:02+00:00",
+    "last_updated": "2026-07-27T13:54:20+00:00",
     "records": "5 leagues (0 available / 5 preseason) / goals 0 / assists 0 / appearances 0",
     "status": "Success",
     "error": null,
@@ -32,7 +32,7 @@
   {
     "source": "football-data.org + TheSportsDB",
     "data_type": "European / cup fixtures for fatigue",
-    "last_updated": "2026-07-26T13:12:33+00:00",
+    "last_updated": "2026-07-27T13:54:41+00:00",
     "records": "209 extra competition fixtures (189 official CL / 20 supplemental / 0 manual)",
     "status": "Success",
     "error": null,
@@ -42,8 +42,8 @@
   {
     "source": "LightGBM",
     "data_type": "Match predictions",
-    "last_updated": "2026-07-26T13:13:13+00:00",
-    "records": "48 predictions (37 first-division / 11 second-division / 0 estimated)",
+    "last_updated": "2026-07-27T13:54:46+00:00",
+    "records": "48 predictions (38 first-division / 10 second-division / 0 estimated)",
     "status": "Success",
     "error": null,
     "next_update": "手動実行",
@@ -52,7 +52,7 @@
   {
     "source": "Football-Data.co.uk",
     "data_type": "First-division historical results / training data",
-    "last_updated": "2026-07-24T04:01:42+00:00",
+    "last_updated": "2026-07-27T13:52:53+00:00",
     "records": "local CSV",
     "status": "Success",
     "error": null,
@@ -62,7 +62,7 @@
   {
     "source": "Football-Data.co.uk",
     "data_type": "Second-division promotion history",
-    "last_updated": "2026-07-24T13:02:10+00:00",
+    "last_updated": "2026-07-27T13:52:53+00:00",
     "records": "15 CSV files",
     "status": "Success",
     "error": null,
@@ -82,7 +82,7 @@
   {
     "source": "TheSportsDB",
     "data_type": "Team profiles / images",
-    "last_updated": "2026-07-24T15:05:59+00:00",
+    "last_updated": "2026-07-27T13:52:00+00:00",
     "records": "93 team profiles",
     "status": "Success",
     "error": null,
@@ -92,7 +92,7 @@
   {
     "source": "TheSportsDB + football-data.org",
     "data_type": "Player profiles / squad verification",
-    "last_updated": "2026-07-24T15:05:59+00:00",
+    "last_updated": "2026-07-27T13:52:00+00:00",
     "records": "1698 players (1150 verified / 548 provisional)",
     "status": "Success",
     "error": null,
@@ -102,7 +102,7 @@
   {
     "source": "TheSportsDB",
     "data_type": "Managers / staff profiles",
-    "last_updated": "2026-07-24T14:23:31+00:00",
+    "last_updated": "2026-07-27T13:52:00+00:00",
     "records": "38 managers / 48 staff",
     "status": "Success",
     "error": null,
@@ -112,7 +112,7 @@
   {
     "source": "football-data.org",
     "data_type": "Current squad verification",
-    "last_updated": "2026-07-24T15:05:59+00:00",
+    "last_updated": "2026-07-27T13:52:00+00:00",
     "records": "38 verified squads / 58 provisional squads",
     "status": "Success",
     "error": null,
