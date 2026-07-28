@@ -4,6 +4,15 @@
 
 Next.jsのフロントエンド、FastAPIのバックエンド、LightGBMの予測パイプラインで構成されています。バックエンドはデータベースを使用せず、`data/processed`および`data/predictions`のJSONをAPIとして配信します。
 
+Web App:
+https://euro-football-predictor-web.vercel.app
+
+API:
+https://euro-football-predictor.vercel.app
+
+API Docs:
+https://euro-football-predictor.vercel.app/docs
+
 > [!IMPORTANT]
 > 本アプリの勝敗確率は、未校正の機械学習モデルが出力した参考値です。実際の発生確率、賭けの推奨、利益を保証する情報ではありません。
 
