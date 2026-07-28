@@ -3,7 +3,7 @@ name: Update football data
 on:
   schedule:
     # 00:17 UTC = 09:17 JST. Avoids the high-load start of the hour.
-    - cron: "17 0 * * *"
+    - cron: "40 9 * * *"
   workflow_dispatch:
 
 permissions:
