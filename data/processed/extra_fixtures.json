@@ -3538,23 +3538,6 @@
     "data_quality": "supplemental_last_event_only"
   },
   {
-    "id": "tsdb-2537237",
-    "source": "TheSportsDB",
-    "competition_name": "Club Friendlies",
-    "competition_type": "unknown",
-    "kickoff": "2026-07-18T17:00:00Z",
-    "status": "FT",
-    "team_ids": [
-      "fd-285"
-    ],
-    "home_team_id": null,
-    "away_team_id": null,
-    "home_score": "2",
-    "away_score": "1",
-    "had_extra_time_or_penalties": false,
-    "data_quality": "supplemental_last_event_only"
-  },
-  {
     "id": "tsdb-2497708",
     "source": "TheSportsDB",
     "competition_name": "Club Friendlies",
@@ -3738,6 +3721,23 @@
     "away_team_id": null,
     "home_score": "2",
     "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2537258",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-07-28T18:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-285"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "2",
     "had_extra_time_or_penalties": false,
     "data_quality": "supplemental_last_event_only"
   }
