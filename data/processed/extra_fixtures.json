@@ -3657,23 +3657,6 @@
     "data_quality": "supplemental_last_event_only"
   },
   {
-    "id": "tsdb-2467936",
-    "source": "TheSportsDB",
-    "competition_name": "Club Friendlies",
-    "competition_type": "unknown",
-    "kickoff": "2026-08-05T18:45:00Z",
-    "status": "FT",
-    "team_ids": [
-      "fd-57"
-    ],
-    "home_team_id": null,
-    "away_team_id": null,
-    "home_score": "1",
-    "away_score": "3",
-    "had_extra_time_or_penalties": false,
-    "data_quality": "supplemental_last_event_only"
-  },
-  {
     "id": "tsdb-2549431",
     "source": "TheSportsDB",
     "competition_name": "Club Friendlies",
@@ -3857,6 +3840,23 @@
     "away_team_id": null,
     "home_score": "2",
     "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2569217",
+    "source": "TheSportsDB",
+    "competition_name": "Emirates Cup",
+    "competition_type": "unknown",
+    "kickoff": "2026-08-09T13:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-57"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "3",
     "had_extra_time_or_penalties": false,
     "data_quality": "supplemental_last_event_only"
   }
