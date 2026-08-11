@@ -1,1037 +1,5 @@
 [
   {
-    "id": "564634",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-15T17:30:00Z",
-    "home_team": {
-      "id": "fd-263",
-      "api_id": 263,
-      "name": "Deportivo Alavés",
-      "short": "ALA",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-82",
-      "api_id": 82,
-      "name": "Getafe CF",
-      "short": "GET",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 15.5,
-    "draw_probability": 64.8,
-    "away_win_probability": 19.7,
-    "predicted_result": "Draw",
-    "confidence": "High",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 15,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 29,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "1.40",
-        "away_value": "1.40"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.20",
-        "away_value": "0.80"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.40",
-        "away_value": "0.80"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "LDWWL",
-        "away_value": "LDWLW"
-      }
-    ],
-    "reasons": [
-      "Deportivo Alavés: 直近勝点平均 1.40",
-      "Getafe CF: 直近勝点平均 1.40",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 84.0,
-        "shap_value": 0.43183,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_gf",
-        "label": "アウェイ側の平均得点",
-        "value": 0.8,
-        "shap_value": 0.205683,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 84.0,
-        "shap_value": 0.185679,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 0.4,
-        "shap_value": -0.121081,
-        "impact": "opposes",
-        "target": "Draw",
-        "text": "平均得点差がDrawのモデル出力を押し下げた"
-      },
-      {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 1.2,
-        "shap_value": 0.072114,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の平均得点がDrawのモデル出力を押し上げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564633",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-15T19:30:00Z",
-    "home_team": {
-      "id": "fd-559",
-      "api_id": 559,
-      "name": "Sevilla FC",
-      "short": "SEV",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-87",
-      "api_id": 87,
-      "name": "Rayo Vallecano de Madrid",
-      "short": "RAY",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 17.7,
-    "draw_probability": 50.7,
-    "away_win_probability": 31.5,
-    "predicted_result": "Draw",
-    "confidence": "Medium",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 20,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 84,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "1.80",
-        "away_value": "2.20"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.20",
-        "away_value": "1.60"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.00",
-        "away_value": "0.60"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "WWWLL",
-        "away_value": "WDDWW"
-      }
-    ],
-    "reasons": [
-      "Sevilla FC: 直近勝点平均 1.80",
-      "Rayo Vallecano de Madrid: 直近勝点平均 2.20",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_recent_ga",
-        "label": "アウェイ側の平均失点",
-        "value": 0.6,
-        "shap_value": 0.27426,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の平均失点がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 84.0,
-        "shap_value": 0.255072,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 84.0,
-        "shap_value": 0.144835,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_points_diff",
-        "label": "直近勝点差",
-        "value": -0.4,
-        "shap_value": 0.12077,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "直近勝点差がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 1.2,
-        "shap_value": 0.064002,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の平均得点がDrawのモデル出力を押し上げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564629",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-16T15:00:00Z",
-    "home_team": {
-      "id": "fd-5335",
-      "api_id": 5335,
-      "name": "Real Racing Club de Santander",
-      "short": "SAN",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-94",
-      "api_id": 94,
-      "name": "Villarreal CF",
-      "short": "VIL",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 73.3,
-    "draw_probability": 7.4,
-    "away_win_probability": 19.4,
-    "predicted_result": "Home Win",
-    "confidence": "High",
-    "data_quality": "second_division_history",
-    "home_fatigue": {
-      "index": 9,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 1,
-      "days_since_last_match": 8,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 1,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 5,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 1,
-      "days_since_last_match": 11,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 1,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "2.60",
-        "away_value": "1.40"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "3.00",
-        "away_value": "2.60"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.20",
-        "away_value": "1.60"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "WWWDW",
-        "away_value": "WDLLW"
-      }
-    ],
-    "reasons": [
-      "Real Racing Club de Santander: 直近勝点平均 2.60",
-      "Villarreal CF: 直近勝点平均 1.40",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "Real Racing Club de Santander: 前シーズンまでの2部実績を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 8.8,
-        "shap_value": 0.546305,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 84.0,
-        "shap_value": -0.382292,
-        "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
-      },
-      {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 77.0,
-        "shap_value": 0.166492,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_shots",
-        "label": "ホーム側の平均シュート数",
-        "value": 18.2,
-        "shap_value": 0.153253,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 0.4,
-        "shap_value": 0.150808,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "second_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564632",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-16T17:00:00Z",
-    "home_team": {
-      "id": "fd-80",
-      "api_id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "short": "ESP",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-88",
-      "api_id": 88,
-      "name": "Levante UD",
-      "short": "LEV",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 32.7,
-    "draw_probability": 14.4,
-    "away_win_probability": 52.9,
-    "predicted_result": "Away Win",
-    "confidence": "High",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 22,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 15,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "1.40",
-        "away_value": "1.80"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.20",
-        "away_value": "2.00"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.20",
-        "away_value": "2.20"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "LLWWD",
-        "away_value": "LWWWL"
-      }
-    ],
-    "reasons": [
-      "RCD Espanyol de Barcelona: 直近勝点平均 1.40",
-      "Levante UD: 直近勝点平均 1.80",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 18.2,
-        "shap_value": 0.399403,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": -0.8,
-        "shap_value": 0.288095,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "平均得点差がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 85.0,
-        "shap_value": 0.166414,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_ga_diff",
-        "label": "平均失点差",
-        "value": -1.0,
-        "shap_value": 0.136695,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "平均失点差がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 1.2,
-        "shap_value": -0.085781,
-        "impact": "opposes",
-        "target": "Away Win",
-        "text": "ホーム側の平均得点がAway Winのモデル出力を押し下げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564636",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-16T19:30:00Z",
-    "home_team": {
-      "id": "fd-558",
-      "api_id": 558,
-      "name": "RC Celta de Vigo",
-      "short": "CEL",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-79",
-      "api_id": 79,
-      "name": "CA Osasuna",
-      "short": "OSA",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 24.9,
-    "draw_probability": 47.5,
-    "away_win_probability": 27.6,
-    "predicted_result": "Draw",
-    "confidence": "Medium",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 18,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 9,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 1,
-      "days_since_last_match": 8,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 1,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "2.00",
-        "away_value": "0.00"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.60",
-        "away_value": "1.00"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.00",
-        "away_value": "2.00"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "WWLDW",
-        "away_value": "LLLLL"
-      }
-    ],
-    "reasons": [
-      "RC Celta de Vigo: 直近勝点平均 2.00",
-      "CA Osasuna: 直近勝点平均 0.00",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "home_recent_shots",
-        "label": "ホーム側の平均シュート数",
-        "value": 7.0,
-        "shap_value": -0.316526,
-        "impact": "opposes",
-        "target": "Draw",
-        "text": "ホーム側の平均シュート数がDrawのモデル出力を押し下げた"
-      },
-      {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 85.0,
-        "shap_value": 0.167957,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 85.0,
-        "shap_value": 0.145442,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_gf",
-        "label": "アウェイ側の平均得点",
-        "value": 1.0,
-        "shap_value": 0.140463,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_points",
-        "label": "ホーム側の直近勝点",
-        "value": 2.0,
-        "shap_value": -0.092367,
-        "impact": "opposes",
-        "target": "Draw",
-        "text": "ホーム側の直近勝点がDrawのモデル出力を押し下げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564635",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-17T19:00:00Z",
-    "home_team": {
-      "id": "fd-560",
-      "api_id": 560,
-      "name": "RC Deportivo La Coruña",
-      "short": "DEP",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-285",
-      "api_id": 285,
-      "name": "Elche CF",
-      "short": "ELC",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 57.2,
-    "draw_probability": 26.0,
-    "away_win_probability": 16.8,
-    "predicted_result": "Home Win",
-    "confidence": "High",
-    "data_quality": "second_division_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 19,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 17,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "2.40",
-        "away_value": "1.00"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.60",
-        "away_value": "1.00"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "0.80",
-        "away_value": "1.40"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "WWWWL",
-        "away_value": "LDLWD"
-      }
-    ],
-    "reasons": [
-      "RC Deportivo La Coruña: 直近勝点平均 2.40",
-      "Elche CF: 直近勝点平均 1.00",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "RC Deportivo La Coruña: 前シーズンまでの2部実績を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 86.0,
-        "shap_value": -0.349458,
-        "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
-      },
-      {
-        "feature": "rest_days_diff",
-        "label": "休養日数差",
-        "value": -8.0,
-        "shap_value": 0.293689,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "休養日数差がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 5.4,
-        "shap_value": 0.200188,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 0.6,
-        "shap_value": 0.170719,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 10.4,
-        "shap_value": 0.157555,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "アウェイ側の平均シュート数がHome Winのモデル出力を押し上げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "second_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564628",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-19T19:00:00Z",
-    "home_team": {
-      "id": "fd-78",
-      "api_id": 78,
-      "name": "Club Atlético de Madrid",
-      "short": "ATL",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-84",
-      "api_id": 84,
-      "name": "Málaga CF",
-      "short": "MAL",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 33.8,
-    "draw_probability": 21.9,
-    "away_win_probability": 44.2,
-    "predicted_result": "Away Win",
-    "confidence": "Medium",
-    "data_quality": "second_division_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 21,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 5,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 1,
-      "days_since_last_match": 13,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 1,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "1.80",
-        "away_value": "2.60"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.20",
-        "away_value": "2.60"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.40",
-        "away_value": "1.00"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "WLWWL",
-        "away_value": "WWWDW"
-      }
-    ],
-    "reasons": [
-      "Club Atlético de Madrid: 直近勝点平均 1.80",
-      "Málaga CF: 直近勝点平均 2.60",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "Málaga CF: 前シーズンまでの2部実績を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 17.6,
-        "shap_value": 0.262783,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 80.0,
-        "shap_value": 0.153706,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_points_diff",
-        "label": "直近勝点差",
-        "value": -0.8,
-        "shap_value": 0.140343,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": -1.4,
-        "shap_value": 0.136869,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "平均得点差がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_ga_diff",
-        "label": "平均失点差",
-        "value": 0.4,
-        "shap_value": -0.121113,
-        "impact": "opposes",
-        "target": "Away Win",
-        "text": "平均失点差がAway Winのモデル出力を押し下げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "second_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
     "id": "559715",
     "league_id": "ligue1",
     "league_name": "Ligue 1",
@@ -5299,447 +4267,6 @@
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
   {
-    "id": "564637",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-25T19:00:00Z",
-    "home_team": {
-      "id": "fd-95",
-      "api_id": 95,
-      "name": "Valencia CF",
-      "short": "VAL",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-90",
-      "api_id": 90,
-      "name": "Real Betis Balompié",
-      "short": "BET",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 34.7,
-    "draw_probability": 22.9,
-    "away_win_probability": 42.5,
-    "predicted_result": "Away Win",
-    "confidence": "Low",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 94,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 17,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "2.00",
-        "away_value": "2.00"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.80",
-        "away_value": "2.00"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.40",
-        "away_value": "1.40"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "LWDWW",
-        "away_value": "WDWLW"
-      }
-    ],
-    "reasons": [
-      "Valencia CF: 直近勝点平均 2.00",
-      "Real Betis Balompié: 直近勝点平均 2.00",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 94.0,
-        "shap_value": 0.217148,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 13.0,
-        "shap_value": 0.085346,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_ga_diff",
-        "label": "平均失点差",
-        "value": 0.0,
-        "shap_value": 0.080733,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "平均失点差がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 3.6,
-        "shap_value": 0.079981,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "ホーム側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_ga",
-        "label": "ホーム側の平均失点",
-        "value": 1.4,
-        "shap_value": 0.077273,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "ホーム側の平均失点がAway Winのモデル出力を押し上げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564631",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-26T19:00:00Z",
-    "home_team": {
-      "id": "fd-86",
-      "api_id": 86,
-      "name": "Real Madrid CF",
-      "short": "RMA",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-92",
-      "api_id": 92,
-      "name": "Real Sociedad de Fútbol",
-      "short": "RSO",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 55.6,
-    "draw_probability": 18.8,
-    "away_win_probability": 25.6,
-    "predicted_result": "Home Win",
-    "confidence": "High",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 95,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 39,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "2.40",
-        "away_value": "0.60"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.80",
-        "away_value": "1.40"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "0.80",
-        "away_value": "1.80"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "WLWWW",
-        "away_value": "LDDLD"
-      }
-    ],
-    "reasons": [
-      "Real Madrid CF: 直近勝点平均 2.40",
-      "Real Sociedad de Fútbol: 直近勝点平均 0.60",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 95.0,
-        "shap_value": -0.352411,
-        "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 0.4,
-        "shap_value": 0.177994,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 8.6,
-        "shap_value": 0.149784,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "アウェイ側の平均シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 95.0,
-        "shap_value": 0.120537,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 1.8,
-        "shap_value": 0.117518,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均得点がHome Winのモデル出力を押し上げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "564630",
-    "league_id": "laliga",
-    "league_name": "La Liga",
-    "kickoff": "2026-08-27T19:00:00Z",
-    "home_team": {
-      "id": "fd-81",
-      "api_id": 81,
-      "name": "FC Barcelona",
-      "short": "FCB",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-77",
-      "api_id": 77,
-      "name": "Athletic Club",
-      "short": "ATH",
-      "league_id": "laliga",
-      "color": "#334155"
-    },
-    "home_win_probability": 27.5,
-    "draw_probability": 32.1,
-    "away_win_probability": 40.3,
-    "predicted_result": "Away Win",
-    "confidence": "Low",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 96,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 33,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": "Club Friendlies",
-      "last_extra_match_source": "TheSportsDB",
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "1.80",
-        "away_value": "0.80"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "1.60",
-        "away_value": "1.40"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.20",
-        "away_value": "2.00"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "WWLWL",
-        "away_value": "WLLDL"
-      }
-    ],
-    "reasons": [
-      "FC Barcelona: 直近勝点平均 1.80",
-      "Athletic Club: 直近勝点平均 0.80",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 96.0,
-        "shap_value": 0.228605,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_points_diff",
-        "label": "直近勝点差",
-        "value": 1.0,
-        "shap_value": -0.212441,
-        "impact": "opposes",
-        "target": "Away Win",
-        "text": "直近勝点差がAway Winのモデル出力を押し下げた"
-      },
-      {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 1.6,
-        "shap_value": 0.088069,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "ホーム側の平均得点がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 4.8,
-        "shap_value": 0.075164,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "ホーム側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_ga",
-        "label": "ホーム側の平均失点",
-        "value": 1.2,
-        "shap_value": 0.073398,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "ホーム側の平均失点がAway Winのモデル出力を押し上げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
     "id": "565776",
     "league_id": "bundesliga",
     "league_name": "Bundesliga",
@@ -7062,6 +5589,1479 @@
     "history_source": {
       "home": "first_division",
       "away": "second_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564668",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 18.6,
+    "draw_probability": 31.1,
+    "away_win_probability": 50.3,
+    "predicted_result": "Away Win",
+    "confidence": "Medium",
+    "data_quality": "second_division_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 57,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 45,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.40",
+        "away_value": "2.40"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "0.80",
+        "away_value": "1.60"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "0.80",
+        "away_value": "0.80"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "LDWLW",
+        "away_value": "WWWWL"
+      }
+    ],
+    "reasons": [
+      "Getafe CF: 直近勝点平均 1.40",
+      "RC Deportivo La Coruña: 直近勝点平均 2.40",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "RC Deportivo La Coruña: 前シーズンまでの2部実績を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -0.8,
+        "shap_value": 0.188357,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -1.0,
+        "shap_value": 0.187041,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 10.2,
+        "shap_value": 0.13242,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": 8.0,
+        "shap_value": 0.079689,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "休養日数差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_points",
+        "label": "アウェイ側の直近勝点",
+        "value": 2.4,
+        "shap_value": 0.066442,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の直近勝点がAway Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "second_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564669",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 24.3,
+    "draw_probability": 25.6,
+    "away_win_probability": 50.1,
+    "predicted_result": "Away Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 48,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 113,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.80",
+        "away_value": "2.00"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.20",
+        "away_value": "1.80"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.00",
+        "away_value": "1.40"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WWWLL",
+        "away_value": "LWDWW"
+      }
+    ],
+    "reasons": [
+      "Sevilla FC: 直近勝点平均 1.80",
+      "Valencia CF: 直近勝点平均 2.00",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 113.0,
+        "shap_value": 0.242675,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 4.8,
+        "shap_value": 0.150589,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -0.6,
+        "shap_value": 0.145631,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 1.8,
+        "shap_value": 0.064176,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の平均得点がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 12.6,
+        "shap_value": 0.051287,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564670",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 90.7,
+    "draw_probability": 4.6,
+    "away_win_probability": 4.8,
+    "predicted_result": "Home Win",
+    "confidence": "High",
+    "data_quality": "second_division_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 36,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 43,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "2.60",
+        "away_value": "1.40"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "3.00",
+        "away_value": "1.20"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.20",
+        "away_value": "1.40"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WWWDW",
+        "away_value": "LDWWL"
+      }
+    ],
+    "reasons": [
+      "Real Racing Club de Santander: 直近勝点平均 2.60",
+      "Deportivo Alavés: 直近勝点平均 1.40",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "Real Racing Club de Santander: 前シーズンまでの2部実績を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 8.8,
+        "shap_value": 0.578384,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -8.0,
+        "shap_value": 0.453563,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "休養日数差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 113.0,
+        "shap_value": -0.306657,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 18.2,
+        "shap_value": 0.196516,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の平均シュート数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 1.8,
+        "shap_value": 0.171627,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "second_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564671",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 53.9,
+    "draw_probability": 8.3,
+    "away_win_probability": 37.8,
+    "predicted_result": "Home Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 38,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 35,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.40",
+        "away_value": "2.00"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "2.60",
+        "away_value": "2.00"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.60",
+        "away_value": "1.40"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WDLLW",
+        "away_value": "WDWLW"
+      }
+    ],
+    "reasons": [
+      "Villarreal CF: 直近勝点平均 1.40",
+      "Real Betis Balompié: 直近勝点平均 2.00",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "home_recent_gf",
+        "label": "ホーム側の平均得点",
+        "value": 2.6,
+        "shap_value": 0.163457,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の平均得点がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.6,
+        "shap_value": 0.13541,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 112.0,
+        "shap_value": 0.130811,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -0.6,
+        "shap_value": 0.095842,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "直近勝点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 113.0,
+        "shap_value": -0.093237,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564672",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 11.3,
+    "draw_probability": 7.9,
+    "away_win_probability": 80.7,
+    "predicted_result": "Away Win",
+    "confidence": "High",
+    "data_quality": "second_division_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 45,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 37,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "2.00",
+        "away_value": "2.60"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.60",
+        "away_value": "2.60"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.00",
+        "away_value": "1.00"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WWLDW",
+        "away_value": "WWWDW"
+      }
+    ],
+    "reasons": [
+      "RC Celta de Vigo: 直近勝点平均 2.00",
+      "Málaga CF: 直近勝点平均 2.60",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "Málaga CF: 前シーズンまでの2部実績を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 7.0,
+        "shap_value": 0.524183,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 105.0,
+        "shap_value": 0.192423,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 17.6,
+        "shap_value": 0.190797,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -1.0,
+        "shap_value": 0.146352,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -0.6,
+        "shap_value": 0.144383,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "second_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564673",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 42.3,
+    "draw_probability": 29.2,
+    "away_win_probability": 28.5,
+    "predicted_result": "Home Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 35,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 49,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "0.00",
+        "away_value": "1.40"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.00",
+        "away_value": "1.20"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "2.00",
+        "away_value": "1.20"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "LLLLL",
+        "away_value": "LLWWD"
+      }
+    ],
+    "reasons": [
+      "CA Osasuna: 直近勝点平均 0.00",
+      "RCD Espanyol de Barcelona: 直近勝点平均 1.40",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 113.0,
+        "shap_value": 0.229311,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 113.0,
+        "shap_value": -0.185583,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "away_recent_sot",
+        "label": "アウェイ側の平均枠内シュート数",
+        "value": 4.8,
+        "shap_value": -0.094755,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の平均枠内シュート数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 1.2,
+        "shap_value": 0.089304,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "アウェイ側の平均得点がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_ga",
+        "label": "アウェイ側の平均失点",
+        "value": 1.2,
+        "shap_value": 0.066399,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "アウェイ側の平均失点がHome Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564674",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 25.7,
+    "draw_probability": 33.4,
+    "away_win_probability": 41.0,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 56,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 45,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "0.60",
+        "away_value": "1.80"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.40",
+        "away_value": "1.20"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.80",
+        "away_value": "1.40"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "LDDLD",
+        "away_value": "WLWWL"
+      }
+    ],
+    "reasons": [
+      "Real Sociedad de Fútbol: 直近勝点平均 0.60",
+      "Club Atlético de Madrid: 直近勝点平均 1.80",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -1.2,
+        "shap_value": 0.180272,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 8.6,
+        "shap_value": 0.110343,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 3.0,
+        "shap_value": 0.097699,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 112.0,
+        "shap_value": 0.08841,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_ga",
+        "label": "ホーム側の平均失点",
+        "value": 1.8,
+        "shap_value": 0.055789,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均失点がAway Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564675",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 33.8,
+    "draw_probability": 45.4,
+    "away_win_probability": 20.7,
+    "predicted_result": "Draw",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 42,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 113,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.80",
+        "away_value": "1.80"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "2.00",
+        "away_value": "1.60"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "2.20",
+        "away_value": "1.20"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "LWWWL",
+        "away_value": "WWLWL"
+      }
+    ],
+    "reasons": [
+      "Levante UD: 直近勝点平均 1.80",
+      "FC Barcelona: 直近勝点平均 1.80",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 113.0,
+        "shap_value": -0.085609,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "ホーム側の休養日数がDrawのモデル出力を押し下げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 113.0,
+        "shap_value": 0.078981,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_ga_diff",
+        "label": "平均失点差",
+        "value": 1.0,
+        "shap_value": 0.078911,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "平均失点差がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_sot",
+        "label": "アウェイ側の平均枠内シュート数",
+        "value": 4.8,
+        "shap_value": 0.060254,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均枠内シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_ga",
+        "label": "ホーム側の平均失点",
+        "value": 2.2,
+        "shap_value": 0.058111,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "ホーム側の平均失点がDrawのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564676",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 36.1,
+    "draw_probability": 43.7,
+    "away_win_probability": 20.2,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 49,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 43,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": "Club Friendlies",
+      "last_extra_match_source": "TheSportsDB",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "0.80",
+        "away_value": "1.00"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.40",
+        "away_value": "1.00"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "2.00",
+        "away_value": "1.40"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WLLDL",
+        "away_value": "LDLWD"
+      }
+    ],
+    "reasons": [
+      "Athletic Club: 直近勝点平均 0.80",
+      "Elche CF: 直近勝点平均 1.00",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 1.0,
+        "shap_value": 0.174357,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 113.0,
+        "shap_value": 0.149227,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -0.2,
+        "shap_value": 0.086659,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "直近勝点差がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.4,
+        "shap_value": -0.065676,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "平均得点差がDrawのモデル出力を押し下げた"
+      },
+      {
+        "feature": "home_recent_ga",
+        "label": "ホーム側の平均失点",
+        "value": 2.0,
+        "shap_value": 0.065583,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "ホーム側の平均失点がDrawのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "564677",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-13T00:00:00Z",
+    "home_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 34.3,
+    "draw_probability": 25.0,
+    "away_win_probability": 40.7,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 113,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 113,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "2.40",
+        "away_value": "2.20"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.80",
+        "away_value": "1.60"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "0.80",
+        "away_value": "0.60"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WLWWW",
+        "away_value": "WDDWW"
+      }
+    ],
+    "reasons": [
+      "Real Madrid CF: 直近勝点平均 2.40",
+      "Rayo Vallecano de Madrid: 直近勝点平均 2.20",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 113.0,
+        "shap_value": 0.203494,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 13.4,
+        "shap_value": -0.115656,
+        "impact": "opposes",
+        "target": "Away Win",
+        "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 4.4,
+        "shap_value": 0.103666,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_ga",
+        "label": "ホーム側の平均失点",
+        "value": 0.8,
+        "shap_value": -0.073102,
+        "impact": "opposes",
+        "target": "Away Win",
+        "text": "ホーム側の平均失点がAway Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.2,
+        "shap_value": -0.066765,
+        "impact": "opposes",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し下げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   }
