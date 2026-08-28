@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-15T02:04:18.572559+00:00",
+  "updated_at": "2026-08-28T12:11:46.955560+00:00",
   "success": true,
   "source": "football-data.org",
   "leagues": 5,
   "states": {
-    "pl": "preseason",
-    "laliga": "preseason",
-    "seriea": "preseason",
-    "bundesliga": "preseason",
-    "ligue1": "preseason"
+    "pl": "available",
+    "laliga": "available",
+    "seriea": "available",
+    "bundesliga": "empty",
+    "ligue1": "available"
   },
   "available_types": [
     "goals",

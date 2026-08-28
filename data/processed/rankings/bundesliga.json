@@ -8,9 +8,9 @@
     "season_end": "2027-05-22",
     "current_matchday": 1,
     "source": "football-data.org",
-    "updated_at": "2026-08-15T02:04:11.810621+00:00",
-    "state": "preseason",
-    "message": "シーズン開幕前のため、選手ランキングはまだありません。",
+    "updated_at": "2026-08-28T12:11:40.289016+00:00",
+    "state": "empty",
+    "message": "ランキングデータはまだ提供されていません。",
     "available_types": [
       "goals",
       "assists",
