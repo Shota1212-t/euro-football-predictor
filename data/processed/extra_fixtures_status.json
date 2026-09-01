@@ -1,12 +1,12 @@
 {
   "success": true,
-  "updated_at": "2026-08-28T12:12:10.547907+00:00",
-  "records": 201,
-  "official_records": 189,
-  "supplemental_records": 12,
+  "updated_at": "2026-09-01T05:38:42.275993+00:00",
+  "records": 146,
+  "official_records": 144,
+  "supplemental_records": 2,
   "manual_records": 0,
-  "thesportsdb_teams_success": 33,
-  "thesportsdb_teams_unavailable": 60,
+  "thesportsdb_teams_success": 30,
+  "thesportsdb_teams_unavailable": 63,
   "coverage": {
     "league": "Football-Data.co.uk",
     "champions_league": "available",
