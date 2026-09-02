@@ -2750,6 +2750,31 @@
     }
   },
   {
+    "id": "564692",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-09-18T19:00:00Z",
+    "home_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "away_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    }
+  },
+  {
     "id": "560587",
     "league_id": "pl",
     "competition_code": "PL",
@@ -2972,31 +2997,6 @@
       "api_id": 349,
       "name": "Ipswich Town FC",
       "short": "IPS"
-    }
-  },
-  {
-    "id": "560585",
-    "league_id": "pl",
-    "competition_code": "PL",
-    "competition_name": "Premier League",
-    "season_id": 2502,
-    "season_start": "2026-08-21",
-    "season_end": "2027-05-30",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-19T14:00:00Z",
-    "home_team": {
-      "id": "fd-341",
-      "api_id": 341,
-      "name": "Leeds United FC",
-      "short": "LEE"
-    },
-    "away_team": {
-      "id": "fd-354",
-      "api_id": 354,
-      "name": "Crystal Palace FC",
-      "short": "CRY"
     }
   },
   {
@@ -3350,56 +3350,6 @@
     }
   },
   {
-    "id": "564689",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-09-20T00:00:00Z",
-    "home_team": {
-      "id": "fd-95",
-      "api_id": 95,
-      "name": "Valencia CF",
-      "short": "VAL"
-    },
-    "away_team": {
-      "id": "fd-92",
-      "api_id": 92,
-      "name": "Real Sociedad de Fútbol",
-      "short": "RSO"
-    }
-  },
-  {
-    "id": "564692",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-09-20T00:00:00Z",
-    "home_team": {
-      "id": "fd-80",
-      "api_id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "short": "ESP"
-    },
-    "away_team": {
-      "id": "fd-285",
-      "api_id": 285,
-      "name": "Elche CF",
-      "short": "ELC"
-    }
-  },
-  {
     "id": "558591",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -3472,6 +3422,31 @@
       "api_id": 64,
       "name": "Liverpool FC",
       "short": "LIV"
+    }
+  },
+  {
+    "id": "560585",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-09-20T13:00:00Z",
+    "home_team": {
+      "id": "fd-341",
+      "api_id": 341,
+      "name": "Leeds United FC",
+      "short": "LEE"
+    },
+    "away_team": {
+      "id": "fd-354",
+      "api_id": 354,
+      "name": "Crystal Palace FC",
+      "short": "CRY"
     }
   },
   {
@@ -3847,6 +3822,31 @@
       "api_id": 524,
       "name": "Paris Saint-Germain FC",
       "short": "PSG"
+    }
+  },
+  {
+    "id": "564689",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-09-20T19:00:00Z",
+    "home_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL"
+    },
+    "away_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
     }
   },
   {
