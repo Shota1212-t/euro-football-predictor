@@ -159,9 +159,9 @@
       "recent_form": ""
     },
     {
-      "team_id": "fd-2",
-      "api_id": 2,
-      "team_name": "TSG 1899 Hoffenheim",
+      "team_id": "fd-3",
+      "api_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
       "position": 12,
       "played": 1,
       "win": 0,
@@ -173,9 +173,9 @@
       "recent_form": ""
     },
     {
-      "team_id": "fd-3",
-      "api_id": 3,
-      "team_name": "Bayer 04 Leverkusen",
+      "team_id": "fd-2",
+      "api_id": 2,
+      "team_name": "TSG 1899 Hoffenheim",
       "position": 12,
       "played": 1,
       "win": 0,
