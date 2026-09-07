@@ -21,7 +21,7 @@ SEASONS = ("2324", "2425", "2526", "2627")
 FIRST_DIVISIONS = ("E0", "SP1", "I1", "D1", "F1")
 SECOND_DIVISIONS = ("E1", "SP2", "I2", "D2", "F2")
 BASE_URL = "https://www.football-data.co.uk/mmz4281/{season}/{division}.csv"
-USER_AGENT = "EuroFootballPredictor/1.0"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/140.0 Safari/537.36"
 
 REQUIRED_COLUMNS = (
     "Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR",
