@@ -80,6 +80,8 @@ def main() -> None:
     for season in SEASONS:
         for division in FIRST_DIVISIONS:
             path = FIRST_DIR / f"{division}_{season}.csv"
+            
+            
             download_csv(season, division, path)
             first_files.append(path)
         for division in SECOND_DIVISIONS:
