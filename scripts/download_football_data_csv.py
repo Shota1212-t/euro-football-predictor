@@ -8,10 +8,10 @@ from __future__ import annotations
 import csv
 import io
 import time
-import urllib.error
 import urllib.request
 from datetime import datetime
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 FIRST_DIR = ROOT / "data" / "raw" / "football_data_co_uk"
@@ -30,7 +30,13 @@ REQUIRED_COLUMNS = (
 )
 
 
-def download_csv(season: str, division: str, destination: Path) -> None:
+def download_csv(season: str, division: str, destination: Path) -> bool:
+    """Download one CSV file.
+
+    Returns True when a valid file was saved, False when the file was missing or
+    could not be retrieved after retries. This avoids failing the whole workflow
+    for transient remote errors like HTTP 503.
+    """
     url = BASE_URL.format(season=season, division=division)
 
     headers = {
@@ -41,6 +47,7 @@ def download_csv(season: str, division: str, destination: Path) -> None:
 
     max_attempts = 5
 
+    payload = None
     for attempt in range(1, max_attempts + 1):
         request = urllib.request.Request(url, headers=headers)
 
@@ -49,31 +56,51 @@ def download_csv(season: str, division: str, destination: Path) -> None:
                 payload = response.read()
             break
 
-        except (urllib.error.URLError, TimeoutError) as error:
+        except HTTPError as error:
+            # 404 means the specific file doesn't exist — skip it rather than
+            # failing the entire update. For other HTTP errors (e.g. 503), retry
+            # and if still failing after attempts, skip the file.
+            if error.code == 404:
+                print(f"Not found (404), skipping: {url}")
+                return False
             if attempt == max_attempts:
-                raise RuntimeError(
-                    f"Failed to download {url} after "
-                    f"{max_attempts} attempts: {error}"
-                ) from error
+                print(f"HTTPError {error.code} downloading {url}: {error}. Giving up and skipping.")
+                return False
+
+            wait_seconds = 15 * attempt
+            print(
+                f"Download failed: {url}. HTTP {error.code}. Retrying in {wait_seconds} seconds ({attempt}/{max_attempts})"
+            )
+            time.sleep(wait_seconds)
+
+        except (URLError, TimeoutError) as error:
+            if attempt == max_attempts:
+                print(f"Failed to download {url} after {max_attempts} attempts: {error}")
+                return False
 
             wait_seconds = 15 * attempt
 
             print(
-                f"Download failed: {url}. "
-                f"Retrying in {wait_seconds} seconds "
-                f"({attempt}/{max_attempts})"
+                f"Download failed: {url}. Retrying in {wait_seconds} seconds ({attempt}/{max_attempts})"
             )
 
             time.sleep(wait_seconds)
 
+    if not payload:
+        # No payload obtained after retries — skip this file rather than crash.
+        print(f"No payload downloaded from {url}, skipping.")
+        return False
+
     if len(payload) < 100 or b"HomeTeam" not in payload[:3000]:
-        raise RuntimeError(f"Downloaded CSV is invalid or empty: {url}")
+        print(f"Downloaded CSV is invalid or empty: {url}")
+        return False
 
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_suffix(".csv.tmp")
     temporary.write_bytes(payload)
     temporary.replace(destination)
     print(f"downloaded: {destination.relative_to(ROOT)}")
+    return True
 
 
 def normalize_match_date(value: str, path: Path) -> str:
@@ -104,18 +131,24 @@ def reduced_rows(path: Path):
 def main() -> None:
     first_files: list[Path] = []
     second_files: list[Path] = []
+    failures: list[str] = []
 
     for season in SEASONS:
         for division in FIRST_DIVISIONS:
             path = FIRST_DIR / f"{division}_{season}.csv"
-            
-            
-            download_csv(season, division, path)
-            first_files.append(path)
+
+            ok = download_csv(season, division, path)
+            if ok:
+                first_files.append(path)
+            else:
+                failures.append(str(path.relative_to(ROOT)))
         for division in SECOND_DIVISIONS:
             path = SECOND_DIR / f"{division}_{season}.csv"
-            download_csv(season, division, path)
-            second_files.append(path)
+            ok = download_csv(season, division, path)
+            if ok:
+                second_files.append(path)
+            else:
+                failures.append(str(path.relative_to(ROOT)))
 
     all_rows = []
     for path in first_files:
@@ -135,6 +168,8 @@ def main() -> None:
     print(f"second-division files: {len(second_files)}")
     print(f"combined first-division matches: {len(all_rows)}")
     print(f"saved: {MATCHES_PATH.relative_to(ROOT)}")
+    if failures:
+        print(f"Some CSV downloads were skipped or failed: {len(failures)} files: {failures}")
 
 
 if __name__ == "__main__":
