@@ -32,12 +32,39 @@ REQUIRED_COLUMNS = (
 
 def download_csv(season: str, division: str, destination: Path) -> None:
     url = BASE_URL.format(season=season, division=division)
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urllib.request.urlopen(request, timeout=45) as response:
-            payload = response.read()
-    except (urllib.error.URLError, TimeoutError) as error:
-        raise RuntimeError(f"Failed to download {url}: {error}") from error
+
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/csv,text/plain,*/*",
+        "Referer": "https://www.football-data.co.uk/data.php",
+    }
+
+    max_attempts = 5
+
+    for attempt in range(1, max_attempts + 1):
+        request = urllib.request.Request(url, headers=headers)
+
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                payload = response.read()
+            break
+
+        except (urllib.error.URLError, TimeoutError) as error:
+            if attempt == max_attempts:
+                raise RuntimeError(
+                    f"Failed to download {url} after "
+                    f"{max_attempts} attempts: {error}"
+                ) from error
+
+            wait_seconds = 15 * attempt
+
+            print(
+                f"Download failed: {url}. "
+                f"Retrying in {wait_seconds} seconds "
+                f"({attempt}/{max_attempts})"
+            )
+
+            time.sleep(wait_seconds)
 
     if len(payload) < 100 or b"HomeTeam" not in payload[:3000]:
         raise RuntimeError(f"Downloaded CSV is invalid or empty: {url}")
