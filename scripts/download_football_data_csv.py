@@ -17,7 +17,7 @@ FIRST_DIR = ROOT / "data" / "raw" / "football_data_co_uk"
 SECOND_DIR = ROOT / "data" / "raw" / "football_data_co_uk_second_division"
 MATCHES_PATH = ROOT / "data" / "processed" / "matches.csv"
 
-SEASONS = ("2324", "2425", "2526")
+SEASONS = ("2324", "2425", "2526", "2627")
 FIRST_DIVISIONS = ("E0", "SP1", "I1", "D1", "F1")
 SECOND_DIVISIONS = ("E1", "SP2", "I2", "D2", "F2")
 BASE_URL = "https://www.football-data.co.uk/mmz4281/{season}/{division}.csv"
