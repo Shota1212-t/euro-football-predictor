@@ -277,7 +277,7 @@ def main() -> None:
                 downloaded_files.append((path, division))
             else:
                 failures.append(f"{division}_{season}")
-         second_division_files: list[Path] = []
+        second_division_files: list[Path] = []
 
     for season in SEASONS:
         for division in SECOND_DIVISIONS:
