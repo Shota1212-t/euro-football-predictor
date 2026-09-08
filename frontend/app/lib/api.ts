@@ -1,6 +1,6 @@
 import type {
   DashboardData, DataSourceItem, DataStatusItem, League, ManagerDetail,
-  ManagerListResponse, MatchPrediction, ModelPerformance, PlayerDetail,
+  ManagerListResponse, MatchPrediction, CompletedMatch, CompletedPerformance, ModelPerformance, PlayerDetail,
   PlayerListResponse, RankingResponse, StandingRow, TeamDetail, TeamListResponse,
 } from './types';
 
@@ -26,6 +26,8 @@ export const api = {
   player: (id: string) => apiFetch<PlayerDetail>(`/api/v1/players/${id}`),
   managers: (params: { league_id?: string; team_id?: string; role?: string; search?: string; limit?: number; offset?: number } = {}) => apiFetch<ManagerListResponse>(`/api/v1/managers${qs({ league_id: params.league_id, team_id: params.team_id, role: params.role, search: params.search, limit: params.limit?.toString(), offset: params.offset?.toString() })}`),
   manager: (id: string) => apiFetch<ManagerDetail>(`/api/v1/managers/${id}`),
+  completedMatches: () => apiFetch<CompletedMatch[]>('/api/v1/matches/completed/list'),
+  completedPerformance: () => apiFetch<CompletedPerformance>('/api/v1/matches/completed/performance'),
   modelPerformance: () => apiFetch<ModelPerformance>('/api/v1/model/performance'),
   dataStatus: () => apiFetch<DataStatusItem[]>('/api/v1/data-status'),
   dataSources: () => apiFetch<DataSourceItem[]>('/api/v1/data-sources'),

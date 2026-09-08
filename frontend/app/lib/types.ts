@@ -248,3 +248,14 @@ export interface DashboardData {
   data_status: DataStatusItem[]; standings_summary: Record<string, StandingRow[]>;
   rankings_summary: Record<string, RankingRow[]>;
 }
+
+
+export interface CompletedMatch {
+  id: string; league_id: string; league_name: string; kickoff: string;
+  home_team: Team; away_team: Team; home_score: number; away_score: number;
+  actual_result: string; prediction_status: 'recorded' | 'missing'; prediction_available: boolean;
+  predicted_result?: string | null; home_win_probability?: number | null; draw_probability?: number | null; away_win_probability?: number | null;
+  is_correct?: boolean | null; confidence?: 'High' | 'Medium' | 'Low' | null;
+  data_quality?: string | null; model_version?: string | null;
+}
+export interface CompletedPerformance { total_predictions: number; correct_predictions: number; accuracy: number; }
