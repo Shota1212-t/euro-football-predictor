@@ -83,7 +83,7 @@ def fetch_fixtures(
 ) -> list[dict]:
     response = client.get(
         f"/competitions/{code}/matches",
-        params={"status": "SCHEDULED"},
+        params={"status": "FINISHED"},
     )
     response.raise_for_status()
     payload = response.json()
