@@ -6,9 +6,9 @@
     "season_id": 2502,
     "season_start": "2026-08-21",
     "season_end": "2027-05-30",
-    "current_matchday": 2,
+    "current_matchday": 3,
     "source": "football-data.org",
-    "updated_at": "2026-09-03T05:01:06.459761+00:00",
+    "updated_at": "2026-09-08T09:41:00.274405+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -23,6 +23,17 @@
   },
   "goals": [
     {
+      "player_id": "fdp-6486",
+      "football_data_player_id": 6486,
+      "player_name": "Alexander Isak",
+      "team_id": "fd-64",
+      "football_data_team_id": 64,
+      "team_name": "Liverpool FC",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 3
+    },
+    {
       "player_id": "fdp-3257",
       "football_data_player_id": 3257,
       "player_name": "Bruno Fernandes",
@@ -34,6 +45,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-38101",
+      "football_data_player_id": 38101,
+      "player_name": "Erling Haaland",
+      "team_id": "fd-65",
+      "football_data_team_id": 65,
+      "team_name": "Manchester City FC",
+      "position": null,
+      "nationality": "Norway",
+      "value": 3
+    },
+    {
       "player_id": "fdp-166376",
       "football_data_player_id": 166376,
       "player_name": "Anthony Elanga",
@@ -42,6 +64,17 @@
       "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "Sweden",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-8626",
+      "football_data_player_id": 8626,
+      "player_name": "Bryan Mbeumo",
+      "team_id": "fd-66",
+      "football_data_team_id": 66,
+      "team_name": "Manchester United FC",
+      "position": null,
+      "nationality": "Cameroon",
       "value": 2
     },
     {
@@ -67,23 +100,23 @@
       "value": 2
     },
     {
-      "player_id": "fdp-38101",
-      "football_data_player_id": 38101,
-      "player_name": "Erling Haaland",
-      "team_id": "fd-65",
-      "football_data_team_id": 65,
-      "team_name": "Manchester City FC",
-      "position": null,
-      "nationality": "Norway",
-      "value": 2
-    },
-    {
       "player_id": "fdp-190851",
       "football_data_player_id": 190851,
       "player_name": "Jack Hinshelwood",
       "team_id": "fd-397",
       "football_data_team_id": 397,
       "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "England",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-246418",
+      "football_data_player_id": 246418,
+      "player_name": "Joshua King",
+      "team_id": "fd-63",
+      "football_data_team_id": 63,
+      "team_name": "Fulham FC",
       "position": null,
       "nationality": "England",
       "value": 2
@@ -100,6 +133,50 @@
       "value": 2
     },
     {
+      "player_id": "fdp-171",
+      "football_data_player_id": 171,
+      "player_name": "Kai Havertz",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6396",
+      "football_data_player_id": 6396,
+      "player_name": "Marcus Tavernier",
+      "team_id": "fd-1044",
+      "football_data_team_id": 1044,
+      "team_name": "AFC Bournemouth",
+      "position": null,
+      "nationality": "England",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-7427",
+      "football_data_player_id": 7427,
+      "player_name": "Martin Ødegaard",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Norway",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-82140",
+      "football_data_player_id": 82140,
+      "player_name": "Morgan Rogers",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "England",
+      "value": 2
+    },
+    {
       "player_id": "fdp-133242",
       "football_data_player_id": 133242,
       "player_name": "Rayan Cherki",
@@ -111,6 +188,39 @@
       "value": 2
     },
     {
+      "player_id": "fdp-137068",
+      "football_data_player_id": 137068,
+      "player_name": "Tyrick Mitchell",
+      "team_id": "fd-354",
+      "football_data_team_id": 354,
+      "team_name": "Crystal Palace FC",
+      "position": null,
+      "nationality": "England",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-10000",
+      "football_data_player_id": 10000,
+      "player_name": "Vitaly Janelt",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-7792",
+      "football_data_player_id": 7792,
+      "player_name": "Ainsley Maitland-Niles",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 1
+    },
+    {
       "player_id": "fdp-161088",
       "football_data_player_id": 161088,
       "player_name": "Alex Scott",
@@ -119,17 +229,6 @@
       "team_name": "AFC Bournemouth",
       "position": null,
       "nationality": "England",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-6486",
-      "football_data_player_id": 6486,
-      "player_name": "Alexander Isak",
-      "team_id": "fd-64",
-      "football_data_team_id": 64,
-      "team_name": "Liverpool FC",
-      "position": null,
-      "nationality": "Sweden",
       "value": 1
     },
     {
@@ -144,14 +243,25 @@
       "value": 1
     },
     {
-      "player_id": "fdp-8626",
-      "football_data_player_id": 8626,
-      "player_name": "Bryan Mbeumo",
+      "player_id": "fdp-8065",
+      "football_data_player_id": 8065,
+      "player_name": "Ben Chilwell",
+      "team_id": "fd-354",
+      "football_data_team_id": 354,
+      "team_name": "Crystal Palace FC",
+      "position": null,
+      "nationality": "England",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-124244",
+      "football_data_player_id": 124244,
+      "player_name": "Benjamin Šeško",
       "team_id": "fd-66",
       "football_data_team_id": 66,
       "team_name": "Manchester United FC",
       "position": null,
-      "nationality": "Cameroon",
+      "nationality": "Slovenia",
       "value": 1
     },
     {
@@ -174,6 +284,17 @@
       "team_name": "Liverpool FC",
       "position": null,
       "nationality": "Netherlands",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-290848",
+      "football_data_player_id": 290848,
+      "player_name": "César Palacios",
+      "team_id": "fd-63",
+      "football_data_team_id": 63,
+      "team_name": "Fulham FC",
+      "position": null,
+      "nationality": "Spain",
       "value": 1
     },
     {
@@ -221,6 +342,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-99664",
+      "football_data_player_id": 99664,
+      "player_name": "Enzo Le Fée",
+      "team_id": "fd-71",
+      "football_data_team_id": 71,
+      "team_name": "Sunderland AFC",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-217658",
       "football_data_player_id": 217658,
       "player_name": "Gonzalo García",
@@ -232,12 +364,34 @@
       "value": 1
     },
     {
+      "player_id": "fdp-8076",
+      "football_data_player_id": 8076,
+      "player_name": "Harvey Barnes",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 1
+    },
+    {
       "player_id": "fdp-4158",
       "football_data_player_id": 4158,
       "player_name": "Jack Clarke",
       "team_id": "fd-349",
       "football_data_team_id": 349,
       "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "England",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-111437",
+      "football_data_player_id": 111437,
+      "player_name": "Jacob Ramsey",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "England",
       "value": 1
@@ -254,23 +408,23 @@
       "value": 1
     },
     {
+      "player_id": "fdp-4184",
+      "football_data_player_id": 4184,
+      "player_name": "Jayden Bogle",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 1
+    },
+    {
       "player_id": "fdp-7798",
       "football_data_player_id": 7798,
       "player_name": "Joe Willock",
       "team_id": "fd-67",
       "football_data_team_id": 67,
       "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-246418",
-      "football_data_player_id": 246418,
-      "player_name": "Joshua King",
-      "team_id": "fd-63",
-      "football_data_team_id": 63,
-      "team_name": "Fulham FC",
       "position": null,
       "nationality": "England",
       "value": 1
@@ -284,17 +438,6 @@
       "team_name": "Manchester City FC",
       "position": null,
       "nationality": "Croatia",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-171",
-      "football_data_player_id": 171,
-      "player_name": "Kai Havertz",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Germany",
       "value": 1
     },
     {
@@ -353,6 +496,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-216835",
+      "football_data_player_id": 216835,
+      "player_name": "Luka Vušković",
+      "team_id": "fd-397",
+      "football_data_team_id": 397,
+      "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "Croatia",
+      "value": 1
+    },
+    {
       "player_id": "fdp-246670",
       "football_data_player_id": 246670,
       "player_name": "Malick Yalcouyé",
@@ -372,28 +526,6 @@
       "team_name": "Manchester City FC",
       "position": null,
       "nationality": "England",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-6396",
-      "football_data_player_id": 6396,
-      "player_name": "Marcus Tavernier",
-      "team_id": "fd-1044",
-      "football_data_team_id": 1044,
-      "team_name": "AFC Bournemouth",
-      "position": null,
-      "nationality": "England",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-7427",
-      "football_data_player_id": 7427,
-      "player_name": "Martin Ødegaard",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Norway",
       "value": 1
     },
     {
@@ -425,17 +557,6 @@
       "team_id": "fd-351",
       "football_data_team_id": 351,
       "team_name": "Nottingham Forest FC",
-      "position": null,
-      "nationality": "England",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-82140",
-      "football_data_player_id": 82140,
-      "player_name": "Morgan Rogers",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
       "position": null,
       "nationality": "England",
       "value": 1
@@ -518,14 +639,14 @@
       "value": 1
     },
     {
-      "player_id": "fdp-10000",
-      "football_data_player_id": 10000,
-      "player_name": "Vitaly Janelt",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
+      "player_id": "fdp-250436",
+      "football_data_player_id": 250436,
+      "player_name": "Tyrique George",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
       "position": null,
-      "nationality": "Germany",
+      "nationality": "England",
       "value": 1
     },
     {
@@ -564,6 +685,17 @@
   ],
   "assists": [
     {
+      "player_id": "fdp-7459",
+      "football_data_player_id": 7459,
+      "player_name": "Cody Gakpo",
+      "team_id": "fd-64",
+      "football_data_team_id": 64,
+      "team_name": "Liverpool FC",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 3
+    },
+    {
       "player_id": "fdp-103125",
       "football_data_player_id": 103125,
       "player_name": "João Pedro",
@@ -597,17 +729,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-7459",
-      "football_data_player_id": 7459,
-      "player_name": "Cody Gakpo",
-      "team_id": "fd-64",
-      "football_data_team_id": 64,
-      "team_name": "Liverpool FC",
-      "position": null,
-      "nationality": "Netherlands",
-      "value": 1
-    },
-    {
       "player_id": "fdp-144892",
       "football_data_player_id": 144892,
       "player_name": "Cole Palmer",
@@ -638,6 +759,17 @@
       "team_name": "Brentford FC",
       "position": null,
       "nationality": "England",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-142075",
+      "football_data_player_id": 142075,
+      "player_name": "Maxim De Cuyper",
+      "team_id": "fd-397",
+      "football_data_team_id": 397,
+      "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "Belgium",
       "value": 1
     },
     {
@@ -684,7 +816,7 @@
       "team_name": "AFC Bournemouth",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-6486",
@@ -695,7 +827,7 @@
       "team_name": "Liverpool FC",
       "position": null,
       "nationality": "Sweden",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-166376",
@@ -706,7 +838,7 @@
       "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "Sweden",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-65843",
@@ -717,7 +849,18 @@
       "team_name": "Leeds United FC",
       "position": null,
       "nationality": "Germany",
-      "value": 2
+      "value": 3
+    },
+    {
+      "player_id": "fdp-124244",
+      "football_data_player_id": 124244,
+      "player_name": "Benjamin Šeško",
+      "team_id": "fd-66",
+      "football_data_team_id": 66,
+      "team_name": "Manchester United FC",
+      "position": null,
+      "nationality": "Slovenia",
+      "value": 3
     },
     {
       "player_id": "fdp-3257",
@@ -728,7 +871,7 @@
       "team_name": "Manchester United FC",
       "position": null,
       "nationality": "Portugal",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-8626",
@@ -739,7 +882,7 @@
       "team_name": "Manchester United FC",
       "position": null,
       "nationality": "Cameroon",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-99813",
@@ -750,18 +893,7 @@
       "team_name": "Arsenal FC",
       "position": null,
       "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-9053",
-      "football_data_player_id": 9053,
-      "player_name": "Chuba Akpom",
-      "team_id": "fd-349",
-      "football_data_team_id": 349,
-      "team_name": "Ipswich Town FC",
-      "position": null,
-      "nationality": "England",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-7459",
@@ -772,7 +904,7 @@
       "team_name": "Liverpool FC",
       "position": null,
       "nationality": "Netherlands",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-144892",
@@ -783,7 +915,18 @@
       "team_name": "Chelsea FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
+    },
+    {
+      "player_id": "fdp-290848",
+      "football_data_player_id": 290848,
+      "player_name": "César Palacios",
+      "team_id": "fd-63",
+      "football_data_team_id": 63,
+      "team_name": "Fulham FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 3
     },
     {
       "player_id": "fdp-77641",
@@ -794,7 +937,7 @@
       "team_name": "Nottingham Forest FC",
       "position": null,
       "nationality": "Switzerland",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-7839",
@@ -805,7 +948,7 @@
       "team_name": "Leeds United FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-16347",
@@ -816,7 +959,7 @@
       "team_name": "Liverpool FC",
       "position": null,
       "nationality": "Hungary",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-176628",
@@ -827,7 +970,18 @@
       "team_name": "Ipswich Town FC",
       "position": null,
       "nationality": "Brazil",
-      "value": 2
+      "value": 3
+    },
+    {
+      "player_id": "fdp-99664",
+      "football_data_player_id": 99664,
+      "player_name": "Enzo Le Fée",
+      "team_id": "fd-71",
+      "football_data_team_id": 71,
+      "team_name": "Sunderland AFC",
+      "position": null,
+      "nationality": "France",
+      "value": 3
     },
     {
       "player_id": "fdp-38101",
@@ -838,7 +992,7 @@
       "team_name": "Manchester City FC",
       "position": null,
       "nationality": "Norway",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-217658",
@@ -849,7 +1003,18 @@
       "team_name": "Fulham FC",
       "position": null,
       "nationality": "Spain",
-      "value": 2
+      "value": 3
+    },
+    {
+      "player_id": "fdp-8076",
+      "football_data_player_id": 8076,
+      "player_name": "Harvey Barnes",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
     },
     {
       "player_id": "fdp-4158",
@@ -860,7 +1025,18 @@
       "team_name": "Ipswich Town FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
+    },
+    {
+      "player_id": "fdp-111437",
+      "football_data_player_id": 111437,
+      "player_name": "Jacob Ramsey",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
     },
     {
       "player_id": "fdp-3316",
@@ -871,7 +1047,18 @@
       "team_name": "Everton FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
+    },
+    {
+      "player_id": "fdp-4184",
+      "football_data_player_id": 4184,
+      "player_name": "Jayden Bogle",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
     },
     {
       "player_id": "fdp-7798",
@@ -882,7 +1069,7 @@
       "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-246418",
@@ -893,7 +1080,7 @@
       "team_name": "Fulham FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-103125",
@@ -904,7 +1091,7 @@
       "team_name": "Chelsea FC",
       "position": null,
       "nationality": "Brazil",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-122266",
@@ -915,7 +1102,7 @@
       "team_name": "Manchester City FC",
       "position": null,
       "nationality": "Croatia",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-171",
@@ -926,7 +1113,7 @@
       "team_name": "Arsenal FC",
       "position": null,
       "nationality": "Germany",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-101910",
@@ -937,7 +1124,7 @@
       "team_name": "Brentford FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-123286",
@@ -948,7 +1135,7 @@
       "team_name": "Brentford FC",
       "position": null,
       "nationality": "Germany",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-140194",
@@ -959,12 +1146,276 @@
       "team_name": "Everton FC",
       "position": null,
       "nationality": "England",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-99120",
       "football_data_player_id": 99120,
       "player_name": "Leif Davis",
+      "team_id": "fd-349",
+      "football_data_team_id": 349,
+      "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-216835",
+      "football_data_player_id": 216835,
+      "player_name": "Luka Vušković",
+      "team_id": "fd-397",
+      "football_data_team_id": 397,
+      "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "Croatia",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-246670",
+      "football_data_player_id": 246670,
+      "player_name": "Malick Yalcouyé",
+      "team_id": "fd-397",
+      "football_data_team_id": 397,
+      "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "Mali",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-118489",
+      "football_data_player_id": 118489,
+      "player_name": "Marc Guéhi",
+      "team_id": "fd-65",
+      "football_data_team_id": 65,
+      "team_name": "Manchester City FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-6396",
+      "football_data_player_id": 6396,
+      "player_name": "Marcus Tavernier",
+      "team_id": "fd-1044",
+      "football_data_team_id": 1044,
+      "team_name": "AFC Bournemouth",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-7427",
+      "football_data_player_id": 7427,
+      "player_name": "Martin Ødegaard",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Norway",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-142075",
+      "football_data_player_id": 142075,
+      "player_name": "Maxim De Cuyper",
+      "team_id": "fd-397",
+      "football_data_team_id": 397,
+      "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-204348",
+      "football_data_player_id": 204348,
+      "player_name": "Michael Kayode",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Italy",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-4091",
+      "football_data_player_id": 4091,
+      "player_name": "Morgan Gibbs-White",
+      "team_id": "fd-351",
+      "football_data_team_id": 351,
+      "team_name": "Nottingham Forest FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-82140",
+      "football_data_player_id": 82140,
+      "player_name": "Morgan Rogers",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-187375",
+      "football_data_player_id": 187375,
+      "player_name": "Nilson Angulo",
+      "team_id": "fd-71",
+      "football_data_team_id": 71,
+      "team_name": "Sunderland AFC",
+      "position": null,
+      "nationality": "Ecuador",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-190558",
+      "football_data_player_id": 190558,
+      "player_name": "Nobel Mendy",
+      "team_id": "fd-322",
+      "football_data_team_id": 322,
+      "team_name": "Hull City AFC",
+      "position": null,
+      "nationality": "Senegal",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-8273",
+      "football_data_player_id": 8273,
+      "player_name": "Pascal Groß",
+      "team_id": "fd-397",
+      "football_data_team_id": 397,
+      "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-2074",
+      "football_data_player_id": 2074,
+      "player_name": "Pedro Neto",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-133242",
+      "football_data_player_id": 133242,
+      "player_name": "Rayan Cherki",
+      "team_id": "fd-65",
+      "football_data_team_id": 65,
+      "team_name": "Manchester City FC",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-172738",
+      "football_data_player_id": 172738,
+      "player_name": "Romeo Lavia",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-6451",
+      "football_data_player_id": 6451,
+      "player_name": "Semi Ajayi",
+      "team_id": "fd-322",
+      "football_data_team_id": 322,
+      "team_name": "Hull City AFC",
+      "position": null,
+      "nationality": "Nigeria",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-171995",
+      "football_data_player_id": 171995,
+      "player_name": "Thierno Barry",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-137068",
+      "football_data_player_id": 137068,
+      "player_name": "Tyrick Mitchell",
+      "team_id": "fd-354",
+      "football_data_team_id": 354,
+      "team_name": "Crystal Palace FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-250436",
+      "football_data_player_id": 250436,
+      "player_name": "Tyrique George",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-10000",
+      "football_data_player_id": 10000,
+      "player_name": "Vitaly Janelt",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-273423",
+      "football_data_player_id": 273423,
+      "player_name": "Víctor Muñoz",
+      "team_id": "fd-64",
+      "football_data_team_id": 64,
+      "team_name": "Liverpool FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-83599",
+      "football_data_player_id": 83599,
+      "player_name": "Wilson Isidor",
+      "team_id": "fd-71",
+      "football_data_team_id": 71,
+      "team_name": "Sunderland AFC",
+      "position": null,
+      "nationality": "Haiti",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-612",
+      "football_data_player_id": 612,
+      "player_name": "Yoane Wissa",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "Congo DR",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-9053",
+      "football_data_player_id": 9053,
+      "player_name": "Chuba Akpom",
       "team_id": "fd-349",
       "football_data_team_id": 349,
       "team_name": "Ipswich Town FC",
@@ -984,224 +1435,26 @@
       "value": 2
     },
     {
-      "player_id": "fdp-246670",
-      "football_data_player_id": 246670,
-      "player_name": "Malick Yalcouyé",
-      "team_id": "fd-397",
-      "football_data_team_id": 397,
-      "team_name": "Brighton & Hove Albion FC",
-      "position": null,
-      "nationality": "Mali",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-118489",
-      "football_data_player_id": 118489,
-      "player_name": "Marc Guéhi",
-      "team_id": "fd-65",
-      "football_data_team_id": 65,
-      "team_name": "Manchester City FC",
-      "position": null,
-      "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-6396",
-      "football_data_player_id": 6396,
-      "player_name": "Marcus Tavernier",
-      "team_id": "fd-1044",
-      "football_data_team_id": 1044,
-      "team_name": "AFC Bournemouth",
-      "position": null,
-      "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-7427",
-      "football_data_player_id": 7427,
-      "player_name": "Martin Ødegaard",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Norway",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-142075",
-      "football_data_player_id": 142075,
-      "player_name": "Maxim De Cuyper",
-      "team_id": "fd-397",
-      "football_data_team_id": 397,
-      "team_name": "Brighton & Hove Albion FC",
-      "position": null,
-      "nationality": "Belgium",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-204348",
-      "football_data_player_id": 204348,
-      "player_name": "Michael Kayode",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Italy",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-4091",
-      "football_data_player_id": 4091,
-      "player_name": "Morgan Gibbs-White",
-      "team_id": "fd-351",
-      "football_data_team_id": 351,
-      "team_name": "Nottingham Forest FC",
-      "position": null,
-      "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-82140",
-      "football_data_player_id": 82140,
-      "player_name": "Morgan Rogers",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
-      "position": null,
-      "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-187375",
-      "football_data_player_id": 187375,
-      "player_name": "Nilson Angulo",
-      "team_id": "fd-71",
-      "football_data_team_id": 71,
-      "team_name": "Sunderland AFC",
-      "position": null,
-      "nationality": "Ecuador",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-190558",
-      "football_data_player_id": 190558,
-      "player_name": "Nobel Mendy",
-      "team_id": "fd-322",
-      "football_data_team_id": 322,
-      "team_name": "Hull City AFC",
-      "position": null,
-      "nationality": "Senegal",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-8273",
-      "football_data_player_id": 8273,
-      "player_name": "Pascal Groß",
-      "team_id": "fd-397",
-      "football_data_team_id": 397,
-      "team_name": "Brighton & Hove Albion FC",
-      "position": null,
-      "nationality": "Germany",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-2074",
-      "football_data_player_id": 2074,
-      "player_name": "Pedro Neto",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-133242",
-      "football_data_player_id": 133242,
-      "player_name": "Rayan Cherki",
-      "team_id": "fd-65",
-      "football_data_team_id": 65,
-      "team_name": "Manchester City FC",
-      "position": null,
-      "nationality": "France",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-172738",
-      "football_data_player_id": 172738,
-      "player_name": "Romeo Lavia",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
-      "position": null,
-      "nationality": "Belgium",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-6451",
-      "football_data_player_id": 6451,
-      "player_name": "Semi Ajayi",
-      "team_id": "fd-322",
-      "football_data_team_id": 322,
-      "team_name": "Hull City AFC",
-      "position": null,
-      "nationality": "Nigeria",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-171995",
-      "football_data_player_id": 171995,
-      "player_name": "Thierno Barry",
+      "player_id": "fdp-7792",
+      "football_data_player_id": 7792,
+      "player_name": "Ainsley Maitland-Niles",
       "team_id": "fd-62",
       "football_data_team_id": 62,
       "team_name": "Everton FC",
       "position": null,
-      "nationality": "France",
-      "value": 2
+      "nationality": "England",
+      "value": 1
     },
     {
-      "player_id": "fdp-10000",
-      "football_data_player_id": 10000,
-      "player_name": "Vitaly Janelt",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
+      "player_id": "fdp-8065",
+      "football_data_player_id": 8065,
+      "player_name": "Ben Chilwell",
+      "team_id": "fd-354",
+      "football_data_team_id": 354,
+      "team_name": "Crystal Palace FC",
       "position": null,
-      "nationality": "Germany",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-273423",
-      "football_data_player_id": 273423,
-      "player_name": "Víctor Muñoz",
-      "team_id": "fd-64",
-      "football_data_team_id": 64,
-      "team_name": "Liverpool FC",
-      "position": null,
-      "nationality": "Spain",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-83599",
-      "football_data_player_id": 83599,
-      "player_name": "Wilson Isidor",
-      "team_id": "fd-71",
-      "football_data_team_id": 71,
-      "team_name": "Sunderland AFC",
-      "position": null,
-      "nationality": "Haiti",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-612",
-      "football_data_player_id": 612,
-      "player_name": "Yoane Wissa",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "Congo DR",
-      "value": 2
+      "nationality": "England",
+      "value": 1
     },
     {
       "player_id": "fdp-190851",

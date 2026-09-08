@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 2,
     "source": "football-data.org",
-    "updated_at": "2026-09-03T05:01:27.408976+00:00",
+    "updated_at": "2026-09-08T09:41:20.269423+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -45,6 +45,94 @@
       "value": 3
     },
     {
+      "player_id": "fdp-213737",
+      "football_data_player_id": 213737,
+      "player_name": "David Mokwa Ntusu",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-188201",
+      "football_data_player_id": 188201,
+      "player_name": "Hugo Bolin",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6523",
+      "football_data_player_id": 6523,
+      "player_name": "Josha Vagnoman",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-183780",
+      "football_data_player_id": 183780,
+      "player_name": "Maurice Krattenmacher",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-1826",
+      "football_data_player_id": 1826,
+      "player_name": "Patrik Schick",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Czech Republic",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-45593",
+      "football_data_player_id": 45593,
+      "player_name": "Phillip Tietz",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6634",
+      "football_data_player_id": 6634,
+      "player_name": "Ridle Baku",
+      "team_id": "fd-721",
+      "football_data_team_id": 721,
+      "team_name": "RB Leipzig",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-211",
+      "football_data_player_id": 211,
+      "player_name": "Sehrou Guirassy",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Guinea",
+      "value": 2
+    },
+    {
       "player_id": "fdp-9848",
       "football_data_player_id": 9848,
       "player_name": "Thijs Dallinga",
@@ -78,6 +166,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-608",
+      "football_data_player_id": 608,
+      "player_name": "Alexis Claude Maurice",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-175963",
       "football_data_player_id": 175963,
       "player_name": "Anton Kade",
@@ -97,6 +196,28 @@
       "team_name": "RB Leipzig",
       "position": null,
       "nationality": "Norway",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-176899",
+      "football_data_player_id": 176899,
+      "player_name": "Arijon Ibrahimovic",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-189873",
+      "football_data_player_id": 189873,
+      "player_name": "Bilal El Khannouss",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Morocco",
       "value": 1
     },
     {
@@ -133,17 +254,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-213737",
-      "football_data_player_id": 213737,
-      "player_name": "David Mokwa Ntusu",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
       "player_id": "fdp-9541",
       "football_data_player_id": 9541,
       "player_name": "Dayot Upamecano",
@@ -163,6 +273,94 @@
       "team_name": "1. FC Union Berlin",
       "position": null,
       "nationality": "Ivory Coast",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-150733",
+      "football_data_player_id": 150733,
+      "player_name": "Eren Dinkci",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Turkey",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-33242",
+      "football_data_player_id": 33242,
+      "player_name": "Ermedin Demirovic",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Bosnia-Herzegovina",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-152692",
+      "football_data_player_id": 152692,
+      "player_name": "Fabian Rieder",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Switzerland",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-46125",
+      "football_data_player_id": 46125,
+      "player_name": "Facundo Medina",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-182225",
+      "football_data_player_id": 182225,
+      "player_name": "Felix Keidel",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-125151",
+      "football_data_player_id": 125151,
+      "player_name": "Fábio Silva",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-6836",
+      "football_data_player_id": 6836,
+      "player_name": "Grischa Prömel",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-202532",
+      "football_data_player_id": 202532,
+      "player_name": "Ibrahim Maza",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Algeria",
       "value": 1
     },
     {
@@ -188,14 +386,36 @@
       "value": 1
     },
     {
-      "player_id": "fdp-6523",
-      "football_data_player_id": 6523,
-      "player_name": "Josha Vagnoman",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
+      "player_id": "fdp-82404",
+      "football_data_player_id": 82404,
+      "player_name": "Jonathan Burkardt",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
       "position": null,
       "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-82442",
+      "football_data_player_id": 82442,
+      "player_name": "Joseph Scally",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "USA",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-206319",
+      "football_data_player_id": 206319,
+      "player_name": "Leon Avdullahu",
+      "team_id": "fd-2",
+      "football_data_team_id": 2,
+      "team_name": "TSG 1899 Hoffenheim",
+      "position": null,
+      "nationality": "Kosovo",
       "value": 1
     },
     {
@@ -232,6 +452,28 @@
       "value": 1
     },
     {
+      "player_id": "fdp-61630",
+      "football_data_player_id": 61630,
+      "player_name": "Marco Grüll",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Austria",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-9452",
+      "football_data_player_id": 9452,
+      "player_name": "Maximilian Eggestein",
+      "team_id": "fd-17",
+      "football_data_team_id": 17,
+      "team_name": "SC Freiburg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
       "player_id": "fdp-6661",
       "football_data_player_id": 6661,
       "player_name": "Michael Gregoritsch",
@@ -254,6 +496,28 @@
       "value": 1
     },
     {
+      "player_id": "fdp-304",
+      "football_data_player_id": 304,
+      "player_name": "Niclas Füllkrug",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-154228",
+      "football_data_player_id": 154228,
+      "player_name": "Nicolás Ezequiel Fernández",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 1
+    },
+    {
       "player_id": "fdp-30548",
       "football_data_player_id": 30548,
       "player_name": "Ozan Kabak",
@@ -265,23 +529,34 @@
       "value": 1
     },
     {
-      "player_id": "fdp-1826",
-      "football_data_player_id": 1826,
-      "player_name": "Patrik Schick",
-      "team_id": "fd-3",
-      "football_data_team_id": 3,
-      "team_name": "Bayer 04 Leverkusen",
+      "player_id": "fdp-6576",
+      "football_data_player_id": 6576,
+      "player_name": "Philipp Mwene",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
       "position": null,
-      "nationality": "Czech Republic",
+      "nationality": "Austria",
       "value": 1
     },
     {
-      "player_id": "fdp-6634",
-      "football_data_player_id": 6634,
-      "player_name": "Ridle Baku",
-      "team_id": "fd-721",
-      "football_data_team_id": 721,
-      "team_name": "RB Leipzig",
+      "player_id": "fdp-137302",
+      "football_data_player_id": 137302,
+      "player_name": "Ransford Königsdörffer",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Ghana",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-65692",
+      "football_data_player_id": 65692,
+      "player_name": "Robin Fellhauer",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Germany",
       "value": 1
@@ -320,14 +595,25 @@
       "value": 1
     },
     {
-      "player_id": "fdp-211",
-      "football_data_player_id": 211,
-      "player_name": "Sehrou Guirassy",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
+      "player_id": "fdp-7633",
+      "football_data_player_id": 7633,
+      "player_name": "Sheraldo Becker",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
       "position": null,
-      "nationality": "Guinea",
+      "nationality": "Suriname",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-144433",
+      "football_data_player_id": 144433,
+      "player_name": "Tim Lemperle",
+      "team_id": "fd-2",
+      "football_data_team_id": 2,
+      "team_name": "TSG 1899 Hoffenheim",
+      "position": null,
+      "nationality": "Germany",
       "value": 1
     },
     {
@@ -344,51 +630,27 @@
   ],
   "assists": [
     {
-      "player_id": "fdp-175963",
-      "football_data_player_id": 175963,
-      "player_name": "Anton Kade",
-      "team_id": "fd-16",
-      "football_data_team_id": 16,
-      "team_name": "FC Augsburg",
-      "position": null,
-      "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-156629",
-      "football_data_player_id": 156629,
-      "player_name": "Igor Matanovic",
-      "team_id": "fd-17",
-      "football_data_team_id": 17,
-      "team_name": "SC Freiburg",
-      "position": null,
-      "nationality": "Croatia",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-152811",
-      "football_data_player_id": 152811,
-      "player_name": "Leopold Querfeld",
-      "team_id": "fd-28",
-      "football_data_team_id": 28,
-      "team_name": "1. FC Union Berlin",
+      "player_id": "fdp-61630",
+      "football_data_player_id": 61630,
+      "player_name": "Marco Grüll",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
       "position": null,
       "nationality": "Austria",
-      "value": 1
+      "value": 2
     },
     {
-      "player_id": "fdp-98330",
-      "football_data_player_id": 98330,
-      "player_name": "Lukas Petkov",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
+      "player_id": "fdp-7633",
+      "football_data_player_id": 7633,
+      "player_name": "Sheraldo Becker",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
       "position": null,
-      "nationality": "Bulgaria",
-      "value": 1
-    }
-  ],
-  "appearances": [
+      "nationality": "Suriname",
+      "value": 2
+    },
     {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
@@ -401,17 +663,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-202665",
-      "football_data_player_id": 202665,
-      "player_name": "Aleksandar Pavlović",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Germany",
-      "value": 1
-    },
-    {
       "player_id": "fdp-175963",
       "football_data_player_id": 175963,
       "player_name": "Anton Kade",
@@ -423,80 +674,25 @@
       "value": 1
     },
     {
-      "player_id": "fdp-169295",
-      "football_data_player_id": 169295,
-      "player_name": "Antonio Nusa",
-      "team_id": "fd-721",
-      "football_data_team_id": 721,
-      "team_name": "RB Leipzig",
+      "player_id": "fdp-152692",
+      "football_data_player_id": 152692,
+      "player_name": "Fabian Rieder",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
       "position": null,
-      "nationality": "Norway",
+      "nationality": "Switzerland",
       "value": 1
     },
     {
-      "player_id": "fdp-274045",
-      "football_data_player_id": 274045,
-      "player_name": "Christian Kofane",
+      "player_id": "fdp-202532",
+      "football_data_player_id": 202532,
+      "player_name": "Ibrahim Maza",
       "team_id": "fd-3",
       "football_data_team_id": 3,
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
-      "nationality": "Cameroon",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-265182",
-      "football_data_player_id": 265182,
-      "player_name": "Cole Campbell",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "USA",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-264833",
-      "football_data_player_id": 264833,
-      "player_name": "Dariusz Stalmach",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
-      "position": null,
-      "nationality": "Poland",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-213737",
-      "football_data_player_id": 213737,
-      "player_name": "David Mokwa Ntusu",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-9541",
-      "football_data_player_id": 9541,
-      "player_name": "Dayot Upamecano",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-1858",
-      "football_data_player_id": 1858,
-      "player_name": "Emmanuel Latte Lath",
-      "team_id": "fd-28",
-      "football_data_team_id": 28,
-      "team_name": "1. FC Union Berlin",
-      "position": null,
-      "nationality": "Ivory Coast",
+      "nationality": "Algeria",
       "value": 1
     },
     {
@@ -508,17 +704,6 @@
       "team_name": "SC Freiburg",
       "position": null,
       "nationality": "Croatia",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-172452",
-      "football_data_player_id": 172452,
-      "player_name": "Ioannis Konstantelias",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
-      "position": null,
-      "nationality": "Greece",
       "value": 1
     },
     {
@@ -544,17 +729,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-22396",
-      "football_data_player_id": 22396,
-      "player_name": "Luis Díaz",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Colombia",
-      "value": 1
-    },
-    {
       "player_id": "fdp-98330",
       "football_data_player_id": 98330,
       "player_name": "Lukas Petkov",
@@ -563,39 +737,6 @@
       "team_name": "SV 07 Elversberg",
       "position": null,
       "nationality": "Bulgaria",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-6661",
-      "football_data_player_id": 6661,
-      "player_name": "Michael Gregoritsch",
-      "team_id": "fd-16",
-      "football_data_team_id": 16,
-      "team_name": "FC Augsburg",
-      "position": null,
-      "nationality": "Austria",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-113765",
-      "football_data_player_id": 113765,
-      "player_name": "Michael Olise",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-30548",
-      "football_data_player_id": 30548,
-      "player_name": "Ozan Kabak",
-      "team_id": "fd-2",
-      "football_data_team_id": 2,
-      "team_name": "TSG 1899 Hoffenheim",
-      "position": null,
-      "nationality": "Turkey",
       "value": 1
     },
     {
@@ -610,47 +751,14 @@
       "value": 1
     },
     {
-      "player_id": "fdp-6634",
-      "football_data_player_id": 6634,
-      "player_name": "Ridle Baku",
-      "team_id": "fd-721",
-      "football_data_team_id": 721,
-      "team_name": "RB Leipzig",
+      "player_id": "fdp-6576",
+      "football_data_player_id": 6576,
+      "player_name": "Philipp Mwene",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
       "position": null,
-      "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-150517",
-      "football_data_player_id": 150517,
-      "player_name": "Rocco Reitz",
-      "team_id": "fd-721",
-      "football_data_team_id": 721,
-      "team_name": "RB Leipzig",
-      "position": null,
-      "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-178772",
-      "football_data_player_id": 178772,
-      "player_name": "Rodrigo Ribeiro",
-      "team_id": "fd-16",
-      "football_data_team_id": 16,
-      "team_name": "FC Augsburg",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-247659",
-      "football_data_player_id": 247659,
-      "player_name": "Said El Mala",
-      "team_id": "fd-1",
-      "football_data_team_id": 1,
-      "team_name": "1. FC Köln",
-      "position": null,
-      "nationality": "Germany",
+      "nationality": "Austria",
       "value": 1
     },
     {
@@ -665,6 +773,602 @@
       "value": 1
     },
     {
+      "player_id": "fdp-192207",
+      "football_data_player_id": 192207,
+      "player_name": "Younes Ebnoutalib",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    }
+  ],
+  "appearances": [
+    {
+      "player_id": "fdp-182004",
+      "football_data_player_id": 182004,
+      "player_name": "Adam Daghim",
+      "team_id": "fd-2",
+      "football_data_team_id": 2,
+      "team_name": "TSG 1899 Hoffenheim",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-202665",
+      "football_data_player_id": 202665,
+      "player_name": "Aleksandar Pavlović",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-169295",
+      "football_data_player_id": 169295,
+      "player_name": "Antonio Nusa",
+      "team_id": "fd-721",
+      "football_data_team_id": 721,
+      "team_name": "RB Leipzig",
+      "position": null,
+      "nationality": "Norway",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-176899",
+      "football_data_player_id": 176899,
+      "player_name": "Arijon Ibrahimovic",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-189873",
+      "football_data_player_id": 189873,
+      "player_name": "Bilal El Khannouss",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Morocco",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-274045",
+      "football_data_player_id": 274045,
+      "player_name": "Christian Kofane",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Cameroon",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-265182",
+      "football_data_player_id": 265182,
+      "player_name": "Cole Campbell",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "USA",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-264833",
+      "football_data_player_id": 264833,
+      "player_name": "Dariusz Stalmach",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Poland",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-213737",
+      "football_data_player_id": 213737,
+      "player_name": "David Mokwa Ntusu",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-9541",
+      "football_data_player_id": 9541,
+      "player_name": "Dayot Upamecano",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-1858",
+      "football_data_player_id": 1858,
+      "player_name": "Emmanuel Latte Lath",
+      "team_id": "fd-28",
+      "football_data_team_id": 28,
+      "team_name": "1. FC Union Berlin",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-150733",
+      "football_data_player_id": 150733,
+      "player_name": "Eren Dinkci",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Turkey",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-33242",
+      "football_data_player_id": 33242,
+      "player_name": "Ermedin Demirovic",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Bosnia-Herzegovina",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-152692",
+      "football_data_player_id": 152692,
+      "player_name": "Fabian Rieder",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Switzerland",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-46125",
+      "football_data_player_id": 46125,
+      "player_name": "Facundo Medina",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-182225",
+      "football_data_player_id": 182225,
+      "player_name": "Felix Keidel",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-125151",
+      "football_data_player_id": 125151,
+      "player_name": "Fábio Silva",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6836",
+      "football_data_player_id": 6836,
+      "player_name": "Grischa Prömel",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-188201",
+      "football_data_player_id": 188201,
+      "player_name": "Hugo Bolin",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-202532",
+      "football_data_player_id": 202532,
+      "player_name": "Ibrahim Maza",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Algeria",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-156629",
+      "football_data_player_id": 156629,
+      "player_name": "Igor Matanovic",
+      "team_id": "fd-17",
+      "football_data_team_id": 17,
+      "team_name": "SC Freiburg",
+      "position": null,
+      "nationality": "Croatia",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-82404",
+      "football_data_player_id": 82404,
+      "player_name": "Jonathan Burkardt",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-82442",
+      "football_data_player_id": 82442,
+      "player_name": "Joseph Scally",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "USA",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6523",
+      "football_data_player_id": 6523,
+      "player_name": "Josha Vagnoman",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-206319",
+      "football_data_player_id": 206319,
+      "player_name": "Leon Avdullahu",
+      "team_id": "fd-2",
+      "football_data_team_id": 2,
+      "team_name": "TSG 1899 Hoffenheim",
+      "position": null,
+      "nationality": "Kosovo",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-152811",
+      "football_data_player_id": 152811,
+      "player_name": "Leopold Querfeld",
+      "team_id": "fd-28",
+      "football_data_team_id": 28,
+      "team_name": "1. FC Union Berlin",
+      "position": null,
+      "nationality": "Austria",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-22396",
+      "football_data_player_id": 22396,
+      "player_name": "Luis Díaz",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Colombia",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-98330",
+      "football_data_player_id": 98330,
+      "player_name": "Lukas Petkov",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Bulgaria",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-61630",
+      "football_data_player_id": 61630,
+      "player_name": "Marco Grüll",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Austria",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-183780",
+      "football_data_player_id": 183780,
+      "player_name": "Maurice Krattenmacher",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-9452",
+      "football_data_player_id": 9452,
+      "player_name": "Maximilian Eggestein",
+      "team_id": "fd-17",
+      "football_data_team_id": 17,
+      "team_name": "SC Freiburg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6661",
+      "football_data_player_id": 6661,
+      "player_name": "Michael Gregoritsch",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Austria",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-113765",
+      "football_data_player_id": 113765,
+      "player_name": "Michael Olise",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-304",
+      "football_data_player_id": 304,
+      "player_name": "Niclas Füllkrug",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-154228",
+      "football_data_player_id": 154228,
+      "player_name": "Nicolás Ezequiel Fernández",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-30548",
+      "football_data_player_id": 30548,
+      "player_name": "Ozan Kabak",
+      "team_id": "fd-2",
+      "football_data_team_id": 2,
+      "team_name": "TSG 1899 Hoffenheim",
+      "position": null,
+      "nationality": "Turkey",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-1826",
+      "football_data_player_id": 1826,
+      "player_name": "Patrik Schick",
+      "team_id": "fd-3",
+      "football_data_team_id": 3,
+      "team_name": "Bayer 04 Leverkusen",
+      "position": null,
+      "nationality": "Czech Republic",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6576",
+      "football_data_player_id": 6576,
+      "player_name": "Philipp Mwene",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Austria",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-45593",
+      "football_data_player_id": 45593,
+      "player_name": "Phillip Tietz",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-137302",
+      "football_data_player_id": 137302,
+      "player_name": "Ransford Königsdörffer",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Ghana",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-6634",
+      "football_data_player_id": 6634,
+      "player_name": "Ridle Baku",
+      "team_id": "fd-721",
+      "football_data_team_id": 721,
+      "team_name": "RB Leipzig",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-65692",
+      "football_data_player_id": 65692,
+      "player_name": "Robin Fellhauer",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-178772",
+      "football_data_player_id": 178772,
+      "player_name": "Rodrigo Ribeiro",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-211",
+      "football_data_player_id": 211,
+      "player_name": "Sehrou Guirassy",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Guinea",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-7633",
+      "football_data_player_id": 7633,
+      "player_name": "Sheraldo Becker",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Suriname",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-7029",
+      "football_data_player_id": 7029,
+      "player_name": "Tim Skarke",
+      "team_id": "fd-28",
+      "football_data_team_id": 28,
+      "team_name": "1. FC Union Berlin",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-192207",
+      "football_data_player_id": 192207,
+      "player_name": "Younes Ebnoutalib",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-145293",
+      "football_data_player_id": 145293,
+      "player_name": "Yuito Suzuki",
+      "team_id": "fd-17",
+      "football_data_team_id": 17,
+      "team_name": "SC Freiburg",
+      "position": null,
+      "nationality": "Japan",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-608",
+      "football_data_player_id": 608,
+      "player_name": "Alexis Claude Maurice",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-175963",
+      "football_data_player_id": 175963,
+      "player_name": "Anton Kade",
+      "team_id": "fd-16",
+      "football_data_team_id": 16,
+      "team_name": "FC Augsburg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-172452",
+      "football_data_player_id": 172452,
+      "player_name": "Ioannis Konstantelias",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Greece",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-150517",
+      "football_data_player_id": 150517,
+      "player_name": "Rocco Reitz",
+      "team_id": "fd-721",
+      "football_data_team_id": 721,
+      "team_name": "RB Leipzig",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-247659",
+      "football_data_player_id": 247659,
+      "player_name": "Said El Mala",
+      "team_id": "fd-1",
+      "football_data_team_id": 1,
+      "team_name": "1. FC Köln",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
       "player_id": "fdp-9848",
       "football_data_player_id": 9848,
       "player_name": "Thijs Dallinga",
@@ -676,36 +1380,14 @@
       "value": 1
     },
     {
-      "player_id": "fdp-7029",
-      "football_data_player_id": 7029,
-      "player_name": "Tim Skarke",
-      "team_id": "fd-28",
-      "football_data_team_id": 28,
-      "team_name": "1. FC Union Berlin",
+      "player_id": "fdp-144433",
+      "football_data_player_id": 144433,
+      "player_name": "Tim Lemperle",
+      "team_id": "fd-2",
+      "football_data_team_id": 2,
+      "team_name": "TSG 1899 Hoffenheim",
       "position": null,
       "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-192207",
-      "football_data_player_id": 192207,
-      "player_name": "Younes Ebnoutalib",
-      "team_id": "fd-19",
-      "football_data_team_id": 19,
-      "team_name": "Eintracht Frankfurt",
-      "position": null,
-      "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-145293",
-      "football_data_player_id": 145293,
-      "player_name": "Yuito Suzuki",
-      "team_id": "fd-17",
-      "football_data_team_id": 17,
-      "team_name": "SC Freiburg",
-      "position": null,
-      "nationality": "Japan",
       "value": 1
     }
   ],
