@@ -40,8 +40,6 @@ LEAGUES = {
 }
 SECOND_DIVISIONS = (
     "E1",
-    "SP2",
-    "I2",
     "D2",
     "F2",
 )
