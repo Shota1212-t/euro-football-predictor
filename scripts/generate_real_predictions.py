@@ -16,8 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 FIXTURES_PATH = ROOT / "data" / "processed" / "fixtures.json"
 EXTRA_FIXTURES_PATH = ROOT / "data" / "processed" / "extra_fixtures.json"
 EXTRA_FIXTURES_STATUS_PATH = ROOT / "data" / "processed" / "extra_fixtures_status.json"
-MATCHES_PATH = ROOT / "data" / "processed" / "matches.csv"
-SECOND_DIVISION_DIR = ROOT / "data" / "raw" / "football_data_co_uk_second_division"
+FIRST_DIVISION_PATH = ROOT / "data" / "history" / "first_division_matches.csv"
+SECOND_DIVISION_PATH = ROOT / "data" / "history" / "second_division_matches.csv"
 MODEL_PATH = ROOT / "ml" / "models" / "lightgbm_model.joblib"
 META_PATH = ROOT / "ml" / "models" / "lightgbm_metadata.json"
 OUTPUT_PATH = ROOT / "data" / "predictions" / "matches.json"
@@ -32,7 +32,7 @@ LEAGUE_NAMES = {
     "ligue1": "Ligue 1",
 }
 
-# football-data.org name -> Football-Data.co.uk CSV name
+# football-data.org name -> fixed historical CSV team name
 TEAM_ALIASES = {
     "afc bournemouth": "Bournemouth",
     "arsenal fc": "Arsenal",
@@ -219,64 +219,109 @@ def second_division_team_name(api_name: str, known_teams: set[str]) -> str | Non
     return None
 
 
-def load_second_division_matches() -> pd.DataFrame:
-    files = sorted(SECOND_DIVISION_DIR.glob("*.csv"))
-    if not files:
-        raise FileNotFoundError(
-            f"2部CSVがありません: {SECOND_DIVISION_DIR}"
+def load_history_matches(path: Path, label: str) -> pd.DataFrame:
+    if not path.exists():
+        raise FileNotFoundError(f"{label}がありません: {path}")
+
+    required = {
+        "Season",
+        "Div",
+        "Date",
+        "HomeTeam",
+        "AwayTeam",
+        "FTHG",
+        "FTAG",
+        "FTR",
+        "HS",
+        "AS",
+        "HST",
+        "AST",
+    }
+
+    matches = pd.read_csv(
+        path,
+        encoding="utf-8",
+        encoding_errors="replace",
+    )
+
+    missing = required - set(matches.columns)
+    if missing:
+        raise ValueError(
+            f"{path.name} に必須列がありません: {sorted(missing)}"
         )
 
-    required = {"Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR"}
-    useful_columns = required | {"Div", "HS", "AS", "HST", "AST"}
-    frames = []
-    for path in files:
-        frame = pd.read_csv(
-            path,
-            encoding_errors="replace",
-            usecols=lambda column: column in useful_columns,
-        )
-        missing = required - set(frame.columns)
-        if missing:
-            raise ValueError(
-                f"{path.name} に必須列がありません: {sorted(missing)}"
-            )
-        frames.append(frame)
-
-    matches = pd.concat(frames, ignore_index=True)
     matches["Date"] = pd.to_datetime(
         matches["Date"],
-        dayfirst=True,
+        format="%Y-%m-%d",
         errors="coerce",
     )
+
     matches = matches.dropna(
-        subset=["Date", "HomeTeam", "AwayTeam", "FTR"]
+        subset=[
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR",
+        ]
     )
+
     matches = matches[matches["FTR"].isin(["H", "D", "A"])]
-    return matches.sort_values("Date").drop_duplicates(
-        ["Date", "HomeTeam", "AwayTeam"],
-        keep="last",
-    ).reset_index(drop=True)
+
+    return (
+        matches.sort_values(
+            ["Date", "Div", "HomeTeam", "AwayTeam"]
+        )
+        .drop_duplicates(
+            ["Season", "Div", "Date", "HomeTeam", "AwayTeam"],
+            keep="last",
+        )
+        .reset_index(drop=True)
+    )
 
 
 def load_inputs():
-    fixtures = json.loads(FIXTURES_PATH.read_text(encoding="utf-8"))
-    matches = pd.read_csv(MATCHES_PATH, parse_dates=["Date"])
-    matches = matches.dropna(subset=["Date", "HomeTeam", "AwayTeam", "FTR"])
-    matches = matches.sort_values("Date").reset_index(drop=True)
-    second_division_matches = load_second_division_matches()
+    fixtures = json.loads(
+        FIXTURES_PATH.read_text(encoding="utf-8")
+    )
+
+    matches = load_history_matches(
+        FIRST_DIVISION_PATH,
+        "1部固定履歴CSV",
+    )
+
+    second_division_matches = load_history_matches(
+        SECOND_DIVISION_PATH,
+        "2部固定履歴CSV",
+    )
+
     model = joblib.load(MODEL_PATH)
     meta = json.loads(META_PATH.read_text(encoding="utf-8"))
+
     extra_fixtures = (
         json.loads(EXTRA_FIXTURES_PATH.read_text(encoding="utf-8"))
         if EXTRA_FIXTURES_PATH.exists()
         else []
     )
+
     extra_status = (
-        json.loads(EXTRA_FIXTURES_STATUS_PATH.read_text(encoding="utf-8"))
+        json.loads(
+            EXTRA_FIXTURES_STATUS_PATH.read_text(encoding="utf-8")
+        )
         if EXTRA_FIXTURES_STATUS_PATH.exists()
         else {}
     )
-    return fixtures, matches, second_division_matches, model, meta, extra_fixtures, extra_status
+
+    return (
+        fixtures,
+        matches,
+        second_division_matches,
+        model,
+        meta,
+        extra_fixtures,
+        extra_status,
+    )
 
 
 def team_history(matches: pd.DataFrame, team: str, before: pd.Timestamp) -> pd.DataFrame:
@@ -686,7 +731,15 @@ def atomic_write_predictions(predictions: list[dict]) -> None:
 
 
 def main() -> None:
-    for path in (FIXTURES_PATH, MATCHES_PATH, MODEL_PATH, META_PATH):
+    required_paths = (
+        FIXTURES_PATH,
+        FIRST_DIVISION_PATH,
+        SECOND_DIVISION_PATH,
+        MODEL_PATH,
+        META_PATH,
+    )
+
+    for path in required_paths:
         if not path.exists():
             raise FileNotFoundError(f"必要なファイルがありません: {path}")
 
