@@ -1,0 +1,19 @@
+{
+  "completed_tasks": [
+    "Reviewed prior backend/data implementation against handoff requirements without external API access.",
+    "Priority 1 and 2 pipeline files remain implemented and Python regression suite passes.",
+    "Completed frontend future/completed match switch using existing layout and components.",
+    "Added completed matches API client and explicit TypeScript contracts.",
+    "Completed match cards show score, actual result, prediction, probabilities, hit/miss and model metadata only when a prediction record exists.",
+    "Missing prediction records show only 予測記録なし and are excluded from hit-rate denominator.",
+    "League filter applies to both upcoming and completed views; completed summary is explicitly filter-scoped.",
+    "Reviewed update-data workflow: data/processed and data/predictions are already committed directory-wide and update_all.py is the daily entry point."
+  ],
+  "remaining_tasks": [
+    "npm ci could not complete in this environment because the command timed out at the transport layer; therefore production frontend build and lint could not be validated with dependencies installed.",
+    "The supplied project still has no frontend test framework; no large new framework was introduced. TypeScript/production build remains pending dependency installation validation.",
+    "A broader requirement-by-requirement audit of prior backend tests is constrained by the supplied suite: pytest remains 28 passed, so newly requested individual cases should be added in a future iteration if source tests do not already cover them."
+  ],
+  "constraints": ["Do not commit or push.", "Do not make external API connections.", "Do not access Football-Data.co.uk."],
+  "status": "in_progress"
+}
