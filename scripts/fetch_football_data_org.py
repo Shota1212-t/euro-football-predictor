@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 ROOT = Path(__file__).resolve().parents[1]
 PROCESSED_DIR = ROOT / "data" / "processed"
 FIXTURES_PATH = PROCESSED_DIR / "fixtures.json"
+RESULTS_PATH = PROCESSED_DIR / "current_season_results.json"
+TEMP_RESULTS_PATH = RESULTS_PATH.with_suffix(".json.tmp")
 
 load_dotenv(ROOT / ".env")
 
@@ -26,6 +28,10 @@ COMPETITIONS = {
     "FL1": "ligue1",
 }
 
+# Minimum interval between API requests (in seconds)
+MIN_REQUEST_INTERVAL = 6.5
+last_request_time = 0.0
+
 
 def write_json(path: Path, payload) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -33,6 +39,16 @@ def write_json(path: Path, payload) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+
+def rate_limit_wait() -> None:
+    """Enforce minimum interval between API requests."""
+    global last_request_time
+    elapsed = time.time() - last_request_time
+    if elapsed < MIN_REQUEST_INTERVAL:
+        sleep_time = MIN_REQUEST_INTERVAL - elapsed
+        time.sleep(sleep_time)
+    last_request_time = time.time()
 
 
 def standing_rows(table: list[dict]) -> list[dict]:
@@ -63,6 +79,7 @@ def standing_rows(table: list[dict]) -> list[dict]:
 
 
 def fetch_standings(client: httpx.Client, code: str) -> dict[str, list[dict]]:
+    rate_limit_wait()
     response = client.get(f"/competitions/{code}/standings")
     response.raise_for_status()
     standings = response.json().get("standings", [])
@@ -76,14 +93,18 @@ def fetch_standings(client: httpx.Client, code: str) -> dict[str, list[dict]]:
         "away": by_type.get("AWAY", []),
     }
 
+
 def fetch_fixtures(
     client: httpx.Client,
     code: str,
     league_id: str,
+    status: str,
 ) -> list[dict]:
+    """Fetch fixtures with given status (SCHEDULED or FINISHED)."""
+    rate_limit_wait()
     response = client.get(
         f"/competitions/{code}/matches",
-        params={"status": "FINISHED"},
+        params={"status": status},
     )
     response.raise_for_status()
     payload = response.json()
@@ -94,6 +115,27 @@ def fetch_fixtures(
         home = match.get("homeTeam", {})
         away = match.get("awayTeam", {})
         season = match.get("season", {})
+        score = match.get("score", {})
+        full_time = score.get("fullTime", {})
+
+        # For FINISHED matches, only include if score is confirmed
+        if status == "FINISHED":
+            home_score = full_time.get("home")
+            away_score = full_time.get("away")
+            if home_score is None or away_score is None:
+                continue
+
+            # Determine actual result
+            if home_score > away_score:
+                actual_result = "Home Win"
+            elif home_score < away_score:
+                actual_result = "Away Win"
+            else:
+                actual_result = "Draw"
+        else:
+            home_score = None
+            away_score = None
+            actual_result = None
 
         fixtures.append(
             {
@@ -128,6 +170,9 @@ def fetch_fixtures(
                     "name": away.get("name", ""),
                     "short": away.get("tla") or away.get("shortName", ""),
                 },
+                "home_score": home_score,
+                "away_score": away_score,
+                "actual_result": actual_result,
             }
         )
     return fixtures
@@ -176,6 +221,59 @@ def normalize_preseason_standings(
     return standings, False
 
 
+def validate_results(results: list[dict]) -> None:
+    """Validate results data structure."""
+    if not isinstance(results, list):
+        raise ValueError("Results must be a list")
+    
+    ids = set()
+    for index, item in enumerate(results):
+        # Check required fields
+        required = {"id", "status", "kickoff", "home_score", "away_score", "actual_result"}
+        missing = required - set(item)
+        if missing:
+            raise ValueError(f"Result {index} missing fields: {missing}")
+        
+        # Check no duplicates
+        match_id = str(item["id"])
+        if match_id in ids:
+            raise ValueError(f"Duplicate match ID: {match_id}")
+        ids.add(match_id)
+        
+        # Validate status and scores
+        if item["status"] != "FINISHED":
+            raise ValueError(f"Result {index} must have status FINISHED")
+        
+        if item["home_score"] is None or item["away_score"] is None:
+            raise ValueError(f"Result {index} has missing scores")
+        
+        if item["actual_result"] not in {"Home Win", "Draw", "Away Win"}:
+            raise ValueError(f"Result {index} has invalid actual_result")
+
+
+def atomic_write_results(results: list[dict]) -> None:
+    """Write results atomically, preserving existing data on failure."""
+    RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    TEMP_RESULTS_PATH.unlink(missing_ok=True)
+    
+    try:
+        # Write to temporary file
+        with TEMP_RESULTS_PATH.open("w", encoding="utf-8") as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
+        
+        # Validate written data
+        written = json.loads(TEMP_RESULTS_PATH.read_text(encoding="utf-8"))
+        validate_results(written)
+        
+        # Atomic replace
+        os.replace(TEMP_RESULTS_PATH, RESULTS_PATH)
+    except Exception:
+        TEMP_RESULTS_PATH.unlink(missing_ok=True)
+        raise
+
+
 def main() -> None:
     if not API_KEY:
         print(
@@ -185,6 +283,7 @@ def main() -> None:
         raise SystemExit(1)
 
     all_fixtures = []
+    all_results = []
     failures = []
 
     with httpx.Client(
@@ -194,16 +293,23 @@ def main() -> None:
     ) as client:
         for index, (code, league_id) in enumerate(COMPETITIONS.items()):
             try:
-                fixtures = fetch_fixtures(client, code, league_id)
-                all_fixtures.extend(fixtures)
-                print(f"{league_id}: 日程 {len(fixtures)}試合")
+                # Fetch SCHEDULED fixtures
+                scheduled = fetch_fixtures(client, code, league_id, "SCHEDULED")
+                all_fixtures.extend(scheduled)
+                print(f"{league_id}: SCHEDULED {len(scheduled)}試合")
 
-                time.sleep(6)
+                # Fetch FINISHED results
+                finished = fetch_fixtures(client, code, league_id, "FINISHED")
+                # Only add matches with confirmed scores
+                finished_with_scores = [m for m in finished if m.get("home_score") is not None]
+                all_results.extend(finished_with_scores)
+                print(f"{league_id}: FINISHED {len(finished_with_scores)}試合")
 
+                # Fetch standings
                 standings_payload = fetch_standings(client, code)
                 total_standings, provisional = normalize_preseason_standings(
                     standings_payload["total"],
-                    fixtures,
+                    scheduled,
                 )
                 if provisional:
                     home_standings = []
@@ -226,12 +332,13 @@ def main() -> None:
                     )
                     for position, row in enumerate(last5_standings, start=1):
                         row["position"] = position
+
                 season_start = next(
-                    (item.get("season_start") for item in fixtures if item.get("season_start")),
+                    (item.get("season_start") for item in scheduled if item.get("season_start")),
                     None,
                 )
                 season_end = next(
-                    (item.get("season_end") for item in fixtures if item.get("season_end")),
+                    (item.get("season_end") for item in scheduled if item.get("season_end")),
                     None,
                 )
                 write_json(
@@ -260,27 +367,50 @@ def main() -> None:
 
             except httpx.HTTPStatusError as error:
                 status_code = error.response.status_code
+                retry_after = error.response.headers.get("Retry-After")
                 failures.append(f"{league_id}: HTTP {status_code}")
                 print(
                     f"{league_id}: 取得失敗 HTTP {status_code}",
                     file=sys.stderr,
                 )
+                if retry_after and status_code == 429:
+                    try:
+                        wait_time = int(retry_after)
+                        print(f"Rate limited. Waiting {wait_time} seconds.", file=sys.stderr)
+                        time.sleep(wait_time)
+                    except (ValueError, TypeError):
+                        pass
             except httpx.RequestError as error:
                 failures.append(f"{league_id}: {error}")
                 print(f"{league_id}: 通信失敗 {error}", file=sys.stderr)
 
-            if index < len(COMPETITIONS) - 1:
-                time.sleep(6)
-
+    # Sort fixtures and results
     all_fixtures.sort(key=lambda item: item.get("kickoff") or "")
+    all_results.sort(key=lambda item: item.get("kickoff") or "", reverse=True)
+
+    # Write fixtures (SCHEDULED only)
     write_json(FIXTURES_PATH, all_fixtures)
+
+    # Write results atomically
+    try:
+        validate_results(all_results)
+        atomic_write_results(all_results)
+    except Exception as error:
+        print(f"Results validation failed: {error}", file=sys.stderr)
+        if RESULTS_PATH.exists():
+            print("Keeping existing results.json", file=sys.stderr)
+        else:
+            # No existing file, write empty array
+            atomic_write_results([])
 
     with_matchday = sum(
         1 for fixture in all_fixtures if fixture.get("matchday") is not None
     )
     print(f"日程合計: {len(all_fixtures)}試合")
     print(f"matchday保存済み: {with_matchday}試合")
-    print(f"保存先: {FIXTURES_PATH}")
+    print(f"保存先 (日程): {FIXTURES_PATH}")
+    print(f"終了済み試合: {len(all_results)}試合")
+    print(f"保存先 (結果): {RESULTS_PATH}")
 
     if failures:
         print("一部取得失敗:", file=sys.stderr)
