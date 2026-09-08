@@ -48,9 +48,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-ci.txt
 
-      - name: Download historical CSV data
-        run: python scripts/download_football_data_csv.py
-
       - name: Run full update pipeline
         run: python scripts/update_all.py
 
