@@ -32,6 +32,15 @@ def list_matches(
     return matches
 
 
+@router.get("/completed/list")
+def list_completed_matches():
+    return ds.get_completed_matches()
+
+@router.get("/completed/performance")
+def completed_performance():
+    return ds.get_completed_performance()
+
+
 @router.get("/{match_id}")
 def get_match(match_id: str):
     match = ds.get_prediction(match_id)

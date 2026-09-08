@@ -127,6 +127,13 @@ def get_prediction(match_id: str) -> dict | None:
     return next((item for item in get_predictions() if item["id"] == match_id), None)
 
 
+def get_completed_matches() -> list[dict]:
+    return [_enrich_prediction(item) for item in _read_json(PREDICTIONS_DIR / "completed_matches.json", [])]
+
+def get_completed_performance() -> dict:
+    rows=get_completed_matches(); recorded=[x for x in rows if x.get("prediction_status")=="recorded"]
+    correct=sum(1 for x in recorded if x.get("is_correct")); return {"total_predictions":len(recorded),"correct_predictions":correct,"accuracy":(correct/len(recorded)*100 if recorded else 0.0)}
+
 def get_model_performance() -> dict | None:
     return _read_json(PREDICTIONS_DIR / "model_performance.json", None)
 
