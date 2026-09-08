@@ -89,9 +89,11 @@ def main() -> None:
         )
     steps.extend(
         [
-            ("4/6 次節予測・SHAP・疲労指数の生成", "generate_real_predictions.py"),
-            ("5/6 モデル評価データの更新", "update_model_performance.py"),
-            ("6/6 データ状態の更新", "update_data_status.py"),
+            ("4/8 初回予測履歴の保存", "migrate_predictions_to_history.py"),
+            ("5/8 終了済み試合の照合", "build_completed_matches.py"),
+            ("6/8 次節予測・SHAP・疲労指数の生成", "generate_real_predictions.py"),
+            ("7/8 モデル評価データの更新", "update_model_performance.py"),
+            ("8/8 データ状態の更新", "update_data_status.py"),
         ]
     )
     started_at = datetime.now()

@@ -31,6 +31,7 @@ COMPETITIONS = {
 # Minimum interval between API requests (in seconds)
 MIN_REQUEST_INTERVAL = 6.5
 last_request_time = 0.0
+MAX_RETRIES = 3
 
 
 def write_json(path: Path, payload) -> None:
@@ -78,21 +79,37 @@ def standing_rows(table: list[dict]) -> list[dict]:
     return rows
 
 
-def fetch_standings(client: httpx.Client, code: str) -> dict[str, list[dict]]:
-    rate_limit_wait()
-    response = client.get(f"/competitions/{code}/standings")
-    response.raise_for_status()
-    standings = response.json().get("standings", [])
-    by_type = {
-        str(item.get("type", "")).upper(): standing_rows(item.get("table", []))
-        for item in standings
-    }
-    return {
-        "total": by_type.get("TOTAL", []),
-        "home": by_type.get("HOME", []),
-        "away": by_type.get("AWAY", []),
-    }
+def request_json(client: httpx.Client, url: str, *, params: dict | None = None) -> dict:
+    """Rate-limited request with finite retry and Retry-After support."""
+    global last_request_time
+    last_error = None
+    for attempt in range(MAX_RETRIES):
+        rate_limit_wait()
+        response = client.get(url, params=params)
+        if response.status_code == 429:
+            retry_after = response.headers.get("Retry-After")
+            try:
+                delay = max(float(retry_after), MIN_REQUEST_INTERVAL) if retry_after else MIN_REQUEST_INTERVAL
+            except ValueError:
+                delay = MIN_REQUEST_INTERVAL
+            time.sleep(delay)
+            last_error = httpx.HTTPStatusError("rate limited", request=response.request, response=response)
+            continue
+        if response.status_code >= 500:
+            last_error = httpx.HTTPStatusError("server error", request=response.request, response=response)
+            if attempt + 1 < MAX_RETRIES:
+                time.sleep(MIN_REQUEST_INTERVAL)
+                continue
+        response.raise_for_status()
+        return response.json()
+    raise last_error or RuntimeError("request retries exhausted")
 
+
+def fetch_standings(client: httpx.Client, code: str) -> dict[str, list[dict]]:
+    payload = request_json(client, f"/competitions/{code}/standings")
+    standings = payload.get("standings", [])
+    by_type = {str(item.get("type", "")).upper(): standing_rows(item.get("table", [])) for item in standings}
+    return {"total": by_type.get("TOTAL", []), "home": by_type.get("HOME", []), "away": by_type.get("AWAY", [])}
 
 def fetch_fixtures(
     client: httpx.Client,
@@ -101,13 +118,7 @@ def fetch_fixtures(
     status: str,
 ) -> list[dict]:
     """Fetch fixtures with given status (SCHEDULED or FINISHED)."""
-    rate_limit_wait()
-    response = client.get(
-        f"/competitions/{code}/matches",
-        params={"status": status},
-    )
-    response.raise_for_status()
-    payload = response.json()
+    payload = request_json(client, f"/competitions/{code}/matches", params={"status": status})
     competition = payload.get("competition", {})
 
     fixtures = []

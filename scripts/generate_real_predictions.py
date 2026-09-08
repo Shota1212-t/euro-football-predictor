@@ -23,6 +23,7 @@ META_PATH = ROOT / "ml" / "models" / "lightgbm_metadata.json"
 OUTPUT_PATH = ROOT / "data" / "predictions" / "matches.json"
 TEMP_OUTPUT_PATH = OUTPUT_PATH.with_suffix(".json.tmp")
 BACKUP_PATH = ROOT / "data" / "predictions" / "matches_before_real_predictions.json"
+CURRENT_RESULTS_PATH = ROOT / "data" / "processed" / "current_season_results.json"
 
 LEAGUE_NAMES = {
     "pl": "Premier League",
@@ -281,6 +282,18 @@ def load_history_matches(path: Path, label: str) -> pd.DataFrame:
     )
 
 
+def merge_current_season_results(matches: pd.DataFrame, results_path: Path = CURRENT_RESULTS_PATH) -> pd.DataFrame:
+    if not results_path.exists(): return matches
+    raw = json.loads(results_path.read_text(encoding="utf-8"))
+    rows=[]
+    for item in raw:
+        if item.get("actual_result") not in {"Home Win","Draw","Away Win"}: continue
+        hs,as_=item.get("home_score"),item.get("away_score")
+        if hs is None or as_ is None: continue
+        rows.append({"Season":"current","Div":DIV_BY_LEAGUE.get(item.get("league_id"), item.get("league_id","")),"Date":pd.to_datetime(item.get("kickoff"),utc=True).tz_localize(None),"HomeTeam":item.get("home_team",{}).get("name"),"AwayTeam":item.get("away_team",{}).get("name"),"FTHG":hs,"FTAG":as_,"FTR":{"Home Win":"H","Draw":"D","Away Win":"A"}[item["actual_result"]],"HS":np.nan,"AS":np.nan,"HST":np.nan,"AST":np.nan})
+    if not rows: return matches
+    return pd.concat([matches,pd.DataFrame(rows)],ignore_index=True).sort_values("Date").reset_index(drop=True)
+
 def load_inputs():
     fixtures = json.loads(
         FIXTURES_PATH.read_text(encoding="utf-8")
@@ -290,6 +303,8 @@ def load_inputs():
         FIRST_DIVISION_PATH,
         "1部固定履歴CSV",
     )
+
+    matches = merge_current_season_results(matches)
 
     second_division_matches = load_history_matches(
         SECOND_DIVISION_PATH,
@@ -349,8 +364,8 @@ def recent_stats(history: pd.DataFrame, team: str, kickoff: pd.Timestamp, window
         form.append("W" if pts == 3 else "D" if pts == 1 else "L")
         gf.append(float(row["FTHG"] if is_home else row["FTAG"]))
         ga.append(float(row["FTAG"] if is_home else row["FTHG"]))
-        shots.append(float(pd.to_numeric(row.get("HS" if is_home else "AS", 0), errors="coerce") or 0))
-        sot.append(float(pd.to_numeric(row.get("HST" if is_home else "AST", 0), errors="coerce") or 0))
+        shots.append(float(pd.to_numeric(row.get("HS" if is_home else "AS", np.nan), errors="coerce")))
+        sot.append(float(pd.to_numeric(row.get("HST" if is_home else "AST", np.nan), errors="coerce")))
 
     last_date = pd.Timestamp(recent.iloc[-1]["Date"])
     days = max(1, (kickoff.tz_localize(None) - last_date.tz_localize(None)).days)
@@ -361,7 +376,7 @@ def recent_stats(history: pd.DataFrame, team: str, kickoff: pd.Timestamp, window
 
     return {
         "points": float(np.mean(points)), "gf": float(np.mean(gf)), "ga": float(np.mean(ga)),
-        "shots": float(np.mean(shots)), "sot": float(np.mean(sot)), "days": days,
+        "shots": float(np.nanmean(shots)) if not np.isnan(shots).all() else np.nan, "sot": float(np.nanmean(sot)) if not np.isnan(sot).all() else np.nan, "days": days,
         "played": len(recent), "last7": last7, "last14": last14, "form": "".join(form),
     }
 

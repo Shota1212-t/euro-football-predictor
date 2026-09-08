@@ -3,6 +3,7 @@ from __future__ import annotations
 import importlib.util
 import json
 import re
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -10,6 +11,8 @@ import pandas as pd
 import pytest
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 SCRIPT_PATH = PROJECT_ROOT / "scripts" / "generate_real_predictions.py"
 FIXTURES_PATH = PROJECT_ROOT / "data" / "processed" / "fixtures.json"
 PREDICTIONS_PATH = PROJECT_ROOT / "data" / "predictions" / "matches.json"
@@ -426,3 +429,32 @@ def test_saved_prediction_fatigue_payloads_are_valid():
                 "league_only",
                 "league_and_champions_league_with_partial_cup_supplement",
             }
+
+
+def test_predictor_maps_probabilities_by_model_class(monkeypatch, tmp_path):
+    from ml import predict
+
+    class FakeModel:
+        classes_ = np.array([2, 0, 1])
+
+        def predict_proba(self, X):
+            assert list(X.columns) == ["feature_a"]
+            return np.array([[0.2, 0.5, 0.3]])
+
+    model_path = tmp_path / "lightgbm_model.joblib"
+    metadata_path = tmp_path / "lightgbm_metadata.json"
+    model_path.write_bytes(b"placeholder")
+    metadata_path.write_text(
+        json.dumps({"features": ["feature_a"], "version": "test-v1"}),
+        encoding="utf-8",
+    )
+
+    monkeypatch.setattr(predict, "MODEL_DIR", tmp_path)
+    monkeypatch.setattr(predict.joblib, "load", lambda path: FakeModel())
+
+    result = predict.Predictor().predict_features({"feature_a": 123})
+
+    assert result["home_win_probability"] == 0.5
+    assert result["draw_probability"] == 0.3
+    assert result["away_win_probability"] == 0.2
+    assert result["predicted_result"] == "HOME_WIN"
