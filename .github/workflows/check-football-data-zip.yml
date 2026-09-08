@@ -1,0 +1,77 @@
+name: Check football-data ZIP access
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check official season ZIP access
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Test ZIP download candidates
+        shell: bash
+        run: |
+          set -u
+
+          urls=(
+            "https://www.football-data.co.uk/mmz4281/2526/data.zip"
+            "https://www.football-data.co.uk/mmz4281/2425/data.zip"
+            "https://www.football-data.co.uk/mmz4281/2324/data.zip"
+          )
+
+          success=0
+
+          for url in "${urls[@]}"; do
+            echo "========================================"
+            echo "Checking: $url"
+
+            output="/tmp/$(basename "$(dirname "$url")").zip"
+
+            status=$(
+              curl \
+                --location \
+                --silent \
+                --show-error \
+                --max-time 30 \
+                --retry 0 \
+                --user-agent "Mozilla/5.0" \
+                --output "$output" \
+                --write-out "%{http_code}" \
+                "$url" || true
+            )
+
+            echo "HTTP status: $status"
+
+            if [ -f "$output" ]; then
+              size=$(wc -c < "$output")
+              echo "Downloaded bytes: $size"
+            else
+              size=0
+              echo "No file downloaded"
+            fi
+
+            if [ "$status" = "200" ] && [ "$size" -gt 1000 ]; then
+              if unzip -t "$output"; then
+                echo "RESULT: SUCCESS"
+                unzip -l "$output" | head -n 30
+                success=$((success + 1))
+              else
+                echo "RESULT: INVALID ZIP"
+              fi
+            else
+              echo "RESULT: FAILED"
+            fi
+          done
+
+          echo "========================================"
+          echo "Successful downloads: $success / ${#urls[@]}"
+
+          if [ "$success" -eq 0 ]; then
+            echo "GitHub Actions cannot access the official ZIP files."
+            exit 1
+          fi
