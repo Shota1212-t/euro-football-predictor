@@ -112,11 +112,32 @@ def test_second_division_team_aliases(prediction_module):
 
 
 def test_second_division_csv_files_are_available(prediction_module):
-    files = sorted(prediction_module.SECOND_DIVISION_DIR.glob("*.csv"))
-    assert len(files) == 15
+    path = prediction_module.SECOND_DIVISION_PATH
+
+    assert path.exists()
+    assert path.is_file()
+
+    matches = prediction_module.load_history_matches(
+        path,
+        "2部固定履歴CSV",
+    )
+
+    assert not matches.empty
+
     expected_codes = {"E1", "SP2", "D2", "I2", "F2"}
-    actual_codes = {path.name.split("_")[0] for path in files}
+    expected_seasons = {"2324", "2425", "2526"}
+
+    actual_codes = set(matches["Div"].astype(str).unique())
+    actual_seasons = set(
+        matches["Season"]
+        .astype(str)
+        .str.replace(r"\.0$", "", regex=True)
+        .unique()
+    )
+
     assert actual_codes == expected_codes
+    assert actual_seasons == expected_seasons
+    assert len(matches[["Season", "Div"]].drop_duplicates()) == 15
 
 
 def test_saved_predictions_use_second_division_history():
