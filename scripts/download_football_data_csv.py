@@ -19,6 +19,14 @@ from urllib.error import HTTPError, URLError
 ROOT = Path(__file__).resolve().parents[1]
 
 FIRST_DIR = ROOT / "data" / "raw" / "football_data_co_uk"
+SECOND_DIR = (
+    ROOT
+    / "data"
+    / "raw"
+    / "football_data_co_uk_second_division"
+)
+
+
 MATCHES_PATH = ROOT / "data" / "processed" / "matches.csv"
 
 SEASONS = ("2324", "2425", "2526")
@@ -30,6 +38,19 @@ LEAGUES = {
     "D1": "bundesliga",
     "F1": "ligue-1",
 }
+SECOND_DIVISIONS = (
+    "E1",
+    "SP2",
+    "I2",
+    "D2",
+    "F2",
+)
+
+SECOND_BASE_URL = (
+    "https://raw.githubusercontent.com/"
+    "wlrwx/football-engine/main/data/historical/"
+    "football_data/{division}_{season}.csv"
+)
 
 BASE_URL = (
     "https://raw.githubusercontent.com/"
@@ -68,6 +89,8 @@ OUTPUT_COLUMNS = (
     "HST",
     "AST",
 )
+
+
 
 
 def download_csv(
@@ -117,6 +140,51 @@ def download_csv(
     print(f"Downloaded: {destination.relative_to(ROOT)}")
     return True
 
+def download_second_division_csv(
+    season: str,
+    division: str,
+    destination: Path,
+) -> bool:
+    """Download one second-division CSV from the GitHub mirror."""
+
+    url = SECOND_BASE_URL.format(
+        division=division,
+        season=season,
+    )
+
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/csv,text/plain,*/*",
+        },
+    )
+
+    try:
+        with urllib.request.urlopen(request, timeout=45) as response:
+            payload = response.read()
+    except HTTPError as error:
+        print(
+            f"HTTPError {error.code} downloading {url}: "
+            f"{error}. Skipping."
+        )
+        return False
+    except (URLError, TimeoutError) as error:
+        print(f"Failed to download {url}: {error}. Skipping.")
+        return False
+
+    if len(payload) < 100 or b"HomeTeam" not in payload[:3000]:
+        print(f"Downloaded second-division CSV is invalid: {url}")
+        return False
+
+    destination.parent.mkdir(parents=True, exist_ok=True)
+
+    temporary = destination.with_suffix(".csv.tmp")
+    temporary.write_bytes(payload)
+    temporary.replace(destination)
+
+    print(f"Downloaded: {destination.relative_to(ROOT)}")
+    return True
 
 def normalize_match_date(value: str, path: Path) -> str:
     """Normalize known date formats to YYYY-MM-DD."""
@@ -209,6 +277,33 @@ def main() -> None:
                 downloaded_files.append((path, division))
             else:
                 failures.append(f"{division}_{season}")
+         second_division_files: list[Path] = []
+
+    for season in SEASONS:
+        for division in SECOND_DIVISIONS:
+            path = SECOND_DIR / f"{division}_{season}.csv"
+
+            success = download_second_division_csv(
+                season=season,
+                division=division,
+                destination=path,
+            )
+
+            if success:
+                second_division_files.append(path)
+            else:
+                failures.append(f"{division}_{season}")
+
+    expected_second_division_files = (
+        len(SEASONS) * len(SECOND_DIVISIONS)
+    )
+
+    if len(second_division_files) != expected_second_division_files:
+        raise RuntimeError(
+            "Second-division CSV download is incomplete: "
+            f"expected={expected_second_division_files}, "
+            f"actual={len(second_division_files)}"
+        )           
 
     all_rows = []
 
@@ -247,6 +342,7 @@ def main() -> None:
     temporary.replace(MATCHES_PATH)
 
     print(f"Downloaded files: {len(downloaded_files)}")
+    print(f"Second-division files: {len(second_division_files)}")
     print(f"Combined matches: {len(all_rows)}")
     print(f"Saved: {MATCHES_PATH.relative_to(ROOT)}")
 
