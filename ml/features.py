@@ -31,12 +31,18 @@ def build_features(matches, window=5):
                         points=0, gf=0, ga=0, shots=0, sot=0,
                         days=14, played=0,
                     )
+                def mean_available(key):
+                    values = pd.to_numeric(
+                        pd.Series([x[key] for x in recent]), errors="coerce"
+                    )
+                    return float(values.mean()) if values.notna().any() else np.nan
+
                 return dict(
-                    points=sum(x["points"] for x in recent) / len(recent),
-                    gf=sum(x["gf"] for x in recent) / len(recent),
-                    ga=sum(x["ga"] for x in recent) / len(recent),
-                    shots=sum(x["shots"] for x in recent) / len(recent),
-                    sot=sum(x["sot"] for x in recent) / len(recent),
+                    points=mean_available("points"),
+                    gf=mean_available("gf"),
+                    ga=mean_available("ga"),
+                    shots=mean_available("shots"),
+                    sot=mean_available("sot"),
                     days=max(1, (m.Date - recent[-1]["date"]).days),
                     played=len(recent),
                 )
@@ -70,14 +76,10 @@ def build_features(matches, window=5):
                 row[c] = pd.to_numeric(m.get(c, np.nan), errors="coerce")
             rows.append(row)
 
-            hs = pd.to_numeric(m.get("HS", 0), errors="coerce")
-            ass = pd.to_numeric(m.get("AS", 0), errors="coerce")
-            hst = pd.to_numeric(m.get("HST", 0), errors="coerce")
-            ast = pd.to_numeric(m.get("AST", 0), errors="coerce")
-            hs = 0 if pd.isna(hs) else hs
-            ass = 0 if pd.isna(ass) else ass
-            hst = 0 if pd.isna(hst) else hst
-            ast = 0 if pd.isna(ast) else ast
+            hs = pd.to_numeric(m.get("HS", np.nan), errors="coerce")
+            ass = pd.to_numeric(m.get("AS", np.nan), errors="coerce")
+            hst = pd.to_numeric(m.get("HST", np.nan), errors="coerce")
+            ast = pd.to_numeric(m.get("AST", np.nan), errors="coerce")
 
             pending_history.extend([
                 (
