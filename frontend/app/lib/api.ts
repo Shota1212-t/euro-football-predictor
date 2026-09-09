@@ -5,14 +5,22 @@ import type {
 } from './types';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000';
+
 async function apiFetch<T>(path: string): Promise<T | null> {
-  try { const res = await fetch(`${API_BASE}${path}`, { cache: 'no-store' }); if (!res.ok) return null; return (await res.json()) as T; }
-  catch { return null; }
+  try {
+    const res = await fetch(`${API_BASE}${path}`, { cache: 'no-store' });
+    if (!res.ok) return null;
+    return (await res.json()) as T;
+  } catch {
+    return null;
+  }
 }
+
 function qs(params: Record<string, string | undefined>): string {
   const entries = Object.entries(params).filter(([, value]) => value !== undefined && value !== '');
   return entries.length ? `?${new URLSearchParams(entries as [string, string][]).toString()}` : '';
 }
+
 export const api = {
   dashboard: () => apiFetch<DashboardData>('/api/v1/dashboard'),
   matches: (params: { league?: string; team?: string; confidence?: string; date?: string } = {}) => apiFetch<MatchPrediction[]>(`/api/v1/matches${qs(params)}`),
@@ -26,8 +34,8 @@ export const api = {
   player: (id: string) => apiFetch<PlayerDetail>(`/api/v1/players/${id}`),
   managers: (params: { league_id?: string; team_id?: string; role?: string; search?: string; limit?: number; offset?: number } = {}) => apiFetch<ManagerListResponse>(`/api/v1/managers${qs({ league_id: params.league_id, team_id: params.team_id, role: params.role, search: params.search, limit: params.limit?.toString(), offset: params.offset?.toString() })}`),
   manager: (id: string) => apiFetch<ManagerDetail>(`/api/v1/managers/${id}`),
-  completedMatches: () => apiFetch<CompletedMatch[]>('/api/v1/matches/completed/list'),
-  completedPerformance: () => apiFetch<CompletedPerformance>('/api/v1/matches/completed/performance'),
+  completedMatches: (params: { league?: string } = {}) => apiFetch<CompletedMatch[]>(`/api/v1/matches/completed/list${qs(params)}`),
+  completedPerformance: (params: { league?: string } = {}) => apiFetch<CompletedPerformance>(`/api/v1/matches/completed/performance${qs(params)}`),
   modelPerformance: () => apiFetch<ModelPerformance>('/api/v1/model/performance'),
   dataStatus: () => apiFetch<DataStatusItem[]>('/api/v1/data-status'),
   dataSources: () => apiFetch<DataSourceItem[]>('/api/v1/data-sources'),
