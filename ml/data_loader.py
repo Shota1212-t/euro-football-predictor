@@ -16,7 +16,7 @@ def load_raw_matches(raw_dir=RAW_DIR):
         frames.append(df)
     df=pd.concat(frames,ignore_index=True)
     df['Date']=pd.to_datetime(df['Date'],dayfirst=True,errors='coerce')
-    df=df.dropna(subset=['Date','HomeTeam','AwayTeam','FTR']).sort_values('Date').drop_duplicates(['Date','HomeTeam','AwayTeam'],keep='last')
+    df=df.dropna(subset=['Date','HomeTeam','AwayTeam','FTR']).sort_values(['Date','HomeTeam','AwayTeam','source_file'], kind='stable').drop_duplicates(['Date','HomeTeam','AwayTeam'], keep='last')
     df=df[df['FTR'].isin(['H','D','A'])].reset_index(drop=True)
     return df
 
