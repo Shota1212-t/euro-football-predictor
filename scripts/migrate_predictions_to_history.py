@@ -100,13 +100,15 @@ def main() -> None:
     # Merge: backup takes precedence, then current predictions
     all_predictions = {}
     for pred in backup_predictions:
-        match_id = str(pred.get("id"))
-        if match_id:
-            all_predictions[match_id] = pred
+        raw_id = pred.get("id")
+        if raw_id is not None and str(raw_id).strip():
+            all_predictions[str(raw_id)] = pred
     for pred in current_predictions:
-        match_id = str(pred.get("id"))
-        if match_id and match_id not in all_predictions:
-            all_predictions[match_id] = pred
+        raw_id = pred.get("id")
+        if raw_id is not None and str(raw_id).strip():
+            match_id = str(raw_id)
+            if match_id not in all_predictions:
+                all_predictions[match_id] = pred
     
     print(f"統合後の予測: {len(all_predictions)}件")
     

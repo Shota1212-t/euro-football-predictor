@@ -13,6 +13,9 @@ import pytest
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
+
+from backend.app import data_store as ds
+
 SCRIPT_PATH = PROJECT_ROOT / "scripts" / "generate_real_predictions.py"
 FIXTURES_PATH = PROJECT_ROOT / "data" / "processed" / "fixtures.json"
 PREDICTIONS_PATH = PROJECT_ROOT / "data" / "predictions" / "matches.json"
@@ -265,6 +268,33 @@ def test_saved_predictions_have_required_fields_and_valid_probabilities():
             ]
         )
         assert probability_sum == pytest.approx(100.0, abs=0.2)
+
+
+def test_completed_matches_empty_list_is_valid_state(monkeypatch):
+    monkeypatch.setattr(ds, "get_completed_matches", lambda: [])
+    assert ds.get_completed_matches() == []
+    perf = ds.get_completed_performance()
+    assert perf["total_predictions"] == 0
+    assert perf["correct_predictions"] == 0
+    assert perf["incorrect_predictions"] == 0
+    assert perf["accuracy"] == 0.0
+
+
+def test_completed_performance_zero_total_is_safe_and_non_negative(monkeypatch):
+    monkeypatch.setattr(
+        ds,
+        "get_completed_matches",
+        lambda: [
+            {"prediction_status": "recorded", "is_correct": False},
+            {"prediction_status": "recorded", "is_correct": False},
+        ],
+    )
+    perf = ds.get_completed_performance()
+    assert perf["total_predictions"] == 2
+    assert perf["correct_predictions"] == 0
+    assert perf["incorrect_predictions"] == 2
+    assert perf["accuracy"] == pytest.approx(0.0)
+    assert np.isfinite(float(perf["accuracy"]))
 
 
 def test_saved_predictions_are_one_matchday_per_league():
