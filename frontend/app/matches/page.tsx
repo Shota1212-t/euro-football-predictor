@@ -57,7 +57,7 @@ export default function MatchesPage() {
 
     const loadCompleted = async () => {
       try {
-        const data = await api.completedMatches();
+        const data = await api.completedMatches({ league });
         if (!active) return;
         setCompleted(data ?? []);
         setCompletedError(data === null ? '終了済み試合の取得に失敗しました。' : null);
@@ -70,7 +70,7 @@ export default function MatchesPage() {
 
     const loadPerformance = async () => {
       try {
-        const data = await api.completedPerformance();
+        const data = await api.completedPerformance({ league });
         if (!active) return;
         setPerformance(
           data ?? {
@@ -107,7 +107,6 @@ export default function MatchesPage() {
     };
   }, [view, league]);
 
-  const filteredCompleted = useMemo(() => completed?.filter(m => !league || m.league_id === league) ?? [], [completed, league]);
   const effectivePerformance = useMemo(() => {
     if (performance) {
       const total = Number(performance.total_predictions ?? 0);
@@ -135,7 +134,7 @@ export default function MatchesPage() {
       {hasPerformanceError ? <ErrorState message={performanceError ?? '成績集計の取得に失敗しました。'} showBackendHint={false} /> : null}
       {completed === null ? <p>読み込み中...</p> : <>
         <div className="card" style={{ marginBottom: 16 }}><b>{league ? 'フィルター中の成績' : '全体成績'}</b><div className="muted">予測記録あり {effectivePerformance.total_predictions}試合 · 的中 {effectivePerformance.correct_predictions} · 不的中 {effectivePerformance.incorrect_predictions} · 的中率 {safePercent(effectivePerformance.accuracy).toFixed(1)}%</div></div>
-        {filteredCompleted.length === 0 ? <EmptyState message="終了済み試合データはまだありません" /> : <div className="grid">{filteredCompleted.map(m => <div className="span6" key={m.id}><CompletedCard match={m} /></div>)}</div>}
+        {completed.length === 0 ? <EmptyState message="終了済み試合データはまだありません" /> : <div className="grid">{completed.map(m => <div className="span6" key={m.id}><CompletedCard match={m} /></div>)}</div>}
       </>}
     </>}
   </>;
