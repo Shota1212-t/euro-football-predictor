@@ -23,9 +23,21 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
+# config.pyで設定された許可元に、本番フロントエンドを必ず追加する。
+# dict.fromkeysで順序を保ったまま重複を除去する。
+allowed_origins = list(
+    dict.fromkeys(
+        [
+            *settings.cors_origins,
+            "http://localhost:3000",
+            "https://euro-football-predictor-web.vercel.app",
+        ]
+    )
+)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins,
+    allow_origins=allowed_origins,
     allow_credentials=False,
     allow_methods=["GET", "OPTIONS"],
     allow_headers=["*"],
