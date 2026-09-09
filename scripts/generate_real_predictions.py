@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
@@ -11,9 +12,12 @@ import joblib
 import numpy as np
 import pandas as pd
 import shap
-from ml.features import MODEL_FEATURE_COLUMNS, build_prediction_features
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from ml.features import MODEL_FEATURE_COLUMNS, build_prediction_features
 FIXTURES_PATH = ROOT / "data" / "processed" / "fixtures.json"
 EXTRA_FIXTURES_PATH = ROOT / "data" / "processed" / "extra_fixtures.json"
 EXTRA_FIXTURES_STATUS_PATH = ROOT / "data" / "processed" / "extra_fixtures_status.json"
