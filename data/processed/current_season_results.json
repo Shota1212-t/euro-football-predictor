@@ -1,0 +1,4090 @@
+[
+  {
+    "id": "564658",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-07T19:30:00Z",
+    "home_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    },
+    "away_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
+    },
+    "home_score": 2,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558617",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-07T18:45:00Z",
+    "home_team": {
+      "id": "fd-115",
+      "api_id": 115,
+      "name": "Udinese Calcio",
+      "short": "UDI"
+    },
+    "away_team": {
+      "id": "fd-110",
+      "api_id": 110,
+      "name": "SS Lazio",
+      "short": "LAZ"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564665",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-07T17:00:00Z",
+    "home_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET"
+    },
+    "away_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558610",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-07T16:30:00Z",
+    "home_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG"
+    },
+    "away_team": {
+      "id": "fd-5890",
+      "api_id": 5890,
+      "name": "US Lecce",
+      "short": "USL"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564661",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T19:00:00Z",
+    "home_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "away_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558618",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T18:45:00Z",
+    "home_team": {
+      "id": "fd-109",
+      "api_id": 109,
+      "name": "Juventus FC",
+      "short": "JUV"
+    },
+    "away_team": {
+      "id": "fd-98",
+      "api_id": 98,
+      "name": "AC Milan",
+      "short": "MIL"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559694",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T18:45:00Z",
+    "home_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "away_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "home_score": 2,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564664",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T16:30:00Z",
+    "home_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA"
+    },
+    "away_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
+    },
+    "home_score": 5,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564666",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T16:30:00Z",
+    "home_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
+    },
+    "away_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558613",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T16:00:00Z",
+    "home_team": {
+      "id": "fd-103",
+      "api_id": 103,
+      "name": "Bologna FC 1909",
+      "short": "BOL"
+    },
+    "away_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560570",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T15:30:00Z",
+    "home_team": {
+      "id": "fd-57",
+      "api_id": 57,
+      "name": "Arsenal FC",
+      "short": "ARS"
+    },
+    "away_team": {
+      "id": "fd-61",
+      "api_id": 61,
+      "name": "Chelsea FC",
+      "short": "CHE"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565786",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T15:30:00Z",
+    "home_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
+    },
+    "away_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "home_score": 1,
+    "away_score": 4,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559698",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T15:15:00Z",
+    "home_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "away_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564659",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T14:15:00Z",
+    "home_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL"
+    },
+    "away_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB"
+    },
+    "home_score": 0,
+    "away_score": 5,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "565788",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T13:30:00Z",
+    "home_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
+    },
+    "away_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
+    },
+    "home_score": 0,
+    "away_score": 5,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560567",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T13:00:00Z",
+    "home_team": {
+      "id": "fd-62",
+      "api_id": 62,
+      "name": "Everton FC",
+      "short": "EVE"
+    },
+    "away_team": {
+      "id": "fd-66",
+      "api_id": 66,
+      "name": "Manchester United FC",
+      "short": "MUN"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558612",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T13:00:00Z",
+    "home_team": {
+      "id": "fd-112",
+      "api_id": 112,
+      "name": "Parma Calcio 1913",
+      "short": "PAR"
+    },
+    "away_team": {
+      "id": "fd-5911",
+      "api_id": 5911,
+      "name": "AC Monza",
+      "short": "MON"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558615",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T13:00:00Z",
+    "home_team": {
+      "id": "fd-470",
+      "api_id": 470,
+      "name": "Frosinone Calcio",
+      "short": "FRO"
+    },
+    "away_team": {
+      "id": "fd-454",
+      "api_id": 454,
+      "name": "Venezia FC",
+      "short": "VEN"
+    },
+    "home_score": 3,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559700",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-06T13:00:00Z",
+    "home_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "away_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "home_score": 2,
+    "away_score": 6,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564662",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T19:00:00Z",
+    "home_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL"
+    },
+    "away_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "home_score": 2,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558611",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T18:45:00Z",
+    "home_team": {
+      "id": "fd-100",
+      "api_id": 100,
+      "name": "AS Roma",
+      "short": "ROM"
+    },
+    "away_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559693",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T18:45:00Z",
+    "home_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "away_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559701",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T18:45:00Z",
+    "home_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "away_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560569",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T16:30:00Z",
+    "home_team": {
+      "id": "fd-322",
+      "api_id": 322,
+      "name": "Hull City AFC",
+      "short": "HUL"
+    },
+    "away_team": {
+      "id": "fd-58",
+      "api_id": 58,
+      "name": "Aston Villa FC",
+      "short": "AVL"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "564660",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T16:30:00Z",
+    "home_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
+    },
+    "away_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
+    },
+    "home_score": 3,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565789",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T16:30:00Z",
+    "home_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
+    },
+    "away_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558614",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T16:00:00Z",
+    "home_team": {
+      "id": "fd-108",
+      "api_id": 108,
+      "name": "FC Internazionale Milano",
+      "short": "INT"
+    },
+    "away_team": {
+      "id": "fd-113",
+      "api_id": 113,
+      "name": "SSC Napoli",
+      "short": "NAP"
+    },
+    "home_score": 3,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559695",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T15:15:00Z",
+    "home_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
+    },
+    "away_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564663",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T14:15:00Z",
+    "home_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH"
+    },
+    "away_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560562",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T14:00:00Z",
+    "home_team": {
+      "id": "fd-351",
+      "api_id": 351,
+      "name": "Nottingham Forest FC",
+      "short": "NOT"
+    },
+    "away_team": {
+      "id": "fd-73",
+      "api_id": 73,
+      "name": "Tottenham Hotspur FC",
+      "short": "TOT"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560563",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T14:00:00Z",
+    "home_team": {
+      "id": "fd-65",
+      "api_id": 65,
+      "name": "Manchester City FC",
+      "short": "MCI"
+    },
+    "away_team": {
+      "id": "fd-1076",
+      "api_id": 1076,
+      "name": "Coventry City FC",
+      "short": "COV"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560564",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T14:00:00Z",
+    "home_team": {
+      "id": "fd-397",
+      "api_id": 397,
+      "name": "Brighton & Hove Albion FC",
+      "short": "BHA"
+    },
+    "away_team": {
+      "id": "fd-341",
+      "api_id": 341,
+      "name": "Leeds United FC",
+      "short": "LEE"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560565",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T14:00:00Z",
+    "home_team": {
+      "id": "fd-402",
+      "api_id": 402,
+      "name": "Brentford FC",
+      "short": "BRE"
+    },
+    "away_team": {
+      "id": "fd-71",
+      "api_id": 71,
+      "name": "Sunderland AFC",
+      "short": "SUN"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560568",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T14:00:00Z",
+    "home_team": {
+      "id": "fd-63",
+      "api_id": 63,
+      "name": "Fulham FC",
+      "short": "FUL"
+    },
+    "away_team": {
+      "id": "fd-354",
+      "api_id": 354,
+      "name": "Crystal Palace FC",
+      "short": "CRY"
+    },
+    "home_score": 2,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "565785",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T13:30:00Z",
+    "home_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "away_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "home_score": 3,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565787",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T13:30:00Z",
+    "home_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
+    },
+    "away_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "home_score": 2,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "565790",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T13:30:00Z",
+    "home_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "away_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
+    },
+    "home_score": 4,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565792",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T13:30:00Z",
+    "home_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "away_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "home_score": 3,
+    "away_score": 4,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "565793",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T13:30:00Z",
+    "home_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "away_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558616",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T13:00:00Z",
+    "home_team": {
+      "id": "fd-99",
+      "api_id": 99,
+      "name": "ACF Fiorentina",
+      "short": "FIO"
+    },
+    "away_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560571",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-05T11:30:00Z",
+    "home_team": {
+      "id": "fd-67",
+      "api_id": 67,
+      "name": "Newcastle United FC",
+      "short": "NEW"
+    },
+    "away_team": {
+      "id": "fd-1044",
+      "api_id": 1044,
+      "name": "AFC Bournemouth",
+      "short": "BOU"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559697",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-04T19:05:00Z",
+    "home_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "away_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560566",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-04T19:00:00Z",
+    "home_team": {
+      "id": "fd-349",
+      "api_id": 349,
+      "name": "Ipswich Town FC",
+      "short": "IPS"
+    },
+    "away_team": {
+      "id": "fd-64",
+      "api_id": 64,
+      "name": "Liverpool FC",
+      "short": "LIV"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564667",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 4,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-04T19:00:00Z",
+    "home_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET"
+    },
+    "away_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558609",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-04T18:45:00Z",
+    "home_team": {
+      "id": "fd-107",
+      "api_id": 107,
+      "name": "Genoa CFC",
+      "short": "GEN"
+    },
+    "away_team": {
+      "id": "fd-7397",
+      "api_id": 7397,
+      "name": "Como 1907",
+      "short": "COM"
+    },
+    "home_score": 1,
+    "away_score": 4,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "565791",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-04T18:30:00Z",
+    "home_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
+    },
+    "away_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "home_score": 4,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559699",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-04T17:00:00Z",
+    "home_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "away_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "home_score": 3,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564682",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-03T19:00:00Z",
+    "home_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
+    },
+    "away_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559696",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-03T18:45:00Z",
+    "home_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "away_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564650",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-31T19:30:00Z",
+    "home_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
+    },
+    "home_score": 5,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560557",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-31T19:00:00Z",
+    "home_team": {
+      "id": "fd-58",
+      "api_id": 58,
+      "name": "Aston Villa FC",
+      "short": "AVL"
+    },
+    "away_team": {
+      "id": "fd-57",
+      "api_id": 57,
+      "name": "Arsenal FC",
+      "short": "ARS"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558628",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-31T18:45:00Z",
+    "home_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA"
+    },
+    "away_team": {
+      "id": "fd-103",
+      "api_id": 103,
+      "name": "Bologna FC 1909",
+      "short": "BOL"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564657",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-31T17:30:00Z",
+    "home_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
+    },
+    "away_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558621",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-31T16:30:00Z",
+    "home_team": {
+      "id": "fd-5890",
+      "api_id": 5890,
+      "name": "US Lecce",
+      "short": "USL"
+    },
+    "away_team": {
+      "id": "fd-100",
+      "api_id": 100,
+      "name": "AS Roma",
+      "short": "ROM"
+    },
+    "home_score": 0,
+    "away_score": 4,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564652",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T19:30:00Z",
+    "home_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL"
+    },
+    "away_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558622",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T18:45:00Z",
+    "home_team": {
+      "id": "fd-110",
+      "api_id": 110,
+      "name": "SS Lazio",
+      "short": "LAZ"
+    },
+    "away_team": {
+      "id": "fd-107",
+      "api_id": 107,
+      "name": "Genoa CFC",
+      "short": "GEN"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558623",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T18:45:00Z",
+    "home_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG"
+    },
+    "away_team": {
+      "id": "fd-108",
+      "api_id": 108,
+      "name": "FC Internazionale Milano",
+      "short": "INT"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559703",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T18:45:00Z",
+    "home_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "away_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564651",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T17:30:00Z",
+    "home_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "away_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL"
+    },
+    "home_score": 3,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558626",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T16:30:00Z",
+    "home_team": {
+      "id": "fd-113",
+      "api_id": 113,
+      "name": "SSC Napoli",
+      "short": "NAP"
+    },
+    "away_team": {
+      "id": "fd-7397",
+      "api_id": 7397,
+      "name": "Como 1907",
+      "short": "COM"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560553",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T15:30:00Z",
+    "home_team": {
+      "id": "fd-66",
+      "api_id": 66,
+      "name": "Manchester United FC",
+      "short": "MUN"
+    },
+    "away_team": {
+      "id": "fd-349",
+      "api_id": 349,
+      "name": "Ipswich Town FC",
+      "short": "IPS"
+    },
+    "home_score": 5,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565782",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T15:30:00Z",
+    "home_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "away_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559709",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T15:15:00Z",
+    "home_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "away_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
+    },
+    "home_score": 3,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564656",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T15:00:00Z",
+    "home_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA"
+    },
+    "away_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
+    },
+    "home_score": 4,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565784",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T13:30:00Z",
+    "home_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "away_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "home_score": 4,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560554",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T13:00:00Z",
+    "home_team": {
+      "id": "fd-71",
+      "api_id": 71,
+      "name": "Sunderland AFC",
+      "short": "SUN"
+    },
+    "away_team": {
+      "id": "fd-63",
+      "api_id": 63,
+      "name": "Fulham FC",
+      "short": "FUL"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560556",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T13:00:00Z",
+    "home_team": {
+      "id": "fd-61",
+      "api_id": 61,
+      "name": "Chelsea FC",
+      "short": "CHE"
+    },
+    "away_team": {
+      "id": "fd-397",
+      "api_id": 397,
+      "name": "Brighton & Hove Albion FC",
+      "short": "BHA"
+    },
+    "home_score": 4,
+    "away_score": 3,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560559",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T13:00:00Z",
+    "home_team": {
+      "id": "fd-341",
+      "api_id": 341,
+      "name": "Leeds United FC",
+      "short": "LEE"
+    },
+    "away_team": {
+      "id": "fd-402",
+      "api_id": 402,
+      "name": "Brentford FC",
+      "short": "BRE"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559707",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-30T13:00:00Z",
+    "home_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "away_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564649",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T19:30:00Z",
+    "home_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "away_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "home_score": 1,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558619",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T18:45:00Z",
+    "home_team": {
+      "id": "fd-109",
+      "api_id": 109,
+      "name": "Juventus FC",
+      "short": "JUV"
+    },
+    "away_team": {
+      "id": "fd-112",
+      "api_id": 112,
+      "name": "Parma Calcio 1913",
+      "short": "PAR"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559705",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T18:45:00Z",
+    "home_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "away_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559706",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T18:45:00Z",
+    "home_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "away_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559708",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T18:45:00Z",
+    "home_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "away_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "home_score": 1,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559710",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T18:45:00Z",
+    "home_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "away_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "564653",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T17:00:00Z",
+    "home_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
+    },
+    "away_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560558",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T16:30:00Z",
+    "home_team": {
+      "id": "fd-73",
+      "api_id": 73,
+      "name": "Tottenham Hotspur FC",
+      "short": "TOT"
+    },
+    "away_team": {
+      "id": "fd-67",
+      "api_id": 67,
+      "name": "Newcastle United FC",
+      "short": "NEW"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558620",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T16:30:00Z",
+    "home_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS"
+    },
+    "away_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558624",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T16:30:00Z",
+    "home_team": {
+      "id": "fd-5911",
+      "api_id": 5911,
+      "name": "AC Monza",
+      "short": "MON"
+    },
+    "away_team": {
+      "id": "fd-115",
+      "api_id": 115,
+      "name": "Udinese Calcio",
+      "short": "UDI"
+    },
+    "home_score": 2,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558627",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T16:30:00Z",
+    "home_team": {
+      "id": "fd-99",
+      "api_id": 99,
+      "name": "ACF Fiorentina",
+      "short": "FIO"
+    },
+    "away_team": {
+      "id": "fd-470",
+      "api_id": 470,
+      "name": "Frosinone Calcio",
+      "short": "FRO"
+    },
+    "home_score": 0,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "565781",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T16:30:00Z",
+    "home_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "away_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559704",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T15:15:00Z",
+    "home_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "away_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564655",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T15:00:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "away_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET"
+    },
+    "home_score": 5,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560560",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T14:00:00Z",
+    "home_team": {
+      "id": "fd-1044",
+      "api_id": 1044,
+      "name": "AFC Bournemouth",
+      "short": "BOU"
+    },
+    "away_team": {
+      "id": "fd-62",
+      "api_id": 62,
+      "name": "Everton FC",
+      "short": "EVE"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560561",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T14:00:00Z",
+    "home_team": {
+      "id": "fd-1076",
+      "api_id": 1076,
+      "name": "Coventry City FC",
+      "short": "COV"
+    },
+    "away_team": {
+      "id": "fd-322",
+      "api_id": 322,
+      "name": "Hull City AFC",
+      "short": "HUL"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "565777",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T13:30:00Z",
+    "home_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "away_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565778",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T13:30:00Z",
+    "home_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
+    },
+    "away_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "565779",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T13:30:00Z",
+    "home_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
+    },
+    "away_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
+    },
+    "home_score": 3,
+    "away_score": 3,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "565780",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T13:30:00Z",
+    "home_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "away_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "home_score": 3,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "565783",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T13:30:00Z",
+    "home_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "away_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
+    },
+    "home_score": 3,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560552",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-29T11:30:00Z",
+    "home_team": {
+      "id": "fd-64",
+      "api_id": 64,
+      "name": "Liverpool FC",
+      "short": "LIV"
+    },
+    "away_team": {
+      "id": "fd-351",
+      "api_id": 351,
+      "name": "Nottingham Forest FC",
+      "short": "NOT"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "564648",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-28T19:30:00Z",
+    "home_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA"
+    },
+    "away_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560555",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-28T19:00:00Z",
+    "home_team": {
+      "id": "fd-354",
+      "api_id": 354,
+      "name": "Crystal Palace FC",
+      "short": "CRY"
+    },
+    "away_team": {
+      "id": "fd-65",
+      "api_id": 65,
+      "name": "Manchester City FC",
+      "short": "MCI"
+    },
+    "home_score": 1,
+    "away_score": 4,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558625",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-28T18:45:00Z",
+    "home_team": {
+      "id": "fd-98",
+      "api_id": 98,
+      "name": "AC Milan",
+      "short": "MIL"
+    },
+    "away_team": {
+      "id": "fd-454",
+      "api_id": 454,
+      "name": "Venezia FC",
+      "short": "VEN"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559702",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-28T18:45:00Z",
+    "home_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "away_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "565776",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-28T18:30:00Z",
+    "home_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
+    },
+    "home_score": 5,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564654",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 3,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-28T17:00:00Z",
+    "home_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
+    },
+    "away_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    },
+    "home_score": 3,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564630",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-27T19:00:00Z",
+    "home_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564636",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-27T18:30:00Z",
+    "home_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL"
+    },
+    "away_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564631",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-26T19:00:00Z",
+    "home_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA"
+    },
+    "away_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
+    },
+    "home_score": 4,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564637",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-25T19:00:00Z",
+    "home_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL"
+    },
+    "away_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564640",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-24T19:30:00Z",
+    "home_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
+    },
+    "away_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560551",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-24T19:00:00Z",
+    "home_team": {
+      "id": "fd-63",
+      "api_id": 63,
+      "name": "Fulham FC",
+      "short": "FUL"
+    },
+    "away_team": {
+      "id": "fd-61",
+      "api_id": 61,
+      "name": "Chelsea FC",
+      "short": "CHE"
+    },
+    "home_score": 2,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558638",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-24T18:45:00Z",
+    "home_team": {
+      "id": "fd-100",
+      "api_id": 100,
+      "name": "AS Roma",
+      "short": "ROM"
+    },
+    "away_team": {
+      "id": "fd-99",
+      "api_id": 99,
+      "name": "ACF Fiorentina",
+      "short": "FIO"
+    },
+    "home_score": 4,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564639",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-24T17:30:00Z",
+    "home_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
+    },
+    "away_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558630",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-24T16:30:00Z",
+    "home_team": {
+      "id": "fd-103",
+      "api_id": 103,
+      "name": "Bologna FC 1909",
+      "short": "BOL"
+    },
+    "away_team": {
+      "id": "fd-110",
+      "api_id": 110,
+      "name": "SS Lazio",
+      "short": "LAZ"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564642",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T19:30:00Z",
+    "home_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    },
+    "away_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB"
+    },
+    "home_score": 0,
+    "away_score": 5,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558633",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T18:45:00Z",
+    "home_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA"
+    },
+    "away_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558634",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T18:45:00Z",
+    "home_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR"
+    },
+    "away_team": {
+      "id": "fd-98",
+      "api_id": 98,
+      "name": "AC Milan",
+      "short": "MIL"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559713",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T18:45:00Z",
+    "home_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "away_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "564644",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T17:30:00Z",
+    "home_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET"
+    },
+    "away_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558635",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T16:30:00Z",
+    "home_team": {
+      "id": "fd-470",
+      "api_id": 470,
+      "name": "Frosinone Calcio",
+      "short": "FRO"
+    },
+    "away_team": {
+      "id": "fd-109",
+      "api_id": 109,
+      "name": "Juventus FC",
+      "short": "JUV"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558637",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T16:30:00Z",
+    "home_team": {
+      "id": "fd-454",
+      "api_id": 454,
+      "name": "Venezia FC",
+      "short": "VEN"
+    },
+    "away_team": {
+      "id": "fd-5890",
+      "api_id": 5890,
+      "name": "US Lecce",
+      "short": "USL"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560550",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T15:30:00Z",
+    "home_team": {
+      "id": "fd-67",
+      "api_id": 67,
+      "name": "Newcastle United FC",
+      "short": "NEW"
+    },
+    "away_team": {
+      "id": "fd-64",
+      "api_id": 64,
+      "name": "Liverpool FC",
+      "short": "LIV"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559719",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T15:15:00Z",
+    "home_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "away_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564646",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T15:00:00Z",
+    "home_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "away_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560548",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T13:00:00Z",
+    "home_team": {
+      "id": "fd-65",
+      "api_id": 65,
+      "name": "Manchester City FC",
+      "short": "MCI"
+    },
+    "away_team": {
+      "id": "fd-1044",
+      "api_id": 1044,
+      "name": "AFC Bournemouth",
+      "short": "BOU"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560549",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T13:00:00Z",
+    "home_team": {
+      "id": "fd-397",
+      "api_id": 397,
+      "name": "Brighton & Hove Albion FC",
+      "short": "BHA"
+    },
+    "away_team": {
+      "id": "fd-58",
+      "api_id": 58,
+      "name": "Aston Villa FC",
+      "short": "AVL"
+    },
+    "home_score": 4,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559717",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-23T13:00:00Z",
+    "home_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "away_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564645",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T19:30:00Z",
+    "home_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "away_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558631",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T18:45:00Z",
+    "home_team": {
+      "id": "fd-107",
+      "api_id": 107,
+      "name": "Genoa CFC",
+      "short": "GEN"
+    },
+    "away_team": {
+      "id": "fd-113",
+      "api_id": 113,
+      "name": "SSC Napoli",
+      "short": "NAP"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558636",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T18:45:00Z",
+    "home_team": {
+      "id": "fd-112",
+      "api_id": 112,
+      "name": "Parma Calcio 1913",
+      "short": "PAR"
+    },
+    "away_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559711",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T18:45:00Z",
+    "home_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
+    },
+    "away_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559714",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T18:45:00Z",
+    "home_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "away_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559716",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T18:45:00Z",
+    "home_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "away_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "559718",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T18:45:00Z",
+    "home_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "away_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564643",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T17:30:00Z",
+    "home_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL"
+    },
+    "away_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL"
+    },
+    "home_score": 0,
+    "away_score": 0,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "560547",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T16:30:00Z",
+    "home_team": {
+      "id": "fd-402",
+      "api_id": 402,
+      "name": "Brentford FC",
+      "short": "BRE"
+    },
+    "away_team": {
+      "id": "fd-73",
+      "api_id": 73,
+      "name": "Tottenham Hotspur FC",
+      "short": "TOT"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558629",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T16:30:00Z",
+    "home_team": {
+      "id": "fd-115",
+      "api_id": 115,
+      "name": "Udinese Calcio",
+      "short": "UDI"
+    },
+    "away_team": {
+      "id": "fd-7397",
+      "api_id": 7397,
+      "name": "Como 1907",
+      "short": "COM"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558632",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T16:30:00Z",
+    "home_team": {
+      "id": "fd-108",
+      "api_id": 108,
+      "name": "FC Internazionale Milano",
+      "short": "INT"
+    },
+    "away_team": {
+      "id": "fd-5911",
+      "api_id": 5911,
+      "name": "AC Monza",
+      "short": "MON"
+    },
+    "home_score": 4,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559712",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T15:15:00Z",
+    "home_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
+    },
+    "away_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "home_score": 5,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564641",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T15:00:00Z",
+    "home_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH"
+    },
+    "away_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "home_score": 1,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560544",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T14:00:00Z",
+    "home_team": {
+      "id": "fd-349",
+      "api_id": 349,
+      "name": "Ipswich Town FC",
+      "short": "IPS"
+    },
+    "away_team": {
+      "id": "fd-71",
+      "api_id": 71,
+      "name": "Sunderland AFC",
+      "short": "SUN"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560545",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T14:00:00Z",
+    "home_team": {
+      "id": "fd-351",
+      "api_id": 351,
+      "name": "Nottingham Forest FC",
+      "short": "NOT"
+    },
+    "away_team": {
+      "id": "fd-341",
+      "api_id": 341,
+      "name": "Leeds United FC",
+      "short": "LEE"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560546",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T14:00:00Z",
+    "home_team": {
+      "id": "fd-62",
+      "api_id": 62,
+      "name": "Everton FC",
+      "short": "EVE"
+    },
+    "away_team": {
+      "id": "fd-354",
+      "api_id": 354,
+      "name": "Crystal Palace FC",
+      "short": "CRY"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560543",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-22T11:30:00Z",
+    "home_team": {
+      "id": "fd-322",
+      "api_id": 322,
+      "name": "Hull City AFC",
+      "short": "HUL"
+    },
+    "away_team": {
+      "id": "fd-66",
+      "api_id": 66,
+      "name": "Manchester United FC",
+      "short": "MUN"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560542",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-21T19:00:00Z",
+    "home_team": {
+      "id": "fd-57",
+      "api_id": 57,
+      "name": "Arsenal FC",
+      "short": "ARS"
+    },
+    "away_team": {
+      "id": "fd-1076",
+      "api_id": 1076,
+      "name": "Coventry City FC",
+      "short": "COV"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564647",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-21T19:00:00Z",
+    "home_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET"
+    },
+    "away_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "559715",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-21T18:45:00Z",
+    "home_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "away_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "home_score": 4,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564638",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 2,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-20T19:00:00Z",
+    "home_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
+    },
+    "away_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "564628",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-19T19:00:00Z",
+    "home_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "away_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564635",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-17T19:00:00Z",
+    "home_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "away_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "564632",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-16T17:00:00Z",
+    "home_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "away_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564629",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-16T15:00:00Z",
+    "home_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
+    },
+    "away_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "564633",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-15T19:30:00Z",
+    "home_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "away_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564634",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 1,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-08-15T17:30:00Z",
+    "home_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA"
+    },
+    "away_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET"
+    },
+    "home_score": 3,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  }
+]

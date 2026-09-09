@@ -20,12 +20,12 @@
       "league_id": "bundesliga",
       "color": "#334155"
     },
-    "home_win_probability": 46.2,
-    "draw_probability": 16.7,
-    "away_win_probability": 37.1,
+    "home_win_probability": 42.4,
+    "draw_probability": 23.6,
+    "away_win_probability": 34.0,
     "predicted_result": "Home Win",
     "confidence": "Low",
-    "data_quality": "second_division_history",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
@@ -49,7 +49,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 117,
+      "days_since_last_match": 182,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -66,65 +66,38 @@
       {
         "label": "直近勝点",
         "home_value": "1.40",
-        "away_value": "2.40"
+        "away_value": "1.30"
       },
       {
         "label": "平均得点",
         "home_value": "2.20",
-        "away_value": "1.80"
+        "away_value": "1.60"
       },
       {
         "label": "平均失点",
         "home_value": "1.60",
-        "away_value": "1.20"
+        "away_value": "1.77"
       },
       {
         "label": "直近成績",
         "home_value": "LLDWW",
-        "away_value": "WWWLW"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "1. FC Union Berlin: 直近勝点平均 1.40",
-      "FC Schalke 04: 直近勝点平均 2.40",
+      "FC Schalke 04: 直近勝点平均 1.30",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "FC Schalke 04: 前シーズンまでの2部実績を使用しています。"
+      "FC Schalke 04: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
     "explanations": [
       {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 5.8,
-        "shap_value": 0.238259,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 15.6,
-        "shap_value": -0.198479,
-        "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の平均シュート数がHome Winのモデル出力を押し下げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 0.4,
-        "shap_value": 0.181368,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
-      },
-      {
         "feature": "home_days_rest",
         "label": "ホーム側の休養日数",
         "value": 118.0,
-        "shap_value": 0.176558,
+        "shap_value": 0.14519,
         "impact": "supports",
         "target": "Home Win",
         "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
@@ -132,18 +105,45 @@
       {
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
-        "value": 117.0,
-        "shap_value": -0.142958,
+        "value": 182.0,
+        "shap_value": -0.138057,
         "impact": "opposes",
         "target": "Home Win",
         "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.6,
+        "shap_value": 0.128724,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_sot",
+        "label": "アウェイ側の平均枠内シュート数",
+        "value": 5.0349,
+        "shap_value": 0.120228,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "アウェイ側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -64.0,
+        "shap_value": 0.111545,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "休養日数差がHome Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "second_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -168,18 +168,18 @@
       "league_id": "seriea",
       "color": "#334155"
     },
-    "home_win_probability": 20.7,
-    "draw_probability": 51.3,
-    "away_win_probability": 28.0,
+    "home_win_probability": 15.5,
+    "draw_probability": 53.2,
+    "away_win_probability": 31.2,
     "predicted_result": "Draw",
-    "confidence": "High",
-    "data_quality": "full_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 474,
+      "days_since_last_match": 212,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -213,29 +213,30 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "0.80",
+        "home_value": "1.26",
         "away_value": "1.20"
       },
       {
         "label": "平均得点",
-        "home_value": "1.00",
+        "home_value": "1.17",
         "away_value": "0.60"
       },
       {
         "label": "平均失点",
-        "home_value": "2.00",
+        "home_value": "1.34",
         "away_value": "1.00"
       },
       {
         "label": "直近成績",
-        "home_value": "LDWLL",
+        "home_value": "EST",
         "away_value": "DLDWD"
       }
     ],
     "reasons": [
-      "Venezia FC: 直近勝点平均 0.80",
+      "Venezia FC: 直近勝点平均 1.26",
       "ACF Fiorentina: 直近勝点平均 1.20",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "Venezia FC: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -244,7 +245,7 @@
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
         "value": 112.0,
-        "shap_value": 0.339831,
+        "shap_value": 0.265808,
         "impact": "supports",
         "target": "Draw",
         "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
@@ -253,7 +254,7 @@
         "feature": "away_recent_gf",
         "label": "アウェイ側の平均得点",
         "value": 0.6,
-        "shap_value": 0.23678,
+        "shap_value": 0.206148,
         "impact": "supports",
         "target": "Draw",
         "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
@@ -261,8 +262,8 @@
       {
         "feature": "home_recent_sot",
         "label": "ホーム側の平均枠内シュート数",
-        "value": 3.0,
-        "shap_value": 0.174243,
+        "value": 4.088,
+        "shap_value": 0.162825,
         "impact": "supports",
         "target": "Draw",
         "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
@@ -270,26 +271,26 @@
       {
         "feature": "recent_gf_diff",
         "label": "平均得点差",
-        "value": 0.4,
-        "shap_value": -0.105467,
+        "value": 0.568,
+        "shap_value": -0.141913,
         "impact": "opposes",
         "target": "Draw",
         "text": "平均得点差がDrawのモデル出力を押し下げた"
       },
       {
-        "feature": "recent_ga_diff",
-        "label": "平均失点差",
-        "value": 1.0,
-        "shap_value": 0.073086,
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": 100.0,
+        "shap_value": 0.069119,
         "impact": "supports",
         "target": "Draw",
-        "text": "平均失点差がDrawのモデル出力を押し上げた"
+        "text": "休養日数差がDrawのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
-      "home": "first_division",
+      "home": "estimated",
       "away": "first_division"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
@@ -609,18 +610,18 @@
       "league_id": "laliga",
       "color": "#334155"
     },
-    "home_win_probability": 90.7,
-    "draw_probability": 4.6,
-    "away_win_probability": 4.8,
+    "home_win_probability": 41.1,
+    "draw_probability": 28.8,
+    "away_win_probability": 30.1,
     "predicted_result": "Home Win",
-    "confidence": "High",
-    "data_quality": "second_division_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 104,
+      "days_since_last_match": 221,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -654,84 +655,84 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "2.60",
+        "home_value": "1.24",
         "away_value": "1.40"
       },
       {
         "label": "平均得点",
-        "home_value": "3.00",
+        "home_value": "1.24",
         "away_value": "1.20"
       },
       {
         "label": "平均失点",
-        "home_value": "1.20",
+        "home_value": "1.49",
         "away_value": "1.40"
       },
       {
         "label": "直近成績",
-        "home_value": "WWWDW",
+        "home_value": "EST",
         "away_value": "LDWWL"
       }
     ],
     "reasons": [
-      "Real Racing Club de Santander: 直近勝点平均 2.60",
+      "Real Racing Club de Santander: 直近勝点平均 1.24",
       "Deportivo Alavés: 直近勝点平均 1.40",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "Real Racing Club de Santander: 前シーズンまでの2部実績を使用しています。"
+      "Real Racing Club de Santander: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
     "explanations": [
       {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 8.8,
-        "shap_value": 0.578384,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "rest_days_diff",
-        "label": "休養日数差",
-        "value": -8.0,
-        "shap_value": 0.453563,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "休養日数差がHome Winのモデル出力を押し上げた"
-      },
-      {
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
         "value": 112.0,
-        "shap_value": -0.306657,
+        "shap_value": -0.326329,
         "impact": "opposes",
         "target": "Home Win",
         "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
       },
       {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.0357,
+        "shap_value": 0.226507,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 221.0,
+        "shap_value": 0.112295,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+      },
+      {
         "feature": "home_recent_shots",
         "label": "ホーム側の平均シュート数",
-        "value": 18.2,
-        "shap_value": 0.196516,
+        "value": null,
+        "shap_value": 0.100936,
         "impact": "supports",
         "target": "Home Win",
         "text": "ホーム側の平均シュート数がHome Winのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 1.8,
-        "shap_value": 0.171627,
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -0.1571,
+        "shap_value": 0.08898,
         "impact": "supports",
         "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+        "text": "直近勝点差がHome Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
-      "home": "second_division",
+      "home": "estimated",
       "away": "first_division"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
@@ -757,12 +758,12 @@
       "league_id": "seriea",
       "color": "#334155"
     },
-    "home_win_probability": 33.2,
-    "draw_probability": 44.3,
-    "away_win_probability": 22.5,
+    "home_win_probability": 29.1,
+    "draw_probability": 47.2,
+    "away_win_probability": 23.6,
     "predicted_result": "Draw",
-    "confidence": "Medium",
-    "data_quality": "full_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
@@ -786,7 +787,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 839,
+      "days_since_last_match": 213,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -803,28 +804,29 @@
       {
         "label": "直近勝点",
         "home_value": "0.40",
-        "away_value": "1.40"
+        "away_value": "1.26"
       },
       {
         "label": "平均得点",
         "home_value": "0.20",
-        "away_value": "0.80"
+        "away_value": "1.17"
       },
       {
         "label": "平均失点",
         "home_value": "1.00",
-        "away_value": "1.20"
+        "away_value": "1.34"
       },
       {
         "label": "直近成績",
         "home_value": "LDDLL",
-        "away_value": "WDLWL"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "Genoa CFC: 直近勝点平均 0.40",
-      "Frosinone Calcio: 直近勝点平均 1.40",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+      "Frosinone Calcio: 直近勝点平均 1.26",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "Frosinone Calcio: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -832,44 +834,44 @@
       {
         "feature": "rest_days_diff",
         "label": "休養日数差",
-        "value": -728.0,
-        "shap_value": 0.206586,
+        "value": -102.0,
+        "shap_value": 0.298776,
         "impact": "supports",
         "target": "Draw",
         "text": "休養日数差がDrawのモデル出力を押し上げた"
       },
       {
-        "feature": "away_recent_gf",
-        "label": "アウェイ側の平均得点",
-        "value": 0.8,
-        "shap_value": 0.205329,
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 213.0,
+        "shap_value": 0.246715,
         "impact": "supports",
         "target": "Draw",
-        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 1.8,
-        "shap_value": 0.185344,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
       },
       {
         "feature": "home_recent_gf",
         "label": "ホーム側の平均得点",
         "value": 0.2,
-        "shap_value": 0.156005,
+        "shap_value": 0.133105,
         "impact": "supports",
         "target": "Draw",
         "text": "ホーム側の平均得点がDrawのモデル出力を押し上げた"
       },
       {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 1.8,
+        "shap_value": 0.132117,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
         "feature": "home_recent_shots",
         "label": "ホーム側の平均シュート数",
         "value": 8.8,
-        "shap_value": 0.124401,
+        "shap_value": 0.117394,
         "impact": "supports",
         "target": "Draw",
         "text": "ホーム側の平均シュート数がDrawのモデル出力を押し上げた"
@@ -879,7 +881,7 @@
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "first_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -1051,12 +1053,12 @@
       "league_id": "bundesliga",
       "color": "#334155"
     },
-    "home_win_probability": 52.3,
-    "draw_probability": 16.3,
-    "away_win_probability": 31.4,
+    "home_win_probability": 44.1,
+    "draw_probability": 20.2,
+    "away_win_probability": 35.7,
     "predicted_result": "Home Win",
-    "confidence": "High",
-    "data_quality": "second_division_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 51,
       "level": "Medium",
@@ -1080,7 +1082,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 118,
+      "days_since_last_match": 183,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -1097,7 +1099,7 @@
       {
         "label": "直近勝点",
         "home_value": "1.80",
-        "away_value": "1.00"
+        "away_value": "1.30"
       },
       {
         "label": "平均得点",
@@ -1107,19 +1109,19 @@
       {
         "label": "平均失点",
         "home_value": "1.00",
-        "away_value": "2.20"
+        "away_value": "1.77"
       },
       {
         "label": "直近成績",
         "home_value": "LWLWW",
-        "away_value": "DLLDW"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "Borussia Dortmund: 直近勝点平均 1.80",
-      "SC Paderborn 07: 直近勝点平均 1.00",
+      "SC Paderborn 07: 直近勝点平均 1.30",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "SC Paderborn 07: 前シーズンまでの2部実績を使用しています。"
+      "SC Paderborn 07: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -1128,25 +1130,16 @@
         "feature": "home_recent_sot",
         "label": "ホーム側の平均枠内シュート数",
         "value": 5.2,
-        "shap_value": 0.223783,
+        "shap_value": 0.189279,
         "impact": "supports",
         "target": "Home Win",
         "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_ga_diff",
-        "label": "平均失点差",
-        "value": -1.2,
-        "shap_value": 0.203399,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "平均失点差がHome Winのモデル出力を押し上げた"
-      },
-      {
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
-        "value": 118.0,
-        "shap_value": -0.18178,
+        "value": 183.0,
+        "shap_value": -0.167736,
         "impact": "opposes",
         "target": "Home Win",
         "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
@@ -1155,26 +1148,35 @@
         "feature": "home_days_rest",
         "label": "ホーム側の休養日数",
         "value": 119.0,
-        "shap_value": 0.179489,
+        "shap_value": 0.14839,
         "impact": "supports",
         "target": "Home Win",
         "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
       },
       {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 2.0,
-        "shap_value": 0.098989,
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -64.0,
+        "shap_value": 0.125633,
         "impact": "supports",
         "target": "Home Win",
-        "text": "ホーム側の平均得点がHome Winのモデル出力を押し上げた"
+        "text": "休養日数差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.4,
+        "shap_value": 0.122414,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "second_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -1199,18 +1201,18 @@
       "league_id": "bundesliga",
       "color": "#334155"
     },
-    "home_win_probability": 18.6,
-    "draw_probability": 17.4,
-    "away_win_probability": 64.0,
+    "home_win_probability": 19.9,
+    "draw_probability": 13.6,
+    "away_win_probability": 66.4,
     "predicted_result": "Away Win",
-    "confidence": "High",
-    "data_quality": "full_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 119,
+      "days_since_last_match": 183,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -1244,29 +1246,30 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "2.00",
+        "home_value": "1.30",
         "away_value": "1.40"
       },
       {
         "label": "平均得点",
-        "home_value": "1.80",
+        "home_value": "1.60",
         "away_value": "1.80"
       },
       {
         "label": "平均失点",
-        "home_value": "1.60",
+        "home_value": "1.77",
         "away_value": "1.60"
       },
       {
         "label": "直近成績",
-        "home_value": "WDWWL",
+        "home_value": "EST",
         "away_value": "LWWLD"
       }
     ],
     "reasons": [
-      "FC Augsburg: 直近勝点平均 2.00",
+      "FC Augsburg: 直近勝点平均 1.30",
       "Bayer 04 Leverkusen: 直近勝点平均 1.40",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "FC Augsburg: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -1275,7 +1278,7 @@
         "feature": "away_recent_shots",
         "label": "アウェイ側の平均シュート数",
         "value": 19.6,
-        "shap_value": 0.315975,
+        "shap_value": 0.377826,
         "impact": "supports",
         "target": "Away Win",
         "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
@@ -1284,43 +1287,43 @@
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
         "value": 119.0,
-        "shap_value": 0.223954,
+        "shap_value": 0.142275,
         "impact": "supports",
         "target": "Away Win",
         "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 0.0,
-        "shap_value": -0.101652,
-        "impact": "opposes",
-        "target": "Away Win",
-        "text": "平均得点差がAway Winのモデル出力を押し下げた"
-      },
-      {
         "feature": "recent_ga_diff",
         "label": "平均失点差",
-        "value": 0.0,
-        "shap_value": 0.086273,
+        "value": 0.1714,
+        "shap_value": 0.118897,
         "impact": "supports",
         "target": "Away Win",
         "text": "平均失点差がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "home_recent_ga",
-        "label": "ホーム側の平均失点",
-        "value": 1.6,
-        "shap_value": 0.064455,
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -0.2,
+        "shap_value": -0.091828,
+        "impact": "opposes",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "away_recent_sot",
+        "label": "アウェイ側の平均枠内シュート数",
+        "value": 7.0,
+        "shap_value": 0.074804,
         "impact": "supports",
         "target": "Away Win",
-        "text": "ホーム側の平均失点がAway Winのモデル出力を押し上げた"
+        "text": "アウェイ側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
-      "home": "first_division",
+      "home": "estimated",
       "away": "first_division"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
@@ -1647,18 +1650,18 @@
     "confidence": "Medium",
     "data_quality": "full_history",
     "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 111,
+      "index": 47,
+      "level": "Medium",
+      "matches_last_7d": 1,
+      "matches_last_14d": 1,
+      "days_since_last_match": 3,
       "after_european_competition": false,
-      "after_domestic_cup": false,
+      "after_domestic_cup": true,
       "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
+      "extra_matches_last_7d": 1,
+      "extra_matches_last_14d": 1,
+      "last_extra_competition": "EFL Cup",
+      "last_extra_match_source": "TheSportsDB",
       "european_competition_data_status": "available",
       "domestic_cup_data_status": "partial_last_event_only",
       "extra_time_data_status": "partial",
@@ -2228,12 +2231,12 @@
       "league_id": "pl",
       "color": "#334155"
     },
-    "home_win_probability": 24.7,
-    "draw_probability": 55.2,
-    "away_win_probability": 20.1,
+    "home_win_probability": 26.7,
+    "draw_probability": 51.8,
+    "away_win_probability": 21.5,
     "predicted_result": "Draw",
-    "confidence": "High",
-    "data_quality": "second_division_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
@@ -2257,7 +2260,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 133,
+      "days_since_last_match": 213,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -2274,29 +2277,29 @@
       {
         "label": "直近勝点",
         "home_value": "0.80",
-        "away_value": "1.00"
+        "away_value": "1.16"
       },
       {
         "label": "平均得点",
         "home_value": "1.00",
-        "away_value": "1.40"
+        "away_value": "1.30"
       },
       {
         "label": "平均失点",
         "home_value": "2.00",
-        "away_value": "1.60"
+        "away_value": "1.58"
       },
       {
         "label": "直近成績",
         "home_value": "LLDWL",
-        "away_value": "LDDLW"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "Chelsea FC: 直近勝点平均 0.80",
-      "Hull City AFC: 直近勝点平均 1.00",
+      "Hull City AFC: 直近勝点平均 1.16",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "Hull City AFC: 前シーズンまでの2部実績を使用しています。"
+      "Hull City AFC: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -2304,8 +2307,8 @@
       {
         "feature": "rest_days_diff",
         "label": "休養日数差",
-        "value": -22.0,
-        "shap_value": 0.298141,
+        "value": -102.0,
+        "shap_value": 0.337279,
         "impact": "supports",
         "target": "Draw",
         "text": "休養日数差がDrawのモデル出力を押し上げた"
@@ -2313,8 +2316,8 @@
       {
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
-        "value": 133.0,
-        "shap_value": 0.244566,
+        "value": 213.0,
+        "shap_value": 0.249687,
         "impact": "supports",
         "target": "Draw",
         "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
@@ -2323,7 +2326,7 @@
         "feature": "home_recent_shots",
         "label": "ホーム側の平均シュート数",
         "value": 10.4,
-        "shap_value": 0.193416,
+        "shap_value": 0.182797,
         "impact": "supports",
         "target": "Draw",
         "text": "ホーム側の平均シュート数がDrawのモデル出力を押し上げた"
@@ -2332,26 +2335,26 @@
         "feature": "home_recent_sot",
         "label": "ホーム側の平均枠内シュート数",
         "value": 2.6,
-        "shap_value": 0.160685,
+        "shap_value": 0.143519,
         "impact": "supports",
         "target": "Draw",
         "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
       },
       {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 13.4,
-        "shap_value": 0.068163,
-        "impact": "supports",
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 111.0,
+        "shap_value": -0.060021,
+        "impact": "opposes",
         "target": "Draw",
-        "text": "アウェイ側の平均シュート数がDrawのモデル出力を押し上げた"
+        "text": "ホーム側の休養日数がDrawのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "second_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -2964,12 +2967,12 @@
       "league_id": "laliga",
       "color": "#334155"
     },
-    "home_win_probability": 36.1,
-    "draw_probability": 43.7,
-    "away_win_probability": 20.2,
-    "predicted_result": "Draw",
+    "home_win_probability": 57.4,
+    "draw_probability": 18.9,
+    "away_win_probability": 23.8,
+    "predicted_result": "Home Win",
     "confidence": "Low",
-    "data_quality": "full_history",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
@@ -2993,7 +2996,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 112,
+      "days_since_last_match": 221,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -3010,83 +3013,84 @@
       {
         "label": "直近勝点",
         "home_value": "0.80",
-        "away_value": "1.00"
+        "away_value": "1.24"
       },
       {
         "label": "平均得点",
         "home_value": "1.40",
-        "away_value": "1.00"
+        "away_value": "1.24"
       },
       {
         "label": "平均失点",
         "home_value": "2.00",
-        "away_value": "1.40"
+        "away_value": "1.49"
       },
       {
         "label": "直近成績",
         "home_value": "WLLDL",
-        "away_value": "LDLWD"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "Athletic Club: 直近勝点平均 0.80",
-      "Elche CF: 直近勝点平均 1.00",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+      "Elche CF: 直近勝点平均 1.24",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "Elche CF: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
     "explanations": [
       {
-        "feature": "away_recent_gf",
-        "label": "アウェイ側の平均得点",
-        "value": 1.0,
-        "shap_value": 0.174357,
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -109.0,
+        "shap_value": 0.443857,
         "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
+        "target": "Home Win",
+        "text": "休養日数差がHome Winのモデル出力を押し上げた"
       },
       {
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
-        "value": 112.0,
-        "shap_value": 0.149227,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_points_diff",
-        "label": "直近勝点差",
-        "value": -0.2,
-        "shap_value": 0.086659,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "直近勝点差がDrawのモデル出力を押し上げた"
+        "value": 221.0,
+        "shap_value": -0.230595,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
       },
       {
         "feature": "recent_gf_diff",
         "label": "平均得点差",
-        "value": 0.4,
-        "shap_value": -0.065676,
-        "impact": "opposes",
-        "target": "Draw",
-        "text": "平均得点差がDrawのモデル出力を押し下げた"
+        "value": 0.1643,
+        "shap_value": 0.179267,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
       },
       {
-        "feature": "home_recent_ga",
-        "label": "ホーム側の平均失点",
-        "value": 2.0,
-        "shap_value": 0.065583,
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -0.4429,
+        "shap_value": 0.153186,
         "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の平均失点がDrawのモデル出力を押し上げた"
+        "target": "Home Win",
+        "text": "直近勝点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 1.2357,
+        "shap_value": 0.145579,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "アウェイ側の平均得点がHome Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "first_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -3846,18 +3850,18 @@
       "league_id": "ligue1",
       "color": "#334155"
     },
-    "home_win_probability": 56.0,
-    "draw_probability": 15.6,
-    "away_win_probability": 28.3,
-    "predicted_result": "Home Win",
-    "confidence": "High",
+    "home_win_probability": 36.3,
+    "draw_probability": 18.8,
+    "away_win_probability": 44.9,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
     "data_quality": "full_history",
     "home_fatigue": {
-      "index": 0,
+      "index": 30,
       "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 118,
+      "matches_last_7d": 1,
+      "matches_last_14d": 2,
+      "days_since_last_match": 6,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -3891,12 +3895,12 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "1.80",
+        "home_value": "2.00",
         "away_value": "1.80"
       },
       {
         "label": "平均得点",
-        "home_value": "2.00",
+        "home_value": "1.80",
         "away_value": "2.00"
       },
       {
@@ -3906,12 +3910,12 @@
       },
       {
         "label": "直近成績",
-        "home_value": "WLWLW",
+        "home_value": "LWDWW",
         "away_value": "WWWLL"
       }
     ],
     "reasons": [
-      "Paris FC: 直近勝点平均 1.80",
+      "Paris FC: 直近勝点平均 2.00",
       "Olympique Lyonnais: 直近勝点平均 1.80",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
     ],
@@ -3919,49 +3923,49 @@
     "odds": null,
     "explanations": [
       {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 5.4,
-        "shap_value": 0.220811,
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 118.0,
+        "shap_value": 0.300109,
         "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -112.0,
+        "shap_value": 0.160968,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "休養日数差がAway Winのモデル出力を押し上げた"
       },
       {
         "feature": "recent_ga_diff",
         "label": "平均失点差",
         "value": -1.2,
-        "shap_value": 0.211571,
+        "shap_value": 0.155686,
         "impact": "supports",
-        "target": "Home Win",
-        "text": "平均失点差がHome Winのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "平均失点差がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 118.0,
-        "shap_value": 0.202702,
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 13.6,
+        "shap_value": 0.092812,
         "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 118.0,
-        "shap_value": -0.176799,
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -0.2,
+        "shap_value": -0.080517,
         "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
-      },
-      {
-        "feature": "away_recent_sot",
-        "label": "アウェイ側の平均枠内シュート数",
-        "value": 5.4,
-        "shap_value": 0.098375,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "アウェイ側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
@@ -4000,18 +4004,18 @@
     "confidence": "High",
     "data_quality": "full_history",
     "home_fatigue": {
-      "index": 0,
+      "index": 35,
       "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 111,
+      "matches_last_7d": 1,
+      "matches_last_14d": 1,
+      "days_since_last_match": 4,
       "after_european_competition": false,
-      "after_domestic_cup": false,
+      "after_domestic_cup": true,
       "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
+      "extra_matches_last_7d": 1,
+      "extra_matches_last_14d": 1,
+      "last_extra_competition": "EFL Cup",
+      "last_extra_match_source": "TheSportsDB",
       "european_competition_data_status": "available",
       "domestic_cup_data_status": "partial_last_event_only",
       "extra_time_data_status": "partial",
@@ -4287,12 +4291,12 @@
       "league_id": "laliga",
       "color": "#334155"
     },
-    "home_win_probability": 11.3,
-    "draw_probability": 7.9,
-    "away_win_probability": 80.7,
+    "home_win_probability": 29.0,
+    "draw_probability": 23.4,
+    "away_win_probability": 47.6,
     "predicted_result": "Away Win",
-    "confidence": "High",
-    "data_quality": "second_division_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
@@ -4316,7 +4320,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 105,
+      "days_since_last_match": 222,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -4333,29 +4337,29 @@
       {
         "label": "直近勝点",
         "home_value": "2.00",
-        "away_value": "2.60"
+        "away_value": "1.24"
       },
       {
         "label": "平均得点",
         "home_value": "1.60",
-        "away_value": "2.60"
+        "away_value": "1.24"
       },
       {
         "label": "平均失点",
         "home_value": "1.00",
-        "away_value": "1.00"
+        "away_value": "1.49"
       },
       {
         "label": "直近成績",
         "home_value": "WWLDW",
-        "away_value": "WWWDW"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "RC Celta de Vigo: 直近勝点平均 2.00",
-      "Málaga CF: 直近勝点平均 2.60",
+      "Málaga CF: 直近勝点平均 1.24",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "Málaga CF: 前シーズンまでの2部実績を使用しています。"
+      "Málaga CF: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -4364,53 +4368,53 @@
         "feature": "home_recent_shots",
         "label": "ホーム側の平均シュート数",
         "value": 7.0,
-        "shap_value": 0.524183,
+        "shap_value": 0.523304,
         "impact": "supports",
         "target": "Away Win",
         "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 105.0,
-        "shap_value": 0.192423,
-        "impact": "supports",
+        "feature": "recent_ga_diff",
+        "label": "平均失点差",
+        "value": -0.4857,
+        "shap_value": -0.175233,
+        "impact": "opposes",
         "target": "Away Win",
-        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+        "text": "平均失点差がAway Winのモデル出力を押し下げた"
       },
       {
         "feature": "away_recent_shots",
         "label": "アウェイ側の平均シュート数",
-        "value": 17.6,
-        "shap_value": 0.190797,
+        "value": null,
+        "shap_value": 0.143768,
         "impact": "supports",
         "target": "Away Win",
         "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": -1.0,
-        "shap_value": 0.146352,
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 222.0,
+        "shap_value": 0.120303,
         "impact": "supports",
         "target": "Away Win",
-        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_points_diff",
-        "label": "直近勝点差",
-        "value": -0.6,
-        "shap_value": 0.144383,
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 3.2,
+        "shap_value": 0.099971,
         "impact": "supports",
         "target": "Away Win",
-        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
+        "text": "ホーム側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "second_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -4435,18 +4439,18 @@
       "league_id": "pl",
       "color": "#334155"
     },
-    "home_win_probability": 41.2,
-    "draw_probability": 21.0,
-    "away_win_probability": 37.8,
-    "predicted_result": "Home Win",
+    "home_win_probability": 36.4,
+    "draw_probability": 27.1,
+    "away_win_probability": 36.5,
+    "predicted_result": "Away Win",
     "confidence": "Low",
-    "data_quality": "second_division_history",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 134,
+      "days_since_last_match": 214,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -4480,84 +4484,84 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "2.20",
+        "home_value": "1.16",
         "away_value": "1.20"
       },
       {
         "label": "平均得点",
-        "home_value": "2.60",
+        "home_value": "1.30",
         "away_value": "1.40"
       },
       {
         "label": "平均失点",
-        "home_value": "0.60",
+        "home_value": "1.58",
         "away_value": "1.40"
       },
       {
         "label": "直近成績",
-        "home_value": "DDWWW",
+        "home_value": "EST",
         "away_value": "WLWLL"
       }
     ],
     "reasons": [
-      "Coventry City FC: 直近勝点平均 2.20",
+      "Coventry City FC: 直近勝点平均 1.16",
       "Brighton & Hove Albion FC: 直近勝点平均 1.20",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "Coventry City FC: 前シーズンまでの2部実績を使用しています。"
+      "Coventry City FC: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
     "explanations": [
       {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 112.0,
-        "shap_value": -0.154098,
-        "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 14.8,
+        "shap_value": 0.137749,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 134.0,
-        "shap_value": 0.149113,
+        "feature": "recent_ga_diff",
+        "label": "平均失点差",
+        "value": 0.184,
+        "shap_value": 0.08138,
         "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 1.2,
-        "shap_value": 0.123754,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "平均失点差がAway Winのモデル出力を押し上げた"
       },
       {
         "feature": "home_recent_shots",
         "label": "ホーム側の平均シュート数",
-        "value": 16.0,
-        "shap_value": 0.118008,
+        "value": 12.424,
+        "shap_value": 0.075918,
         "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均シュート数がHome Winのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 14.8,
-        "shap_value": -0.111978,
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 112.0,
+        "shap_value": 0.064007,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_gf",
+        "label": "ホーム側の平均得点",
+        "value": 1.304,
+        "shap_value": -0.060582,
         "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の平均シュート数がHome Winのモデル出力を押し下げた"
+        "target": "Away Win",
+        "text": "ホーム側の平均得点がAway Winのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
-      "home": "second_division",
+      "home": "estimated",
       "away": "first_division"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
@@ -4730,12 +4734,12 @@
       "league_id": "ligue1",
       "color": "#334155"
     },
-    "home_win_probability": 17.6,
-    "draw_probability": 52.8,
-    "away_win_probability": 29.6,
-    "predicted_result": "Draw",
-    "confidence": "High",
-    "data_quality": "second_division_history",
+    "home_win_probability": 22.7,
+    "draw_probability": 27.1,
+    "away_win_probability": 50.1,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 39,
       "level": "Low",
@@ -4759,7 +4763,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 127,
+      "days_since_last_match": 197,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -4776,84 +4780,84 @@
       {
         "label": "直近勝点",
         "home_value": "1.60",
-        "away_value": "1.80"
+        "away_value": "1.24"
       },
       {
         "label": "平均得点",
         "home_value": "0.60",
-        "away_value": "1.80"
+        "away_value": "1.39"
       },
       {
         "label": "平均失点",
         "home_value": "0.60",
-        "away_value": "0.60"
+        "away_value": "1.61"
       },
       {
         "label": "直近成績",
         "home_value": "DWDWL",
-        "away_value": "LWWWL"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "Lille OSC: 直近勝点平均 1.60",
-      "ES Troyes AC: 直近勝点平均 1.80",
+      "ES Troyes AC: 直近勝点平均 1.24",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "ES Troyes AC: 前シーズンまでの2部実績を使用しています。"
+      "ES Troyes AC: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
     "explanations": [
       {
-        "feature": "rest_days_diff",
-        "label": "休養日数差",
-        "value": -8.0,
-        "shap_value": 0.228033,
+        "feature": "recent_ga_diff",
+        "label": "平均失点差",
+        "value": -1.0091,
+        "shap_value": 0.233717,
         "impact": "supports",
-        "target": "Draw",
-        "text": "休養日数差がDrawのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "平均失点差がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "away_recent_ga",
-        "label": "アウェイ側の平均失点",
-        "value": 0.6,
-        "shap_value": 0.225154,
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -0.7909,
+        "shap_value": 0.177893,
         "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の平均失点がDrawのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 0.6,
-        "shap_value": 0.134356,
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 197.0,
+        "shap_value": 0.126502,
         "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の平均得点がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 119.0,
-        "shap_value": -0.098728,
-        "impact": "opposes",
-        "target": "Draw",
-        "text": "ホーム側の休養日数がDrawのモデル出力を押し下げた"
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
       },
       {
         "feature": "away_recent_shots",
         "label": "アウェイ側の平均シュート数",
-        "value": 14.0,
-        "shap_value": 0.083739,
+        "value": 12.8364,
+        "shap_value": 0.097814,
         "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の平均シュート数がDrawのモデル出力を押し上げた"
+        "target": "Away Win",
+        "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_ga",
+        "label": "アウェイ側の平均失点",
+        "value": 1.6091,
+        "shap_value": 0.072006,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の平均失点がAway Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "second_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -4878,17 +4882,17 @@
       "league_id": "bundesliga",
       "color": "#334155"
     },
-    "home_win_probability": 75.4,
-    "draw_probability": 17.9,
-    "away_win_probability": 6.7,
-    "predicted_result": "Home Win",
-    "confidence": "High",
-    "data_quality": "full_history",
+    "home_win_probability": 29.1,
+    "draw_probability": 45.1,
+    "away_win_probability": 25.8,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
-      "index": 53,
+      "index": 58,
       "level": "Medium",
       "matches_last_7d": 1,
-      "matches_last_14d": 1,
+      "matches_last_14d": 2,
       "days_since_last_match": 2,
       "after_european_competition": true,
       "after_domestic_cup": false,
@@ -4907,7 +4911,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 120,
+      "days_since_last_match": 184,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -4923,84 +4927,85 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "1.80",
-        "away_value": "1.40"
+        "home_value": "1.20",
+        "away_value": "1.30"
       },
       {
         "label": "平均得点",
-        "home_value": "2.00",
+        "home_value": "1.60",
         "away_value": "1.60"
       },
       {
         "label": "平均失点",
-        "home_value": "2.20",
-        "away_value": "1.80"
+        "home_value": "2.40",
+        "away_value": "1.77"
       },
       {
         "label": "直近成績",
-        "home_value": "WWLWL",
-        "away_value": "LLWWD"
+        "home_value": "LWLWL",
+        "away_value": "EST"
       }
     ],
     "reasons": [
-      "RB Leipzig: 直近勝点平均 1.80",
-      "Hamburger SV: 直近勝点平均 1.40",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+      "RB Leipzig: 直近勝点平均 1.20",
+      "Hamburger SV: 直近勝点平均 1.30",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
+      "Hamburger SV: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
     "explanations": [
       {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 6.8,
-        "shap_value": 0.872895,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
-        "value": 120.0,
-        "shap_value": -0.338753,
-        "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+        "value": 184.0,
+        "shap_value": 0.232494,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 0.4,
-        "shap_value": 0.15468,
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -176.0,
+        "shap_value": 0.199659,
         "impact": "supports",
-        "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+        "target": "Draw",
+        "text": "休養日数差がDrawのモデル出力を押し上げた"
       },
       {
         "feature": "home_days_rest",
         "label": "ホーム側の休養日数",
-        "value": 120.0,
-        "shap_value": 0.151383,
+        "value": 8.0,
+        "shap_value": 0.102408,
         "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+        "target": "Draw",
+        "text": "ホーム側の休養日数がDrawのモデル出力を押し上げた"
       },
       {
-        "feature": "away_recent_sot",
-        "label": "アウェイ側の平均枠内シュート数",
-        "value": 4.4,
-        "shap_value": -0.132498,
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 13.5556,
+        "shap_value": 0.074231,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 13.6667,
+        "shap_value": -0.059238,
         "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の平均枠内シュート数がHome Winのモデル出力を押し下げた"
+        "target": "Draw",
+        "text": "ホーム側の平均シュート数がDrawのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "first_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
@@ -5172,18 +5177,18 @@
       "league_id": "ligue1",
       "color": "#334155"
     },
-    "home_win_probability": 11.0,
-    "draw_probability": 17.6,
-    "away_win_probability": 71.3,
+    "home_win_probability": 17.4,
+    "draw_probability": 14.5,
+    "away_win_probability": 68.1,
     "predicted_result": "Away Win",
-    "confidence": "High",
-    "data_quality": "second_division_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 127,
+      "days_since_last_match": 197,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -5217,30 +5222,30 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "1.80",
+        "home_value": "1.24",
         "away_value": "1.60"
       },
       {
         "label": "平均得点",
-        "home_value": "1.00",
+        "home_value": "1.39",
         "away_value": "1.80"
       },
       {
         "label": "平均失点",
-        "home_value": "0.40",
+        "home_value": "1.61",
         "away_value": "1.20"
       },
       {
         "label": "直近成績",
-        "home_value": "DWDDW",
+        "home_value": "EST",
         "away_value": "DDWLW"
       }
     ],
     "reasons": [
-      "Le Mans FC: 直近勝点平均 1.80",
+      "Le Mans FC: 直近勝点平均 1.24",
       "Racing Club de Lens: 直近勝点平均 1.60",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "Le Mans FC: 前シーズンまでの2部実績を使用しています。"
+      "Le Mans FC: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -5249,52 +5254,52 @@
         "feature": "away_recent_shots",
         "label": "アウェイ側の平均シュート数",
         "value": 18.8,
-        "shap_value": 0.49544,
+        "shap_value": 0.49429,
         "impact": "supports",
         "target": "Away Win",
         "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
       },
       {
+        "feature": "recent_ga_diff",
+        "label": "平均失点差",
+        "value": 0.4091,
+        "shap_value": -0.120101,
+        "impact": "opposes",
+        "target": "Away Win",
+        "text": "平均失点差がAway Winのモデル出力を押し下げた"
+      },
+      {
         "feature": "recent_gf_diff",
         "label": "平均得点差",
-        "value": -0.8,
-        "shap_value": 0.206115,
+        "value": -0.4091,
+        "shap_value": 0.113542,
         "impact": "supports",
         "target": "Away Win",
         "text": "平均得点差がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_ga_diff",
-        "label": "平均失点差",
-        "value": -0.8,
-        "shap_value": 0.15693,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "平均失点差がAway Winのモデル出力を押し上げた"
-      },
-      {
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
         "value": 119.0,
-        "shap_value": 0.094865,
+        "shap_value": 0.08034,
         "impact": "supports",
         "target": "Away Win",
         "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "away_recent_ga",
-        "label": "アウェイ側の平均失点",
-        "value": 1.2,
-        "shap_value": 0.087103,
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 4.3727,
+        "shap_value": 0.06976,
         "impact": "supports",
         "target": "Away Win",
-        "text": "アウェイ側の平均失点がAway Winのモデル出力を押し上げた"
+        "text": "ホーム側の平均枠内シュート数がAway Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
-      "home": "second_division",
+      "home": "estimated",
       "away": "first_division"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
@@ -5467,18 +5472,18 @@
       "league_id": "bundesliga",
       "color": "#334155"
     },
-    "home_win_probability": 17.4,
-    "draw_probability": 25.7,
-    "away_win_probability": 56.8,
+    "home_win_probability": 7.2,
+    "draw_probability": 4.6,
+    "away_win_probability": 88.2,
     "predicted_result": "Away Win",
-    "confidence": "High",
-    "data_quality": "second_division_history",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 119,
+      "days_since_last_match": 184,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -5512,30 +5517,30 @@
     "comparison": [
       {
         "label": "直近勝点",
-        "home_value": "2.00",
+        "home_value": "1.30",
         "away_value": "2.60"
       },
       {
         "label": "平均得点",
-        "home_value": "3.00",
+        "home_value": "1.60",
         "away_value": "3.40"
       },
       {
         "label": "平均失点",
-        "home_value": "1.40",
+        "home_value": "1.77",
         "away_value": "1.80"
       },
       {
         "label": "直近成績",
-        "home_value": "WDWLW",
+        "home_value": "EST",
         "away_value": "WWDWW"
       }
     ],
     "reasons": [
-      "SV 07 Elversberg: 直近勝点平均 2.00",
+      "SV 07 Elversberg: 直近勝点平均 1.30",
       "FC Bayern München: 直近勝点平均 2.60",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "SV 07 Elversberg: 前シーズンまでの2部実績を使用しています。"
+      "SV 07 Elversberg: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
@@ -5544,34 +5549,16 @@
         "feature": "away_recent_shots",
         "label": "アウェイ側の平均シュート数",
         "value": 19.4,
-        "shap_value": 0.345991,
+        "shap_value": 0.488654,
         "impact": "supports",
         "target": "Away Win",
         "text": "アウェイ側の平均シュート数がAway Winのモデル出力を押し上げた"
       },
       {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 3.0,
-        "shap_value": -0.186995,
-        "impact": "opposes",
-        "target": "Away Win",
-        "text": "ホーム側の平均得点がAway Winのモデル出力を押し下げた"
-      },
-      {
-        "feature": "recent_ga_diff",
-        "label": "平均失点差",
-        "value": -0.4,
-        "shap_value": -0.184077,
-        "impact": "opposes",
-        "target": "Away Win",
-        "text": "平均失点差がAway Winのモデル出力を押し下げた"
-      },
-      {
         "feature": "recent_points_diff",
         "label": "直近勝点差",
-        "value": -0.6,
-        "shap_value": 0.17657,
+        "value": -1.3048,
+        "shap_value": 0.312907,
         "impact": "supports",
         "target": "Away Win",
         "text": "直近勝点差がAway Winのモデル出力を押し上げた"
@@ -5580,16 +5567,34 @@
         "feature": "away_days_rest",
         "label": "アウェイ側の休養日数",
         "value": 120.0,
-        "shap_value": 0.155589,
+        "shap_value": 0.168827,
         "impact": "supports",
         "target": "Away Win",
         "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -1.8,
+        "shap_value": 0.109849,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_ga_diff",
+        "label": "平均失点差",
+        "value": -0.0286,
+        "shap_value": 0.084275,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "平均失点差がAway Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
-      "home": "second_division",
+      "home": "estimated",
       "away": "first_division"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
@@ -5762,12 +5767,12 @@
       "league_id": "laliga",
       "color": "#334155"
     },
-    "home_win_probability": 18.6,
-    "draw_probability": 31.1,
-    "away_win_probability": 50.3,
-    "predicted_result": "Away Win",
-    "confidence": "Medium",
-    "data_quality": "second_division_history",
+    "home_win_probability": 36.0,
+    "draw_probability": 44.4,
+    "away_win_probability": 19.6,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "estimated",
     "home_fatigue": {
       "index": 0,
       "level": "Low",
@@ -5791,7 +5796,7 @@
       "level": "Low",
       "matches_last_7d": 0,
       "matches_last_14d": 0,
-      "days_since_last_match": 105,
+      "days_since_last_match": 222,
       "after_european_competition": false,
       "after_domestic_cup": false,
       "had_extra_time_or_penalties": false,
@@ -5808,84 +5813,84 @@
       {
         "label": "直近勝点",
         "home_value": "1.40",
-        "away_value": "2.40"
+        "away_value": "1.24"
       },
       {
         "label": "平均得点",
         "home_value": "0.80",
-        "away_value": "1.60"
+        "away_value": "1.24"
       },
       {
         "label": "平均失点",
         "home_value": "0.80",
-        "away_value": "0.80"
+        "away_value": "1.49"
       },
       {
         "label": "直近成績",
         "home_value": "LDWLW",
-        "away_value": "WWWWL"
+        "away_value": "EST"
       }
     ],
     "reasons": [
       "Getafe CF: 直近勝点平均 1.40",
-      "RC Deportivo La Coruña: 直近勝点平均 2.40",
+      "RC Deportivo La Coruña: 直近勝点平均 1.24",
       "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。",
-      "RC Deportivo La Coruña: 前シーズンまでの2部実績を使用しています。"
+      "RC Deportivo La Coruña: 十分な履歴がないためリーグ平均値で推定しています。"
     ],
     "h2h_summary": null,
     "odds": null,
     "explanations": [
       {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": -0.8,
-        "shap_value": 0.188357,
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -109.0,
+        "shap_value": 0.26761,
         "impact": "supports",
-        "target": "Away Win",
-        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+        "target": "Draw",
+        "text": "休養日数差がDrawのモデル出力を押し上げた"
       },
       {
-        "feature": "recent_points_diff",
-        "label": "直近勝点差",
-        "value": -1.0,
-        "shap_value": 0.187041,
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 222.0,
+        "shap_value": 0.214112,
         "impact": "supports",
-        "target": "Away Win",
-        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
+        "target": "Draw",
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
       },
       {
         "feature": "home_recent_shots",
         "label": "ホーム側の平均シュート数",
         "value": 10.2,
-        "shap_value": 0.13242,
+        "shap_value": 0.18021,
         "impact": "supports",
-        "target": "Away Win",
-        "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し上げた"
+        "target": "Draw",
+        "text": "ホーム側の平均シュート数がDrawのモデル出力を押し上げた"
       },
       {
-        "feature": "rest_days_diff",
-        "label": "休養日数差",
-        "value": 8.0,
-        "shap_value": 0.079689,
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 2.8,
+        "shap_value": 0.141934,
         "impact": "supports",
-        "target": "Away Win",
-        "text": "休養日数差がAway Winのモデル出力を押し上げた"
+        "target": "Draw",
+        "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
       },
       {
-        "feature": "away_recent_points",
-        "label": "アウェイ側の直近勝点",
-        "value": 2.4,
-        "shap_value": 0.066442,
-        "impact": "supports",
-        "target": "Away Win",
-        "text": "アウェイ側の直近勝点がAway Winのモデル出力を押し上げた"
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 1.2357,
+        "shap_value": -0.103805,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "アウェイ側の平均得点がDrawのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
     "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
     "history_source": {
       "home": "first_division",
-      "away": "second_division"
+      "away": "estimated"
     },
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
