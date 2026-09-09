@@ -11,6 +11,12 @@ HISTORY_PATH = ROOT / "data" / "predictions" / "prediction_history.json"
 OUTPUT_PATH = ROOT / "data" / "predictions" / "completed_matches.json"
 TEMP_OUTPUT_PATH = OUTPUT_PATH.with_suffix(".json.tmp")
 
+# 既存テストからパスを差し替えるための互換変数
+R = RESULTS_PATH
+H = HISTORY_PATH
+O = OUTPUT_PATH
+T = TEMP_OUTPUT_PATH
+
 LEAGUE_NAMES = {
     "pl": "Premier League",
     "laliga": "La Liga",
@@ -40,7 +46,10 @@ def actual_result_label(home_score: int, away_score: int) -> str:
     return "Draw"
 
 
-def build_completed_match(result: dict[str, Any], prediction: dict[str, Any] | None) -> dict[str, Any] | None:
+def build_completed_match(
+    result: dict[str, Any],
+    prediction: dict[str, Any] | None,
+) -> dict[str, Any] | None:
     match_id = str(result.get("id", "")).strip()
     if not match_id:
         return None
@@ -62,7 +71,11 @@ def build_completed_match(result: dict[str, Any], prediction: dict[str, Any] | N
     return {
         "id": match_id,
         "league_id": league_id,
-        "league_name": source.get("league_name") or result.get("league_name") or LEAGUE_NAMES.get(league_id, ""),
+        "league_name": (
+            source.get("league_name")
+            or result.get("league_name")
+            or LEAGUE_NAMES.get(league_id, "")
+        ),
         "kickoff": source.get("kickoff") or result.get("kickoff") or "",
         "home_team": source.get("home_team") or result.get("home_team") or {},
         "away_team": source.get("away_team") or result.get("away_team") or {},
@@ -72,10 +85,16 @@ def build_completed_match(result: dict[str, Any], prediction: dict[str, Any] | N
         "prediction_status": "recorded" if recorded else "missing",
         "prediction_available": recorded,
         "predicted_result": prediction.get("predicted_result") if recorded else None,
-        "home_win_probability": prediction.get("home_win_probability") if recorded else None,
+        "home_win_probability": (
+            prediction.get("home_win_probability") if recorded else None
+        ),
         "draw_probability": prediction.get("draw_probability") if recorded else None,
-        "away_win_probability": prediction.get("away_win_probability") if recorded else None,
-        "is_correct": prediction.get("predicted_result") == actual_result if recorded else None,
+        "away_win_probability": (
+            prediction.get("away_win_probability") if recorded else None
+        ),
+        "is_correct": (
+            prediction.get("predicted_result") == actual_result if recorded else None
+        ),
         "confidence": prediction.get("confidence") if recorded else None,
         "data_quality": prediction.get("data_quality") if recorded else None,
         "model_version": prediction.get("model_version") if recorded else None,
@@ -83,25 +102,27 @@ def build_completed_match(result: dict[str, Any], prediction: dict[str, Any] | N
 
 
 def atomic_write(payload: list[dict[str, Any]]) -> None:
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    TEMP_OUTPUT_PATH.unlink(missing_ok=True)
+    O.parent.mkdir(parents=True, exist_ok=True)
+    T.unlink(missing_ok=True)
     try:
-        with TEMP_OUTPUT_PATH.open("w", encoding="utf-8") as file:
+        with T.open("w", encoding="utf-8") as file:
             json.dump(payload, file, ensure_ascii=False, indent=2)
             file.flush()
             os.fsync(file.fileno())
-        verified = json.loads(TEMP_OUTPUT_PATH.read_text(encoding="utf-8"))
+
+        verified = json.loads(T.read_text(encoding="utf-8"))
         if not isinstance(verified, list):
             raise ValueError("completed_matches.jsonは配列である必要があります")
-        os.replace(TEMP_OUTPUT_PATH, OUTPUT_PATH)
+
+        os.replace(T, O)
     except Exception:
-        TEMP_OUTPUT_PATH.unlink(missing_ok=True)
+        T.unlink(missing_ok=True)
         raise
 
 
 def main() -> None:
-    results = load_json_list(RESULTS_PATH)
-    history = load_json_list(HISTORY_PATH)
+    results = load_json_list(R)
+    history = load_json_list(H)
     history_by_id = {
         str(item["id"]): item
         for item in history
@@ -118,8 +139,10 @@ def main() -> None:
     completed.sort(key=lambda item: str(item.get("kickoff", "")), reverse=True)
     atomic_write(completed)
 
-    recorded = sum(1 for item in completed if item["prediction_status"] == "recorded")
-    print(f"終了済み試合を保存: {OUTPUT_PATH}")
+    recorded = sum(
+        1 for item in completed if item["prediction_status"] == "recorded"
+    )
+    print(f"終了済み試合を保存: {O}")
     print(f"終了済み試合: {len(completed)}件")
     print(f"予測記録あり: {recorded}件")
     print(f"予測記録なし: {len(completed) - recorded}件")
