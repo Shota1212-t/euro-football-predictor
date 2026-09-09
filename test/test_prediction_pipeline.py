@@ -487,3 +487,78 @@ def test_predictor_maps_probabilities_by_model_class(monkeypatch, tmp_path):
     assert result["draw_probability"] == 0.3
     assert result["away_win_probability"] == 0.2
     assert result["predicted_result"] == "HOME_WIN"
+
+
+
+def _timeline_feature_matches():
+    frame = pd.DataFrame(
+        [
+            {"Date": "2026-09-01", "HomeTeam": "A", "AwayTeam": "B", "FTHG": 2, "FTAG": 0, "FTR": "H"},
+            {"Date": "2026-09-01", "HomeTeam": "C", "AwayTeam": "D", "FTHG": 0, "FTAG": 1, "FTR": "A"},
+            {"Date": "2026-09-02", "HomeTeam": "A", "AwayTeam": "C", "FTHG": 5, "FTAG": 0, "FTR": "H"},
+            {"Date": "2026-09-02", "HomeTeam": "D", "AwayTeam": "A", "FTHG": 0, "FTAG": 1, "FTR": "A"},
+            {"Date": "2026-09-03", "HomeTeam": "A", "AwayTeam": "D", "FTHG": 1, "FTAG": 0, "FTR": "H"},
+        ]
+    )
+    frame["Date"] = pd.to_datetime(frame["Date"])
+    return frame
+
+
+def test_training_features_are_independent_of_same_day_row_order():
+    from ml.features import build_features
+
+    matches = _timeline_feature_matches()
+    reordered = pd.concat(
+        [group.iloc[::-1] for _, group in matches.groupby("Date", sort=False)],
+        ignore_index=True,
+    )
+    original = build_features(matches, window=1).sort_values(
+        ["Date", "HomeTeam", "AwayTeam"]
+    ).reset_index(drop=True)
+    changed_order = build_features(reordered, window=1).sort_values(
+        ["Date", "HomeTeam", "AwayTeam"]
+    ).reset_index(drop=True)
+    pd.testing.assert_frame_equal(original, changed_order)
+
+
+def test_same_day_result_is_not_used_by_another_same_day_match():
+    from ml.features import build_features
+
+    features = build_features(_timeline_feature_matches(), window=1)
+    same_day_match = features[
+        (features["Date"] == pd.Timestamp("2026-09-02"))
+        & (features["AwayTeam"] == "A")
+    ].iloc[0]
+    assert same_day_match["away_recent_gf"] == 2
+    assert same_day_match["away_recent_points"] == 3
+    assert same_day_match["away_history_count"] == 1
+
+
+def test_previous_day_result_is_used_by_later_match():
+    from ml.features import build_features
+
+    features = build_features(_timeline_feature_matches(), window=1)
+    next_day_match = features[
+        features["Date"] == pd.Timestamp("2026-09-03")
+    ].iloc[0]
+    assert next_day_match["home_recent_gf"] == 1
+    assert next_day_match["home_recent_ga"] == 0
+    assert next_day_match["home_recent_points"] == 3
+    assert next_day_match["home_history_count"] == 1
+
+
+def test_match_does_not_use_its_own_result_as_history():
+    from ml.features import build_features
+
+    matches = pd.DataFrame(
+        [
+            {"Date": "2026-09-01", "HomeTeam": "A", "AwayTeam": "B", "FTHG": 1, "FTAG": 0, "FTR": "H"},
+            {"Date": "2026-09-02", "HomeTeam": "A", "AwayTeam": "B", "FTHG": 9, "FTAG": 8, "FTR": "H"},
+        ]
+    )
+    matches["Date"] = pd.to_datetime(matches["Date"])
+    second_match = build_features(matches, window=1).iloc[0]
+    assert second_match["home_recent_gf"] == 1
+    assert second_match["away_recent_gf"] == 0
+    assert second_match["home_history_count"] == 1
+    assert second_match["away_history_count"] == 1
