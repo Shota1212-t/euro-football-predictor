@@ -94,14 +94,18 @@ export function Header({ title, crumb }: { title: string; crumb?: string }) {
 // 画面状態（UI設計書 19章：Loading / Empty / Error / Data Stale）
 // ---------------------------------------------------------------------------
 
-export function ErrorState({ message }: { message?: string }) {
+export function ErrorState({ message, showBackendHint = true }: { message?: string; showBackendHint?: boolean }) {
   return (
     <div className="card state state-error">
-      <p>
-        データ取得に失敗しました。バックエンドAPI（{process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000'}）
-        が起動しているか確認してください。
-      </p>
-      {message && <p className="muted">{message}</p>}
+      {showBackendHint ? (
+        <p>
+          データ取得に失敗しました。バックエンドAPI（{process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000'}）
+          が起動しているか確認してください。
+        </p>
+      ) : (
+        <p>{message || 'データ取得に失敗しました。'}</p>
+      )}
+      {message && showBackendHint && <p className="muted">{message}</p>}
     </div>
   );
 }

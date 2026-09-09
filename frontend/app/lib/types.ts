@@ -258,4 +258,24 @@ export interface CompletedMatch {
   is_correct?: boolean | null; confidence?: 'High' | 'Medium' | 'Low' | null;
   data_quality?: string | null; model_version?: string | null;
 }
-export interface CompletedPerformance { total_predictions: number; correct_predictions: number; accuracy: number; }
+export interface CompletedPerformance {
+  total_predictions: number;
+  correct_predictions: number;
+  accuracy: number;
+  incorrect_predictions?: number;
+}
+
+export function deriveIncorrectPredictions(performance: CompletedPerformance | null | undefined): number {
+  if (!performance) return 0;
+  const totalPredictions = Number(performance.total_predictions ?? 0);
+  const correctPredictions = Number(performance.correct_predictions ?? 0);
+  const rawIncorrect = typeof performance.incorrect_predictions === 'number'
+    ? Number(performance.incorrect_predictions)
+    : totalPredictions - correctPredictions;
+  return Number.isFinite(rawIncorrect) ? Math.max(0, rawIncorrect) : 0;
+}
+
+export function safePercent(value: number | null | undefined): number {
+  const numericValue = Number(value ?? 0);
+  return Number.isFinite(numericValue) ? numericValue : 0;
+}
