@@ -11,6 +11,7 @@ import joblib
 import numpy as np
 import pandas as pd
 import shap
+from ml.features import MODEL_FEATURE_COLUMNS, build_prediction_features
 
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURES_PATH = ROOT / "data" / "processed" / "fixtures.json"
@@ -533,21 +534,17 @@ def fatigue_payload(stats: dict, context: dict | None = None) -> dict:
 
 
 def build_features(home: dict, away: dict) -> dict:
-    return {
-        "home_recent_points": home["points"], "away_recent_points": away["points"],
-        "recent_points_diff": home["points"] - away["points"],
-        "home_recent_gf": home["gf"], "away_recent_gf": away["gf"],
-        "recent_gf_diff": home["gf"] - away["gf"],
-        "home_recent_ga": home["ga"], "away_recent_ga": away["ga"],
-        "recent_ga_diff": home["ga"] - away["ga"],
-        "home_recent_shots": home["shots"], "away_recent_shots": away["shots"],
-        "home_recent_sot": home["sot"], "away_recent_sot": away["sot"],
-        "home_days_rest": home["days"], "away_days_rest": away["days"],
-        "rest_days_diff": home["days"] - away["days"],
-        "home_history_count": home["played"], "away_history_count": away["played"],
-        "B365H": np.nan, "B365D": np.nan, "B365A": np.nan,
-    }
+    """後方互換用。特徴量定義はml.featuresを正とする。"""
+    features = build_prediction_features(home, away)
+    return {**features, "B365H": np.nan, "B365D": np.nan, "B365A": np.nan}
 
+
+def validate_feature_schema(metadata_features: list[str]) -> None:
+    """本番モデルのメタデータと共通特徴量の順番を検証する。"""
+    if metadata_features != MODEL_FEATURE_COLUMNS:
+        raise ValueError(
+            "モデルメタデータの特徴量順がml.features.MODEL_FEATURE_COLUMNSと一致しません。"
+        )
 
 def team_payload(team: dict, league_id: str) -> dict:
     name = team.get("name", "Unknown")
@@ -911,6 +908,7 @@ def main() -> None:
             extra_status,
         )
 
+        validate_feature_schema(meta["features"])
         feature_dict = build_features(home_stats, away_stats)
         X = pd.DataFrame([{col: feature_dict.get(col, np.nan) for col in meta["features"]}])
         probs = model.predict_proba(X)[0]
