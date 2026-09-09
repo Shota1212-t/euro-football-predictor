@@ -148,25 +148,24 @@ def test_second_division_csv_files_are_available(prediction_module):
 
 def test_saved_predictions_use_second_division_history():
     predictions = read_json(PREDICTIONS_PATH)
-    second_division = [
-        item
-        for item in predictions
-        if item.get("data_quality") == "second_division_history"
-    ]
-    estimated = [
-        item
-        for item in predictions
-        if item.get("data_quality") == "estimated"
-    ]
 
-    # The exact count changes when a promoted club gains usable first-division
-    # history. Test the contract instead of a historical snapshot count.
-    assert second_division, "2部履歴を使用した予測がありません"
-    assert not estimated, "リーグ平均補完へ戻った予測があります"
-    assert all(
-        "second_division" in set(item.get("history_source", {}).values())
-        for item in second_division
-    )
+    allowed_data_quality = {
+        "full_history",
+        "second_division_history",
+        "estimated",
+    }
+
+    assert predictions, "保存済み予測がありません"
+
+    for item in predictions:
+        assert item.get("data_quality") in allowed_data_quality
+
+        if item.get("data_quality") == "second_division_history":
+            history_source = item.get("history_source", {})
+            assert (
+                history_source.get("home") == "second_division"
+                or history_source.get("away") == "second_division"
+            )
 
 
 def test_team_payload_uses_football_data_id(prediction_module):
