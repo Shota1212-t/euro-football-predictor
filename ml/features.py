@@ -3,6 +3,40 @@ import pandas as pd
 from .config import TARGET_MAP
 BASE_OPTIONAL=['HS','AS','HST','AST','B365H','B365D','B365A']
 
+MODEL_FEATURE_COLUMNS = [
+    "home_recent_points", "away_recent_points", "recent_points_diff",
+    "home_recent_gf", "away_recent_gf", "recent_gf_diff",
+    "home_recent_ga", "away_recent_ga", "recent_ga_diff",
+    "home_recent_shots", "away_recent_shots",
+    "home_recent_sot", "away_recent_sot",
+    "home_days_rest", "away_days_rest", "rest_days_diff",
+    "home_history_count", "away_history_count",
+]
+
+
+def build_prediction_features(home: dict, away: dict) -> dict:
+    """学習時と本番推論時で共通の特徴量名・計算式を使用する。"""
+    return {
+        "home_recent_points": home["points"],
+        "away_recent_points": away["points"],
+        "recent_points_diff": home["points"] - away["points"],
+        "home_recent_gf": home["gf"],
+        "away_recent_gf": away["gf"],
+        "recent_gf_diff": home["gf"] - away["gf"],
+        "home_recent_ga": home["ga"],
+        "away_recent_ga": away["ga"],
+        "recent_ga_diff": home["ga"] - away["ga"],
+        "home_recent_shots": home["shots"],
+        "away_recent_shots": away["shots"],
+        "home_recent_sot": home["sot"],
+        "away_recent_sot": away["sot"],
+        "home_days_rest": home["days"],
+        "away_days_rest": away["days"],
+        "rest_days_diff": home["days"] - away["days"],
+        "home_history_count": home["played"],
+        "away_history_count": away["played"],
+    }
+
 def _points(result, side):
     if result=='D': return 1
     return 3 if (result=='H' and side=='home') or (result=='A' and side=='away') else 0
