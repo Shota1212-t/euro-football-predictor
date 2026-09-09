@@ -2,7 +2,7 @@
   {
     "source": "football-data.org",
     "data_type": "Fixtures",
-    "last_updated": "2026-09-09T07:42:28+00:00",
+    "last_updated": "2026-09-09T10:03:36+00:00",
     "records": "1606 fixtures",
     "status": "Success",
     "error": null,
@@ -12,7 +12,7 @@
   {
     "source": "football-data.org",
     "data_type": "Standings",
-    "last_updated": "2026-09-09T07:42:28+00:00",
+    "last_updated": "2026-09-09T10:03:36+00:00",
     "records": "5 leagues",
     "status": "Success",
     "error": null,
@@ -22,7 +22,7 @@
   {
     "source": "football-data.org",
     "data_type": "Player rankings",
-    "last_updated": "2026-09-09T07:42:56+00:00",
+    "last_updated": "2026-09-09T10:04:04+00:00",
     "records": "5 leagues (5 available / 0 preseason) / goals 314 / assists 74 / appearances 314",
     "status": "Success",
     "error": null,
@@ -32,7 +32,7 @@
   {
     "source": "football-data.org + TheSportsDB",
     "data_type": "European / cup fixtures for fatigue",
-    "last_updated": "2026-09-09T07:43:18+00:00",
+    "last_updated": "2026-09-09T10:04:25+00:00",
     "records": "146 extra competition fixtures (144 official CL / 2 supplemental / 0 manual)",
     "status": "Success",
     "error": null,
@@ -42,7 +42,7 @@
   {
     "source": "LightGBM",
     "data_type": "Match predictions",
-    "last_updated": "2026-09-09T07:43:24+00:00",
+    "last_updated": "2026-09-09T10:04:32+00:00",
     "records": "48 predictions (33 first-division / 0 second-division / 15 estimated)",
     "status": "Success",
     "error": null,
@@ -82,7 +82,7 @@
   {
     "source": "TheSportsDB",
     "data_type": "Team profiles / images",
-    "last_updated": "2026-09-09T07:40:33+00:00",
+    "last_updated": "2026-09-09T10:01:35+00:00",
     "records": "93 team profiles",
     "status": "Success",
     "error": null,
@@ -92,7 +92,7 @@
   {
     "source": "TheSportsDB + football-data.org",
     "data_type": "Player profiles / squad verification",
-    "last_updated": "2026-09-09T07:40:33+00:00",
+    "last_updated": "2026-09-09T10:01:35+00:00",
     "records": "1698 players (1150 verified / 548 provisional)",
     "status": "Success",
     "error": null,
@@ -102,7 +102,7 @@
   {
     "source": "TheSportsDB",
     "data_type": "Managers / staff profiles",
-    "last_updated": "2026-09-09T07:40:33+00:00",
+    "last_updated": "2026-09-09T10:01:35+00:00",
     "records": "38 managers / 48 staff",
     "status": "Success",
     "error": null,
@@ -112,7 +112,7 @@
   {
     "source": "football-data.org",
     "data_type": "Current squad verification",
-    "last_updated": "2026-09-09T07:40:33+00:00",
+    "last_updated": "2026-09-09T10:01:35+00:00",
     "records": "38 verified squads / 58 provisional squads",
     "status": "Success",
     "error": null,
