@@ -2940,6 +2940,34 @@
     "actual_result": null
   },
   {
+    "id": "565820",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-09T18:30:00Z",
+    "home_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "away_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559669",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -2968,252 +2996,28 @@
     "actual_result": null
   },
   {
-    "id": "565812",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
+    "id": "564706",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
     "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
+    "status": "TIMED",
+    "kickoff": "2026-10-09T19:00:00Z",
     "home_team": {
-      "id": "fd-15",
-      "api_id": 15,
-      "name": "1. FSV Mainz 05",
-      "short": "M05"
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
     },
     "away_team": {
-      "id": "fd-3",
-      "api_id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "short": "B04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565813",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-29",
-      "api_id": 29,
-      "name": "SC Paderborn 07",
-      "short": "SCP"
-    },
-    "away_team": {
-      "id": "fd-10",
-      "api_id": 10,
-      "name": "VfB Stuttgart",
-      "short": "VFB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565814",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-1",
-      "api_id": 1,
-      "name": "1. FC Köln",
-      "short": "KOE"
-    },
-    "away_team": {
-      "id": "fd-18",
-      "api_id": 18,
-      "name": "Borussia Mönchengladbach",
-      "short": "BMG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565815",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-721",
-      "api_id": 721,
-      "name": "RB Leipzig",
-      "short": "RBL"
-    },
-    "away_team": {
-      "id": "fd-19",
-      "api_id": 19,
-      "name": "Eintracht Frankfurt",
-      "short": "SGE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565816",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-17",
-      "api_id": 17,
-      "name": "SC Freiburg",
-      "short": "SCF"
-    },
-    "away_team": {
-      "id": "fd-6",
-      "api_id": 6,
-      "name": "FC Schalke 04",
-      "short": "S04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565817",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-28",
-      "api_id": 28,
-      "name": "1. FC Union Berlin",
-      "short": "UNB"
-    },
-    "away_team": {
-      "id": "fd-719",
-      "api_id": 719,
-      "name": "SV 07 Elversberg",
-      "short": "ELV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565818",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-2",
-      "api_id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "short": "TSG"
-    },
-    "away_team": {
-      "id": "fd-7",
-      "api_id": 7,
-      "name": "Hamburger SV",
-      "short": "HSV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565819",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-16",
-      "api_id": 16,
-      "name": "FC Augsburg",
-      "short": "FCA"
-    },
-    "away_team": {
-      "id": "fd-5",
-      "api_id": 5,
-      "name": "FC Bayern München",
-      "short": "FCB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565820",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-10T00:00:00Z",
-    "home_team": {
-      "id": "fd-4",
-      "api_id": 4,
-      "name": "Borussia Dortmund",
-      "short": "BVB"
-    },
-    "away_team": {
-      "id": "fd-12",
-      "api_id": 12,
-      "name": "SV Werder Bremen",
-      "short": "SVW"
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
     },
     "home_score": null,
     "away_score": null,
@@ -3248,6 +3052,34 @@
     "actual_result": null
   },
   {
+    "id": "564698",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T12:00:00Z",
+    "home_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
+    },
+    "away_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558588",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -3270,6 +3102,146 @@
       "api_id": 99,
       "name": "ACF Fiorentina",
       "short": "FIO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565812",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T13:30:00Z",
+    "home_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
+    },
+    "away_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565813",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T13:30:00Z",
+    "home_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "away_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565817",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T13:30:00Z",
+    "home_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
+    },
+    "away_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565818",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T13:30:00Z",
+    "home_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
+    },
+    "away_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565819",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T13:30:00Z",
+    "home_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "away_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
     },
     "home_score": null,
     "away_score": null,
@@ -3388,6 +3360,34 @@
     "actual_result": null
   },
   {
+    "id": "564699",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T14:15:00Z",
+    "home_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA"
+    },
+    "away_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559674",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -3466,6 +3466,62 @@
       "api_id": 73,
       "name": "Tottenham Hotspur FC",
       "short": "TOT"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564700",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T16:30:00Z",
+    "home_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565815",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T16:30:00Z",
+    "home_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "away_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
     },
     "home_score": null,
     "away_score": null,
@@ -3612,118 +3668,6 @@
     "actual_result": null
   },
   {
-    "id": "564698",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-87",
-      "api_id": 87,
-      "name": "Rayo Vallecano de Madrid",
-      "short": "RAY"
-    },
-    "away_team": {
-      "id": "fd-77",
-      "api_id": 77,
-      "name": "Athletic Club",
-      "short": "ATH"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564699",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-263",
-      "api_id": 263,
-      "name": "Deportivo Alavés",
-      "short": "ALA"
-    },
-    "away_team": {
-      "id": "fd-78",
-      "api_id": 78,
-      "name": "Club Atlético de Madrid",
-      "short": "ATL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564700",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-81",
-      "api_id": 81,
-      "name": "FC Barcelona",
-      "short": "FCB"
-    },
-    "away_team": {
-      "id": "fd-82",
-      "api_id": 82,
-      "name": "Getafe CF",
-      "short": "GET"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564701",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-90",
-      "api_id": 90,
-      "name": "Real Betis Balompié",
-      "short": "BET"
-    },
-    "away_team": {
-      "id": "fd-79",
-      "api_id": 79,
-      "name": "CA Osasuna",
-      "short": "OSA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "564702",
     "league_id": "laliga",
     "competition_code": "PD",
@@ -3733,8 +3677,8 @@
     "season_end": "2027-05-30",
     "matchday": 8,
     "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
+    "status": "TIMED",
+    "kickoff": "2026-10-10T19:00:00Z",
     "home_team": {
       "id": "fd-86",
       "api_id": 86,
@@ -3746,146 +3690,6 @@
       "api_id": 94,
       "name": "Villarreal CF",
       "short": "VIL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564703",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-285",
-      "api_id": 285,
-      "name": "Elche CF",
-      "short": "ELC"
-    },
-    "away_team": {
-      "id": "fd-558",
-      "api_id": 558,
-      "name": "RC Celta de Vigo",
-      "short": "CEL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564704",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-88",
-      "api_id": 88,
-      "name": "Levante UD",
-      "short": "LEV"
-    },
-    "away_team": {
-      "id": "fd-559",
-      "api_id": 559,
-      "name": "Sevilla FC",
-      "short": "SEV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564705",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-5335",
-      "api_id": 5335,
-      "name": "Real Racing Club de Santander",
-      "short": "SAN"
-    },
-    "away_team": {
-      "id": "fd-95",
-      "api_id": 95,
-      "name": "Valencia CF",
-      "short": "VAL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564706",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-84",
-      "api_id": 84,
-      "name": "Málaga CF",
-      "short": "MAL"
-    },
-    "away_team": {
-      "id": "fd-80",
-      "api_id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "short": "ESP"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564707",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-11T00:00:00Z",
-    "home_team": {
-      "id": "fd-92",
-      "api_id": 92,
-      "name": "Real Sociedad de Fútbol",
-      "short": "RSO"
-    },
-    "away_team": {
-      "id": "fd-560",
-      "api_id": 560,
-      "name": "RC Deportivo La Coruña",
-      "short": "DEP"
     },
     "home_score": null,
     "away_score": null,
@@ -3914,6 +3718,34 @@
       "api_id": 100,
       "name": "AS Roma",
       "short": "ROM"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564703",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T12:00:00Z",
+    "home_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    },
+    "away_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL"
     },
     "home_score": null,
     "away_score": null,
@@ -4060,6 +3892,62 @@
     "actual_result": null
   },
   {
+    "id": "565814",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T13:30:00Z",
+    "home_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "away_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564707",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T14:15:00Z",
+    "home_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
+    },
+    "away_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559667",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -4116,6 +4004,34 @@
     "actual_result": null
   },
   {
+    "id": "565816",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 5,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T15:30:00Z",
+    "home_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "away_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558580",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -4138,6 +4054,34 @@
       "api_id": 98,
       "name": "AC Milan",
       "short": "MIL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564701",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T16:30:00Z",
+    "home_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET"
+    },
+    "away_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
     },
     "home_score": null,
     "away_score": null,
@@ -4194,6 +4138,34 @@
       "api_id": 516,
       "name": "Olympique de Marseille",
       "short": "MAR"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564705",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T19:00:00Z",
+    "home_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
+    },
+    "away_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL"
     },
     "home_score": null,
     "away_score": null,
@@ -4284,6 +4256,62 @@
     "actual_result": null
   },
   {
+    "id": "564704",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-12T19:00:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "away_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565828",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-16T18:30:00Z",
+    "home_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
+    },
+    "away_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558573",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -4340,258 +4368,6 @@
     "actual_result": null
   },
   {
-    "id": "565821",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-28",
-      "api_id": 28,
-      "name": "1. FC Union Berlin",
-      "short": "UNB"
-    },
-    "away_team": {
-      "id": "fd-4",
-      "api_id": 4,
-      "name": "Borussia Dortmund",
-      "short": "BVB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565822",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-7",
-      "api_id": 7,
-      "name": "Hamburger SV",
-      "short": "HSV"
-    },
-    "away_team": {
-      "id": "fd-10",
-      "api_id": 10,
-      "name": "VfB Stuttgart",
-      "short": "VFB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565823",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-12",
-      "api_id": 12,
-      "name": "SV Werder Bremen",
-      "short": "SVW"
-    },
-    "away_team": {
-      "id": "fd-29",
-      "api_id": 29,
-      "name": "SC Paderborn 07",
-      "short": "SCP"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565824",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-719",
-      "api_id": 719,
-      "name": "SV 07 Elversberg",
-      "short": "ELV"
-    },
-    "away_team": {
-      "id": "fd-16",
-      "api_id": 16,
-      "name": "FC Augsburg",
-      "short": "FCA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565825",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-5",
-      "api_id": 5,
-      "name": "FC Bayern München",
-      "short": "FCB"
-    },
-    "away_team": {
-      "id": "fd-721",
-      "api_id": 721,
-      "name": "RB Leipzig",
-      "short": "RBL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565826",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-18",
-      "api_id": 18,
-      "name": "Borussia Mönchengladbach",
-      "short": "BMG"
-    },
-    "away_team": {
-      "id": "fd-2",
-      "api_id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "short": "TSG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565827",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-3",
-      "api_id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "short": "B04"
-    },
-    "away_team": {
-      "id": "fd-17",
-      "api_id": 17,
-      "name": "SC Freiburg",
-      "short": "SCF"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565828",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-19",
-      "api_id": 19,
-      "name": "Eintracht Frankfurt",
-      "short": "SGE"
-    },
-    "away_team": {
-      "id": "fd-1",
-      "api_id": 1,
-      "name": "1. FC Köln",
-      "short": "KOE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565829",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-17T00:00:00Z",
-    "home_team": {
-      "id": "fd-6",
-      "api_id": 6,
-      "name": "FC Schalke 04",
-      "short": "S04"
-    },
-    "away_team": {
-      "id": "fd-15",
-      "api_id": 15,
-      "name": "1. FSV Mainz 05",
-      "short": "M05"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "560603",
     "league_id": "pl",
     "competition_code": "PL",
@@ -4642,6 +4418,146 @@
       "api_id": 113,
       "name": "SSC Napoli",
       "short": "NAP"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565821",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T13:30:00Z",
+    "home_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
+    },
+    "away_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565822",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T13:30:00Z",
+    "home_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
+    },
+    "away_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565823",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T13:30:00Z",
+    "home_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "away_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565824",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T13:30:00Z",
+    "home_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "away_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565829",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T13:30:00Z",
+    "home_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
+    },
+    "away_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
     },
     "home_score": null,
     "away_score": null,
@@ -4810,6 +4726,34 @@
       "api_id": 58,
       "name": "Aston Villa FC",
       "short": "AVL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565825",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T16:30:00Z",
+    "home_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
     },
     "home_score": null,
     "away_score": null,
@@ -5348,6 +5292,34 @@
     "actual_result": null
   },
   {
+    "id": "565827",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-18T13:30:00Z",
+    "home_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "away_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559657",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -5454,6 +5426,34 @@
       "api_id": 57,
       "name": "Arsenal FC",
       "short": "ARS"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565826",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-18T15:30:00Z",
+    "home_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "away_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
     },
     "home_score": null,
     "away_score": null,
@@ -5628,6 +5628,34 @@
     "actual_result": null
   },
   {
+    "id": "565833",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-23T18:30:00Z",
+    "home_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
+    },
+    "away_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558567",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -5712,258 +5740,6 @@
     "actual_result": null
   },
   {
-    "id": "565830",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-15",
-      "api_id": 15,
-      "name": "1. FSV Mainz 05",
-      "short": "M05"
-    },
-    "away_team": {
-      "id": "fd-12",
-      "api_id": 12,
-      "name": "SV Werder Bremen",
-      "short": "SVW"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565831",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-1",
-      "api_id": 1,
-      "name": "1. FC Köln",
-      "short": "KOE"
-    },
-    "away_team": {
-      "id": "fd-6",
-      "api_id": 6,
-      "name": "FC Schalke 04",
-      "short": "S04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565832",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-721",
-      "api_id": 721,
-      "name": "RB Leipzig",
-      "short": "RBL"
-    },
-    "away_team": {
-      "id": "fd-719",
-      "api_id": 719,
-      "name": "SV 07 Elversberg",
-      "short": "ELV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565833",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-10",
-      "api_id": 10,
-      "name": "VfB Stuttgart",
-      "short": "VFB"
-    },
-    "away_team": {
-      "id": "fd-18",
-      "api_id": 18,
-      "name": "Borussia Mönchengladbach",
-      "short": "BMG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565834",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-29",
-      "api_id": 29,
-      "name": "SC Paderborn 07",
-      "short": "SCP"
-    },
-    "away_team": {
-      "id": "fd-7",
-      "api_id": 7,
-      "name": "Hamburger SV",
-      "short": "HSV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565835",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-2",
-      "api_id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "short": "TSG"
-    },
-    "away_team": {
-      "id": "fd-3",
-      "api_id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "short": "B04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565836",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-17",
-      "api_id": 17,
-      "name": "SC Freiburg",
-      "short": "SCF"
-    },
-    "away_team": {
-      "id": "fd-5",
-      "api_id": 5,
-      "name": "FC Bayern München",
-      "short": "FCB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565837",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-4",
-      "api_id": 4,
-      "name": "Borussia Dortmund",
-      "short": "BVB"
-    },
-    "away_team": {
-      "id": "fd-19",
-      "api_id": 19,
-      "name": "Eintracht Frankfurt",
-      "short": "SGE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565838",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-24T00:00:00Z",
-    "home_team": {
-      "id": "fd-16",
-      "api_id": 16,
-      "name": "FC Augsburg",
-      "short": "FCA"
-    },
-    "away_team": {
-      "id": "fd-28",
-      "api_id": 28,
-      "name": "1. FC Union Berlin",
-      "short": "UNB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "560614",
     "league_id": "pl",
     "competition_code": "PL",
@@ -6042,6 +5818,146 @@
       "api_id": 471,
       "name": "US Sassuolo Calcio",
       "short": "SAS"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565830",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-24T13:30:00Z",
+    "home_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
+    },
+    "away_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565831",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-24T13:30:00Z",
+    "home_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "away_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565832",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-24T13:30:00Z",
+    "home_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "away_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565834",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-24T13:30:00Z",
+    "home_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "away_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565838",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-24T13:30:00Z",
+    "home_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "away_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
     },
     "home_score": null,
     "away_score": null,
@@ -6182,6 +6098,34 @@
       "api_id": 73,
       "name": "Tottenham Hotspur FC",
       "short": "TOT"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565837",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-24T16:30:00Z",
+    "home_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "away_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
     },
     "home_score": null,
     "away_score": null,
@@ -6748,6 +6692,34 @@
     "actual_result": null
   },
   {
+    "id": "565835",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-25T14:30:00Z",
+    "home_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
+    },
+    "away_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559649",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -6882,6 +6854,34 @@
       "api_id": 341,
       "name": "Leeds United FC",
       "short": "LEE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565836",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-25T16:30:00Z",
+    "home_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "away_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
     },
     "home_score": null,
     "away_score": null,
@@ -7280,6 +7280,34 @@
     "actual_result": null
   },
   {
+    "id": "565846",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-30T19:30:00Z",
+    "home_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "away_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559639",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -7302,258 +7330,6 @@
       "api_id": 546,
       "name": "Racing Club de Lens",
       "short": "RCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565839",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-18",
-      "api_id": 18,
-      "name": "Borussia Mönchengladbach",
-      "short": "BMG"
-    },
-    "away_team": {
-      "id": "fd-29",
-      "api_id": 29,
-      "name": "SC Paderborn 07",
-      "short": "SCP"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565840",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-6",
-      "api_id": 6,
-      "name": "FC Schalke 04",
-      "short": "S04"
-    },
-    "away_team": {
-      "id": "fd-721",
-      "api_id": 721,
-      "name": "RB Leipzig",
-      "short": "RBL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565841",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-28",
-      "api_id": 28,
-      "name": "1. FC Union Berlin",
-      "short": "UNB"
-    },
-    "away_team": {
-      "id": "fd-1",
-      "api_id": 1,
-      "name": "1. FC Köln",
-      "short": "KOE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565842",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-16",
-      "api_id": 16,
-      "name": "FC Augsburg",
-      "short": "FCA"
-    },
-    "away_team": {
-      "id": "fd-17",
-      "api_id": 17,
-      "name": "SC Freiburg",
-      "short": "SCF"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565843",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-12",
-      "api_id": 12,
-      "name": "SV Werder Bremen",
-      "short": "SVW"
-    },
-    "away_team": {
-      "id": "fd-2",
-      "api_id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "short": "TSG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565844",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-19",
-      "api_id": 19,
-      "name": "Eintracht Frankfurt",
-      "short": "SGE"
-    },
-    "away_team": {
-      "id": "fd-7",
-      "api_id": 7,
-      "name": "Hamburger SV",
-      "short": "HSV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565845",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-5",
-      "api_id": 5,
-      "name": "FC Bayern München",
-      "short": "FCB"
-    },
-    "away_team": {
-      "id": "fd-4",
-      "api_id": 4,
-      "name": "Borussia Dortmund",
-      "short": "BVB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565846",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-719",
-      "api_id": 719,
-      "name": "SV 07 Elversberg",
-      "short": "ELV"
-    },
-    "away_team": {
-      "id": "fd-15",
-      "api_id": 15,
-      "name": "1. FSV Mainz 05",
-      "short": "M05"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565847",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-31T00:00:00Z",
-    "home_team": {
-      "id": "fd-3",
-      "api_id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "short": "B04"
-    },
-    "away_team": {
-      "id": "fd-10",
-      "api_id": 10,
-      "name": "VfB Stuttgart",
-      "short": "VFB"
     },
     "home_score": null,
     "away_score": null,
@@ -7610,6 +7386,146 @@
       "api_id": 5911,
       "name": "AC Monza",
       "short": "MON"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565839",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-31T14:30:00Z",
+    "home_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "away_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565840",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-31T14:30:00Z",
+    "home_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
+    },
+    "away_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565842",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-31T14:30:00Z",
+    "home_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "away_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565843",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-31T14:30:00Z",
+    "home_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "away_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565847",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-31T14:30:00Z",
+    "home_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "away_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
     },
     "home_score": null,
     "away_score": null,
@@ -7834,6 +7750,34 @@
       "api_id": 354,
       "name": "Crystal Palace FC",
       "short": "CRY"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565845",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-31T17:30:00Z",
+    "home_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
     },
     "home_score": null,
     "away_score": null,
@@ -8372,6 +8316,34 @@
     "actual_result": null
   },
   {
+    "id": "565841",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-01T14:30:00Z",
+    "home_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
+    },
+    "away_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559642",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -8422,6 +8394,34 @@
       "api_id": 57,
       "name": "Arsenal FC",
       "short": "ARS"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565844",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-01T16:30:00Z",
+    "home_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
+    },
+    "away_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
     },
     "home_score": null,
     "away_score": null,
@@ -8596,6 +8596,34 @@
     "actual_result": null
   },
   {
+    "id": "565852",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-06T19:30:00Z",
+    "home_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
+    },
+    "away_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558537",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -8652,258 +8680,6 @@
     "actual_result": null
   },
   {
-    "id": "565848",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-721",
-      "api_id": 721,
-      "name": "RB Leipzig",
-      "short": "RBL"
-    },
-    "away_team": {
-      "id": "fd-16",
-      "api_id": 16,
-      "name": "FC Augsburg",
-      "short": "FCA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565849",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-10",
-      "api_id": 10,
-      "name": "VfB Stuttgart",
-      "short": "VFB"
-    },
-    "away_team": {
-      "id": "fd-12",
-      "api_id": 12,
-      "name": "SV Werder Bremen",
-      "short": "SVW"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565850",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-4",
-      "api_id": 4,
-      "name": "Borussia Dortmund",
-      "short": "BVB"
-    },
-    "away_team": {
-      "id": "fd-719",
-      "api_id": 719,
-      "name": "SV 07 Elversberg",
-      "short": "ELV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565851",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-15",
-      "api_id": 15,
-      "name": "1. FSV Mainz 05",
-      "short": "M05"
-    },
-    "away_team": {
-      "id": "fd-5",
-      "api_id": 5,
-      "name": "FC Bayern München",
-      "short": "FCB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565852",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-7",
-      "api_id": 7,
-      "name": "Hamburger SV",
-      "short": "HSV"
-    },
-    "away_team": {
-      "id": "fd-18",
-      "api_id": 18,
-      "name": "Borussia Mönchengladbach",
-      "short": "BMG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565853",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-29",
-      "api_id": 29,
-      "name": "SC Paderborn 07",
-      "short": "SCP"
-    },
-    "away_team": {
-      "id": "fd-19",
-      "api_id": 19,
-      "name": "Eintracht Frankfurt",
-      "short": "SGE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565854",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-17",
-      "api_id": 17,
-      "name": "SC Freiburg",
-      "short": "SCF"
-    },
-    "away_team": {
-      "id": "fd-28",
-      "api_id": 28,
-      "name": "1. FC Union Berlin",
-      "short": "UNB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565855",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-1",
-      "api_id": 1,
-      "name": "1. FC Köln",
-      "short": "KOE"
-    },
-    "away_team": {
-      "id": "fd-3",
-      "api_id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "short": "B04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565856",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-07T00:00:00Z",
-    "home_team": {
-      "id": "fd-2",
-      "api_id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "short": "TSG"
-    },
-    "away_team": {
-      "id": "fd-6",
-      "api_id": 6,
-      "name": "FC Schalke 04",
-      "short": "S04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "558532",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -8954,6 +8730,118 @@
       "api_id": 470,
       "name": "Frosinone Calcio",
       "short": "FRO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565848",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-07T14:30:00Z",
+    "home_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "away_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565850",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-07T14:30:00Z",
+    "home_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "away_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565851",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-07T14:30:00Z",
+    "home_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
+    },
+    "away_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565853",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-07T14:30:00Z",
+    "home_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "away_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
     },
     "home_score": null,
     "away_score": null,
@@ -9290,6 +9178,34 @@
       "api_id": 103,
       "name": "Bologna FC 1909",
       "short": "BOL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565849",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-07T17:30:00Z",
+    "home_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
+    },
+    "away_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
     },
     "home_score": null,
     "away_score": null,
@@ -9744,6 +9660,34 @@
     "actual_result": null
   },
   {
+    "id": "565855",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-08T14:30:00Z",
+    "home_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "away_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559631",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -9856,6 +9800,34 @@
     "actual_result": null
   },
   {
+    "id": "565854",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-08T16:30:00Z",
+    "home_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "away_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558530",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -9878,6 +9850,34 @@
       "api_id": 7397,
       "name": "Como 1907",
       "short": "COM"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565856",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-08T18:30:00Z",
+    "home_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
+    },
+    "away_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
     },
     "home_score": null,
     "away_score": null,
@@ -9940,6 +9940,34 @@
     "actual_result": null
   },
   {
+    "id": "565859",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-20T19:30:00Z",
+    "home_team": {
+      "id": "fd-5",
+      "api_id": 5,
+      "name": "FC Bayern München",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-1",
+      "api_id": 1,
+      "name": "1. FC Köln",
+      "short": "KOE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559622",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -9962,258 +9990,6 @@
       "api_id": 533,
       "name": "Le Havre AC",
       "short": "HAC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565857",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-3",
-      "api_id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "short": "B04"
-    },
-    "away_team": {
-      "id": "fd-29",
-      "api_id": 29,
-      "name": "SC Paderborn 07",
-      "short": "SCP"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565858",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-28",
-      "api_id": 28,
-      "name": "1. FC Union Berlin",
-      "short": "UNB"
-    },
-    "away_team": {
-      "id": "fd-721",
-      "api_id": 721,
-      "name": "RB Leipzig",
-      "short": "RBL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565859",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-5",
-      "api_id": 5,
-      "name": "FC Bayern München",
-      "short": "FCB"
-    },
-    "away_team": {
-      "id": "fd-1",
-      "api_id": 1,
-      "name": "1. FC Köln",
-      "short": "KOE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565860",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-719",
-      "api_id": 719,
-      "name": "SV 07 Elversberg",
-      "short": "ELV"
-    },
-    "away_team": {
-      "id": "fd-17",
-      "api_id": 17,
-      "name": "SC Freiburg",
-      "short": "SCF"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565861",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-6",
-      "api_id": 6,
-      "name": "FC Schalke 04",
-      "short": "S04"
-    },
-    "away_team": {
-      "id": "fd-10",
-      "api_id": 10,
-      "name": "VfB Stuttgart",
-      "short": "VFB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565862",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-18",
-      "api_id": 18,
-      "name": "Borussia Mönchengladbach",
-      "short": "BMG"
-    },
-    "away_team": {
-      "id": "fd-4",
-      "api_id": 4,
-      "name": "Borussia Dortmund",
-      "short": "BVB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565863",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-12",
-      "api_id": 12,
-      "name": "SV Werder Bremen",
-      "short": "SVW"
-    },
-    "away_team": {
-      "id": "fd-7",
-      "api_id": 7,
-      "name": "Hamburger SV",
-      "short": "HSV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565864",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-16",
-      "api_id": 16,
-      "name": "FC Augsburg",
-      "short": "FCA"
-    },
-    "away_team": {
-      "id": "fd-15",
-      "api_id": 15,
-      "name": "1. FSV Mainz 05",
-      "short": "M05"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565865",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 10,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-21T00:00:00Z",
-    "home_team": {
-      "id": "fd-19",
-      "api_id": 19,
-      "name": "Eintracht Frankfurt",
-      "short": "SGE"
-    },
-    "away_team": {
-      "id": "fd-2",
-      "api_id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "short": "TSG"
     },
     "home_score": null,
     "away_score": null,
@@ -10270,6 +10046,146 @@
       "api_id": 5890,
       "name": "US Lecce",
       "short": "USL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565857",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-21T14:30:00Z",
+    "home_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
+    },
+    "away_team": {
+      "id": "fd-29",
+      "api_id": 29,
+      "name": "SC Paderborn 07",
+      "short": "SCP"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565858",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-21T14:30:00Z",
+    "home_team": {
+      "id": "fd-28",
+      "api_id": 28,
+      "name": "1. FC Union Berlin",
+      "short": "UNB"
+    },
+    "away_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565860",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-21T14:30:00Z",
+    "home_team": {
+      "id": "fd-719",
+      "api_id": 719,
+      "name": "SV 07 Elversberg",
+      "short": "ELV"
+    },
+    "away_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565862",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-21T14:30:00Z",
+    "home_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "away_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565865",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-21T14:30:00Z",
+    "home_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
+    },
+    "away_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
     },
     "home_score": null,
     "away_score": null,
@@ -10606,6 +10522,34 @@
       "api_id": 100,
       "name": "AS Roma",
       "short": "ROM"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565861",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-21T17:30:00Z",
+    "home_team": {
+      "id": "fd-6",
+      "api_id": 6,
+      "name": "FC Schalke 04",
+      "short": "S04"
+    },
+    "away_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
     },
     "home_score": null,
     "away_score": null,
@@ -11116,6 +11060,34 @@
     "actual_result": null
   },
   {
+    "id": "565864",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-22T14:30:00Z",
+    "home_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "away_team": {
+      "id": "fd-15",
+      "api_id": 15,
+      "name": "1. FSV Mainz 05",
+      "short": "M05"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559626",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -11138,6 +11110,34 @@
       "api_id": 529,
       "name": "Stade Rennais FC 1901",
       "short": "REN"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565863",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-22T16:30:00Z",
+    "home_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "away_team": {
+      "id": "fd-7",
+      "api_id": 7,
+      "name": "Hamburger SV",
+      "short": "HSV"
     },
     "home_score": null,
     "away_score": null,
@@ -11284,6 +11284,34 @@
     "actual_result": null
   },
   {
+    "id": "565869",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 11,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-27T19:30:00Z",
+    "home_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW"
+    },
+    "away_team": {
+      "id": "fd-18",
+      "api_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "short": "BMG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559616",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -11321,8 +11349,8 @@
     "season_end": "2027-05-22",
     "matchday": 11,
     "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
+    "status": "TIMED",
+    "kickoff": "2026-11-28T14:30:00Z",
     "home_team": {
       "id": "fd-1",
       "api_id": 1,
@@ -11349,8 +11377,8 @@
     "season_end": "2027-05-22",
     "matchday": 11,
     "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
+    "status": "TIMED",
+    "kickoff": "2026-11-28T14:30:00Z",
     "home_team": {
       "id": "fd-15",
       "api_id": 15,
@@ -11377,8 +11405,8 @@
     "season_end": "2027-05-22",
     "matchday": 11,
     "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
+    "status": "TIMED",
+    "kickoff": "2026-11-28T14:30:00Z",
     "home_team": {
       "id": "fd-29",
       "api_id": 29,
@@ -11396,146 +11424,6 @@
     "actual_result": null
   },
   {
-    "id": "565869",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 11,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
-    "home_team": {
-      "id": "fd-12",
-      "api_id": 12,
-      "name": "SV Werder Bremen",
-      "short": "SVW"
-    },
-    "away_team": {
-      "id": "fd-18",
-      "api_id": 18,
-      "name": "Borussia Mönchengladbach",
-      "short": "BMG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565870",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 11,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
-    "home_team": {
-      "id": "fd-10",
-      "api_id": 10,
-      "name": "VfB Stuttgart",
-      "short": "VFB"
-    },
-    "away_team": {
-      "id": "fd-19",
-      "api_id": 19,
-      "name": "Eintracht Frankfurt",
-      "short": "SGE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565871",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 11,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
-    "home_team": {
-      "id": "fd-2",
-      "api_id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "short": "TSG"
-    },
-    "away_team": {
-      "id": "fd-16",
-      "api_id": 16,
-      "name": "FC Augsburg",
-      "short": "FCA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565872",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 11,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
-    "home_team": {
-      "id": "fd-4",
-      "api_id": 4,
-      "name": "Borussia Dortmund",
-      "short": "BVB"
-    },
-    "away_team": {
-      "id": "fd-3",
-      "api_id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "short": "B04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "565873",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 11,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
-    "home_team": {
-      "id": "fd-17",
-      "api_id": 17,
-      "name": "SC Freiburg",
-      "short": "SCF"
-    },
-    "away_team": {
-      "id": "fd-721",
-      "api_id": 721,
-      "name": "RB Leipzig",
-      "short": "RBL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "565874",
     "league_id": "bundesliga",
     "competition_code": "BL1",
@@ -11545,8 +11433,8 @@
     "season_end": "2027-05-22",
     "matchday": 11,
     "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-11-28T00:00:00Z",
+    "status": "TIMED",
+    "kickoff": "2026-11-28T14:30:00Z",
     "home_team": {
       "id": "fd-7",
       "api_id": 7,
@@ -11866,6 +11754,34 @@
       "api_id": 546,
       "name": "Racing Club de Lens",
       "short": "RCL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565870",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 11,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-28T17:30:00Z",
+    "home_team": {
+      "id": "fd-10",
+      "api_id": 10,
+      "name": "VfB Stuttgart",
+      "short": "VFB"
+    },
+    "away_team": {
+      "id": "fd-19",
+      "api_id": 19,
+      "name": "Eintracht Frankfurt",
+      "short": "SGE"
     },
     "home_score": null,
     "away_score": null,
@@ -12572,6 +12488,34 @@
     "actual_result": null
   },
   {
+    "id": "565873",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 11,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-29T14:30:00Z",
+    "home_team": {
+      "id": "fd-17",
+      "api_id": 17,
+      "name": "SC Freiburg",
+      "short": "SCF"
+    },
+    "away_team": {
+      "id": "fd-721",
+      "api_id": 721,
+      "name": "RB Leipzig",
+      "short": "RBL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559618",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -12594,6 +12538,62 @@
       "api_id": 529,
       "name": "Stade Rennais FC 1901",
       "short": "REN"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565871",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 11,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-29T16:30:00Z",
+    "home_team": {
+      "id": "fd-2",
+      "api_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "short": "TSG"
+    },
+    "away_team": {
+      "id": "fd-16",
+      "api_id": 16,
+      "name": "FC Augsburg",
+      "short": "FCA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "565872",
+    "league_id": "bundesliga",
+    "competition_code": "BL1",
+    "competition_name": "Bundesliga",
+    "season_id": 2522,
+    "season_start": "2026-08-28",
+    "season_end": "2027-05-22",
+    "matchday": 11,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-11-29T18:30:00Z",
+    "home_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB"
+    },
+    "away_team": {
+      "id": "fd-3",
+      "api_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "short": "B04"
     },
     "home_score": null,
     "away_score": null,
