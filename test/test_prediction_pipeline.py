@@ -324,7 +324,7 @@ def test_saved_predictions_are_one_matchday_per_league():
 def test_saved_predictions_have_valid_shap_explanations():
     predictions = read_json(PREDICTIONS_PATH)
     # エラー修正assert len(predictions) == 48
-    asseert predictions, "保存済み予測がありません"
+    assert predictions, "保存済み予測がありません"
     required = {"feature", "label", "value", "shap_value", "impact", "target", "text"}
     for item in predictions:
         explanations = item.get("explanations")
