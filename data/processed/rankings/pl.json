@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 4,
     "source": "football-data.org",
-    "updated_at": "2026-09-14T05:45:15.006764+00:00",
+    "updated_at": "2026-09-15T05:18:10.643395+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -144,6 +144,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-7839",
+      "football_data_player_id": 7839,
+      "player_name": "Dominic Calvert-Lewin",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 2
+    },
+    {
       "player_id": "fdp-176628",
       "football_data_player_id": 176628,
       "player_name": "Emersonn",
@@ -161,6 +172,17 @@
       "team_id": "fd-397",
       "football_data_team_id": 397,
       "team_name": "Brighton & Hove Albion FC",
+      "position": null,
+      "nationality": "England",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-4184",
+      "football_data_player_id": 4184,
+      "player_name": "Jayden Bogle",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
       "position": null,
       "nationality": "England",
       "value": 2
@@ -331,6 +353,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-249312",
+      "football_data_player_id": 249312,
+      "player_name": "Bazoumana Touré",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 1
+    },
+    {
       "player_id": "fdp-8065",
       "football_data_player_id": 8065,
       "player_name": "Ben Chilwell",
@@ -419,17 +452,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-7839",
-      "football_data_player_id": 7839,
-      "player_name": "Dominic Calvert-Lewin",
-      "team_id": "fd-341",
-      "football_data_team_id": 341,
-      "team_name": "Leeds United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 1
-    },
-    {
       "player_id": "fdp-16347",
       "football_data_player_id": 16347,
       "player_name": "Dominik Szoboszlai",
@@ -513,17 +535,6 @@
       "team_id": "fd-62",
       "football_data_team_id": 62,
       "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-4184",
-      "football_data_player_id": 4184,
-      "player_name": "Jayden Bogle",
-      "team_id": "fd-341",
-      "football_data_team_id": 341,
-      "team_name": "Leeds United FC",
       "position": null,
       "nationality": "England",
       "value": 1
@@ -691,6 +702,17 @@
       "team_name": "Sunderland AFC",
       "position": null,
       "nationality": "Ecuador",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-16058",
+      "football_data_player_id": 16058,
+      "player_name": "Noah Okafor",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "Switzerland",
       "value": 1
     },
     {
@@ -905,6 +927,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-7839",
+      "football_data_player_id": 7839,
+      "player_name": "Dominic Calvert-Lewin",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 1
+    },
+    {
       "player_id": "fdp-176628",
       "football_data_player_id": 176628,
       "player_name": "Emersonn",
@@ -1039,6 +1072,28 @@
       "value": 4
     },
     {
+      "player_id": "fdp-65843",
+      "football_data_player_id": 65843,
+      "player_name": "Anton Stach",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-249312",
+      "football_data_player_id": 249312,
+      "player_name": "Bazoumana Touré",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 4
+    },
+    {
       "player_id": "fdp-124244",
       "football_data_player_id": 124244,
       "player_name": "Benjamin Šeško",
@@ -1138,6 +1193,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-7839",
+      "football_data_player_id": 7839,
+      "player_name": "Dominic Calvert-Lewin",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
       "player_id": "fdp-16347",
       "football_data_player_id": 16347,
       "player_name": "Dominik Szoboszlai",
@@ -1193,6 +1259,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-8076",
+      "football_data_player_id": 8076,
+      "player_name": "Harvey Barnes",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
       "player_id": "fdp-256339",
       "football_data_player_id": 256339,
       "player_name": "Igor Jesus",
@@ -1215,12 +1292,45 @@
       "value": 4
     },
     {
+      "player_id": "fdp-111437",
+      "football_data_player_id": 111437,
+      "player_name": "Jacob Ramsey",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
       "player_id": "fdp-3316",
       "football_data_player_id": 3316,
       "player_name": "James Tarkowski",
       "team_id": "fd-62",
       "football_data_team_id": 62,
       "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-4184",
+      "football_data_player_id": 4184,
+      "player_name": "Jayden Bogle",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-7798",
+      "football_data_player_id": 7798,
+      "player_name": "Joe Willock",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "England",
       "value": 4
@@ -1468,6 +1578,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-16058",
+      "football_data_player_id": 16058,
+      "player_name": "Noah Okafor",
+      "team_id": "fd-341",
+      "football_data_team_id": 341,
+      "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "Switzerland",
+      "value": 4
+    },
+    {
       "player_id": "fdp-190558",
       "football_data_player_id": 190558,
       "player_name": "Nobel Mendy",
@@ -1600,6 +1721,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-612",
+      "football_data_player_id": 612,
+      "player_name": "Yoane Wissa",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "Congo DR",
+      "value": 4
+    },
+    {
       "player_id": "fdp-166376",
       "football_data_player_id": 166376,
       "player_name": "Anthony Elanga",
@@ -1608,17 +1740,6 @@
       "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "Sweden",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-65843",
-      "football_data_player_id": 65843,
-      "player_name": "Anton Stach",
-      "team_id": "fd-341",
-      "football_data_team_id": 341,
-      "team_name": "Leeds United FC",
-      "position": null,
-      "nationality": "Germany",
       "value": 3
     },
     {
@@ -1644,61 +1765,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-7839",
-      "football_data_player_id": 7839,
-      "player_name": "Dominic Calvert-Lewin",
-      "team_id": "fd-341",
-      "football_data_team_id": 341,
-      "team_name": "Leeds United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-8076",
-      "football_data_player_id": 8076,
-      "player_name": "Harvey Barnes",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-111437",
-      "football_data_player_id": 111437,
-      "player_name": "Jacob Ramsey",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-4184",
-      "football_data_player_id": 4184,
-      "player_name": "Jayden Bogle",
-      "team_id": "fd-341",
-      "football_data_team_id": 341,
-      "team_name": "Leeds United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-7798",
-      "football_data_player_id": 7798,
-      "player_name": "Joe Willock",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 3
-    },
-    {
       "player_id": "fdp-151095",
       "football_data_player_id": 151095,
       "player_name": "Liam Delap",
@@ -1718,17 +1784,6 @@
       "team_name": "Brighton & Hove Albion FC",
       "position": null,
       "nationality": "Sweden",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-612",
-      "football_data_player_id": 612,
-      "player_name": "Yoane Wissa",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "Congo DR",
       "value": 3
     },
     {
