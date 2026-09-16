@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 6,
     "source": "football-data.org",
-    "updated_at": "2026-09-15T05:18:17.555168+00:00",
+    "updated_at": "2026-09-16T05:13:08.392264+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -31,7 +31,7 @@
       "team_name": "Real Madrid CF",
       "position": null,
       "nationality": "France",
-      "value": 6
+      "value": 7
     },
     {
       "player_id": "fdp-202283",
@@ -56,6 +56,17 @@
       "value": 6
     },
     {
+      "player_id": "fdp-180218",
+      "football_data_player_id": 180218,
+      "player_name": "Roberto Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
       "player_id": "fdp-115175",
       "football_data_player_id": 115175,
       "player_name": "Sergio Camello",
@@ -75,17 +86,6 @@
       "team_name": "RC Deportivo La Coruña",
       "position": null,
       "nationality": "Gabon",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-180218",
-      "football_data_player_id": 180218,
-      "player_name": "Roberto Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
       "value": 5
     },
     {
@@ -144,6 +144,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-214497",
+      "football_data_player_id": 214497,
+      "player_name": "Fer Niño",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 3
+    },
+    {
       "player_id": "fdp-125010",
       "football_data_player_id": 125010,
       "player_name": "Jude Bellingham",
@@ -177,12 +188,12 @@
       "value": 3
     },
     {
-      "player_id": "fdp-214497",
-      "football_data_player_id": 214497,
-      "player_name": "Fer Niño",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
+      "player_id": "fdp-247061",
+      "football_data_player_id": 247061,
+      "player_name": "Carlos Espí",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
       "position": null,
       "nationality": "Spain",
       "value": 2
@@ -276,6 +287,28 @@
       "value": 2
     },
     {
+      "player_id": "fdp-32312",
+      "football_data_player_id": 32312,
+      "player_name": "Álvaro García",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-179011",
+      "football_data_player_id": 179011,
+      "player_name": "Abiel Osorio",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 1
+    },
+    {
       "player_id": "fdp-9554",
       "football_data_player_id": 9554,
       "player_name": "Ademola Lookman",
@@ -284,6 +317,17 @@
       "team_name": "Club Atlético de Madrid",
       "position": null,
       "nationality": "England",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-213280",
+      "football_data_player_id": 213280,
+      "player_name": "Adrià Pedrosa",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
       "value": 1
     },
     {
@@ -419,17 +463,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-247061",
-      "football_data_player_id": 247061,
-      "player_name": "Carlos Espí",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
-    },
-    {
       "player_id": "fdp-38625",
       "football_data_player_id": 38625,
       "player_name": "Chidera Ejuke",
@@ -636,6 +669,17 @@
       "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Belgium",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-50907",
+      "football_data_player_id": 50907,
+      "player_name": "Luis Rioja",
+      "team_id": "fd-95",
+      "football_data_team_id": 95,
+      "team_name": "Valencia CF",
+      "position": null,
+      "nationality": "Spain",
       "value": 1
     },
     {
@@ -989,17 +1033,6 @@
       "position": null,
       "nationality": "Spain",
       "value": 1
-    },
-    {
-      "player_id": "fdp-32312",
-      "football_data_player_id": 32312,
-      "player_name": "Álvaro García",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
     }
   ],
   "assists": [
@@ -1070,6 +1103,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-3374",
+      "football_data_player_id": 3374,
+      "player_name": "Kylian Mbappé",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
       "player_id": "fdp-279958",
       "football_data_player_id": 279958,
       "player_name": "Ochieng",
@@ -1100,6 +1144,17 @@
       "team_name": "FC Barcelona",
       "position": null,
       "nationality": "Brazil",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-32312",
+      "football_data_player_id": 32312,
+      "player_name": "Álvaro García",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
       "value": 2
     },
     {
@@ -1202,17 +1257,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-3374",
-      "football_data_player_id": 3374,
-      "player_name": "Kylian Mbappé",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
       "player_id": "fdp-176255",
       "football_data_player_id": 176255,
       "player_name": "Luismi Cruz",
@@ -1299,17 +1343,6 @@
       "position": null,
       "nationality": "Spain",
       "value": 1
-    },
-    {
-      "player_id": "fdp-32312",
-      "football_data_player_id": 32312,
-      "player_name": "Álvaro García",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
     }
   ],
   "appearances": [
@@ -1325,6 +1358,39 @@
       "value": 6
     },
     {
+      "player_id": "fdp-114955",
+      "football_data_player_id": 114955,
+      "player_name": "Andrei Rațiu",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Romania",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-169162",
+      "football_data_player_id": 169162,
+      "player_name": "Arda Guler",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
+      "position": null,
+      "nationality": "Turkey",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-244544",
+      "football_data_player_id": 244544,
+      "player_name": "Buba",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
       "player_id": "fdp-31019",
       "football_data_player_id": 31019,
       "player_name": "Carl Starfelt",
@@ -1333,6 +1399,39 @@
       "team_name": "RC Celta de Vigo",
       "position": null,
       "nationality": "Sweden",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-247061",
+      "football_data_player_id": 247061,
+      "player_name": "Carlos Espí",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-184273",
+      "football_data_player_id": 184273,
+      "player_name": "Facundo Buonanotte",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-214497",
+      "football_data_player_id": 214497,
+      "player_name": "Fer Niño",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
       "value": 6
     },
     {
@@ -1358,6 +1457,28 @@
       "value": 6
     },
     {
+      "player_id": "fdp-125010",
+      "football_data_player_id": 125010,
+      "player_name": "Jude Bellingham",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
+      "position": null,
+      "nationality": "England",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-3374",
+      "football_data_player_id": 3374,
+      "player_name": "Kylian Mbappé",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
+      "position": null,
+      "nationality": "France",
+      "value": 6
+    },
+    {
       "player_id": "fdp-82516",
       "football_data_player_id": 82516,
       "player_name": "Luka Sučić",
@@ -1366,6 +1487,50 @@
       "team_name": "Real Sociedad de Fútbol",
       "position": null,
       "nationality": "Croatia",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-159647",
+      "football_data_player_id": 159647,
+      "player_name": "Marc Aguado",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-278018",
+      "football_data_player_id": 278018,
+      "player_name": "Marcos Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-8474",
+      "football_data_player_id": 8474,
+      "player_name": "Mariano Díaz",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Dominican Republic",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-46123",
+      "football_data_player_id": 46123,
+      "player_name": "Nahuel Tenaglia",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Argentina",
       "value": 6
     },
     {
@@ -1391,6 +1556,72 @@
       "value": 6
     },
     {
+      "player_id": "fdp-173617",
+      "football_data_player_id": 173617,
+      "player_name": "Pablo Ibáñez Tébar",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-180218",
+      "football_data_player_id": 180218,
+      "player_name": "Roberto Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-115175",
+      "football_data_player_id": 115175,
+      "player_name": "Sergio Camello",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-149049",
+      "football_data_player_id": 149049,
+      "player_name": "Tyrhys Dolan",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "England",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-146969",
+      "football_data_player_id": 146969,
+      "player_name": "Ville Koski",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Finland",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-1556",
+      "football_data_player_id": 1556,
+      "player_name": "Vinicius Junior",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 6
+    },
+    {
       "player_id": "fdp-77734",
       "football_data_player_id": 77734,
       "player_name": "Yangel Herrera",
@@ -1399,6 +1630,39 @@
       "team_name": "Real Sociedad de Fútbol",
       "position": null,
       "nationality": "Venezuela",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-220538",
+      "football_data_player_id": 220538,
+      "player_name": "Álex Calatrava",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-182020",
+      "football_data_player_id": 182020,
+      "player_name": "Álvaro Carreras",
+      "team_id": "fd-86",
+      "football_data_team_id": 86,
+      "team_name": "Real Madrid CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-32312",
+      "football_data_player_id": 32312,
+      "player_name": "Álvaro García",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
       "value": 6
     },
     {
@@ -1446,17 +1710,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-114955",
-      "football_data_player_id": 114955,
-      "player_name": "Andrei Rațiu",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Romania",
-      "value": 5
-    },
-    {
       "player_id": "fdp-2237",
       "football_data_player_id": 2237,
       "player_name": "Ante Budimir",
@@ -1465,17 +1718,6 @@
       "team_name": "CA Osasuna",
       "position": null,
       "nationality": "Croatia",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-169162",
-      "football_data_player_id": 169162,
-      "player_name": "Arda Guler",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
-      "position": null,
-      "nationality": "Turkey",
       "value": 5
     },
     {
@@ -1490,34 +1732,12 @@
       "value": 5
     },
     {
-      "player_id": "fdp-244544",
-      "football_data_player_id": 244544,
-      "player_name": "Buba",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
       "player_id": "fdp-25",
       "football_data_player_id": 25,
       "player_name": "Canales",
       "team_id": "fd-5335",
       "football_data_team_id": 5335,
       "team_name": "Real Racing Club de Santander",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-247061",
-      "football_data_player_id": 247061,
-      "player_name": "Carlos Espí",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
       "position": null,
       "nationality": "Spain",
       "value": 5
@@ -1575,28 +1795,6 @@
       "team_name": "Levante UD",
       "position": null,
       "nationality": "France",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-184273",
-      "football_data_player_id": 184273,
-      "player_name": "Facundo Buonanotte",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-214497",
-      "football_data_player_id": 214497,
-      "player_name": "Fer Niño",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Spain",
       "value": 5
     },
     {
@@ -1710,17 +1908,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-125010",
-      "football_data_player_id": 125010,
-      "player_name": "Jude Bellingham",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
-      "position": null,
-      "nationality": "England",
-      "value": 5
-    },
-    {
       "player_id": "fdp-213217",
       "football_data_player_id": 213217,
       "player_name": "Kang-in Lee",
@@ -1754,17 +1941,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-3374",
-      "football_data_player_id": 3374,
-      "player_name": "Kylian Mbappé",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
-      "position": null,
-      "nationality": "France",
-      "value": 5
-    },
-    {
       "player_id": "fdp-202283",
       "football_data_player_id": 202283,
       "player_name": "Lamine Yamal",
@@ -1773,6 +1949,17 @@
       "team_name": "FC Barcelona",
       "position": null,
       "nationality": "Spain",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-11113",
+      "football_data_player_id": 11113,
+      "player_name": "Lucas Boyé",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Argentina",
       "value": 5
     },
     {
@@ -1787,17 +1974,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-159647",
-      "football_data_player_id": 159647,
-      "player_name": "Marc Aguado",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
       "player_id": "fdp-176745",
       "football_data_player_id": 176745,
       "player_name": "Marc Pubill",
@@ -1806,28 +1982,6 @@
       "team_name": "Club Atlético de Madrid",
       "position": null,
       "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-278018",
-      "football_data_player_id": 278018,
-      "player_name": "Marcos Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-8474",
-      "football_data_player_id": 8474,
-      "player_name": "Mariano Díaz",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Dominican Republic",
       "value": 5
     },
     {
@@ -1850,17 +2004,6 @@
       "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-46123",
-      "football_data_player_id": 46123,
-      "player_name": "Nahuel Tenaglia",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Argentina",
       "value": 5
     },
     {
@@ -1914,17 +2057,6 @@
       "team_id": "fd-5335",
       "football_data_team_id": 5335,
       "team_name": "Real Racing Club de Santander",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-173617",
-      "football_data_player_id": 173617,
-      "player_name": "Pablo Ibáñez Tébar",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
       "position": null,
       "nationality": "Spain",
       "value": 5
@@ -1996,17 +2128,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-180218",
-      "football_data_player_id": 180218,
-      "player_name": "Roberto Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
       "player_id": "fdp-101870",
       "football_data_player_id": 101870,
       "player_name": "Roberto Navarro",
@@ -2026,50 +2147,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-115175",
-      "football_data_player_id": 115175,
-      "player_name": "Sergio Camello",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-149049",
-      "football_data_player_id": 149049,
-      "player_name": "Tyrhys Dolan",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "England",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-146969",
-      "football_data_player_id": 146969,
-      "player_name": "Ville Koski",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Finland",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-1556",
-      "football_data_player_id": 1556,
-      "player_name": "Vinicius Junior",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
-      "position": null,
-      "nationality": "Brazil",
       "value": 5
     },
     {
@@ -2128,37 +2205,26 @@
       "value": 5
     },
     {
-      "player_id": "fdp-220538",
-      "football_data_player_id": 220538,
-      "player_name": "Álex Calatrava",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
+      "player_id": "fdp-179011",
+      "football_data_player_id": 179011,
+      "player_name": "Abiel Osorio",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
       "position": null,
-      "nationality": "Spain",
-      "value": 5
+      "nationality": "Argentina",
+      "value": 4
     },
     {
-      "player_id": "fdp-182020",
-      "football_data_player_id": 182020,
-      "player_name": "Álvaro Carreras",
-      "team_id": "fd-86",
-      "football_data_team_id": 86,
-      "team_name": "Real Madrid CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-32312",
-      "football_data_player_id": 32312,
-      "player_name": "Álvaro García",
+      "player_id": "fdp-213280",
+      "football_data_player_id": 213280,
+      "player_name": "Adrià Pedrosa",
       "team_id": "fd-87",
       "football_data_team_id": 87,
       "team_name": "Rayo Vallecano de Madrid",
       "position": null,
       "nationality": "Spain",
-      "value": 5
+      "value": 4
     },
     {
       "player_id": "fdp-180282",
@@ -2169,17 +2235,6 @@
       "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-11113",
-      "football_data_player_id": 11113,
-      "player_name": "Lucas Boyé",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Argentina",
       "value": 4
     },
     {
@@ -2216,6 +2271,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-50907",
+      "football_data_player_id": 50907,
+      "player_name": "Luis Rioja",
+      "team_id": "fd-95",
+      "football_data_team_id": 95,
+      "team_name": "Valencia CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 3
+    },
+    {
       "player_id": "fdp-290184",
       "football_data_player_id": 290184,
       "player_name": "Mikel Rodríguez",
@@ -2224,6 +2290,17 @@
       "team_name": "Deportivo Alavés",
       "position": null,
       "nationality": "Spain",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-3369",
+      "football_data_player_id": 3369,
+      "player_name": "Thomas Lemar",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Guadeloupe",
       "value": 3
     },
     {
@@ -2268,17 +2345,6 @@
       "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Spain",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-3369",
-      "football_data_player_id": 3369,
-      "player_name": "Thomas Lemar",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Guadeloupe",
       "value": 2
     },
     {
