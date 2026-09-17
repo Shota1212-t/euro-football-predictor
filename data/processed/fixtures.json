@@ -1,117 +1,5 @@
 [
   {
-    "id": "564679",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-16T17:00:00Z",
-    "home_team": {
-      "id": "fd-560",
-      "api_id": 560,
-      "name": "RC Deportivo La Coruña",
-      "short": "DEP"
-    },
-    "away_team": {
-      "id": "fd-559",
-      "api_id": 559,
-      "name": "Sevilla FC",
-      "short": "SEV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564684",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-16T17:00:00Z",
-    "home_team": {
-      "id": "fd-78",
-      "api_id": 78,
-      "name": "Club Atlético de Madrid",
-      "short": "ATL"
-    },
-    "away_team": {
-      "id": "fd-79",
-      "api_id": 79,
-      "name": "CA Osasuna",
-      "short": "OSA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564685",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-16T19:30:00Z",
-    "home_team": {
-      "id": "fd-88",
-      "api_id": 88,
-      "name": "Levante UD",
-      "short": "LEV"
-    },
-    "away_team": {
-      "id": "fd-77",
-      "api_id": 77,
-      "name": "Athletic Club",
-      "short": "ATH"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564687",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-16T19:30:00Z",
-    "home_team": {
-      "id": "fd-81",
-      "api_id": 81,
-      "name": "FC Barcelona",
-      "short": "FCB"
-    },
-    "away_team": {
-      "id": "fd-5335",
-      "api_id": 5335,
-      "name": "Real Racing Club de Santander",
-      "short": "SAN"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "564686",
     "league_id": "laliga",
     "competition_code": "PD",
@@ -2940,6 +2828,34 @@
     "actual_result": null
   },
   {
+    "id": "564716",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-16T19:00:00Z",
+    "home_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "away_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "560603",
     "league_id": "pl",
     "competition_code": "PL",
@@ -2962,6 +2878,34 @@
       "api_id": 61,
       "name": "Chelsea FC",
       "short": "CHE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564710",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T12:00:00Z",
+    "home_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "away_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
     },
     "home_score": null,
     "away_score": null,
@@ -3220,6 +3164,34 @@
     "actual_result": null
   },
   {
+    "id": "564708",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T14:15:00Z",
+    "home_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL"
+    },
+    "away_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559662",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -3298,6 +3270,34 @@
       "api_id": 58,
       "name": "Aston Villa FC",
       "short": "AVL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564713",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T16:30:00Z",
+    "home_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET"
+    },
+    "away_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB"
     },
     "home_score": null,
     "away_score": null,
@@ -3416,90 +3416,6 @@
     "actual_result": null
   },
   {
-    "id": "564708",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-94",
-      "api_id": 94,
-      "name": "Villarreal CF",
-      "short": "VIL"
-    },
-    "away_team": {
-      "id": "fd-285",
-      "api_id": 285,
-      "name": "Elche CF",
-      "short": "ELC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564709",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-86",
-      "api_id": 86,
-      "name": "Real Madrid CF",
-      "short": "RMA"
-    },
-    "away_team": {
-      "id": "fd-559",
-      "api_id": 559,
-      "name": "Sevilla FC",
-      "short": "SEV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564710",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-80",
-      "api_id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "short": "ESP"
-    },
-    "away_team": {
-      "id": "fd-78",
-      "api_id": 78,
-      "name": "Club Atlético de Madrid",
-      "short": "ATL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "564711",
     "league_id": "laliga",
     "competition_code": "PD",
@@ -3509,8 +3425,8 @@
     "season_end": "2027-05-30",
     "matchday": 9,
     "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
+    "status": "TIMED",
+    "kickoff": "2026-10-17T19:00:00Z",
     "home_team": {
       "id": "fd-95",
       "api_id": 95,
@@ -3522,174 +3438,6 @@
       "api_id": 77,
       "name": "Athletic Club",
       "short": "ATH"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564712",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-558",
-      "api_id": 558,
-      "name": "RC Celta de Vigo",
-      "short": "CEL"
-    },
-    "away_team": {
-      "id": "fd-263",
-      "api_id": 263,
-      "name": "Deportivo Alavés",
-      "short": "ALA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564713",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-90",
-      "api_id": 90,
-      "name": "Real Betis Balompié",
-      "short": "BET"
-    },
-    "away_team": {
-      "id": "fd-81",
-      "api_id": 81,
-      "name": "FC Barcelona",
-      "short": "FCB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564714",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-84",
-      "api_id": 84,
-      "name": "Málaga CF",
-      "short": "MAL"
-    },
-    "away_team": {
-      "id": "fd-92",
-      "api_id": 92,
-      "name": "Real Sociedad de Fútbol",
-      "short": "RSO"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564715",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-79",
-      "api_id": 79,
-      "name": "CA Osasuna",
-      "short": "OSA"
-    },
-    "away_team": {
-      "id": "fd-5335",
-      "api_id": 5335,
-      "name": "Real Racing Club de Santander",
-      "short": "SAN"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564716",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-560",
-      "api_id": 560,
-      "name": "RC Deportivo La Coruña",
-      "short": "DEP"
-    },
-    "away_team": {
-      "id": "fd-88",
-      "api_id": 88,
-      "name": "Levante UD",
-      "short": "LEV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564717",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 9,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-10-18T00:00:00Z",
-    "home_team": {
-      "id": "fd-82",
-      "api_id": 82,
-      "name": "Getafe CF",
-      "short": "GET"
-    },
-    "away_team": {
-      "id": "fd-87",
-      "api_id": 87,
-      "name": "Rayo Vallecano de Madrid",
-      "short": "RAY"
     },
     "home_score": null,
     "away_score": null,
@@ -3718,6 +3466,34 @@
       "api_id": 5890,
       "name": "US Lecce",
       "short": "USL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564715",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-18T12:00:00Z",
+    "home_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
+    },
+    "away_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
     },
     "home_score": null,
     "away_score": null,
@@ -3892,6 +3668,34 @@
     "actual_result": null
   },
   {
+    "id": "564712",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-18T14:15:00Z",
+    "home_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL"
+    },
+    "away_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "559657",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -4060,6 +3864,34 @@
     "actual_result": null
   },
   {
+    "id": "564714",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-18T16:30:00Z",
+    "home_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
+    },
+    "away_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558570",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -4110,6 +3942,34 @@
       "api_id": 522,
       "name": "OGC Nice",
       "short": "NIC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564709",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-18T19:00:00Z",
+    "home_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA"
+    },
+    "away_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
     },
     "home_score": null,
     "away_score": null,
@@ -4194,6 +4054,34 @@
       "api_id": 1076,
       "name": "Coventry City FC",
       "short": "COV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564717",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-19T19:00:00Z",
+    "home_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET"
+    },
+    "away_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
     },
     "home_score": null,
     "away_score": null,

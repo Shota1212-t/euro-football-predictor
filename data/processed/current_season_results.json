@@ -1,5 +1,89 @@
 [
   {
+    "id": "564687",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-16T19:30:00Z",
+    "home_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB"
+    },
+    "away_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
+    },
+    "home_score": 7,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564679",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-16T17:00:00Z",
+    "home_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "away_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564684",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-09-16T17:00:00Z",
+    "home_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "away_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
+    },
+    "home_score": 4,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
     "id": "564681",
     "league_id": "laliga",
     "competition_code": "PD",
