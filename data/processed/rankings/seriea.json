@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 5,
     "source": "football-data.org",
-    "updated_at": "2026-09-18T05:09:55.749931+00:00",
+    "updated_at": "2026-09-19T05:01:11.646476+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -45,6 +45,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-252836",
+      "football_data_player_id": 252836,
+      "player_name": "Gustavo Varela",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 4
+    },
+    {
       "player_id": "fdp-2200",
       "football_data_player_id": 2200,
       "player_name": "Davide Frattesi",
@@ -64,6 +75,17 @@
       "team_name": "ACF Fiorentina",
       "position": null,
       "nationality": "Argentina",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-183018",
+      "football_data_player_id": 183018,
+      "player_name": "Vasilije Adzic",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Montenegro",
       "value": 3
     },
     {
@@ -163,17 +185,6 @@
       "team_name": "Frosinone Calcio",
       "position": null,
       "nationality": "Georgia",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-252836",
-      "football_data_player_id": 252836,
-      "player_name": "Gustavo Varela",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Portugal",
       "value": 2
     },
     {
@@ -306,17 +317,6 @@
       "team_name": "US Lecce",
       "position": null,
       "nationality": "Portugal",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-183018",
-      "football_data_player_id": 183018,
-      "player_name": "Vasilije Adzic",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Montenegro",
       "value": 2
     },
     {
@@ -1182,6 +1182,83 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-1852",
+      "football_data_player_id": 1852,
+      "player_name": "Andrea Colpani",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Italy",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-125523",
+      "football_data_player_id": 125523,
+      "player_name": "Cas Odenthal",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-265567",
+      "football_data_player_id": 265567,
+      "player_name": "Jay Robinson",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "England",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-122407",
+      "football_data_player_id": 122407,
+      "player_name": "Josh Doig",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Scotland",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-105081",
+      "football_data_player_id": 105081,
+      "player_name": "Kieron Bowie",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Scotland",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-53190",
+      "football_data_player_id": 53190,
+      "player_name": "Ricardo Mangas",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-183018",
+      "football_data_player_id": 183018,
+      "player_name": "Vasilije Adzic",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Montenegro",
+      "value": 5
+    },
+    {
       "player_id": "fdp-3368",
       "football_data_player_id": 3368,
       "player_name": "Adrien Rabiot",
@@ -1245,17 +1322,6 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Greece",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-1852",
-      "football_data_player_id": 1852,
-      "player_name": "Andrea Colpani",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Italy",
       "value": 4
     },
     {
@@ -1336,17 +1402,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-125523",
-      "football_data_player_id": 125523,
-      "player_name": "Cas Odenthal",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Netherlands",
-      "value": 4
-    },
-    {
       "player_id": "fdp-136113",
       "football_data_player_id": 136113,
       "player_name": "Daniel Maldini",
@@ -1377,6 +1432,17 @@
       "team_name": "AC Milan",
       "position": null,
       "nationality": "Belgium",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-2202",
+      "football_data_player_id": 2202,
+      "player_name": "Domenico Berardi",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Italy",
       "value": 4
     },
     {
@@ -1468,6 +1534,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-252836",
+      "football_data_player_id": 252836,
+      "player_name": "Gustavo Varela",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 4
+    },
+    {
       "player_id": "fdp-822",
       "football_data_player_id": 822,
       "player_name": "Hassane Kamara",
@@ -1512,17 +1589,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-265567",
-      "football_data_player_id": 265567,
-      "player_name": "Jay Robinson",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "England",
-      "value": 4
-    },
-    {
       "player_id": "fdp-31065",
       "football_data_player_id": 31065,
       "player_name": "Jesper Karlström",
@@ -1553,17 +1619,6 @@
       "team_name": "Venezia FC",
       "position": null,
       "nationality": "Ecuador",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-122407",
-      "football_data_player_id": 122407,
-      "player_name": "Josh Doig",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Scotland",
       "value": 4
     },
     {
@@ -1608,17 +1663,6 @@
       "team_name": "SSC Napoli",
       "position": null,
       "nationality": "Belgium",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-105081",
-      "football_data_player_id": 105081,
-      "player_name": "Kieron Bowie",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Scotland",
       "value": 4
     },
     {
@@ -1842,17 +1886,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-53190",
-      "football_data_player_id": 53190,
-      "player_name": "Ricardo Mangas",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 4
-    },
-    {
       "player_id": "fdp-187435",
       "football_data_player_id": 187435,
       "player_name": "Richie Sagrado",
@@ -1952,17 +1985,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-183018",
-      "football_data_player_id": 183018,
-      "player_name": "Vasilije Adzic",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Montenegro",
-      "value": 4
-    },
-    {
       "player_id": "fdp-193",
       "football_data_player_id": 193,
       "player_name": "Yann Aurel Bisseck",
@@ -2018,17 +2040,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-2202",
-      "football_data_player_id": 2202,
-      "player_name": "Domenico Berardi",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 3
-    },
-    {
       "player_id": "fdp-8990",
       "football_data_player_id": 8990,
       "player_name": "Edon Zhegrova",
@@ -2048,17 +2059,6 @@
       "team_name": "Juventus FC",
       "position": null,
       "nationality": "Italy",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-252836",
-      "football_data_player_id": 252836,
-      "player_name": "Gustavo Varela",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Portugal",
       "value": 3
     },
     {
@@ -2103,7 +2103,7 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Italy",
-      "value": 2
+      "value": 3
     },
     {
       "player_id": "fdp-153632",
@@ -2114,7 +2114,7 @@
       "team_name": "AC Monza",
       "position": null,
       "nationality": "Argentina",
-      "value": 1
+      "value": 2
     }
   ],
   "yellow_cards": [],

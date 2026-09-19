@@ -1,5 +1,36 @@
 [
   {
+    "id": "564689",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-20T19:00:00Z",
+    "home_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 47.6,
+    "draw_probability": 31.5,
+    "away_win_probability": 20.9,
+    "predicted_result": "Home Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666799+00:00"
+  },
+  {
     "id": "559675",
     "league_id": "ligue1",
     "league_name": "Ligue 1",
@@ -91,6 +122,68 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-09-15T05:18:59.647637+00:00"
+  },
+  {
+    "id": "564695",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-20T16:30:00Z",
+    "home_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 55.5,
+    "draw_probability": 34.3,
+    "away_win_probability": 10.2,
+    "predicted_result": "Home Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666791+00:00"
+  },
+  {
+    "id": "564696",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-20T16:30:00Z",
+    "home_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 46.6,
+    "draw_probability": 8.1,
+    "away_win_probability": 45.3,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666795+00:00"
   },
   {
     "id": "558595",
@@ -215,6 +308,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-09-15T05:18:59.647632+00:00"
+  },
+  {
+    "id": "564688",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-20T14:15:00Z",
+    "home_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 18.7,
+    "draw_probability": 29.1,
+    "away_win_probability": 52.1,
+    "predicted_result": "Away Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666786+00:00"
   },
   {
     "id": "565807",
@@ -434,6 +558,37 @@
     "recorded_at": "2026-09-16T05:13:49.756758+00:00"
   },
   {
+    "id": "564697",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-20T12:00:00Z",
+    "home_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 13.7,
+    "draw_probability": 62.7,
+    "away_win_probability": 23.6,
+    "predicted_result": "Draw",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666782+00:00"
+  },
+  {
     "id": "558591",
     "league_id": "seriea",
     "league_name": "Serie A",
@@ -463,6 +618,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-09-16T05:13:49.756741+00:00"
+  },
+  {
+    "id": "564690",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-19T19:00:00Z",
+    "home_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 26.0,
+    "draw_probability": 30.0,
+    "away_win_probability": 44.0,
+    "predicted_result": "Away Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666777+00:00"
   },
   {
     "id": "559677",
@@ -682,6 +868,37 @@
     "recorded_at": "2026-09-16T05:13:49.756734+00:00"
   },
   {
+    "id": "564694",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-19T16:30:00Z",
+    "home_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 40.0,
+    "draw_probability": 17.8,
+    "away_win_probability": 42.2,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666770+00:00"
+  },
+  {
     "id": "558593",
     "league_id": "seriea",
     "league_name": "Serie A",
@@ -742,6 +959,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-09-15T05:18:59.647602+00:00"
+  },
+  {
+    "id": "564691",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-19T14:15:00Z",
+    "home_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 32.1,
+    "draw_probability": 31.7,
+    "away_win_probability": 36.2,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666766+00:00"
   },
   {
     "id": "560584",
@@ -1023,6 +1271,37 @@
     "recorded_at": "2026-09-16T05:13:49.756716+00:00"
   },
   {
+    "id": "564693",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-19T12:00:00Z",
+    "home_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 27.3,
+    "draw_probability": 41.4,
+    "away_win_probability": 31.3,
+    "predicted_result": "Draw",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666760+00:00"
+  },
+  {
     "id": "560587",
     "league_id": "pl",
     "league_name": "Premier League",
@@ -1083,6 +1362,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-09-16T05:13:49.756706+00:00"
+  },
+  {
+    "id": "564692",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-18T19:00:00Z",
+    "home_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 42.6,
+    "draw_probability": 51.3,
+    "away_win_probability": 6.0,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-09-19T05:01:44.666741+00:00"
   },
   {
     "id": "559682",

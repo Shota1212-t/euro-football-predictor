@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 7,
     "source": "football-data.org",
-    "updated_at": "2026-09-18T05:09:48.931917+00:00",
+    "updated_at": "2026-09-19T05:01:04.673557+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -89,6 +89,17 @@
       "value": 6
     },
     {
+      "player_id": "fdp-214497",
+      "football_data_player_id": 214497,
+      "player_name": "Fer Niño",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 5
+    },
+    {
       "player_id": "fdp-7801",
       "football_data_player_id": 7801,
       "player_name": "Pierre-Emerick Aubameyang",
@@ -150,17 +161,6 @@
       "team_id": "fd-88",
       "football_data_team_id": 88,
       "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-214497",
-      "football_data_player_id": 214497,
-      "player_name": "Fer Niño",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
       "position": null,
       "nationality": "Spain",
       "value": 3
@@ -636,6 +636,17 @@
       "team_name": "Villarreal CF",
       "position": null,
       "nationality": "Georgia",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-137485",
+      "football_data_player_id": 137485,
+      "player_name": "Germán Valera",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
       "value": 1
     },
     {
@@ -1468,6 +1479,105 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-244544",
+      "football_data_player_id": 244544,
+      "player_name": "Buba",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-184273",
+      "football_data_player_id": 184273,
+      "player_name": "Facundo Buonanotte",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-214497",
+      "football_data_player_id": 214497,
+      "player_name": "Fer Niño",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-137485",
+      "football_data_player_id": 137485,
+      "player_name": "Germán Valera",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-159647",
+      "football_data_player_id": 159647,
+      "player_name": "Marc Aguado",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-278018",
+      "football_data_player_id": 278018,
+      "player_name": "Marcos Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-180218",
+      "football_data_player_id": 180218,
+      "player_name": "Roberto Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-149049",
+      "football_data_player_id": 149049,
+      "player_name": "Tyrhys Dolan",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "England",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-220538",
+      "football_data_player_id": 220538,
+      "player_name": "Álex Calatrava",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
       "player_id": "fdp-9554",
       "football_data_player_id": 9554,
       "player_name": "Ademola Lookman",
@@ -1578,17 +1688,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-244544",
-      "football_data_player_id": 244544,
-      "player_name": "Buba",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
       "player_id": "fdp-25",
       "football_data_player_id": 25,
       "player_name": "Canales",
@@ -1674,28 +1773,6 @@
       "team_name": "Levante UD",
       "position": null,
       "nationality": "France",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-184273",
-      "football_data_player_id": 184273,
-      "player_name": "Facundo Buonanotte",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-214497",
-      "football_data_player_id": 214497,
-      "player_name": "Fer Niño",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Spain",
       "value": 6
     },
     {
@@ -1941,34 +2018,12 @@
       "value": 6
     },
     {
-      "player_id": "fdp-159647",
-      "football_data_player_id": 159647,
-      "player_name": "Marc Aguado",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
       "player_id": "fdp-176745",
       "football_data_player_id": 176745,
       "player_name": "Marc Pubill",
       "team_id": "fd-78",
       "football_data_team_id": 78,
       "team_name": "Club Atlético de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-278018",
-      "football_data_player_id": 278018,
-      "player_name": "Marcos Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
       "position": null,
       "nationality": "Spain",
       "value": 6
@@ -2161,17 +2216,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-180218",
-      "football_data_player_id": 180218,
-      "player_name": "Roberto Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
       "player_id": "fdp-101870",
       "football_data_player_id": 101870,
       "player_name": "Roberto Navarro",
@@ -2202,17 +2246,6 @@
       "team_name": "Rayo Vallecano de Madrid",
       "position": null,
       "nationality": "Spain",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-149049",
-      "football_data_player_id": 149049,
-      "player_name": "Tyrhys Dolan",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "England",
       "value": 6
     },
     {
@@ -2304,17 +2337,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-220538",
-      "football_data_player_id": 220538,
-      "player_name": "Álex Calatrava",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
       "player_id": "fdp-182020",
       "football_data_player_id": 182020,
       "player_name": "Álvaro Carreras",
@@ -2335,6 +2357,17 @@
       "position": null,
       "nationality": "Spain",
       "value": 6
+    },
+    {
+      "player_id": "fdp-179011",
+      "football_data_player_id": 179011,
+      "player_name": "Abiel Osorio",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 5
     },
     {
       "player_id": "fdp-180282",
@@ -2403,17 +2436,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-179011",
-      "football_data_player_id": 179011,
-      "player_name": "Abiel Osorio",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 4
-    },
-    {
       "player_id": "fdp-213280",
       "football_data_player_id": 213280,
       "player_name": "Adrià Pedrosa",
@@ -2433,6 +2455,17 @@
       "team_name": "Real Racing Club de Santander",
       "position": null,
       "nationality": "Spain",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-3369",
+      "football_data_player_id": 3369,
+      "player_name": "Thomas Lemar",
+      "team_id": "fd-285",
+      "football_data_team_id": 285,
+      "team_name": "Elche CF",
+      "position": null,
+      "nationality": "Guadeloupe",
       "value": 4
     },
     {
@@ -2510,17 +2543,6 @@
       "team_name": "Deportivo Alavés",
       "position": null,
       "nationality": "Spain",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-3369",
-      "football_data_player_id": 3369,
-      "player_name": "Thomas Lemar",
-      "team_id": "fd-285",
-      "football_data_team_id": 285,
-      "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Guadeloupe",
       "value": 3
     },
     {

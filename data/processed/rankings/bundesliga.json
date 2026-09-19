@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 4,
     "source": "football-data.org",
-    "updated_at": "2026-09-18T05:10:02.998649+00:00",
+    "updated_at": "2026-09-19T05:01:18.298562+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -22,6 +22,28 @@
     ]
   },
   "goals": [
+    {
+      "player_id": "fdp-113765",
+      "football_data_player_id": 113765,
+      "player_name": "Michael Olise",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-8004",
+      "football_data_player_id": 8004,
+      "player_name": "Harry Kane",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
     {
       "player_id": "fdp-156629",
       "football_data_player_id": 156629,
@@ -485,17 +507,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-8004",
-      "football_data_player_id": 8004,
-      "player_name": "Harry Kane",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "England",
-      "value": 1
-    },
-    {
       "player_id": "fdp-202532",
       "football_data_player_id": 202532,
       "player_name": "Ibrahim Maza",
@@ -515,6 +526,28 @@
       "team_name": "Borussia Dortmund",
       "position": null,
       "nationality": "Greece",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-130173",
+      "football_data_player_id": 130173,
+      "player_name": "Ismael Saibari",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Morocco",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-144393",
+      "football_data_player_id": 144393,
+      "player_name": "Jamal Musiala",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
       "value": 1
     },
     {
@@ -625,17 +658,6 @@
       "team_name": "FC Schalke 04",
       "position": null,
       "nationality": "Austria",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-113765",
-      "football_data_player_id": 113765,
-      "player_name": "Michael Olise",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "France",
       "value": 1
     },
     {
@@ -795,6 +817,17 @@
   ],
   "assists": [
     {
+      "player_id": "fdp-130173",
+      "football_data_player_id": 130173,
+      "player_name": "Ismael Saibari",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Morocco",
+      "value": 3
+    },
+    {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
       "player_name": "Adam Daghim",
@@ -927,6 +960,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-144393",
+      "football_data_player_id": 144393,
+      "player_name": "Jamal Musiala",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
       "player_id": "fdp-82404",
       "football_data_player_id": 82404,
       "player_name": "Jonathan Burkardt",
@@ -993,6 +1037,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-113765",
+      "football_data_player_id": 113765,
+      "player_name": "Michael Olise",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-1826",
       "football_data_player_id": 1826,
       "player_name": "Patrik Schick",
@@ -1028,6 +1083,116 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-202665",
+      "football_data_player_id": 202665,
+      "player_name": "Aleksandar Pavlović",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-9541",
+      "football_data_player_id": 9541,
+      "player_name": "Dayot Upamecano",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-1858",
+      "football_data_player_id": 1858,
+      "player_name": "Emmanuel Latte Lath",
+      "team_id": "fd-28",
+      "football_data_team_id": 28,
+      "team_name": "1. FC Union Berlin",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-8004",
+      "football_data_player_id": 8004,
+      "player_name": "Harry Kane",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-130173",
+      "football_data_player_id": 130173,
+      "player_name": "Ismael Saibari",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Morocco",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-277592",
+      "football_data_player_id": 277592,
+      "player_name": "Lennart Karl",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-152811",
+      "football_data_player_id": 152811,
+      "player_name": "Leopold Querfeld",
+      "team_id": "fd-28",
+      "football_data_team_id": 28,
+      "team_name": "1. FC Union Berlin",
+      "position": null,
+      "nationality": "Austria",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-22396",
+      "football_data_player_id": 22396,
+      "player_name": "Luis Díaz",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Colombia",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-113765",
+      "football_data_player_id": 113765,
+      "player_name": "Michael Olise",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-7029",
+      "football_data_player_id": 7029,
+      "player_name": "Tim Skarke",
+      "team_id": "fd-28",
+      "football_data_team_id": 28,
+      "team_name": "1. FC Union Berlin",
+      "position": null,
+      "nationality": "Germany",
+      "value": 4
+    },
+    {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
       "player_name": "Adam Daghim",
@@ -1058,17 +1223,6 @@
       "team_name": "FC Schalke 04",
       "position": null,
       "nationality": "Algeria",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-202665",
-      "football_data_player_id": 202665,
-      "player_name": "Aleksandar Pavlović",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Germany",
       "value": 3
     },
     {
@@ -1171,28 +1325,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-9541",
-      "football_data_player_id": 9541,
-      "player_name": "Dayot Upamecano",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "France",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-1858",
-      "football_data_player_id": 1858,
-      "player_name": "Emmanuel Latte Lath",
-      "team_id": "fd-28",
-      "football_data_team_id": 28,
-      "team_name": "1. FC Union Berlin",
-      "position": null,
-      "nationality": "Ivory Coast",
-      "value": 3
-    },
-    {
       "player_id": "fdp-150733",
       "football_data_player_id": 150733,
       "player_name": "Eren Dinkci",
@@ -1281,17 +1413,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-8004",
-      "football_data_player_id": 8004,
-      "player_name": "Harry Kane",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "England",
-      "value": 3
-    },
-    {
       "player_id": "fdp-188201",
       "football_data_player_id": 188201,
       "player_name": "Hugo Bolin",
@@ -1322,6 +1443,17 @@
       "team_name": "SC Freiburg",
       "position": null,
       "nationality": "Croatia",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-144393",
+      "football_data_player_id": 144393,
+      "player_name": "Jamal Musiala",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
       "value": 3
     },
     {
@@ -1358,17 +1490,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-277592",
-      "football_data_player_id": 277592,
-      "player_name": "Lennart Karl",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Germany",
-      "value": 3
-    },
-    {
       "player_id": "fdp-206319",
       "football_data_player_id": 206319,
       "player_name": "Leon Avdullahu",
@@ -1380,17 +1501,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-152811",
-      "football_data_player_id": 152811,
-      "player_name": "Leopold Querfeld",
-      "team_id": "fd-28",
-      "football_data_team_id": 28,
-      "team_name": "1. FC Union Berlin",
-      "position": null,
-      "nationality": "Austria",
-      "value": 3
-    },
-    {
       "player_id": "fdp-327",
       "football_data_player_id": 327,
       "player_name": "Linton Maina",
@@ -1399,17 +1509,6 @@
       "team_name": "1. FC Köln",
       "position": null,
       "nationality": "Germany",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-22396",
-      "football_data_player_id": 22396,
-      "player_name": "Luis Díaz",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Colombia",
       "value": 3
     },
     {
@@ -1487,17 +1586,6 @@
       "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Austria",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-113765",
-      "football_data_player_id": 113765,
-      "player_name": "Michael Olise",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "France",
       "value": 3
     },
     {
@@ -1652,17 +1740,6 @@
       "team_name": "RB Leipzig",
       "position": null,
       "nationality": "France",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-7029",
-      "football_data_player_id": 7029,
-      "player_name": "Tim Skarke",
-      "team_id": "fd-28",
-      "football_data_team_id": 28,
-      "team_name": "1. FC Union Berlin",
-      "position": null,
-      "nationality": "Germany",
       "value": 3
     },
     {

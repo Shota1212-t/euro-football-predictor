@@ -1,145 +1,5 @@
 [
   {
-    "id": "565804",
-    "league_id": "bundesliga",
-    "competition_code": "BL1",
-    "competition_name": "Bundesliga",
-    "season_id": 2522,
-    "season_start": "2026-08-28",
-    "season_end": "2027-05-22",
-    "matchday": 4,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-18T18:30:00Z",
-    "home_team": {
-      "id": "fd-5",
-      "api_id": 5,
-      "name": "FC Bayern München",
-      "short": "FCB"
-    },
-    "away_team": {
-      "id": "fd-28",
-      "api_id": 28,
-      "name": "1. FC Union Berlin",
-      "short": "UNB"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "558596",
-    "league_id": "seriea",
-    "competition_code": "SA",
-    "competition_name": "Serie A",
-    "season_id": 2494,
-    "season_start": "2026-08-23",
-    "season_end": "2027-05-30",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-18T18:45:00Z",
-    "home_team": {
-      "id": "fd-5911",
-      "api_id": 5911,
-      "name": "AC Monza",
-      "short": "MON"
-    },
-    "away_team": {
-      "id": "fd-471",
-      "api_id": 471,
-      "name": "US Sassuolo Calcio",
-      "short": "SAS"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559682",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-18T18:45:00Z",
-    "home_team": {
-      "id": "fd-548",
-      "api_id": 548,
-      "name": "AS Monaco FC",
-      "short": "ASM"
-    },
-    "away_team": {
-      "id": "fd-546",
-      "api_id": 546,
-      "name": "Racing Club de Lens",
-      "short": "RCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "560591",
-    "league_id": "pl",
-    "competition_code": "PL",
-    "competition_name": "Premier League",
-    "season_id": 2502,
-    "season_start": "2026-08-21",
-    "season_end": "2027-05-30",
-    "matchday": 5,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-18T19:00:00Z",
-    "home_team": {
-      "id": "fd-402",
-      "api_id": 402,
-      "name": "Brentford FC",
-      "short": "BRE"
-    },
-    "away_team": {
-      "id": "fd-61",
-      "api_id": 61,
-      "name": "Chelsea FC",
-      "short": "CHE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564692",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 7,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-09-18T19:00:00Z",
-    "home_team": {
-      "id": "fd-80",
-      "api_id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "short": "ESP"
-    },
-    "away_team": {
-      "id": "fd-285",
-      "api_id": 285,
-      "name": "Elche CF",
-      "short": "ELC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "560587",
     "league_id": "pl",
     "competition_code": "PL",
@@ -4026,6 +3886,34 @@
       "api_id": 87,
       "name": "Rayo Vallecano de Madrid",
       "short": "RAY"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564685",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-21T18:00:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "away_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH"
     },
     "home_score": null,
     "away_score": null,

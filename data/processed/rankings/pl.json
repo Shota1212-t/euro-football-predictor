@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 5,
     "source": "football-data.org",
-    "updated_at": "2026-09-18T05:09:42.126599+00:00",
+    "updated_at": "2026-09-19T05:00:57.725941+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -474,6 +474,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-151119",
+      "football_data_player_id": 151119,
+      "player_name": "Fabio Carvalho",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 1
+    },
+    {
       "player_id": "fdp-217658",
       "football_data_player_id": 217658,
       "player_name": "Gonzalo García",
@@ -524,6 +535,17 @@
       "team_id": "fd-67",
       "football_data_team_id": 67,
       "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-150778",
+      "football_data_player_id": 150778,
+      "player_name": "Jaidon Anthony",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
       "position": null,
       "nationality": "England",
       "value": 1
@@ -757,6 +779,17 @@
       "team_name": "Hull City AFC",
       "position": null,
       "nationality": "Nigeria",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-138230",
+      "football_data_player_id": 138230,
+      "player_name": "Thiago",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Brazil",
       "value": 1
     },
     {
@@ -1028,6 +1061,116 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-144892",
+      "football_data_player_id": 144892,
+      "player_name": "Cole Palmer",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "England",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-150778",
+      "football_data_player_id": 150778,
+      "player_name": "Jaidon Anthony",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "England",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-101910",
+      "football_data_player_id": 101910,
+      "player_name": "Keane Lewis-Potter",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "England",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-123286",
+      "football_data_player_id": 123286,
+      "player_name": "Kevin Schade",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-204348",
+      "football_data_player_id": 204348,
+      "player_name": "Michael Kayode",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Italy",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-82140",
+      "football_data_player_id": 82140,
+      "player_name": "Morgan Rogers",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "England",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-2074",
+      "football_data_player_id": 2074,
+      "player_name": "Pedro Neto",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-172738",
+      "football_data_player_id": 172738,
+      "player_name": "Romeo Lavia",
+      "team_id": "fd-61",
+      "football_data_team_id": 61,
+      "team_name": "Chelsea FC",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-138230",
+      "football_data_player_id": 138230,
+      "player_name": "Thiago",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-10000",
+      "football_data_player_id": 10000,
+      "player_name": "Vitaly Janelt",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
       "player_id": "fdp-161088",
       "football_data_player_id": 161088,
       "player_name": "Alex Scott",
@@ -1160,17 +1303,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-144892",
-      "football_data_player_id": 144892,
-      "player_name": "Cole Palmer",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
-      "position": null,
-      "nationality": "England",
-      "value": 4
-    },
-    {
       "player_id": "fdp-290848",
       "football_data_player_id": 290848,
       "player_name": "César Palacios",
@@ -1245,6 +1377,17 @@
       "team_name": "Manchester City FC",
       "position": null,
       "nationality": "Norway",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-151119",
+      "football_data_player_id": 151119,
+      "player_name": "Fabio Carvalho",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Portugal",
       "value": 4
     },
     {
@@ -1402,28 +1545,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-101910",
-      "football_data_player_id": 101910,
-      "player_name": "Keane Lewis-Potter",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "England",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-123286",
-      "football_data_player_id": 123286,
-      "player_name": "Kevin Schade",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Germany",
-      "value": 4
-    },
-    {
       "player_id": "fdp-140194",
       "football_data_player_id": 140194,
       "player_name": "Kiernan Dewsbury Hall",
@@ -1523,17 +1644,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-204348",
-      "football_data_player_id": 204348,
-      "player_name": "Michael Kayode",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Italy",
-      "value": 4
-    },
-    {
       "player_id": "fdp-213072",
       "football_data_player_id": 213072,
       "player_name": "Mohamed Belloumi",
@@ -1551,17 +1661,6 @@
       "team_id": "fd-351",
       "football_data_team_id": 351,
       "team_name": "Nottingham Forest FC",
-      "position": null,
-      "nationality": "England",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-82140",
-      "football_data_player_id": 82140,
-      "player_name": "Morgan Rogers",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
       "position": null,
       "nationality": "England",
       "value": 4
@@ -1611,17 +1710,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-2074",
-      "football_data_player_id": 2074,
-      "player_name": "Pedro Neto",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 4
-    },
-    {
       "player_id": "fdp-133242",
       "football_data_player_id": 133242,
       "player_name": "Rayan Cherki",
@@ -1630,17 +1718,6 @@
       "team_name": "Manchester City FC",
       "position": null,
       "nationality": "France",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-172738",
-      "football_data_player_id": 172738,
-      "player_name": "Romeo Lavia",
-      "team_id": "fd-61",
-      "football_data_team_id": 61,
-      "team_name": "Chelsea FC",
-      "position": null,
-      "nationality": "Belgium",
       "value": 4
     },
     {
@@ -1685,17 +1762,6 @@
       "team_name": "Everton FC",
       "position": null,
       "nationality": "England",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-10000",
-      "football_data_player_id": 10000,
-      "player_name": "Vitaly Janelt",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Germany",
       "value": 4
     },
     {

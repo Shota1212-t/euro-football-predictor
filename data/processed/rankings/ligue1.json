@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 5,
     "source": "football-data.org",
-    "updated_at": "2026-09-18T05:10:09.903280+00:00",
+    "updated_at": "2026-09-19T05:01:24.851788+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -56,6 +56,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-244696",
+      "football_data_player_id": 244696,
+      "player_name": "Paris Brunner",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 4
+    },
+    {
       "player_id": "fdp-149850",
       "football_data_player_id": 149850,
       "player_name": "Esteban Lepaul",
@@ -97,17 +108,6 @@
       "team_name": "Le Mans FC",
       "position": null,
       "nationality": "Central African Republic",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-244696",
-      "football_data_player_id": 244696,
-      "player_name": "Paris Brunner",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
-      "position": null,
-      "nationality": "Germany",
       "value": 3
     },
     {
@@ -573,6 +573,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-8717",
+      "football_data_player_id": 8717,
+      "player_name": "Matthieu Udol",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-215579",
       "football_data_player_id": 215579,
       "player_name": "Mbwana Samatta",
@@ -806,6 +817,17 @@
   ],
   "assists": [
     {
+      "player_id": "fdp-3370",
+      "football_data_player_id": 3370,
+      "player_name": "Florian Thauvin",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
       "player_id": "fdp-292172",
       "football_data_player_id": 292172,
       "player_name": "Adil Bourabaa",
@@ -823,17 +845,6 @@
       "team_id": "fd-529",
       "football_data_team_id": 529,
       "team_name": "Stade Rennais FC 1901",
-      "position": null,
-      "nationality": "France",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-3370",
-      "football_data_player_id": 3370,
-      "player_name": "Florian Thauvin",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "France",
       "value": 2
@@ -1047,7 +1058,73 @@
       "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "Senegal",
-      "value": 4
+      "value": 5
+    },
+    {
+      "player_id": "fdp-3314",
+      "football_data_player_id": 3314,
+      "player_name": "Eric Dier",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
+      "position": null,
+      "nationality": "England",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-3370",
+      "football_data_player_id": 3370,
+      "player_name": "Florian Thauvin",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-165315",
+      "football_data_player_id": 165315,
+      "player_name": "Flávio Nazinho",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-183643",
+      "football_data_player_id": 183643,
+      "player_name": "Franjo Ivanovic",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "Austria",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-8717",
+      "football_data_player_id": 8717,
+      "player_name": "Matthieu Udol",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-244696",
+      "football_data_player_id": 244696,
+      "player_name": "Paris Brunner",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
     },
     {
       "player_id": "fdp-292172",
@@ -1171,17 +1248,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-3314",
-      "football_data_player_id": 3314,
-      "player_name": "Eric Dier",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
-      "position": null,
-      "nationality": "England",
-      "value": 4
-    },
-    {
       "player_id": "fdp-184726",
       "football_data_player_id": 184726,
       "player_name": "Ernest Nuamah",
@@ -1234,39 +1300,6 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "Spain",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-3370",
-      "football_data_player_id": 3370,
-      "player_name": "Florian Thauvin",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-165315",
-      "football_data_player_id": 165315,
-      "player_name": "Flávio Nazinho",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-183643",
-      "football_data_player_id": 183643,
-      "player_name": "Franjo Ivanovic",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "Austria",
       "value": 4
     },
     {
@@ -1509,17 +1542,6 @@
       "team_name": "Lille OSC",
       "position": null,
       "nationality": "France",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-244696",
-      "football_data_player_id": 244696,
-      "player_name": "Paris Brunner",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
-      "position": null,
-      "nationality": "Germany",
       "value": 4
     },
     {
