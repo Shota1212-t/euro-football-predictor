@@ -216,23 +216,6 @@
     "data_quality": "official"
   },
   {
-    "id": "tsdb-2594562",
-    "source": "TheSportsDB",
-    "competition_name": "UEFA Champions League",
-    "competition_type": "european",
-    "kickoff": "2026-09-09T19:00:00Z",
-    "status": "FT",
-    "team_ids": [
-      "fd-524"
-    ],
-    "home_team_id": null,
-    "away_team_id": null,
-    "home_score": "6",
-    "away_score": "1",
-    "had_extra_time_or_penalties": false,
-    "data_quality": "supplemental_last_event_only"
-  },
-  {
     "id": "fd-cl-575335",
     "source": "football-data.org",
     "competition_name": "UEFA Champions League",
