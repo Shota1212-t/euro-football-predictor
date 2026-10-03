@@ -216,23 +216,6 @@
     "data_quality": "official"
   },
   {
-    "id": "tsdb-2594562",
-    "source": "TheSportsDB",
-    "competition_name": "UEFA Champions League",
-    "competition_type": "european",
-    "kickoff": "2026-09-09T19:00:00Z",
-    "status": "FT",
-    "team_ids": [
-      "fd-524"
-    ],
-    "home_team_id": null,
-    "away_team_id": null,
-    "home_score": "6",
-    "away_score": "1",
-    "had_extra_time_or_penalties": false,
-    "data_quality": "supplemental_last_event_only"
-  },
-  {
     "id": "fd-cl-575335",
     "source": "football-data.org",
     "competition_name": "UEFA Champions League",
@@ -456,6 +439,57 @@
     "away_team_id": null,
     "home_score": null,
     "away_score": null,
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2612640",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-10-02T13:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-519"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "4",
+    "away_score": "3",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2612660",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-10-02T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-560"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "3",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2611300",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-10-02T18:30:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-559"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "3",
     "had_extra_time_or_penalties": false,
     "data_quality": "supplemental_last_event_only"
   },
