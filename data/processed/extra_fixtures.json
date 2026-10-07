@@ -392,23 +392,6 @@
     "data_quality": "supplemental_last_event_only"
   },
   {
-    "id": "tsdb-2594880",
-    "source": "TheSportsDB",
-    "competition_name": "UEFA Europa League",
-    "competition_type": "european",
-    "kickoff": "2026-09-17T19:00:00Z",
-    "status": "FT",
-    "team_ids": [
-      "fd-92"
-    ],
-    "home_team_id": null,
-    "away_team_id": null,
-    "home_score": "1",
-    "away_score": "2",
-    "had_extra_time_or_penalties": false,
-    "data_quality": "supplemental_last_event_only"
-  },
-  {
     "id": "tsdb-2611268",
     "source": "TheSportsDB",
     "competition_name": "Club Friendlies",
@@ -456,6 +439,23 @@
     "away_team_id": null,
     "home_score": "1",
     "away_score": "3",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2615715",
+    "source": "TheSportsDB",
+    "competition_name": "Club Friendlies",
+    "competition_type": "unknown",
+    "kickoff": "2026-10-02T17:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-92"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "0",
+    "away_score": "1",
     "had_extra_time_or_penalties": false,
     "data_quality": "supplemental_last_event_only"
   },
