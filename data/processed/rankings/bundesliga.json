@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 5,
     "source": "football-data.org",
-    "updated_at": "2026-10-09T06:40:40.599385+00:00",
+    "updated_at": "2026-10-10T06:22:21.115161+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -31,6 +31,17 @@
       "team_name": "FC Bayern München",
       "position": null,
       "nationality": "France",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-304",
+      "football_data_player_id": 304,
+      "player_name": "Niclas Füllkrug",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Germany",
       "value": 4
     },
     {
@@ -130,17 +141,6 @@
       "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Austria",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-304",
-      "football_data_player_id": 304,
-      "player_name": "Niclas Füllkrug",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
-      "position": null,
-      "nationality": "Germany",
       "value": 3
     },
     {
@@ -449,6 +449,17 @@
       "team_name": "SV 07 Elversberg",
       "position": null,
       "nationality": "USA",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-145937",
+      "football_data_player_id": 145937,
+      "player_name": "Daniel Svensson",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Sweden",
       "value": 1
     },
     {
@@ -705,6 +716,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-7532",
+      "football_data_player_id": 7532,
+      "player_name": "Ludovit Reis",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 1
+    },
+    {
       "player_id": "fdp-22396",
       "football_data_player_id": 22396,
       "player_name": "Luis Díaz",
@@ -777,6 +799,17 @@
       "team_id": "fd-12",
       "football_data_team_id": 12,
       "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-75539",
+      "football_data_player_id": 75539,
+      "player_name": "Nico Schlotterbeck",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
       "position": null,
       "nationality": "Germany",
       "value": 1
@@ -993,6 +1026,17 @@
   ],
   "assists": [
     {
+      "player_id": "fdp-61630",
+      "football_data_player_id": 61630,
+      "player_name": "Marco Grüll",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Austria",
+      "value": 4
+    },
+    {
       "player_id": "fdp-175704",
       "football_data_player_id": 175704,
       "player_name": "Derry Scherhant",
@@ -1023,17 +1067,6 @@
       "team_name": "FC Bayern München",
       "position": null,
       "nationality": "Morocco",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-61630",
-      "football_data_player_id": 61630,
-      "player_name": "Marco Grüll",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
-      "position": null,
-      "nationality": "Austria",
       "value": 3
     },
     {
@@ -1155,6 +1188,17 @@
       "team_name": "RB Leipzig",
       "position": null,
       "nationality": "France",
+      "value": 1
+    },
+    {
+      "player_id": "fdp-125151",
+      "football_data_player_id": 125151,
+      "player_name": "Fábio Silva",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Portugal",
       "value": 1
     },
     {
@@ -1303,6 +1347,116 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-145937",
+      "football_data_player_id": 145937,
+      "player_name": "Daniel Svensson",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-264833",
+      "football_data_player_id": 264833,
+      "player_name": "Dariusz Stalmach",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Poland",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-150733",
+      "football_data_player_id": 150733,
+      "player_name": "Eren Dinkci",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Turkey",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-101074",
+      "football_data_player_id": 101074,
+      "player_name": "Felix Kalu Nmecha",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-125151",
+      "football_data_player_id": 125151,
+      "player_name": "Fábio Silva",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-7532",
+      "football_data_player_id": 7532,
+      "player_name": "Ludovit Reis",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-61630",
+      "football_data_player_id": 61630,
+      "player_name": "Marco Grüll",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Austria",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-133903",
+      "football_data_player_id": 133903,
+      "player_name": "Maximilian Beier",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-304",
+      "football_data_player_id": 304,
+      "player_name": "Niclas Füllkrug",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-211",
+      "football_data_player_id": 211,
+      "player_name": "Sehrou Guirassy",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Guinea",
+      "value": 5
+    },
+    {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
       "player_name": "Adam Daghim",
@@ -1446,17 +1600,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-264833",
-      "football_data_player_id": 264833,
-      "player_name": "Dariusz Stalmach",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
-      "position": null,
-      "nationality": "Poland",
-      "value": 4
-    },
-    {
       "player_id": "fdp-213737",
       "football_data_player_id": 213737,
       "player_name": "David Mokwa Ntusu",
@@ -1501,17 +1644,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-150733",
-      "football_data_player_id": 150733,
-      "player_name": "Eren Dinkci",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
-      "position": null,
-      "nationality": "Turkey",
-      "value": 4
-    },
-    {
       "player_id": "fdp-33242",
       "football_data_player_id": 33242,
       "player_name": "Ermedin Demirovic",
@@ -1545,17 +1677,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-101074",
-      "football_data_player_id": 101074,
-      "player_name": "Felix Kalu Nmecha",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
-      "position": null,
-      "nationality": "Germany",
-      "value": 4
-    },
-    {
       "player_id": "fdp-182225",
       "football_data_player_id": 182225,
       "player_name": "Felix Keidel",
@@ -1564,17 +1685,6 @@
       "team_name": "SV 07 Elversberg",
       "position": null,
       "nationality": "Germany",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-125151",
-      "football_data_player_id": 125151,
-      "player_name": "Fábio Silva",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
-      "position": null,
-      "nationality": "Portugal",
       "value": 4
     },
     {
@@ -1754,34 +1864,12 @@
       "value": 4
     },
     {
-      "player_id": "fdp-61630",
-      "football_data_player_id": 61630,
-      "player_name": "Marco Grüll",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
-      "position": null,
-      "nationality": "Austria",
-      "value": 4
-    },
-    {
       "player_id": "fdp-183780",
       "football_data_player_id": 183780,
       "player_name": "Maurice Krattenmacher",
       "team_id": "fd-719",
       "football_data_team_id": 719,
       "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "Germany",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-133903",
-      "football_data_player_id": 133903,
-      "player_name": "Maximilian Beier",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
       "position": null,
       "nationality": "Germany",
       "value": 4
@@ -1850,17 +1938,6 @@
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
       "nationality": "Spain",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-304",
-      "football_data_player_id": 304,
-      "player_name": "Niclas Füllkrug",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
-      "position": null,
-      "nationality": "Germany",
       "value": 4
     },
     {
@@ -2007,17 +2084,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-211",
-      "football_data_player_id": 211,
-      "player_name": "Sehrou Guirassy",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
-      "position": null,
-      "nationality": "Guinea",
-      "value": 4
-    },
-    {
       "player_id": "fdp-7633",
       "football_data_player_id": 7633,
       "player_name": "Sheraldo Becker",
@@ -2161,6 +2227,28 @@
       "value": 3
     },
     {
+      "player_id": "fdp-6555",
+      "football_data_player_id": 6555,
+      "player_name": "Mitchell Weiser",
+      "team_id": "fd-12",
+      "football_data_team_id": 12,
+      "team_name": "SV Werder Bremen",
+      "position": null,
+      "nationality": "Germany",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-75539",
+      "football_data_player_id": 75539,
+      "player_name": "Nico Schlotterbeck",
+      "team_id": "fd-4",
+      "football_data_team_id": 4,
+      "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Germany",
+      "value": 3
+    },
+    {
       "player_id": "fdp-247659",
       "football_data_player_id": 247659,
       "player_name": "Said El Mala",
@@ -2200,17 +2288,6 @@
       "team_id": "fd-18",
       "football_data_team_id": 18,
       "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Germany",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-6555",
-      "football_data_player_id": 6555,
-      "player_name": "Mitchell Weiser",
-      "team_id": "fd-12",
-      "football_data_team_id": 12,
-      "team_name": "SV Werder Bremen",
       "position": null,
       "nationality": "Germany",
       "value": 2

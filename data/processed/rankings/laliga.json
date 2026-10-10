@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 8,
     "source": "football-data.org",
-    "updated_at": "2026-10-09T06:40:26.891557+00:00",
+    "updated_at": "2026-10-10T06:22:07.537133+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -219,6 +219,17 @@
       "position": null,
       "nationality": "Senegal",
       "value": 3
+    },
+    {
+      "player_id": "fdp-221308",
+      "football_data_player_id": 221308,
+      "player_name": "Adrián",
+      "team_id": "fd-84",
+      "football_data_team_id": 84,
+      "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 2
     },
     {
       "player_id": "fdp-150533",
@@ -458,17 +469,6 @@
       "team_id": "fd-87",
       "football_data_team_id": 87,
       "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-221308",
-      "football_data_player_id": 221308,
-      "player_name": "Adrián",
-      "team_id": "fd-84",
-      "football_data_team_id": 84,
-      "team_name": "Málaga CF",
       "position": null,
       "nationality": "Spain",
       "value": 1
@@ -1501,6 +1501,61 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-264254",
+      "football_data_player_id": 264254,
+      "player_name": "Chupete",
+      "team_id": "fd-84",
+      "football_data_team_id": 84,
+      "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-278018",
+      "football_data_player_id": 278018,
+      "player_name": "Marcos Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-180218",
+      "football_data_player_id": 180218,
+      "player_name": "Roberto Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-149049",
+      "football_data_player_id": 149049,
+      "player_name": "Tyrhys Dolan",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "England",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-220538",
+      "football_data_player_id": 220538,
+      "player_name": "Álex Calatrava",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-9554",
       "football_data_player_id": 9554,
       "player_name": "Ademola Lookman",
@@ -1644,6 +1699,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-189380",
+      "football_data_player_id": 189380,
+      "player_name": "Carlos Dotor",
+      "team_id": "fd-84",
+      "football_data_team_id": 84,
+      "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
       "player_id": "fdp-247061",
       "football_data_player_id": 247061,
       "player_name": "Carlos Espí",
@@ -1663,17 +1729,6 @@
       "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Nigeria",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-264254",
-      "football_data_player_id": 264254,
-      "player_name": "Chupete",
-      "team_id": "fd-84",
-      "football_data_team_id": 84,
-      "team_name": "Málaga CF",
-      "position": null,
-      "nationality": "Spain",
       "value": 7
     },
     {
@@ -1985,17 +2040,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-278018",
-      "football_data_player_id": 278018,
-      "player_name": "Marcos Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
       "player_id": "fdp-8474",
       "football_data_player_id": 8474,
       "player_name": "Mariano Díaz",
@@ -2194,17 +2238,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-180218",
-      "football_data_player_id": 180218,
-      "player_name": "Roberto Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
       "player_id": "fdp-101870",
       "football_data_player_id": 101870,
       "player_name": "Roberto Navarro",
@@ -2235,17 +2268,6 @@
       "team_name": "Rayo Vallecano de Madrid",
       "position": null,
       "nationality": "Spain",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-149049",
-      "football_data_player_id": 149049,
-      "player_name": "Tyrhys Dolan",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "England",
       "value": 7
     },
     {
@@ -2337,17 +2359,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-220538",
-      "football_data_player_id": 220538,
-      "player_name": "Álex Calatrava",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
       "player_id": "fdp-182020",
       "football_data_player_id": 182020,
       "player_name": "Álvaro Carreras",
@@ -2376,17 +2387,6 @@
       "team_id": "fd-88",
       "football_data_team_id": 88,
       "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-189380",
-      "football_data_player_id": 189380,
-      "player_name": "Carlos Dotor",
-      "team_id": "fd-84",
-      "football_data_team_id": 84,
-      "team_name": "Málaga CF",
       "position": null,
       "nationality": "Spain",
       "value": 6
@@ -2480,6 +2480,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-221308",
+      "football_data_player_id": 221308,
+      "player_name": "Adrián",
+      "team_id": "fd-84",
+      "football_data_team_id": 84,
+      "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 4
+    },
+    {
       "player_id": "fdp-3236",
       "football_data_player_id": 3236,
       "player_name": "Gabriel Jesus",
@@ -2533,17 +2544,6 @@
       "position": null,
       "nationality": "Guadeloupe",
       "value": 4
-    },
-    {
-      "player_id": "fdp-221308",
-      "football_data_player_id": 221308,
-      "player_name": "Adrián",
-      "team_id": "fd-84",
-      "football_data_team_id": 84,
-      "team_name": "Málaga CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 3
     },
     {
       "player_id": "fdp-32679",

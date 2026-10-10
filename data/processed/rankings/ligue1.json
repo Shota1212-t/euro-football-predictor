@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 6,
     "source": "football-data.org",
-    "updated_at": "2026-10-09T06:40:47.382945+00:00",
+    "updated_at": "2026-10-10T06:22:27.709400+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -194,6 +194,17 @@
       "team_id": "fd-576",
       "football_data_team_id": 576,
       "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-8717",
+      "football_data_player_id": 8717,
+      "player_name": "Matthieu Udol",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "France",
       "value": 2
@@ -452,6 +463,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-64837",
+      "football_data_player_id": 64837,
+      "player_name": "Florian Sotoca",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-165315",
       "football_data_player_id": 165315,
       "player_name": "Flávio Nazinho",
@@ -606,6 +628,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-281451",
+      "football_data_player_id": 281451,
+      "player_name": "Khalis Merah",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-177412",
       "football_data_player_id": 177412,
       "player_name": "Lamine Sy",
@@ -680,17 +713,6 @@
       "team_name": "FC Lorient",
       "position": null,
       "nationality": "Ivory Coast",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-8717",
-      "football_data_player_id": 8717,
-      "player_name": "Matthieu Udol",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
       "value": 1
     },
     {
@@ -946,7 +968,7 @@
       "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "France",
-      "value": 3
+      "value": 5
     },
     {
       "player_id": "fdp-292172",
@@ -1281,6 +1303,116 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-366",
+      "football_data_player_id": 366,
+      "player_name": "Corentin Tolisso",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "France",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-184726",
+      "football_data_player_id": 184726,
+      "player_name": "Ernest Nuamah",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Ghana",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-75196",
+      "football_data_player_id": 75196,
+      "player_name": "Felix Bacher",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Austria",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-64837",
+      "football_data_player_id": 64837,
+      "player_name": "Florian Sotoca",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-3370",
+      "football_data_player_id": 3370,
+      "player_name": "Florian Thauvin",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-183643",
+      "football_data_player_id": 183643,
+      "player_name": "Franjo Ivanovic",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "Austria",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-73215",
+      "football_data_player_id": 73215,
+      "player_name": "Loïs Openda",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-8717",
+      "football_data_player_id": 8717,
+      "player_name": "Matthieu Udol",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-215864",
+      "football_data_player_id": 215864,
+      "player_name": "Noah Nartey",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-256424",
+      "football_data_player_id": 256424,
+      "player_name": "Zachary Athekame",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Switzerland",
+      "value": 6
+    },
+    {
       "player_id": "fdp-151264",
       "football_data_player_id": 151264,
       "player_name": "Abdallah Sima",
@@ -1402,17 +1534,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-366",
-      "football_data_player_id": 366,
-      "player_name": "Corentin Tolisso",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "France",
-      "value": 5
-    },
-    {
       "player_id": "fdp-82197",
       "football_data_player_id": 82197,
       "player_name": "Dame Guèye",
@@ -1457,17 +1578,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-184726",
-      "football_data_player_id": 184726,
-      "player_name": "Ernest Nuamah",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Ghana",
-      "value": 5
-    },
-    {
       "player_id": "fdp-149850",
       "football_data_player_id": 149850,
       "player_name": "Esteban Lepaul",
@@ -1490,17 +1600,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-75196",
-      "football_data_player_id": 75196,
-      "player_name": "Felix Bacher",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Austria",
-      "value": 5
-    },
-    {
       "player_id": "fdp-33154",
       "football_data_player_id": 33154,
       "player_name": "Ferrán Torres",
@@ -1512,17 +1611,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-3370",
-      "football_data_player_id": 3370,
-      "player_name": "Florian Thauvin",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 5
-    },
-    {
       "player_id": "fdp-165315",
       "football_data_player_id": 165315,
       "player_name": "Flávio Nazinho",
@@ -1531,17 +1619,6 @@
       "team_name": "AS Monaco FC",
       "position": null,
       "nationality": "Portugal",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-183643",
-      "football_data_player_id": 183643,
-      "player_name": "Franjo Ivanovic",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "Austria",
       "value": 5
     },
     {
@@ -1666,6 +1743,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-281451",
+      "football_data_player_id": 281451,
+      "player_name": "Khalis Merah",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "France",
+      "value": 5
+    },
+    {
       "player_id": "fdp-177412",
       "football_data_player_id": 177412,
       "player_name": "Lamine Sy",
@@ -1696,17 +1784,6 @@
       "team_name": "Le Mans FC",
       "position": null,
       "nationality": "Central African Republic",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-73215",
-      "football_data_player_id": 73215,
-      "player_name": "Loïs Openda",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Belgium",
       "value": 5
     },
     {
@@ -1765,17 +1842,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-8717",
-      "football_data_player_id": 8717,
-      "player_name": "Matthieu Udol",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 5
-    },
-    {
       "player_id": "fdp-215579",
       "football_data_player_id": 215579,
       "player_name": "Mbwana Samatta",
@@ -1784,17 +1850,6 @@
       "team_name": "Le Havre AC",
       "position": null,
       "nationality": "Tanzania",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-215864",
-      "football_data_player_id": 215864,
-      "player_name": "Noah Nartey",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Denmark",
       "value": 5
     },
     {
@@ -1974,17 +2029,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-256424",
-      "football_data_player_id": 256424,
-      "player_name": "Zachary Athekame",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Switzerland",
-      "value": 5
-    },
-    {
       "player_id": "fdp-151295",
       "football_data_player_id": 151295,
       "player_name": "Dilane Bakwa",
@@ -2015,6 +2059,17 @@
       "team_name": "FC Lorient",
       "position": null,
       "nationality": "Belgium",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-188468",
+      "football_data_player_id": 188468,
+      "player_name": "Pierre Ganiou",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
       "value": 4
     },
     {
@@ -2150,17 +2205,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-188468",
-      "football_data_player_id": 188468,
-      "player_name": "Pierre Ganiou",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 3
-    },
-    {
       "player_id": "fdp-187065",
       "football_data_player_id": 187065,
       "player_name": "Malick Fofana",
@@ -2191,7 +2235,7 @@
       "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "Saudi Arabia",
-      "value": 1
+      "value": 2
     }
   ],
   "yellow_cards": [],

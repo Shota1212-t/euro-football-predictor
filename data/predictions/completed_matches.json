@@ -1,5 +1,106 @@
 [
   {
+    "id": "564706",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-10-09T19:00:00Z",
+    "home_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
+    },
+    "away_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw",
+    "prediction_status": "missing",
+    "prediction_available": false,
+    "predicted_result": null,
+    "home_win_probability": null,
+    "draw_probability": null,
+    "away_win_probability": null,
+    "is_correct": null,
+    "confidence": null,
+    "data_quality": null,
+    "model_version": null
+  },
+  {
+    "id": "559669",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-10-09T18:45:00Z",
+    "home_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win",
+    "prediction_status": "recorded",
+    "prediction_available": true,
+    "predicted_result": "Home Win",
+    "home_win_probability": 67.9,
+    "draw_probability": 8.6,
+    "away_win_probability": 23.4,
+    "is_correct": true,
+    "confidence": "High",
+    "data_quality": "full_history",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "565820",
+    "league_id": "bundesliga",
+    "league_name": "Bundesliga",
+    "kickoff": "2026-10-09T18:30:00Z",
+    "home_team": {
+      "id": "fd-4",
+      "api_id": 4,
+      "name": "Borussia Dortmund",
+      "short": "BVB",
+      "league_id": "bundesliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-12",
+      "api_id": 12,
+      "name": "SV Werder Bremen",
+      "short": "SVW",
+      "league_id": "bundesliga",
+      "color": "#334155"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw",
+    "prediction_status": "recorded",
+    "prediction_available": true,
+    "predicted_result": "Home Win",
+    "home_win_probability": 45.3,
+    "draw_probability": 24.9,
+    "away_win_probability": 29.8,
+    "is_correct": false,
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
     "id": "564689",
     "league_id": "laliga",
     "league_name": "La Liga",
