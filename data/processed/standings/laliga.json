@@ -65,13 +65,13 @@
       "api_id": 559,
       "team_name": "Sevilla FC",
       "position": 5,
-      "played": 7,
+      "played": 8,
       "win": 4,
-      "draw": 1,
+      "draw": 2,
       "loss": 2,
-      "goals_for": 10,
-      "goals_against": 9,
-      "points": 13,
+      "goals_for": 13,
+      "goals_against": 12,
+      "points": 14,
       "recent_form": ""
     },
     {
@@ -229,10 +229,24 @@
       "recent_form": ""
     },
     {
+      "team_id": "fd-88",
+      "api_id": 88,
+      "team_name": "Levante UD",
+      "position": 17,
+      "played": 7,
+      "win": 1,
+      "draw": 3,
+      "loss": 3,
+      "goals_for": 11,
+      "goals_against": 15,
+      "points": 6,
+      "recent_form": ""
+    },
+    {
       "team_id": "fd-285",
       "api_id": 285,
       "team_name": "Elche CF",
-      "position": 17,
+      "position": 18,
       "played": 8,
       "win": 1,
       "draw": 3,
@@ -240,20 +254,6 @@
       "goals_for": 11,
       "goals_against": 17,
       "points": 6,
-      "recent_form": ""
-    },
-    {
-      "team_id": "fd-88",
-      "api_id": 88,
-      "team_name": "Levante UD",
-      "position": 18,
-      "played": 6,
-      "win": 1,
-      "draw": 2,
-      "loss": 3,
-      "goals_for": 8,
-      "goals_against": 12,
-      "points": 5,
       "recent_form": ""
     },
     {

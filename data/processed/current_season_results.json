@@ -1,5 +1,117 @@
 [
   {
+    "id": "560597",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-12T19:00:00Z",
+    "home_team": {
+      "id": "fd-1076",
+      "api_id": 1076,
+      "name": "Coventry City FC",
+      "short": "COV"
+    },
+    "away_team": {
+      "id": "fd-67",
+      "api_id": 67,
+      "name": "Newcastle United FC",
+      "short": "NEW"
+    },
+    "home_score": 4,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564704",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-12T19:00:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "away_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "home_score": 3,
+    "away_score": 3,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558587",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-12T18:45:00Z",
+    "home_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR"
+    },
+    "away_team": {
+      "id": "fd-115",
+      "api_id": 115,
+      "name": "Udinese Calcio",
+      "short": "UDI"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558579",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-12T16:30:00Z",
+    "home_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA"
+    },
+    "away_team": {
+      "id": "fd-454",
+      "api_id": 454,
+      "name": "Venezia FC",
+      "short": "VEN"
+    },
+    "home_score": 3,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
     "id": "564705",
     "league_id": "laliga",
     "competition_code": "PD",

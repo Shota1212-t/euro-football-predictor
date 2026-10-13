@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 8,
     "source": "football-data.org",
-    "updated_at": "2026-10-12T06:29:51.178778+00:00",
+    "updated_at": "2026-10-13T07:05:29.584763+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -177,6 +177,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-156746",
+      "football_data_player_id": 156746,
+      "player_name": "Iván Romero",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 3
+    },
+    {
       "player_id": "fdp-8924",
       "football_data_player_id": 8924,
       "player_name": "Jonathan David",
@@ -249,6 +260,17 @@
       "team_id": "fd-84",
       "football_data_team_id": 84,
       "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-98741",
+      "football_data_player_id": 98741,
+      "player_name": "Adrián de la Fuente",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 2
@@ -342,23 +364,23 @@
       "value": 2
     },
     {
+      "player_id": "fdp-213043",
+      "football_data_player_id": 213043,
+      "player_name": "Isaac",
+      "team_id": "fd-559",
+      "football_data_team_id": 559,
+      "team_name": "Sevilla FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 2
+    },
+    {
       "player_id": "fdp-66",
       "football_data_player_id": 66,
       "player_name": "Isco",
       "team_id": "fd-90",
       "football_data_team_id": 90,
       "team_name": "Real Betis Balompié",
-      "position": null,
-      "nationality": "Spain",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-156746",
-      "football_data_player_id": 156746,
-      "player_name": "Iván Romero",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 2
@@ -491,17 +513,6 @@
       "team_id": "fd-87",
       "football_data_team_id": 87,
       "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-98741",
-      "football_data_player_id": 98741,
-      "player_name": "Adrián de la Fuente",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 1
@@ -667,17 +678,6 @@
       "team_id": "fd-558",
       "football_data_team_id": 558,
       "team_name": "RC Celta de Vigo",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-213043",
-      "football_data_player_id": 213043,
-      "player_name": "Isaac",
-      "team_id": "fd-559",
-      "football_data_team_id": 559,
-      "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Spain",
       "value": 1
@@ -1356,6 +1356,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-180282",
+      "football_data_player_id": 180282,
+      "player_name": "Brugui",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 1
+    },
+    {
       "player_id": "fdp-177245",
       "football_data_player_id": 177245,
       "player_name": "Enzo Bardeli",
@@ -1523,6 +1534,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-98741",
+      "football_data_player_id": 98741,
+      "player_name": "Adrián de la Fuente",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-151439",
       "football_data_player_id": 151439,
       "player_name": "Aitor Paredes Casamichana",
@@ -1622,6 +1644,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-38625",
+      "football_data_player_id": 38625,
+      "player_name": "Chidera Ejuke",
+      "team_id": "fd-559",
+      "football_data_team_id": 559,
+      "team_name": "Sevilla FC",
+      "position": null,
+      "nationality": "Nigeria",
+      "value": 8
+    },
+    {
       "player_id": "fdp-264254",
       "football_data_player_id": 264254,
       "player_name": "Chupete",
@@ -1641,6 +1674,17 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Colombia",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-177245",
+      "football_data_player_id": 177245,
+      "player_name": "Enzo Bardeli",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "France",
       "value": 8
     },
     {
@@ -1721,12 +1765,34 @@
       "value": 8
     },
     {
+      "player_id": "fdp-213043",
+      "football_data_player_id": 213043,
+      "player_name": "Isaac",
+      "team_id": "fd-559",
+      "football_data_team_id": 559,
+      "team_name": "Sevilla FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-66",
       "football_data_player_id": 66,
       "player_name": "Isco",
       "team_id": "fd-90",
       "football_data_team_id": 90,
       "team_name": "Real Betis Balompié",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-156746",
+      "football_data_player_id": 156746,
+      "player_name": "Iván Romero",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 8
@@ -1743,6 +1809,28 @@
       "value": 8
     },
     {
+      "player_id": "fdp-33092",
+      "football_data_player_id": 33092,
+      "player_name": "Jon Guridi",
+      "team_id": "fd-559",
+      "football_data_team_id": 559,
+      "team_name": "Sevilla FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-161293",
+      "football_data_player_id": 161293,
+      "player_name": "Jon Olasagasti",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-2000",
       "football_data_player_id": 2000,
       "player_name": "João Cancelo",
@@ -1751,6 +1839,17 @@
       "team_name": "FC Barcelona",
       "position": null,
       "nationality": "Portugal",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-83351",
+      "football_data_player_id": 83351,
+      "player_name": "Juan Iglesias",
+      "team_id": "fd-559",
+      "football_data_team_id": 559,
+      "team_name": "Sevilla FC",
+      "position": null,
+      "nationality": "Spain",
       "value": 8
     },
     {
@@ -1897,6 +1996,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-226950",
+      "football_data_player_id": 226950,
+      "player_name": "Miguel Ángel Sierra",
+      "team_id": "fd-559",
+      "football_data_team_id": 559,
+      "team_name": "Sevilla FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-46123",
       "football_data_player_id": 46123,
       "player_name": "Nahuel Tenaglia",
@@ -1980,6 +2090,17 @@
       "team_id": "fd-81",
       "football_data_team_id": 81,
       "team_name": "FC Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-185105",
+      "football_data_player_id": 185105,
+      "player_name": "Peque",
+      "team_id": "fd-559",
+      "football_data_team_id": 559,
+      "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Spain",
       "value": 8
@@ -2150,17 +2271,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-98741",
-      "football_data_player_id": 98741,
-      "player_name": "Adrián de la Fuente",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
       "player_id": "fdp-114955",
       "football_data_player_id": 114955,
       "player_name": "Andrei Rațiu",
@@ -2169,6 +2279,17 @@
       "team_name": "Rayo Vallecano de Madrid",
       "position": null,
       "nationality": "Romania",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-180282",
+      "football_data_player_id": 180282,
+      "player_name": "Brugui",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
       "value": 7
     },
     {
@@ -2194,17 +2315,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-38625",
-      "football_data_player_id": 38625,
-      "player_name": "Chidera Ejuke",
-      "team_id": "fd-559",
-      "football_data_team_id": 559,
-      "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Nigeria",
-      "value": 7
-    },
-    {
       "player_id": "fdp-33132",
       "football_data_player_id": 33132,
       "player_name": "Enes Ünal",
@@ -2216,78 +2326,12 @@
       "value": 7
     },
     {
-      "player_id": "fdp-177245",
-      "football_data_player_id": 177245,
-      "player_name": "Enzo Bardeli",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "France",
-      "value": 7
-    },
-    {
       "player_id": "fdp-3201",
       "football_data_player_id": 3201,
       "player_name": "Iago Aspas",
       "team_id": "fd-558",
       "football_data_team_id": 558,
       "team_name": "RC Celta de Vigo",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-213043",
-      "football_data_player_id": 213043,
-      "player_name": "Isaac",
-      "team_id": "fd-559",
-      "football_data_team_id": 559,
-      "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-156746",
-      "football_data_player_id": 156746,
-      "player_name": "Iván Romero",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-33092",
-      "football_data_player_id": 33092,
-      "player_name": "Jon Guridi",
-      "team_id": "fd-559",
-      "football_data_team_id": 559,
-      "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-161293",
-      "football_data_player_id": 161293,
-      "player_name": "Jon Olasagasti",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-83351",
-      "football_data_player_id": 83351,
-      "player_name": "Juan Iglesias",
-      "team_id": "fd-559",
-      "football_data_team_id": 559,
-      "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Spain",
       "value": 7
@@ -2312,17 +2356,6 @@
       "team_name": "Deportivo Alavés",
       "position": null,
       "nationality": "Argentina",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-226950",
-      "football_data_player_id": 226950,
-      "player_name": "Miguel Ángel Sierra",
-      "team_id": "fd-559",
-      "football_data_team_id": 559,
-      "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Spain",
       "value": 7
     },
     {
@@ -2367,17 +2400,6 @@
       "team_name": "Real Sociedad de Fútbol",
       "position": null,
       "nationality": "Iceland",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-185105",
-      "football_data_player_id": 185105,
-      "player_name": "Peque",
-      "team_id": "fd-559",
-      "football_data_team_id": 559,
-      "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Spain",
       "value": 7
     },
     {
@@ -2464,17 +2486,6 @@
       "team_id": "fd-87",
       "football_data_team_id": 87,
       "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-180282",
-      "football_data_player_id": 180282,
-      "player_name": "Brugui",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 6
