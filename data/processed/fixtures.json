@@ -1,5 +1,201 @@
 [
   {
+    "id": "558585",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T10:30:00Z",
+    "home_team": {
+      "id": "fd-7397",
+      "api_id": 7397,
+      "name": "Como 1907",
+      "short": "COM"
+    },
+    "away_team": {
+      "id": "fd-100",
+      "api_id": 100,
+      "name": "AS Roma",
+      "short": "ROM"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "558581",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T13:00:00Z",
+    "home_team": {
+      "id": "fd-5890",
+      "api_id": 5890,
+      "name": "US Lecce",
+      "short": "USL"
+    },
+    "away_team": {
+      "id": "fd-103",
+      "api_id": 103,
+      "name": "Bologna FC 1909",
+      "short": "BOL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "558583",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T13:00:00Z",
+    "home_team": {
+      "id": "fd-110",
+      "api_id": 110,
+      "name": "SS Lazio",
+      "short": "LAZ"
+    },
+    "away_team": {
+      "id": "fd-5911",
+      "api_id": 5911,
+      "name": "AC Monza",
+      "short": "MON"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "558580",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T16:00:00Z",
+    "home_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS"
+    },
+    "away_team": {
+      "id": "fd-98",
+      "api_id": 98,
+      "name": "AC Milan",
+      "short": "MIL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "558584",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-11T18:45:00Z",
+    "home_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG"
+    },
+    "away_team": {
+      "id": "fd-109",
+      "api_id": 109,
+      "name": "Juventus FC",
+      "short": "JUV"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "558579",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-12T16:30:00Z",
+    "home_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA"
+    },
+    "away_team": {
+      "id": "fd-454",
+      "api_id": 454,
+      "name": "Venezia FC",
+      "short": "VEN"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "558587",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-12T18:45:00Z",
+    "home_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR"
+    },
+    "away_team": {
+      "id": "fd-115",
+      "api_id": 115,
+      "name": "Udinese Calcio",
+      "short": "UDI"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "565828",
     "league_id": "bundesliga",
     "competition_code": "BL1",
