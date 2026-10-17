@@ -6,9 +6,9 @@
     "season_id": 2494,
     "season_start": "2026-08-23",
     "season_end": "2027-05-30",
-    "current_matchday": 6,
+    "current_matchday": 7,
     "source": "football-data.org",
-    "updated_at": "2026-10-15T05:08:47.383631+00:00",
+    "updated_at": "2026-10-17T04:58:31.301248+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -23,6 +23,17 @@
   },
   "goals": [
     {
+      "player_id": "fdp-169216",
+      "football_data_player_id": 169216,
+      "player_name": "Antonio Raimondo",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 7
+    },
+    {
       "player_id": "fdp-7457",
       "football_data_player_id": 7457,
       "player_name": "Donyell Malen",
@@ -32,17 +43,6 @@
       "position": null,
       "nationality": "Netherlands",
       "value": 6
-    },
-    {
-      "player_id": "fdp-169216",
-      "football_data_player_id": 169216,
-      "player_name": "Antonio Raimondo",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 4
     },
     {
       "player_id": "fdp-136113",
@@ -287,6 +287,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-2202",
+      "football_data_player_id": 2202,
+      "player_name": "Domenico Berardi",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 2
+    },
+    {
       "player_id": "fdp-8990",
       "football_data_player_id": 8990,
       "player_name": "Edon Zhegrova",
@@ -304,6 +315,17 @@
       "team_id": "fd-108",
       "football_data_team_id": 108,
       "team_name": "FC Internazionale Milano",
+      "position": null,
+      "nationality": "Italy",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-40786",
+      "football_data_player_id": 40786,
+      "player_name": "Giacomo Calò",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
       "position": null,
       "nationality": "Italy",
       "value": 2
@@ -573,17 +595,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-2202",
-      "football_data_player_id": 2202,
-      "player_name": "Domenico Berardi",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 1
-    },
-    {
       "player_id": "fdp-153632",
       "football_data_player_id": 153632,
       "player_name": "Exequiel Zeballos",
@@ -631,17 +642,6 @@
       "player_id": "fdp-186575",
       "football_data_player_id": 186575,
       "player_name": "Gabriele Bracaglia",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-40786",
-      "football_data_player_id": 40786,
-      "player_name": "Giacomo Calò",
       "team_id": "fd-470",
       "football_data_team_id": 470,
       "team_name": "Frosinone Calcio",
@@ -1477,6 +1477,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-114054",
+      "football_data_player_id": 114054,
+      "player_name": "Sebastiano Esposito",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 1
+    },
+    {
       "player_id": "fdp-7693",
       "football_data_player_id": 7693,
       "player_name": "Teun Koopmeiners",
@@ -1522,6 +1533,94 @@
     }
   ],
   "appearances": [
+    {
+      "player_id": "fdp-169216",
+      "football_data_player_id": 169216,
+      "player_name": "Antonio Raimondo",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-125523",
+      "football_data_player_id": 125523,
+      "player_name": "Cas Odenthal",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-186575",
+      "football_data_player_id": 186575,
+      "player_name": "Gabriele Bracaglia",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-40786",
+      "football_data_player_id": 40786,
+      "player_name": "Giacomo Calò",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-211564",
+      "football_data_player_id": 211564,
+      "player_name": "Giorgi Kvernadze",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Georgia",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-122407",
+      "football_data_player_id": 122407,
+      "player_name": "Josh Doig",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Scotland",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-105081",
+      "football_data_player_id": 105081,
+      "player_name": "Kieron Bowie",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Scotland",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-183018",
+      "football_data_player_id": 183018,
+      "player_name": "Vasilije Adzic",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Montenegro",
+      "value": 7
+    },
     {
       "player_id": "fdp-3368",
       "football_data_player_id": 3368,
@@ -1611,17 +1710,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-169216",
-      "football_data_player_id": 169216,
-      "player_name": "Antonio Raimondo",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 6
-    },
-    {
       "player_id": "fdp-218474",
       "football_data_player_id": 218474,
       "player_name": "Assane Diao",
@@ -1666,17 +1754,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-125523",
-      "football_data_player_id": 125523,
-      "player_name": "Cas Odenthal",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Netherlands",
-      "value": 6
-    },
-    {
       "player_id": "fdp-145",
       "football_data_player_id": 145,
       "player_name": "Christian Pulisic",
@@ -1718,6 +1795,17 @@
       "team_name": "AC Milan",
       "position": null,
       "nationality": "Belgium",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-2202",
+      "football_data_player_id": 2202,
+      "player_name": "Domenico Berardi",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Italy",
       "value": 6
     },
     {
@@ -1776,28 +1864,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-186575",
-      "football_data_player_id": 186575,
-      "player_name": "Gabriele Bracaglia",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-40786",
-      "football_data_player_id": 40786,
-      "player_name": "Giacomo Calò",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 6
-    },
-    {
       "player_id": "fdp-114117",
       "football_data_player_id": 114117,
       "player_name": "Giacomo Raspadori",
@@ -1817,17 +1883,6 @@
       "team_name": "Atalanta BC",
       "position": null,
       "nationality": "Italy",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-211564",
-      "football_data_player_id": 211564,
-      "player_name": "Giorgi Kvernadze",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Georgia",
       "value": 6
     },
     {
@@ -1908,17 +1963,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-122407",
-      "football_data_player_id": 122407,
-      "player_name": "Josh Doig",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Scotland",
-      "value": 6
-    },
-    {
       "player_id": "fdp-165857",
       "football_data_player_id": 165857,
       "player_name": "José Romero",
@@ -1971,17 +2015,6 @@
       "team_name": "SSC Napoli",
       "position": null,
       "nationality": "Belgium",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-105081",
-      "football_data_player_id": 105081,
-      "player_name": "Kieron Bowie",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Scotland",
       "value": 6
     },
     {
@@ -2348,17 +2381,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-183018",
-      "football_data_player_id": 183018,
-      "player_name": "Vasilije Adzic",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Montenegro",
-      "value": 6
-    },
-    {
       "player_id": "fdp-193",
       "football_data_player_id": 193,
       "player_name": "Yann Aurel Bisseck",
@@ -2425,14 +2447,14 @@
       "value": 5
     },
     {
-      "player_id": "fdp-2202",
-      "football_data_player_id": 2202,
-      "player_name": "Domenico Berardi",
+      "player_id": "fdp-175891",
+      "football_data_player_id": 175891,
+      "player_name": "Cristian Volpato",
       "team_id": "fd-471",
       "football_data_team_id": 471,
       "team_name": "US Sassuolo Calcio",
       "position": null,
-      "nationality": "Italy",
+      "nationality": "Australia",
       "value": 5
     },
     {
@@ -2524,6 +2546,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-114054",
+      "football_data_player_id": 114054,
+      "player_name": "Sebastiano Esposito",
+      "team_id": "fd-471",
+      "football_data_team_id": 471,
+      "team_name": "US Sassuolo Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 5
+    },
+    {
       "player_id": "fdp-246341",
       "football_data_player_id": 246341,
       "player_name": "Tiago Gabriel",
@@ -2557,17 +2590,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-175891",
-      "football_data_player_id": 175891,
-      "player_name": "Cristian Volpato",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
-      "position": null,
-      "nationality": "Australia",
-      "value": 4
-    },
-    {
       "player_id": "fdp-1754",
       "football_data_player_id": 1754,
       "player_name": "Hakan Çalhanoğlu",
@@ -2585,17 +2607,6 @@
       "team_id": "fd-103",
       "football_data_team_id": 103,
       "team_name": "Bologna FC 1909",
-      "position": null,
-      "nationality": "Italy",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-114054",
-      "football_data_player_id": 114054,
-      "player_name": "Sebastiano Esposito",
-      "team_id": "fd-471",
-      "football_data_team_id": 471,
-      "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Italy",
       "value": 4

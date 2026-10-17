@@ -6,9 +6,9 @@
     "season_id": 2518,
     "season_start": "2026-08-16",
     "season_end": "2027-05-30",
-    "current_matchday": 8,
+    "current_matchday": 9,
     "source": "football-data.org",
-    "updated_at": "2026-10-15T05:08:40.221472+00:00",
+    "updated_at": "2026-10-17T04:58:24.189556+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1523,17 +1523,6 @@
   ],
   "appearances": [
     {
-      "player_id": "fdp-9554",
-      "football_data_player_id": 9554,
-      "player_name": "Ademola Lookman",
-      "team_id": "fd-78",
-      "football_data_team_id": 78,
-      "team_name": "Club Atlético de Madrid",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
       "player_id": "fdp-98741",
       "football_data_player_id": 98741,
       "player_name": "Adrián de la Fuente",
@@ -1542,6 +1531,61 @@
       "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-177245",
+      "football_data_player_id": 177245,
+      "player_name": "Enzo Bardeli",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "France",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-156746",
+      "football_data_player_id": 156746,
+      "player_name": "Iván Romero",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-161293",
+      "football_data_player_id": 161293,
+      "player_name": "Jon Olasagasti",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-176255",
+      "football_data_player_id": 176255,
+      "player_name": "Luismi Cruz",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Spain",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-9554",
+      "football_data_player_id": 9554,
+      "player_name": "Ademola Lookman",
+      "team_id": "fd-78",
+      "football_data_team_id": 78,
+      "team_name": "Club Atlético de Madrid",
+      "position": null,
+      "nationality": "England",
       "value": 8
     },
     {
@@ -1622,6 +1666,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-180282",
+      "football_data_player_id": 180282,
+      "player_name": "Brugui",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-25",
       "football_data_player_id": 25,
       "player_name": "Canales",
@@ -1674,17 +1729,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Colombia",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-177245",
-      "football_data_player_id": 177245,
-      "player_name": "Enzo Bardeli",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "France",
       "value": 8
     },
     {
@@ -1787,17 +1831,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-156746",
-      "football_data_player_id": 156746,
-      "player_name": "Iván Romero",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 8
-    },
-    {
       "player_id": "fdp-32629",
       "football_data_player_id": 32629,
       "player_name": "Iñaki Williams",
@@ -1815,17 +1848,6 @@
       "team_id": "fd-559",
       "football_data_team_id": 559,
       "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Spain",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-161293",
-      "football_data_player_id": 161293,
-      "player_name": "Jon Olasagasti",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 8
@@ -1903,17 +1925,6 @@
       "team_id": "fd-81",
       "football_data_team_id": 81,
       "team_name": "FC Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-176255",
-      "football_data_player_id": 176255,
-      "player_name": "Luismi Cruz",
-      "team_id": "fd-560",
-      "football_data_team_id": 560,
-      "team_name": "RC Deportivo La Coruña",
       "position": null,
       "nationality": "Spain",
       "value": 8
@@ -2279,17 +2290,6 @@
       "team_name": "Rayo Vallecano de Madrid",
       "position": null,
       "nationality": "Romania",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-180282",
-      "football_data_player_id": 180282,
-      "player_name": "Brugui",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
       "value": 7
     },
     {

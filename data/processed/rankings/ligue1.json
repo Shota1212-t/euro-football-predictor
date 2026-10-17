@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 7,
     "source": "football-data.org",
-    "updated_at": "2026-10-15T05:09:01.432497+00:00",
+    "updated_at": "2026-10-17T04:58:44.954876+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -22,6 +22,17 @@
     ]
   },
   "goals": [
+    {
+      "player_id": "fdp-129381",
+      "football_data_player_id": 129381,
+      "player_name": "Casper Tengstedt",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 5
+    },
     {
       "player_id": "fdp-8476",
       "football_data_player_id": 8476,
@@ -42,17 +53,6 @@
       "team_name": "AJ Auxerre",
       "position": null,
       "nationality": "England",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-129381",
-      "football_data_player_id": 129381,
-      "player_name": "Casper Tengstedt",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
       "value": 4
     },
     {
@@ -229,6 +229,17 @@
       "team_name": "RC Strasbourg Alsace",
       "position": null,
       "nationality": "France",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-182406",
+      "football_data_player_id": 182406,
+      "player_name": "Jacen Russell-Rowe",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Canada",
       "value": 2
     },
     {
@@ -658,17 +669,6 @@
       "team_name": "FC Lorient",
       "position": null,
       "nationality": "Denmark",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-182406",
-      "football_data_player_id": 182406,
-      "player_name": "Jacen Russell-Rowe",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Canada",
       "value": 1
     },
     {
@@ -1589,6 +1589,72 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-299684",
+      "football_data_player_id": 299684,
+      "player_name": "Christ Tapé",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-82197",
+      "football_data_player_id": 82197,
+      "player_name": "Dame Guèye",
+      "team_id": "fd-535",
+      "football_data_team_id": 535,
+      "team_name": "Le Mans FC",
+      "position": null,
+      "nationality": "Senegal",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-182406",
+      "football_data_player_id": 182406,
+      "player_name": "Jacen Russell-Rowe",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Canada",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-124178",
+      "football_data_player_id": 124178,
+      "player_name": "Louis Mafouta",
+      "team_id": "fd-535",
+      "football_data_team_id": 535,
+      "team_name": "Le Mans FC",
+      "position": null,
+      "nationality": "Central African Republic",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-176335",
+      "football_data_player_id": 176335,
+      "player_name": "Lucas Calodat",
+      "team_id": "fd-535",
+      "football_data_team_id": 535,
+      "team_name": "Le Mans FC",
+      "position": null,
+      "nationality": "France",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-215679",
+      "football_data_player_id": 215679,
+      "player_name": "Thomas Jørgensen",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 7
+    },
+    {
       "player_id": "fdp-8706",
       "football_data_player_id": 8706,
       "player_name": "Adrien Thomasson",
@@ -1688,17 +1754,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-299684",
-      "football_data_player_id": 299684,
-      "player_name": "Christ Tapé",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Ivory Coast",
-      "value": 6
-    },
-    {
       "player_id": "fdp-366",
       "football_data_player_id": 366,
       "player_name": "Corentin Tolisso",
@@ -1707,17 +1762,6 @@
       "team_name": "Olympique Lyonnais",
       "position": null,
       "nationality": "France",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-82197",
-      "football_data_player_id": 82197,
-      "player_name": "Dame Guèye",
-      "team_id": "fd-535",
-      "football_data_team_id": 535,
-      "team_name": "Le Mans FC",
-      "position": null,
-      "nationality": "Senegal",
       "value": 6
     },
     {
@@ -1919,17 +1963,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-182406",
-      "football_data_player_id": 182406,
-      "player_name": "Jacen Russell-Rowe",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Canada",
-      "value": 6
-    },
-    {
       "player_id": "fdp-295761",
       "football_data_player_id": 295761,
       "player_name": "Jacobo Ortega",
@@ -2040,17 +2073,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-124178",
-      "football_data_player_id": 124178,
-      "player_name": "Louis Mafouta",
-      "team_id": "fd-535",
-      "football_data_team_id": 535,
-      "team_name": "Le Mans FC",
-      "position": null,
-      "nationality": "Central African Republic",
-      "value": 6
-    },
-    {
       "player_id": "fdp-73215",
       "football_data_player_id": 73215,
       "player_name": "Loïs Openda",
@@ -2070,17 +2092,6 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "Brazil",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-176335",
-      "football_data_player_id": 176335,
-      "player_name": "Lucas Calodat",
-      "team_id": "fd-535",
-      "football_data_team_id": 535,
-      "team_name": "Le Mans FC",
-      "position": null,
-      "nationality": "France",
       "value": 6
     },
     {
@@ -2293,17 +2304,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-215679",
-      "football_data_player_id": 215679,
-      "player_name": "Thomas Jørgensen",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 6
-    },
-    {
       "player_id": "fdp-188087",
       "football_data_player_id": 188087,
       "player_name": "Tiago Santos",
@@ -2370,6 +2370,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-129381",
+      "football_data_player_id": 129381,
+      "player_name": "Casper Tengstedt",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 5
+    },
+    {
       "player_id": "fdp-151295",
       "football_data_player_id": 151295,
       "player_name": "Dilane Bakwa",
@@ -2389,6 +2400,17 @@
       "team_name": "Lille OSC",
       "position": null,
       "nationality": "France",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-456",
+      "football_data_player_id": 456,
+      "player_name": "Habib Diallo",
+      "team_id": "fd-535",
+      "football_data_team_id": 535,
+      "team_name": "Le Mans FC",
+      "position": null,
+      "nationality": "Senegal",
       "value": 5
     },
     {
@@ -2546,17 +2568,6 @@
       "value": 4
     },
     {
-      "player_id": "fdp-129381",
-      "football_data_player_id": 129381,
-      "player_name": "Casper Tengstedt",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 4
-    },
-    {
       "player_id": "fdp-206744",
       "football_data_player_id": 206744,
       "player_name": "Conrad Harder",
@@ -2576,17 +2587,6 @@
       "team_name": "RC Strasbourg Alsace",
       "position": null,
       "nationality": "Portugal",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-456",
-      "football_data_player_id": 456,
-      "player_name": "Habib Diallo",
-      "team_id": "fd-535",
-      "football_data_team_id": 535,
-      "team_name": "Le Mans FC",
-      "position": null,
-      "nationality": "Senegal",
       "value": 4
     },
     {

@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 6,
     "source": "football-data.org",
-    "updated_at": "2026-10-15T05:08:54.261734+00:00",
+    "updated_at": "2026-10-17T04:58:38.048536+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -31,6 +31,17 @@
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
       "nationality": "Czech Republic",
+      "value": 5
+    },
+    {
+      "player_id": "fdp-192207",
+      "football_data_player_id": 192207,
+      "player_name": "Younes Ebnoutalib",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
+      "position": null,
+      "nationality": "Germany",
       "value": 5
     },
     {
@@ -73,17 +84,6 @@
       "team_id": "fd-15",
       "football_data_team_id": 15,
       "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Germany",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-192207",
-      "football_data_player_id": 192207,
-      "player_name": "Younes Ebnoutalib",
-      "team_id": "fd-19",
-      "football_data_team_id": 19,
-      "team_name": "Eintracht Frankfurt",
       "position": null,
       "nationality": "Germany",
       "value": 4
@@ -1490,6 +1490,50 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-193605",
+      "football_data_player_id": 193605,
+      "player_name": "Can Uzun",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
+      "position": null,
+      "nationality": "Turkey",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-82404",
+      "football_data_player_id": 82404,
+      "player_name": "Jonathan Burkardt",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
+      "position": null,
+      "nationality": "Germany",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-327",
+      "football_data_player_id": 327,
+      "player_name": "Linton Maina",
+      "team_id": "fd-1",
+      "football_data_team_id": 1,
+      "team_name": "1. FC Köln",
+      "position": null,
+      "nationality": "Germany",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-192207",
+      "football_data_player_id": 192207,
+      "player_name": "Younes Ebnoutalib",
+      "team_id": "fd-19",
+      "football_data_team_id": 19,
+      "team_name": "Eintracht Frankfurt",
+      "position": null,
+      "nationality": "Germany",
+      "value": 6
+    },
+    {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
       "player_name": "Adam Daghim",
@@ -1597,17 +1641,6 @@
       "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Germany",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-193605",
-      "football_data_player_id": 193605,
-      "player_name": "Can Uzun",
-      "team_id": "fd-19",
-      "football_data_team_id": 19,
-      "team_name": "Eintracht Frankfurt",
-      "position": null,
-      "nationality": "Turkey",
       "value": 5
     },
     {
@@ -1864,17 +1897,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-82404",
-      "football_data_player_id": 82404,
-      "player_name": "Jonathan Burkardt",
-      "team_id": "fd-19",
-      "football_data_team_id": 19,
-      "team_name": "Eintracht Frankfurt",
-      "position": null,
-      "nationality": "Germany",
-      "value": 5
-    },
-    {
       "player_id": "fdp-82442",
       "football_data_player_id": 82442,
       "player_name": "Joseph Scally",
@@ -1938,17 +1960,6 @@
       "team_name": "1. FC Union Berlin",
       "position": null,
       "nationality": "Austria",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-327",
-      "football_data_player_id": 327,
-      "player_name": "Linton Maina",
-      "team_id": "fd-1",
-      "football_data_team_id": 1,
-      "team_name": "1. FC Köln",
-      "position": null,
-      "nationality": "Germany",
       "value": 5
     },
     {
@@ -2238,6 +2249,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-247659",
+      "football_data_player_id": 247659,
+      "player_name": "Said El Mala",
+      "team_id": "fd-1",
+      "football_data_team_id": 1,
+      "team_name": "1. FC Köln",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
       "player_id": "fdp-212291",
       "football_data_player_id": 212291,
       "player_name": "Santiago Castaneda",
@@ -2348,17 +2370,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-192207",
-      "football_data_player_id": 192207,
-      "player_name": "Younes Ebnoutalib",
-      "team_id": "fd-19",
-      "football_data_team_id": 19,
-      "team_name": "Eintracht Frankfurt",
-      "position": null,
-      "nationality": "Germany",
-      "value": 5
-    },
-    {
       "player_id": "fdp-145293",
       "football_data_player_id": 145293,
       "player_name": "Yuito Suzuki",
@@ -2439,17 +2450,6 @@
       "player_id": "fdp-7772",
       "football_data_player_id": 7772,
       "player_name": "Ragnar Ache",
-      "team_id": "fd-1",
-      "football_data_team_id": 1,
-      "team_name": "1. FC Köln",
-      "position": null,
-      "nationality": "Germany",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-247659",
-      "football_data_player_id": 247659,
-      "player_name": "Said El Mala",
       "team_id": "fd-1",
       "football_data_team_id": 1,
       "team_name": "1. FC Köln",
