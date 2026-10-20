@@ -1,5 +1,117 @@
 [
   {
+    "id": "560606",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-19T19:00:00Z",
+    "home_team": {
+      "id": "fd-73",
+      "api_id": 73,
+      "name": "Tottenham Hotspur FC",
+      "short": "TOT"
+    },
+    "away_team": {
+      "id": "fd-1076",
+      "api_id": 1076,
+      "name": "Coventry City FC",
+      "short": "COV"
+    },
+    "home_score": 3,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "564717",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-19T19:00:00Z",
+    "home_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET"
+    },
+    "away_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
+    },
+    "home_score": 1,
+    "away_score": 1,
+    "actual_result": "Draw"
+  },
+  {
+    "id": "558578",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-19T18:45:00Z",
+    "home_team": {
+      "id": "fd-112",
+      "api_id": 112,
+      "name": "Parma Calcio 1913",
+      "short": "PAR"
+    },
+    "away_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR"
+    },
+    "home_score": 0,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558576",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 7,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-19T16:30:00Z",
+    "home_team": {
+      "id": "fd-5911",
+      "api_id": 5911,
+      "name": "AC Monza",
+      "short": "MON"
+    },
+    "away_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG"
+    },
+    "home_score": 4,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
     "id": "564709",
     "league_id": "laliga",
     "competition_code": "PD",

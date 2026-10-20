@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 7,
     "source": "football-data.org",
-    "updated_at": "2026-10-19T05:18:48.187863+00:00",
+    "updated_at": "2026-10-20T05:14:43.404929+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -295,6 +295,17 @@
       "team_name": "AFC Bournemouth",
       "position": null,
       "nationality": "Brazil",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-114123",
+      "football_data_player_id": 114123,
+      "player_name": "Jack Rudoni",
+      "team_id": "fd-1076",
+      "football_data_team_id": 1076,
+      "team_name": "Coventry City FC",
+      "position": null,
+      "nationality": "England",
       "value": 2
     },
     {
@@ -837,17 +848,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-34646",
-      "football_data_player_id": 34646,
-      "player_name": "John McGinn",
-      "team_id": "fd-58",
-      "football_data_team_id": 58,
-      "team_name": "Aston Villa FC",
-      "position": null,
-      "nationality": "Scotland",
-      "value": 1
-    },
-    {
       "player_id": "fdp-122266",
       "football_data_player_id": 122266,
       "player_name": "Joško Gvardiol",
@@ -1232,17 +1232,6 @@
       "team_name": "Aston Villa FC",
       "position": null,
       "nationality": "Switzerland",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-34646",
-      "football_data_player_id": 34646,
-      "player_name": "John McGinn",
-      "team_id": "fd-58",
-      "football_data_team_id": 58,
-      "team_name": "Aston Villa FC",
-      "position": null,
-      "nationality": "Scotland",
       "value": 2
     },
     {
@@ -1688,6 +1677,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-119265",
+      "football_data_player_id": 119265,
+      "player_name": "Conor Gallagher",
+      "team_id": "fd-73",
+      "football_data_team_id": 73,
+      "team_name": "Tottenham Hotspur FC",
+      "position": null,
+      "nationality": "England",
+      "value": 7
+    },
+    {
       "player_id": "fdp-290848",
       "football_data_player_id": 290848,
       "player_name": "César Palacios",
@@ -1820,6 +1820,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-114123",
+      "football_data_player_id": 114123,
+      "player_name": "Jack Rudoni",
+      "team_id": "fd-1076",
+      "football_data_team_id": 1076,
+      "team_name": "Coventry City FC",
+      "position": null,
+      "nationality": "England",
+      "value": 7
+    },
+    {
       "player_id": "fdp-150778",
       "football_data_player_id": 150778,
       "player_name": "Jaidon Anthony",
@@ -1853,6 +1864,28 @@
       "value": 7
     },
     {
+      "player_id": "fdp-98566",
+      "football_data_player_id": 98566,
+      "player_name": "Jan Paul van Hecke",
+      "team_id": "fd-73",
+      "football_data_team_id": 73,
+      "team_name": "Tottenham Hotspur FC",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-6308",
+      "football_data_player_id": 6308,
+      "player_name": "Jay Dasilva",
+      "team_id": "fd-1076",
+      "football_data_team_id": 1076,
+      "team_name": "Coventry City FC",
+      "position": null,
+      "nationality": "Wales",
+      "value": 7
+    },
+    {
       "player_id": "fdp-4184",
       "football_data_player_id": 4184,
       "player_name": "Jayden Bogle",
@@ -1872,17 +1905,6 @@
       "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "England",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-34646",
-      "football_data_player_id": 34646,
-      "player_name": "John McGinn",
-      "team_id": "fd-58",
-      "football_data_team_id": 58,
-      "team_name": "Aston Villa FC",
-      "position": null,
-      "nationality": "Scotland",
       "value": 7
     },
     {
@@ -2326,17 +2348,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-119265",
-      "football_data_player_id": 119265,
-      "player_name": "Conor Gallagher",
-      "team_id": "fd-73",
-      "football_data_team_id": 73,
-      "team_name": "Tottenham Hotspur FC",
-      "position": null,
-      "nationality": "England",
-      "value": 6
-    },
-    {
       "player_id": "fdp-16347",
       "football_data_player_id": 16347,
       "player_name": "Dominik Szoboszlai",
@@ -2370,17 +2381,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-98566",
-      "football_data_player_id": 98566,
-      "player_name": "Jan Paul van Hecke",
-      "team_id": "fd-73",
-      "football_data_team_id": 73,
-      "team_name": "Tottenham Hotspur FC",
-      "position": null,
-      "nationality": "Netherlands",
-      "value": 6
-    },
-    {
       "player_id": "fdp-147891",
       "football_data_player_id": 147891,
       "player_name": "Jaouen Hadjam",
@@ -2389,17 +2389,6 @@
       "team_name": "Brighton & Hove Albion FC",
       "position": null,
       "nationality": "Algeria",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-6308",
-      "football_data_player_id": 6308,
-      "player_name": "Jay Dasilva",
-      "team_id": "fd-1076",
-      "football_data_team_id": 1076,
-      "team_name": "Coventry City FC",
-      "position": null,
-      "nationality": "Wales",
       "value": 6
     },
     {

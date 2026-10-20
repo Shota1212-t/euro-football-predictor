@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 9,
     "source": "football-data.org",
-    "updated_at": "2026-10-19T05:18:54.845866+00:00",
+    "updated_at": "2026-10-20T05:14:50.888030+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -276,6 +276,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-32312",
+      "football_data_player_id": 32312,
+      "player_name": "Álvaro García",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
+      "value": 3
+    },
+    {
       "player_id": "fdp-98741",
       "football_data_player_id": 98741,
       "player_name": "Adrián de la Fuente",
@@ -441,6 +452,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-152458",
+      "football_data_player_id": 152458,
+      "player_name": "Martin Satriano",
+      "team_id": "fd-82",
+      "football_data_team_id": 82,
+      "team_name": "Getafe CF",
+      "position": null,
+      "nationality": "Uruguay",
+      "value": 2
+    },
+    {
       "player_id": "fdp-226950",
       "football_data_player_id": 226950,
       "player_name": "Miguel Ángel Sierra",
@@ -537,17 +559,6 @@
       "team_name": "Real Madrid CF",
       "position": null,
       "nationality": "Ivory Coast",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-32312",
-      "football_data_player_id": 32312,
-      "player_name": "Álvaro García",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
       "value": 2
     },
     {
@@ -845,17 +856,6 @@
       "team_name": "RCD Espanyol de Barcelona",
       "position": null,
       "nationality": "Spain",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-152458",
-      "football_data_player_id": 152458,
-      "player_name": "Martin Satriano",
-      "team_id": "fd-82",
-      "football_data_team_id": 82,
-      "team_name": "Getafe CF",
-      "position": null,
-      "nationality": "Uruguay",
       "value": 1
     },
     {
@@ -1985,6 +1985,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-152458",
+      "football_data_player_id": 152458,
+      "player_name": "Martin Satriano",
+      "team_id": "fd-82",
+      "football_data_team_id": 82,
+      "team_name": "Getafe CF",
+      "position": null,
+      "nationality": "Uruguay",
+      "value": 9
+    },
+    {
       "player_id": "fdp-180137",
       "football_data_player_id": 180137,
       "player_name": "Mikel Oyarzabal",
@@ -2117,6 +2128,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-115175",
+      "football_data_player_id": 115175,
+      "player_name": "Sergio Camello",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
+      "value": 9
+    },
+    {
       "player_id": "fdp-149049",
       "football_data_player_id": 149049,
       "player_name": "Tyrhys Dolan",
@@ -2216,6 +2238,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-32312",
+      "football_data_player_id": 32312,
+      "player_name": "Álvaro García",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
+      "value": 9
+    },
+    {
       "player_id": "fdp-180282",
       "football_data_player_id": 180282,
       "player_name": "Brugui",
@@ -2235,6 +2268,17 @@
       "team_name": "Elche CF",
       "position": null,
       "nationality": "Spain",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-33132",
+      "football_data_player_id": 33132,
+      "player_name": "Enes Ünal",
+      "team_id": "fd-82",
+      "football_data_team_id": 82,
+      "team_name": "Getafe CF",
+      "position": null,
+      "nationality": "Turkey",
       "value": 8
     },
     {
@@ -2304,17 +2348,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-152458",
-      "football_data_player_id": 152458,
-      "player_name": "Martin Satriano",
-      "team_id": "fd-82",
-      "football_data_team_id": 82,
-      "team_name": "Getafe CF",
-      "position": null,
-      "nationality": "Uruguay",
-      "value": 8
-    },
-    {
       "player_id": "fdp-226950",
       "football_data_player_id": 226950,
       "player_name": "Miguel Ángel Sierra",
@@ -2348,6 +2381,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-154000",
+      "football_data_player_id": 154000,
+      "player_name": "RamónTerrats Espacio",
+      "team_id": "fd-82",
+      "football_data_team_id": 82,
+      "team_name": "Getafe CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-37428",
       "football_data_player_id": 37428,
       "player_name": "Raphinha",
@@ -2356,17 +2400,6 @@
       "team_name": "FC Barcelona",
       "position": null,
       "nationality": "Brazil",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-115175",
-      "football_data_player_id": 115175,
-      "player_name": "Sergio Camello",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
       "value": 8
     },
     {
@@ -2403,17 +2436,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-32312",
-      "football_data_player_id": 32312,
-      "player_name": "Álvaro García",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 8
-    },
-    {
       "player_id": "fdp-179011",
       "football_data_player_id": 179011,
       "player_name": "Abiel Osorio",
@@ -2422,6 +2444,17 @@
       "team_name": "Elche CF",
       "position": null,
       "nationality": "Argentina",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-213280",
+      "football_data_player_id": 213280,
+      "player_name": "Adrià Pedrosa",
+      "team_id": "fd-87",
+      "football_data_team_id": 87,
+      "team_name": "Rayo Vallecano de Madrid",
+      "position": null,
+      "nationality": "Spain",
       "value": 7
     },
     {
@@ -2444,17 +2477,6 @@
       "team_name": "RC Celta de Vigo",
       "position": null,
       "nationality": "Sweden",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-33132",
-      "football_data_player_id": 33132,
-      "player_name": "Enes Ünal",
-      "team_id": "fd-82",
-      "football_data_team_id": 82,
-      "team_name": "Getafe CF",
-      "position": null,
-      "nationality": "Turkey",
       "value": 7
     },
     {
@@ -2502,17 +2524,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-154000",
-      "football_data_player_id": 154000,
-      "player_name": "RamónTerrats Espacio",
-      "team_id": "fd-82",
-      "football_data_team_id": 82,
-      "team_name": "Getafe CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
       "player_id": "fdp-114100",
       "football_data_player_id": 114100,
       "player_name": "Zakaria Eddahchouri",
@@ -2532,17 +2543,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Morocco",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-213280",
-      "football_data_player_id": 213280,
-      "player_name": "Adrià Pedrosa",
-      "team_id": "fd-87",
-      "football_data_team_id": 87,
-      "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
       "value": 6
     },
     {
