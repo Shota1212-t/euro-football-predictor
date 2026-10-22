@@ -1,33 +1,5 @@
 [
   {
-    "id": "564685",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 6,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-10-21T18:00:00Z",
-    "home_team": {
-      "id": "fd-88",
-      "api_id": 88,
-      "name": "Levante UD",
-      "short": "LEV"
-    },
-    "away_team": {
-      "id": "fd-77",
-      "api_id": 77,
-      "name": "Athletic Club",
-      "short": "ATH"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "565833",
     "league_id": "bundesliga",
     "competition_code": "BL1",
@@ -498,34 +470,6 @@
       "api_id": 80,
       "name": "RCD Espanyol de Barcelona",
       "short": "ESP"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559655",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 8,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2026-10-24T15:15:00Z",
-    "home_team": {
-      "id": "fd-511",
-      "api_id": 511,
-      "name": "Toulouse FC",
-      "short": "TOU"
-    },
-    "away_team": {
-      "id": "fd-531",
-      "api_id": 531,
-      "name": "ES Troyes AC",
-      "short": "ETR"
     },
     "home_score": null,
     "away_score": null,
@@ -1114,6 +1058,34 @@
       "api_id": 525,
       "name": "FC Lorient",
       "short": "FCL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559655",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-10-25T16:15:00Z",
+    "home_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "away_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
     },
     "home_score": null,
     "away_score": null,
@@ -7336,6 +7308,34 @@
     "actual_result": null
   },
   {
+    "id": "559609",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-04T19:45:00Z",
+    "home_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "away_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "565875",
     "league_id": "bundesliga",
     "competition_code": "BL1",
@@ -7588,258 +7588,6 @@
     "actual_result": null
   },
   {
-    "id": "559603",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-531",
-      "api_id": 531,
-      "name": "ES Troyes AC",
-      "short": "ETR"
-    },
-    "away_team": {
-      "id": "fd-523",
-      "api_id": 523,
-      "name": "Olympique Lyonnais",
-      "short": "LYO"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559604",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-548",
-      "api_id": 548,
-      "name": "AS Monaco FC",
-      "short": "ASM"
-    },
-    "away_team": {
-      "id": "fd-532",
-      "api_id": 532,
-      "name": "Angers SCO",
-      "short": "ANG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559605",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-546",
-      "api_id": 546,
-      "name": "Racing Club de Lens",
-      "short": "RCL"
-    },
-    "away_team": {
-      "id": "fd-533",
-      "api_id": 533,
-      "name": "Le Havre AC",
-      "short": "HAC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559606",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-521",
-      "api_id": 521,
-      "name": "Lille OSC",
-      "short": "LIL"
-    },
-    "away_team": {
-      "id": "fd-519",
-      "api_id": 519,
-      "name": "AJ Auxerre",
-      "short": "AJA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559607",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-516",
-      "api_id": 516,
-      "name": "Olympique de Marseille",
-      "short": "MAR"
-    },
-    "away_team": {
-      "id": "fd-522",
-      "api_id": 522,
-      "name": "OGC Nice",
-      "short": "NIC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559608",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-529",
-      "api_id": 529,
-      "name": "Stade Rennais FC 1901",
-      "short": "REN"
-    },
-    "away_team": {
-      "id": "fd-512",
-      "api_id": 512,
-      "name": "Stade Brestois 29",
-      "short": "BRE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559609",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-511",
-      "api_id": 511,
-      "name": "Toulouse FC",
-      "short": "TOU"
-    },
-    "away_team": {
-      "id": "fd-524",
-      "api_id": 524,
-      "name": "Paris Saint-Germain FC",
-      "short": "PSG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559610",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-576",
-      "api_id": 576,
-      "name": "RC Strasbourg Alsace",
-      "short": "RC "
-    },
-    "away_team": {
-      "id": "fd-525",
-      "api_id": 525,
-      "name": "FC Lorient",
-      "short": "FCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559611",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 13,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-05T00:00:00Z",
-    "home_team": {
-      "id": "fd-1045",
-      "api_id": 1045,
-      "name": "Paris FC",
-      "short": "PFC"
-    },
-    "away_team": {
-      "id": "fd-535",
-      "api_id": 535,
-      "name": "Le Mans FC",
-      "short": "LMF"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "560676",
     "league_id": "pl",
     "competition_code": "PL",
@@ -8008,6 +7756,34 @@
     "actual_result": null
   },
   {
+    "id": "559606",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-05T16:15:00Z",
+    "home_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "away_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558501",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -8086,6 +7862,118 @@
       "api_id": 5890,
       "name": "US Lecce",
       "short": "USL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559604",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-05T19:45:00Z",
+    "home_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "away_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559605",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-05T19:45:00Z",
+    "home_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
+    },
+    "away_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559610",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-05T19:45:00Z",
+    "home_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "away_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559611",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-05T19:45:00Z",
+    "home_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "away_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
     },
     "home_score": null,
     "away_score": null,
@@ -8512,6 +8400,62 @@
     "actual_result": null
   },
   {
+    "id": "559603",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-06T14:00:00Z",
+    "home_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "away_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559608",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-06T16:15:00Z",
+    "home_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "away_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "560672",
     "league_id": "pl",
     "competition_code": "PL",
@@ -8596,6 +8540,34 @@
     "actual_result": null
   },
   {
+    "id": "559607",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 13,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-06T19:45:00Z",
+    "home_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "away_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558506",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -8674,6 +8646,34 @@
       "api_id": 470,
       "name": "Frosinone Calcio",
       "short": "FRO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559602",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-11T19:45:00Z",
+    "home_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "away_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
     },
     "home_score": null,
     "away_score": null,
@@ -8932,230 +8932,6 @@
     "actual_result": null
   },
   {
-    "id": "559595",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-522",
-      "api_id": 522,
-      "name": "OGC Nice",
-      "short": "NIC"
-    },
-    "away_team": {
-      "id": "fd-546",
-      "api_id": 546,
-      "name": "Racing Club de Lens",
-      "short": "RCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559596",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-524",
-      "api_id": 524,
-      "name": "Paris Saint-Germain FC",
-      "short": "PSG"
-    },
-    "away_team": {
-      "id": "fd-1045",
-      "api_id": 1045,
-      "name": "Paris FC",
-      "short": "PFC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559597",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-532",
-      "api_id": 532,
-      "name": "Angers SCO",
-      "short": "ANG"
-    },
-    "away_team": {
-      "id": "fd-576",
-      "api_id": 576,
-      "name": "RC Strasbourg Alsace",
-      "short": "RC "
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559598",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-512",
-      "api_id": 512,
-      "name": "Stade Brestois 29",
-      "short": "BRE"
-    },
-    "away_team": {
-      "id": "fd-531",
-      "api_id": 531,
-      "name": "ES Troyes AC",
-      "short": "ETR"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559599",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-533",
-      "api_id": 533,
-      "name": "Le Havre AC",
-      "short": "HAC"
-    },
-    "away_team": {
-      "id": "fd-535",
-      "api_id": 535,
-      "name": "Le Mans FC",
-      "short": "LMF"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559600",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-529",
-      "api_id": 529,
-      "name": "Stade Rennais FC 1901",
-      "short": "REN"
-    },
-    "away_team": {
-      "id": "fd-548",
-      "api_id": 548,
-      "name": "AS Monaco FC",
-      "short": "ASM"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559601",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-525",
-      "api_id": 525,
-      "name": "FC Lorient",
-      "short": "FCL"
-    },
-    "away_team": {
-      "id": "fd-521",
-      "api_id": 521,
-      "name": "Lille OSC",
-      "short": "LIL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559602",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 14,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-12T00:00:00Z",
-    "home_team": {
-      "id": "fd-519",
-      "api_id": 519,
-      "name": "AJ Auxerre",
-      "short": "AJA"
-    },
-    "away_team": {
-      "id": "fd-511",
-      "api_id": 511,
-      "name": "Toulouse FC",
-      "short": "TOU"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "558494",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -9268,6 +9044,34 @@
     "actual_result": null
   },
   {
+    "id": "559596",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-12T16:15:00Z",
+    "home_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "away_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558492",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -9346,6 +9150,118 @@
       "api_id": 103,
       "name": "Bologna FC 1909",
       "short": "BOL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559595",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-12T19:45:00Z",
+    "home_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "away_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559597",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-12T19:45:00Z",
+    "home_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "away_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559598",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-12T19:45:00Z",
+    "home_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "away_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559599",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-12T19:45:00Z",
+    "home_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "away_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
     },
     "home_score": null,
     "away_score": null,
@@ -9766,6 +9682,62 @@
       "api_id": 586,
       "name": "Torino FC",
       "short": "TOR"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559601",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-13T14:00:00Z",
+    "home_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "away_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559600",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 14,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-13T16:15:00Z",
+    "home_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "away_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
     },
     "home_score": null,
     "away_score": null,
@@ -11676,230 +11648,6 @@
     "actual_result": null
   },
   {
-    "id": "559586",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-535",
-      "api_id": 535,
-      "name": "Le Mans FC",
-      "short": "LMF"
-    },
-    "away_team": {
-      "id": "fd-523",
-      "api_id": 523,
-      "name": "Olympique Lyonnais",
-      "short": "LYO"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559587",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-512",
-      "api_id": 512,
-      "name": "Stade Brestois 29",
-      "short": "BRE"
-    },
-    "away_team": {
-      "id": "fd-516",
-      "api_id": 516,
-      "name": "Olympique de Marseille",
-      "short": "MAR"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559588",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-531",
-      "api_id": 531,
-      "name": "ES Troyes AC",
-      "short": "ETR"
-    },
-    "away_team": {
-      "id": "fd-529",
-      "api_id": 529,
-      "name": "Stade Rennais FC 1901",
-      "short": "REN"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559589",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-511",
-      "api_id": 511,
-      "name": "Toulouse FC",
-      "short": "TOU"
-    },
-    "away_team": {
-      "id": "fd-532",
-      "api_id": 532,
-      "name": "Angers SCO",
-      "short": "ANG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559590",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-548",
-      "api_id": 548,
-      "name": "AS Monaco FC",
-      "short": "ASM"
-    },
-    "away_team": {
-      "id": "fd-522",
-      "api_id": 522,
-      "name": "OGC Nice",
-      "short": "NIC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559591",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-1045",
-      "api_id": 1045,
-      "name": "Paris FC",
-      "short": "PFC"
-    },
-    "away_team": {
-      "id": "fd-533",
-      "api_id": 533,
-      "name": "Le Havre AC",
-      "short": "HAC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559592",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-525",
-      "api_id": 525,
-      "name": "FC Lorient",
-      "short": "FCL"
-    },
-    "away_team": {
-      "id": "fd-519",
-      "api_id": 519,
-      "name": "AJ Auxerre",
-      "short": "AJA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559593",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-02T00:00:00Z",
-    "home_team": {
-      "id": "fd-521",
-      "api_id": 521,
-      "name": "Lille OSC",
-      "short": "LIL"
-    },
-    "away_team": {
-      "id": "fd-576",
-      "api_id": 576,
-      "name": "RC Strasbourg Alsace",
-      "short": "RC "
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "558473",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -12152,6 +11900,34 @@
     "actual_result": null
   },
   {
+    "id": "559587",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-02T16:00:00Z",
+    "home_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "away_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558471",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -12230,6 +12006,146 @@
       "api_id": 98,
       "name": "AC Milan",
       "short": "MIL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559588",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "away_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559589",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "away_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559590",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "away_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559591",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "away_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559592",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "away_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
     },
     "home_score": null,
     "away_score": null,
@@ -12622,6 +12538,62 @@
       "api_id": 5890,
       "name": "US Lecce",
       "short": "USL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559586",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-03T14:00:00Z",
+    "home_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
+    },
+    "away_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559593",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-03T16:15:00Z",
+    "home_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "away_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
     },
     "home_score": null,
     "away_score": null,
@@ -14364,6 +14336,34 @@
     "actual_result": null
   },
   {
+    "id": "559576",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-15T19:45:00Z",
+    "home_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "away_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "565920",
     "league_id": "bundesliga",
     "competition_code": "BL1",
@@ -14610,258 +14610,6 @@
       "api_id": 17,
       "name": "SC Freiburg",
       "short": "SCF"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559576",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-516",
-      "api_id": 516,
-      "name": "Olympique de Marseille",
-      "short": "MAR"
-    },
-    "away_team": {
-      "id": "fd-521",
-      "api_id": 521,
-      "name": "Lille OSC",
-      "short": "LIL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559577",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-523",
-      "api_id": 523,
-      "name": "Olympique Lyonnais",
-      "short": "LYO"
-    },
-    "away_team": {
-      "id": "fd-525",
-      "api_id": 525,
-      "name": "FC Lorient",
-      "short": "FCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559578",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-1045",
-      "api_id": 1045,
-      "name": "Paris FC",
-      "short": "PFC"
-    },
-    "away_team": {
-      "id": "fd-511",
-      "api_id": 511,
-      "name": "Toulouse FC",
-      "short": "TOU"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559579",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-529",
-      "api_id": 529,
-      "name": "Stade Rennais FC 1901",
-      "short": "REN"
-    },
-    "away_team": {
-      "id": "fd-546",
-      "api_id": 546,
-      "name": "Racing Club de Lens",
-      "short": "RCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559580",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-522",
-      "api_id": 522,
-      "name": "OGC Nice",
-      "short": "NIC"
-    },
-    "away_team": {
-      "id": "fd-533",
-      "api_id": 533,
-      "name": "Le Havre AC",
-      "short": "HAC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559581",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-519",
-      "api_id": 519,
-      "name": "AJ Auxerre",
-      "short": "AJA"
-    },
-    "away_team": {
-      "id": "fd-531",
-      "api_id": 531,
-      "name": "ES Troyes AC",
-      "short": "ETR"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559582",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-576",
-      "api_id": 576,
-      "name": "RC Strasbourg Alsace",
-      "short": "RC "
-    },
-    "away_team": {
-      "id": "fd-535",
-      "api_id": 535,
-      "name": "Le Mans FC",
-      "short": "LMF"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559583",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-548",
-      "api_id": 548,
-      "name": "AS Monaco FC",
-      "short": "ASM"
-    },
-    "away_team": {
-      "id": "fd-512",
-      "api_id": 512,
-      "name": "Stade Brestois 29",
-      "short": "BRE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559584",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 16,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-16T00:00:00Z",
-    "home_team": {
-      "id": "fd-532",
-      "api_id": 532,
-      "name": "Angers SCO",
-      "short": "ANG"
-    },
-    "away_team": {
-      "id": "fd-524",
-      "api_id": 524,
-      "name": "Paris Saint-Germain FC",
-      "short": "PSG"
     },
     "home_score": null,
     "away_score": null,
@@ -15142,6 +14890,146 @@
       "api_id": 63,
       "name": "Fulham FC",
       "short": "FUL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559584",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-16T16:15:00Z",
+    "home_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "away_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559579",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-16T19:45:00Z",
+    "home_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "away_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559580",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-16T19:45:00Z",
+    "home_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "away_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559581",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-16T19:45:00Z",
+    "home_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "away_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559582",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-16T19:45:00Z",
+    "home_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "away_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
     },
     "home_score": null,
     "away_score": null,
@@ -15708,6 +15596,118 @@
     "actual_result": null
   },
   {
+    "id": "559578",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-17T14:00:00Z",
+    "home_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "away_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559583",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-17T16:15:00Z",
+    "home_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "away_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559577",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 16,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-17T19:45:00Z",
+    "home_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "away_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559572",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-22T19:45:00Z",
+    "home_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "away_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "565929",
     "league_id": "bundesliga",
     "competition_code": "BL1",
@@ -15954,258 +15954,6 @@
       "api_id": 719,
       "name": "SV 07 Elversberg",
       "short": "ELV"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559567",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-533",
-      "api_id": 533,
-      "name": "Le Havre AC",
-      "short": "HAC"
-    },
-    "away_team": {
-      "id": "fd-529",
-      "api_id": 529,
-      "name": "Stade Rennais FC 1901",
-      "short": "REN"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559568",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-576",
-      "api_id": 576,
-      "name": "RC Strasbourg Alsace",
-      "short": "RC "
-    },
-    "away_team": {
-      "id": "fd-523",
-      "api_id": 523,
-      "name": "Olympique Lyonnais",
-      "short": "LYO"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559569",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-521",
-      "api_id": 521,
-      "name": "Lille OSC",
-      "short": "LIL"
-    },
-    "away_team": {
-      "id": "fd-1045",
-      "api_id": 1045,
-      "name": "Paris FC",
-      "short": "PFC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559570",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-546",
-      "api_id": 546,
-      "name": "Racing Club de Lens",
-      "short": "RCL"
-    },
-    "away_team": {
-      "id": "fd-512",
-      "api_id": 512,
-      "name": "Stade Brestois 29",
-      "short": "BRE"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559571",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-524",
-      "api_id": 524,
-      "name": "Paris Saint-Germain FC",
-      "short": "PSG"
-    },
-    "away_team": {
-      "id": "fd-519",
-      "api_id": 519,
-      "name": "AJ Auxerre",
-      "short": "AJA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559572",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-531",
-      "api_id": 531,
-      "name": "ES Troyes AC",
-      "short": "ETR"
-    },
-    "away_team": {
-      "id": "fd-548",
-      "api_id": 548,
-      "name": "AS Monaco FC",
-      "short": "ASM"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559573",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-525",
-      "api_id": 525,
-      "name": "FC Lorient",
-      "short": "FCL"
-    },
-    "away_team": {
-      "id": "fd-516",
-      "api_id": 516,
-      "name": "Olympique de Marseille",
-      "short": "MAR"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559574",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-535",
-      "api_id": 535,
-      "name": "Le Mans FC",
-      "short": "LMF"
-    },
-    "away_team": {
-      "id": "fd-532",
-      "api_id": 532,
-      "name": "Angers SCO",
-      "short": "ANG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559575",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 17,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-23T00:00:00Z",
-    "home_team": {
-      "id": "fd-511",
-      "api_id": 511,
-      "name": "Toulouse FC",
-      "short": "TOU"
-    },
-    "away_team": {
-      "id": "fd-522",
-      "api_id": 522,
-      "name": "OGC Nice",
-      "short": "NIC"
     },
     "home_score": null,
     "away_score": null,
@@ -16486,6 +16234,146 @@
       "api_id": 73,
       "name": "Tottenham Hotspur FC",
       "short": "TOT"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559569",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-23T16:15:00Z",
+    "home_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
+    },
+    "away_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559570",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-23T19:45:00Z",
+    "home_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
+    },
+    "away_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559571",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-23T19:45:00Z",
+    "home_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "away_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559574",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-23T19:45:00Z",
+    "home_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
+    },
+    "away_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559575",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-23T19:45:00Z",
+    "home_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "away_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
     },
     "home_score": null,
     "away_score": null,
@@ -17052,6 +16940,118 @@
     "actual_result": null
   },
   {
+    "id": "559567",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-24T14:00:00Z",
+    "home_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "away_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559573",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-24T16:15:00Z",
+    "home_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "away_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559568",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 17,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-24T19:45:00Z",
+    "home_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "away_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559564",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-29T19:45:00Z",
+    "home_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "away_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC "
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "565938",
     "league_id": "bundesliga",
     "competition_code": "BL1",
@@ -17298,258 +17298,6 @@
       "api_id": 6,
       "name": "FC Schalke 04",
       "short": "S04"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559558",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-1045",
-      "api_id": 1045,
-      "name": "Paris FC",
-      "short": "PFC"
-    },
-    "away_team": {
-      "id": "fd-519",
-      "api_id": 519,
-      "name": "AJ Auxerre",
-      "short": "AJA"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559559",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-523",
-      "api_id": 523,
-      "name": "Olympique Lyonnais",
-      "short": "LYO"
-    },
-    "away_team": {
-      "id": "fd-521",
-      "api_id": 521,
-      "name": "Lille OSC",
-      "short": "LIL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559560",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-529",
-      "api_id": 529,
-      "name": "Stade Rennais FC 1901",
-      "short": "REN"
-    },
-    "away_team": {
-      "id": "fd-525",
-      "api_id": 525,
-      "name": "FC Lorient",
-      "short": "FCL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559561",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-535",
-      "api_id": 535,
-      "name": "Le Mans FC",
-      "short": "LMF"
-    },
-    "away_team": {
-      "id": "fd-522",
-      "api_id": 522,
-      "name": "OGC Nice",
-      "short": "NIC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559562",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-516",
-      "api_id": 516,
-      "name": "Olympique de Marseille",
-      "short": "MAR"
-    },
-    "away_team": {
-      "id": "fd-531",
-      "api_id": 531,
-      "name": "ES Troyes AC",
-      "short": "ETR"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559563",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-532",
-      "api_id": 532,
-      "name": "Angers SCO",
-      "short": "ANG"
-    },
-    "away_team": {
-      "id": "fd-533",
-      "api_id": 533,
-      "name": "Le Havre AC",
-      "short": "HAC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559564",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-512",
-      "api_id": 512,
-      "name": "Stade Brestois 29",
-      "short": "BRE"
-    },
-    "away_team": {
-      "id": "fd-576",
-      "api_id": 576,
-      "name": "RC Strasbourg Alsace",
-      "short": "RC "
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559565",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-548",
-      "api_id": 548,
-      "name": "AS Monaco FC",
-      "short": "ASM"
-    },
-    "away_team": {
-      "id": "fd-524",
-      "api_id": 524,
-      "name": "Paris Saint-Germain FC",
-      "short": "PSG"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "559566",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 18,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2027-01-30T00:00:00Z",
-    "home_team": {
-      "id": "fd-511",
-      "api_id": 511,
-      "name": "Toulouse FC",
-      "short": "TOU"
-    },
-    "away_team": {
-      "id": "fd-546",
-      "api_id": 546,
-      "name": "Racing Club de Lens",
-      "short": "RCL"
     },
     "home_score": null,
     "away_score": null,
@@ -17830,6 +17578,146 @@
       "api_id": 349,
       "name": "Ipswich Town FC",
       "short": "IPS"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559565",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-30T16:15:00Z",
+    "home_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM"
+    },
+    "away_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559558",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-30T19:45:00Z",
+    "home_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "away_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559561",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-30T19:45:00Z",
+    "home_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF"
+    },
+    "away_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559563",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-30T19:45:00Z",
+    "home_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG"
+    },
+    "away_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559566",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-30T19:45:00Z",
+    "home_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU"
+    },
+    "away_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL"
     },
     "home_score": null,
     "away_score": null,
@@ -18390,6 +18278,90 @@
       "api_id": 108,
       "name": "FC Internazionale Milano",
       "short": "INT"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559560",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-31T14:00:00Z",
+    "home_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN"
+    },
+    "away_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559562",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-31T16:15:00Z",
+    "home_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR"
+    },
+    "away_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559559",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 18,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-31T19:45:00Z",
+    "home_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO"
+    },
+    "away_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL"
     },
     "home_score": null,
     "away_score": null,

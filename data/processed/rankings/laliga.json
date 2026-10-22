@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 9,
     "source": "football-data.org",
-    "updated_at": "2026-10-21T05:17:12.530963+00:00",
+    "updated_at": "2026-10-22T05:20:33.607769+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -100,6 +100,17 @@
       "value": 6
     },
     {
+      "player_id": "fdp-180282",
+      "football_data_player_id": 180282,
+      "player_name": "Brugui",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 5
+    },
+    {
       "player_id": "fdp-214497",
       "football_data_player_id": 214497,
       "player_name": "Fer Niño",
@@ -183,17 +194,6 @@
       "team_id": "fd-78",
       "football_data_team_id": 78,
       "team_name": "Club Atlético de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-180282",
-      "football_data_player_id": 180282,
-      "player_name": "Brugui",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 3
@@ -559,6 +559,17 @@
       "team_name": "Real Madrid CF",
       "position": null,
       "nationality": "Ivory Coast",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-2294",
+      "football_data_player_id": 2294,
+      "player_name": "Álex Berenguer",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
+      "position": null,
+      "nationality": "Spain",
       "value": 2
     },
     {
@@ -1087,17 +1098,6 @@
       "team_name": "RC Deportivo La Coruña",
       "position": null,
       "nationality": "Netherlands",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-2294",
-      "football_data_player_id": 2294,
-      "player_name": "Álex Berenguer",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Spain",
       "value": 1
     },
     {

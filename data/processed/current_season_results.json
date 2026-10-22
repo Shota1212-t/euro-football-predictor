@@ -1,5 +1,33 @@
 [
   {
+    "id": "564685",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 6,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-21T18:00:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV"
+    },
+    "away_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH"
+    },
+    "home_score": 3,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
     "id": "560606",
     "league_id": "pl",
     "competition_code": "PL",

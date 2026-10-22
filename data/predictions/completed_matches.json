@@ -4999,6 +4999,41 @@
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
   {
+    "id": "564685",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-09-16T19:30:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_score": 3,
+    "away_score": 1,
+    "actual_result": "Home Win",
+    "prediction_status": "recorded",
+    "prediction_available": true,
+    "predicted_result": "Draw",
+    "home_win_probability": 37.7,
+    "draw_probability": 45.9,
+    "away_win_probability": 16.5,
+    "is_correct": false,
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
     "id": "564687",
     "league_id": "laliga",
     "league_name": "La Liga",
