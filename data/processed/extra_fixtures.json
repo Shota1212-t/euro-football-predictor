@@ -989,6 +989,23 @@
     "data_quality": "official"
   },
   {
+    "id": "tsdb-2594744",
+    "source": "TheSportsDB",
+    "competition_name": "UEFA Conference League",
+    "competition_type": "european",
+    "kickoff": "2026-10-22T16:45:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-82"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "2",
+    "away_score": "5",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
     "id": "fd-cl-575377",
     "source": "football-data.org",
     "competition_name": "UEFA Champions League",

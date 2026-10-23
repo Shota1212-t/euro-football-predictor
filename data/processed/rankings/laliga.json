@@ -6,9 +6,9 @@
     "season_id": 2518,
     "season_start": "2026-08-16",
     "season_end": "2027-05-30",
-    "current_matchday": 9,
+    "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-10-22T05:20:33.607769+00:00",
+    "updated_at": "2026-10-23T05:19:19.374214+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1578,17 +1578,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-98741",
-      "football_data_player_id": 98741,
-      "player_name": "Adrián de la Fuente",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 9
-    },
-    {
       "player_id": "fdp-151439",
       "football_data_player_id": 151439,
       "player_name": "Aitor Paredes Casamichana",
@@ -1718,17 +1707,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Colombia",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-177245",
-      "football_data_player_id": 177245,
-      "player_name": "Enzo Bardeli",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "France",
       "value": 9
     },
     {
@@ -2249,6 +2227,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-98741",
+      "football_data_player_id": 98741,
+      "player_name": "Adrián de la Fuente",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-180282",
       "football_data_player_id": 180282,
       "player_name": "Brugui",
@@ -2279,6 +2268,17 @@
       "team_name": "Getafe CF",
       "position": null,
       "nationality": "Turkey",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-177245",
+      "football_data_player_id": 177245,
+      "player_name": "Enzo Bardeli",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "France",
       "value": 8
     },
     {
@@ -2502,17 +2502,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-126878",
-      "football_data_player_id": 126878,
-      "player_name": "Oihan Sancet",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Spain",
-      "value": 7
-    },
-    {
       "player_id": "fdp-7801",
       "football_data_player_id": 7801,
       "player_name": "Pierre-Emerick Aubameyang",
@@ -2565,6 +2554,17 @@
       "team_name": "Club Atlético de Madrid",
       "position": null,
       "nationality": "Canada",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-126878",
+      "football_data_player_id": 126878,
+      "player_name": "Oihan Sancet",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
+      "position": null,
+      "nationality": "Spain",
       "value": 6
     },
     {
