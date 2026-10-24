@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 8,
     "source": "football-data.org",
-    "updated_at": "2026-10-23T05:19:12.078033+00:00",
+    "updated_at": "2026-10-24T05:00:41.162400+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1575,7 +1575,62 @@
       "team_name": "Ipswich Town FC",
       "position": null,
       "nationality": "Ivory Coast",
-      "value": 7
+      "value": 8
+    },
+    {
+      "player_id": "fdp-77641",
+      "football_data_player_id": 77641,
+      "player_name": "Dan Ndoye",
+      "team_id": "fd-351",
+      "football_data_team_id": 351,
+      "team_name": "Nottingham Forest FC",
+      "position": null,
+      "nationality": "Switzerland",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-25650",
+      "football_data_player_id": 25650,
+      "player_name": "Dara O'Shea",
+      "team_id": "fd-349",
+      "football_data_team_id": 349,
+      "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "Ireland",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-176628",
+      "football_data_player_id": 176628,
+      "player_name": "Emersonn",
+      "team_id": "fd-349",
+      "football_data_team_id": 349,
+      "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-4158",
+      "football_data_player_id": 4158,
+      "player_name": "Jack Clarke",
+      "team_id": "fd-349",
+      "football_data_team_id": 349,
+      "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "England",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-99120",
+      "football_data_player_id": 99120,
+      "player_name": "Leif Davis",
+      "team_id": "fd-349",
+      "football_data_team_id": 349,
+      "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "England",
+      "value": 8
     },
     {
       "player_id": "fdp-213425",
@@ -1666,6 +1721,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-9053",
+      "football_data_player_id": 9053,
+      "player_name": "Chuba Akpom",
+      "team_id": "fd-349",
+      "football_data_team_id": 349,
+      "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "England",
+      "value": 7
+    },
+    {
       "player_id": "fdp-144892",
       "football_data_player_id": 144892,
       "player_name": "Cole Palmer",
@@ -1699,28 +1765,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-77641",
-      "football_data_player_id": 77641,
-      "player_name": "Dan Ndoye",
-      "team_id": "fd-351",
-      "football_data_team_id": 351,
-      "team_name": "Nottingham Forest FC",
-      "position": null,
-      "nationality": "Switzerland",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-25650",
-      "football_data_player_id": 25650,
-      "player_name": "Dara O'Shea",
-      "team_id": "fd-349",
-      "football_data_team_id": 349,
-      "team_name": "Ipswich Town FC",
-      "position": null,
-      "nationality": "Ireland",
-      "value": 7
-    },
-    {
       "player_id": "fdp-7839",
       "football_data_player_id": 7839,
       "player_name": "Dominic Calvert-Lewin",
@@ -1729,17 +1773,6 @@
       "team_name": "Leeds United FC",
       "position": null,
       "nationality": "England",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-176628",
-      "football_data_player_id": 176628,
-      "player_name": "Emersonn",
-      "team_id": "fd-349",
-      "football_data_team_id": 349,
-      "team_name": "Ipswich Town FC",
-      "position": null,
-      "nationality": "Brazil",
       "value": 7
     },
     {
@@ -1804,17 +1837,6 @@
       "team_id": "fd-67",
       "football_data_team_id": 67,
       "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-4158",
-      "football_data_player_id": 4158,
-      "player_name": "Jack Clarke",
-      "team_id": "fd-349",
-      "football_data_team_id": 349,
-      "team_name": "Ipswich Town FC",
       "position": null,
       "nationality": "England",
       "value": 7
@@ -1985,23 +2007,23 @@
       "value": 7
     },
     {
-      "player_id": "fdp-99120",
-      "football_data_player_id": 99120,
-      "player_name": "Leif Davis",
-      "team_id": "fd-349",
-      "football_data_team_id": 349,
-      "team_name": "Ipswich Town FC",
-      "position": null,
-      "nationality": "England",
-      "value": 7
-    },
-    {
       "player_id": "fdp-191140",
       "football_data_player_id": 191140,
       "player_name": "Lewis Hall",
       "team_id": "fd-67",
       "football_data_team_id": 67,
       "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-151095",
+      "football_data_player_id": 151095,
+      "player_name": "Liam Delap",
+      "team_id": "fd-351",
+      "football_data_team_id": 351,
+      "team_name": "Nottingham Forest FC",
       "position": null,
       "nationality": "England",
       "value": 7
@@ -2103,6 +2125,17 @@
       "team_name": "Hull City AFC",
       "position": null,
       "nationality": "Algeria",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-4091",
+      "football_data_player_id": 4091,
+      "player_name": "Morgan Gibbs-White",
+      "team_id": "fd-351",
+      "football_data_team_id": 351,
+      "team_name": "Nottingham Forest FC",
+      "position": null,
+      "nationality": "England",
       "value": 7
     },
     {
@@ -2326,17 +2359,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-9053",
-      "football_data_player_id": 9053,
-      "player_name": "Chuba Akpom",
-      "team_id": "fd-349",
-      "football_data_team_id": 349,
-      "team_name": "Ipswich Town FC",
-      "position": null,
-      "nationality": "England",
-      "value": 6
-    },
-    {
       "player_id": "fdp-7459",
       "football_data_player_id": 7459,
       "player_name": "Cody Gakpo",
@@ -2414,28 +2436,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-151095",
-      "football_data_player_id": 151095,
-      "player_name": "Liam Delap",
-      "team_id": "fd-351",
-      "football_data_team_id": 351,
-      "team_name": "Nottingham Forest FC",
-      "position": null,
-      "nationality": "England",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-4091",
-      "football_data_player_id": 4091,
-      "player_name": "Morgan Gibbs-White",
-      "team_id": "fd-351",
-      "football_data_team_id": 351,
-      "team_name": "Nottingham Forest FC",
-      "position": null,
-      "nationality": "England",
-      "value": 6
-    },
-    {
       "player_id": "fdp-152515",
       "football_data_player_id": 152515,
       "player_name": "Nicolas Jackson",
@@ -2477,6 +2477,17 @@
       "team_name": "Brighton & Hove Albion FC",
       "position": null,
       "nationality": "Sweden",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-67893",
+      "football_data_player_id": 67893,
+      "player_name": "Zian Flemming",
+      "team_id": "fd-349",
+      "football_data_team_id": 349,
+      "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "Netherlands",
       "value": 6
     },
     {
@@ -2554,17 +2565,6 @@
       "team_name": "Hull City AFC",
       "position": null,
       "nationality": "Senegal",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-67893",
-      "football_data_player_id": 67893,
-      "player_name": "Zian Flemming",
-      "team_id": "fd-349",
-      "football_data_team_id": 349,
-      "team_name": "Ipswich Town FC",
-      "position": null,
-      "nationality": "Netherlands",
       "value": 5
     },
     {

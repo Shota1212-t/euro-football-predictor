@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 8,
     "source": "football-data.org",
-    "updated_at": "2026-10-23T05:19:40.139972+00:00",
+    "updated_at": "2026-10-24T05:01:10.242515+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -166,6 +166,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-723",
+      "football_data_player_id": 723,
+      "player_name": "Ludovic Ajorque",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
       "player_id": "fdp-3225",
       "football_data_player_id": 3225,
       "player_name": "Marquinhos",
@@ -174,6 +185,17 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "Brazil",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-156808",
+      "football_data_player_id": 156808,
+      "player_name": "Sepe Elye Wahi",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "Ivory Coast",
       "value": 3
     },
     {
@@ -298,17 +320,6 @@
       "value": 2
     },
     {
-      "player_id": "fdp-723",
-      "football_data_player_id": 723,
-      "player_name": "Ludovic Ajorque",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "France",
-      "value": 2
-    },
-    {
       "player_id": "fdp-43707",
       "football_data_player_id": 43707,
       "player_name": "Mama Baldé",
@@ -405,17 +416,6 @@
       "team_name": "RC Strasbourg Alsace",
       "position": null,
       "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-156808",
-      "football_data_player_id": 156808,
-      "player_name": "Sepe Elye Wahi",
-      "team_id": "fd-522",
-      "football_data_team_id": 522,
-      "team_name": "OGC Nice",
-      "position": null,
-      "nationality": "Ivory Coast",
       "value": 2
     },
     {
@@ -1543,6 +1543,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-180827",
+      "football_data_player_id": 180827,
+      "player_name": "Mohammed Amoura",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "Algeria",
+      "value": 1
+    },
+    {
       "player_id": "fdp-177248",
       "football_data_player_id": 177248,
       "player_name": "Pablo Pagis",
@@ -1587,6 +1598,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-156808",
+      "football_data_player_id": 156808,
+      "player_name": "Sepe Elye Wahi",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 1
+    },
+    {
       "player_id": "fdp-215679",
       "football_data_player_id": 215679,
       "player_name": "Thomas Jørgensen",
@@ -1610,6 +1632,61 @@
     }
   ],
   "appearances": [
+    {
+      "player_id": "fdp-175942",
+      "football_data_player_id": 175942,
+      "player_name": "Kamory Doumbia",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Mali",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-8778",
+      "football_data_player_id": 8778,
+      "player_name": "Kenny Lala",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-8465",
+      "football_data_player_id": 8465,
+      "player_name": "Lucas Tousart",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-723",
+      "football_data_player_id": 723,
+      "player_name": "Ludovic Ajorque",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-218249",
+      "football_data_player_id": 218249,
+      "player_name": "Pathé Mboup",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Senegal",
+      "value": 8
+    },
     {
       "player_id": "fdp-8706",
       "football_data_player_id": 8706,
@@ -1974,28 +2051,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-175942",
-      "football_data_player_id": 175942,
-      "player_name": "Kamory Doumbia",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Mali",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-8778",
-      "football_data_player_id": 8778,
-      "player_name": "Kenny Lala",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "France",
-      "value": 7
-    },
-    {
       "player_id": "fdp-250795",
       "football_data_player_id": 250795,
       "player_name": "Keyliane Abdallah",
@@ -2084,28 +2139,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-8465",
-      "football_data_player_id": 8465,
-      "player_name": "Lucas Tousart",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "France",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-723",
-      "football_data_player_id": 723,
-      "player_name": "Ludovic Ajorque",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "France",
-      "value": 7
-    },
-    {
       "player_id": "fdp-175701",
       "football_data_player_id": 175701,
       "player_name": "Maghnes Akliouche",
@@ -2114,6 +2147,17 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "France",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-43707",
+      "football_data_player_id": 43707,
+      "player_name": "Mama Baldé",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Guinea-Bissau",
       "value": 7
     },
     {
@@ -2183,17 +2227,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-218249",
-      "football_data_player_id": 218249,
-      "player_name": "Pathé Mboup",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Senegal",
-      "value": 7
-    },
-    {
       "player_id": "fdp-278087",
       "football_data_player_id": 278087,
       "player_name": "Prosper Peter",
@@ -2257,6 +2290,17 @@
       "team_name": "Stade Rennais FC 1901",
       "position": null,
       "nationality": "Poland",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-156808",
+      "football_data_player_id": 156808,
+      "player_name": "Sepe Elye Wahi",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "Ivory Coast",
       "value": 7
     },
     {
@@ -2359,17 +2403,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-43707",
-      "football_data_player_id": 43707,
-      "player_name": "Mama Baldé",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Guinea-Bissau",
-      "value": 6
-    },
-    {
       "player_id": "fdp-3225",
       "football_data_player_id": 3225,
       "player_name": "Marquinhos",
@@ -2403,6 +2436,17 @@
       "value": 6
     },
     {
+      "player_id": "fdp-180827",
+      "football_data_player_id": 180827,
+      "player_name": "Mohammed Amoura",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "Algeria",
+      "value": 6
+    },
+    {
       "player_id": "fdp-116150",
       "football_data_player_id": 116150,
       "player_name": "Samir Chergui",
@@ -2411,17 +2455,6 @@
       "team_name": "Paris FC",
       "position": null,
       "nationality": "Algeria",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-156808",
-      "football_data_player_id": 156808,
-      "player_name": "Sepe Elye Wahi",
-      "team_id": "fd-522",
-      "football_data_team_id": 522,
-      "team_name": "OGC Nice",
-      "position": null,
-      "nationality": "Ivory Coast",
       "value": 6
     },
     {
@@ -2565,17 +2598,6 @@
       "team_name": "ES Troyes AC",
       "position": null,
       "nationality": "France",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-180827",
-      "football_data_player_id": 180827,
-      "player_name": "Mohammed Amoura",
-      "team_id": "fd-522",
-      "football_data_team_id": 522,
-      "team_name": "OGC Nice",
-      "position": null,
-      "nationality": "Algeria",
       "value": 5
     },
     {

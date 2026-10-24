@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-10-23T05:19:19.374214+00:00",
+    "updated_at": "2026-10-24T05:00:48.275771+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -155,6 +155,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-221308",
+      "football_data_player_id": 221308,
+      "player_name": "Adrián",
+      "team_id": "fd-84",
+      "football_data_team_id": 84,
+      "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 4
+    },
+    {
       "player_id": "fdp-214533",
       "football_data_player_id": 214533,
       "player_name": "Fermín López",
@@ -174,17 +185,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Morocco",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-221308",
-      "football_data_player_id": 221308,
-      "player_name": "Adrián",
-      "team_id": "fd-84",
-      "football_data_team_id": 84,
-      "team_name": "Málaga CF",
-      "position": null,
-      "nationality": "Spain",
       "value": 3
     },
     {
@@ -1567,6 +1567,61 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-264254",
+      "football_data_player_id": 264254,
+      "player_name": "Chupete",
+      "team_id": "fd-84",
+      "football_data_team_id": 84,
+      "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-8474",
+      "football_data_player_id": 8474,
+      "player_name": "Mariano Díaz",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Dominican Republic",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-46123",
+      "football_data_player_id": 46123,
+      "player_name": "Nahuel Tenaglia",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-173617",
+      "football_data_player_id": 173617,
+      "player_name": "Pablo Ibáñez Tébar",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Spain",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-146969",
+      "football_data_player_id": 146969,
+      "player_name": "Ville Koski",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Finland",
+      "value": 10
+    },
+    {
       "player_id": "fdp-9554",
       "football_data_player_id": 9554,
       "player_name": "Ademola Lookman",
@@ -1685,17 +1740,6 @@
       "team_name": "Sevilla FC",
       "position": null,
       "nationality": "Nigeria",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-264254",
-      "football_data_player_id": 264254,
-      "player_name": "Chupete",
-      "team_id": "fd-84",
-      "football_data_team_id": 84,
-      "team_name": "Málaga CF",
-      "position": null,
-      "nationality": "Spain",
       "value": 9
     },
     {
@@ -1897,6 +1941,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-11113",
+      "football_data_player_id": 11113,
+      "player_name": "Lucas Boyé",
+      "team_id": "fd-263",
+      "football_data_team_id": 263,
+      "team_name": "Deportivo Alavés",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 9
+    },
+    {
       "player_id": "fdp-176255",
       "football_data_player_id": 176255,
       "player_name": "Luismi Cruz",
@@ -1952,17 +2007,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-8474",
-      "football_data_player_id": 8474,
-      "player_name": "Mariano Díaz",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Dominican Republic",
-      "value": 9
-    },
-    {
       "player_id": "fdp-152458",
       "football_data_player_id": 152458,
       "player_name": "Martin Satriano",
@@ -1982,17 +2026,6 @@
       "team_name": "Real Sociedad de Fútbol",
       "position": null,
       "nationality": "Spain",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-46123",
-      "football_data_player_id": 46123,
-      "player_name": "Nahuel Tenaglia",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Argentina",
       "value": 9
     },
     {
@@ -2024,17 +2057,6 @@
       "team_id": "fd-5335",
       "football_data_team_id": 5335,
       "team_name": "Real Racing Club de Santander",
-      "position": null,
-      "nationality": "Spain",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-173617",
-      "football_data_player_id": 173617,
-      "player_name": "Pablo Ibáñez Tébar",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
       "position": null,
       "nationality": "Spain",
       "value": 9
@@ -2125,17 +2147,6 @@
       "team_name": "RCD Espanyol de Barcelona",
       "position": null,
       "nationality": "England",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-146969",
-      "football_data_player_id": 146969,
-      "player_name": "Ville Koski",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Finland",
       "value": 9
     },
     {
@@ -2337,17 +2348,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-11113",
-      "football_data_player_id": 11113,
-      "player_name": "Lucas Boyé",
-      "team_id": "fd-263",
-      "football_data_team_id": 263,
-      "team_name": "Deportivo Alavés",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 8
-    },
-    {
       "player_id": "fdp-226950",
       "football_data_player_id": 226950,
       "player_name": "Miguel Ángel Sierra",
@@ -2535,6 +2535,17 @@
       "value": 6
     },
     {
+      "player_id": "fdp-221308",
+      "football_data_player_id": 221308,
+      "player_name": "Adrián",
+      "team_id": "fd-84",
+      "football_data_team_id": 84,
+      "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 6
+    },
+    {
       "player_id": "fdp-3236",
       "football_data_player_id": 3236,
       "player_name": "Gabriel Jesus",
@@ -2577,17 +2588,6 @@
       "position": null,
       "nationality": "Guadeloupe",
       "value": 6
-    },
-    {
-      "player_id": "fdp-221308",
-      "football_data_player_id": 221308,
-      "player_name": "Adrián",
-      "team_id": "fd-84",
-      "football_data_team_id": 84,
-      "team_name": "Málaga CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 5
     },
     {
       "player_id": "fdp-32679",

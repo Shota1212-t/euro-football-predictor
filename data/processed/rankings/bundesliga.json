@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 7,
     "source": "football-data.org",
-    "updated_at": "2026-10-23T05:19:33.203574+00:00",
+    "updated_at": "2026-10-24T05:01:02.913443+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -144,6 +144,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-33242",
+      "football_data_player_id": 33242,
+      "player_name": "Ermedin Demirovic",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Bosnia-Herzegovina",
+      "value": 3
+    },
+    {
       "player_id": "fdp-156629",
       "football_data_player_id": 156629,
       "player_name": "Igor Matanovic",
@@ -163,6 +174,17 @@
       "team_name": "Eintracht Frankfurt",
       "position": null,
       "nationality": "Germany",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-82442",
+      "football_data_player_id": 82442,
+      "player_name": "Joseph Scally",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "USA",
       "value": 3
     },
     {
@@ -364,17 +386,6 @@
       "value": 2
     },
     {
-      "player_id": "fdp-82442",
-      "football_data_player_id": 82442,
-      "player_name": "Joseph Scally",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "USA",
-      "value": 2
-    },
-    {
       "player_id": "fdp-6523",
       "football_data_player_id": 6523,
       "player_name": "Josha Vagnoman",
@@ -474,6 +485,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-48988",
+      "football_data_player_id": 48988,
+      "player_name": "Shuto Machino",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Japan",
+      "value": 2
+    },
+    {
       "player_id": "fdp-176617",
       "football_data_player_id": 176617,
       "player_name": "Stefano Marino",
@@ -524,6 +546,17 @@
       "team_id": "fd-28",
       "football_data_team_id": 28,
       "team_name": "1. FC Union Berlin",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-282450",
+      "football_data_player_id": 282450,
+      "player_name": "Wael Mohya",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
       "position": null,
       "nationality": "Germany",
       "value": 2
@@ -628,17 +661,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-206",
-      "football_data_player_id": 206,
-      "player_name": "Chris Führich",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
-      "position": null,
-      "nationality": "Germany",
-      "value": 1
-    },
-    {
       "player_id": "fdp-265182",
       "football_data_player_id": 265182,
       "player_name": "Cole Campbell",
@@ -724,17 +746,6 @@
       "team_name": "1. FSV Mainz 05",
       "position": null,
       "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-33242",
-      "football_data_player_id": 33242,
-      "player_name": "Ermedin Demirovic",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
-      "position": null,
-      "nationality": "Bosnia-Herzegovina",
       "value": 1
     },
     {
@@ -1087,17 +1098,6 @@
       "team_name": "SC Paderborn 07",
       "position": null,
       "nationality": "USA",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-48988",
-      "football_data_player_id": 48988,
-      "player_name": "Shuto Machino",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Japan",
       "value": 1
     },
     {
@@ -1477,6 +1477,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-82442",
+      "football_data_player_id": 82442,
+      "player_name": "Joseph Scally",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "USA",
+      "value": 1
+    },
+    {
       "player_id": "fdp-6523",
       "football_data_player_id": 6523,
       "player_name": "Josha Vagnoman",
@@ -1565,6 +1576,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-282450",
+      "football_data_player_id": 282450,
+      "player_name": "Wael Mohya",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
       "player_id": "fdp-192207",
       "football_data_player_id": 192207,
       "player_name": "Younes Ebnoutalib",
@@ -1577,6 +1599,94 @@
     }
   ],
   "appearances": [
+    {
+      "player_id": "fdp-189873",
+      "football_data_player_id": 189873,
+      "player_name": "Bilal El Khannouss",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Morocco",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-33242",
+      "football_data_player_id": 33242,
+      "player_name": "Ermedin Demirovic",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Bosnia-Herzegovina",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-6836",
+      "football_data_player_id": 6836,
+      "player_name": "Grischa Prömel",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Germany",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-188201",
+      "football_data_player_id": 188201,
+      "player_name": "Hugo Bolin",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-82442",
+      "football_data_player_id": 82442,
+      "player_name": "Joseph Scally",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "USA",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-7748",
+      "football_data_player_id": 7748,
+      "player_name": "Julian Chabot",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
+      "position": null,
+      "nationality": "Germany",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-48988",
+      "football_data_player_id": 48988,
+      "player_name": "Shuto Machino",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Japan",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-282450",
+      "football_data_player_id": 282450,
+      "player_name": "Wael Mohya",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Germany",
+      "value": 7
+    },
     {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
@@ -1663,17 +1773,6 @@
       "team_name": "TSG 1899 Hoffenheim",
       "position": null,
       "nationality": "Germany",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-189873",
-      "football_data_player_id": 189873,
-      "player_name": "Bilal El Khannouss",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
-      "position": null,
-      "nationality": "Morocco",
       "value": 6
     },
     {
@@ -1787,17 +1886,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-33242",
-      "football_data_player_id": 33242,
-      "player_name": "Ermedin Demirovic",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
-      "position": null,
-      "nationality": "Bosnia-Herzegovina",
-      "value": 6
-    },
-    {
       "player_id": "fdp-152692",
       "football_data_player_id": 152692,
       "player_name": "Fabian Rieder",
@@ -1853,17 +1941,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-6836",
-      "football_data_player_id": 6836,
-      "player_name": "Grischa Prömel",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
-      "position": null,
-      "nationality": "Germany",
-      "value": 6
-    },
-    {
       "player_id": "fdp-8004",
       "football_data_player_id": 8004,
       "player_name": "Harry Kane",
@@ -1872,17 +1949,6 @@
       "team_name": "FC Bayern München",
       "position": null,
       "nationality": "England",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-188201",
-      "football_data_player_id": 188201,
-      "player_name": "Hugo Bolin",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Sweden",
       "value": 6
     },
     {
@@ -1952,31 +2018,9 @@
       "value": 6
     },
     {
-      "player_id": "fdp-82442",
-      "football_data_player_id": 82442,
-      "player_name": "Joseph Scally",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "USA",
-      "value": 6
-    },
-    {
       "player_id": "fdp-6523",
       "football_data_player_id": 6523,
       "player_name": "Josha Vagnoman",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
-      "position": null,
-      "nationality": "Germany",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-7748",
-      "football_data_player_id": 7748,
-      "player_name": "Julian Chabot",
       "team_id": "fd-10",
       "football_data_team_id": 10,
       "team_name": "VfB Stuttgart",
@@ -2101,6 +2145,17 @@
       "team_id": "fd-17",
       "football_data_team_id": 17,
       "team_name": "SC Freiburg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-6549",
+      "football_data_player_id": 6549,
+      "player_name": "Maximilian Mittelstädt",
+      "team_id": "fd-10",
+      "football_data_team_id": 10,
+      "team_name": "VfB Stuttgart",
       "position": null,
       "nationality": "Germany",
       "value": 6
@@ -2326,17 +2381,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-48988",
-      "football_data_player_id": 48988,
-      "player_name": "Shuto Machino",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Japan",
-      "value": 6
-    },
-    {
       "player_id": "fdp-176617",
       "football_data_player_id": 176617,
       "player_name": "Stefano Marino",
@@ -2436,17 +2480,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-206",
-      "football_data_player_id": 206,
-      "player_name": "Chris Führich",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
-      "position": null,
-      "nationality": "Germany",
-      "value": 5
-    },
-    {
       "player_id": "fdp-265182",
       "football_data_player_id": 265182,
       "player_name": "Cole Campbell",
@@ -2469,12 +2502,12 @@
       "value": 5
     },
     {
-      "player_id": "fdp-6549",
-      "football_data_player_id": 6549,
-      "player_name": "Maximilian Mittelstädt",
-      "team_id": "fd-10",
-      "football_data_team_id": 10,
-      "team_name": "VfB Stuttgart",
+      "player_id": "fdp-9522",
+      "football_data_player_id": 9522,
+      "player_name": "Florian Neuhaus",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
       "position": null,
       "nationality": "Germany",
       "value": 5
@@ -2532,17 +2565,6 @@
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
       "nationality": "Cameroon",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-9522",
-      "football_data_player_id": 9522,
-      "player_name": "Florian Neuhaus",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Germany",
       "value": 4
     },
     {
