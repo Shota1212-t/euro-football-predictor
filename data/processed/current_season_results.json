@@ -1,5 +1,229 @@
 [
   {
+    "id": "564724",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T19:00:00Z",
+    "home_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "away_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "home_score": 1,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560617",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T16:30:00Z",
+    "home_team": {
+      "id": "fd-61",
+      "api_id": 61,
+      "name": "Chelsea FC",
+      "short": "CHE"
+    },
+    "away_team": {
+      "id": "fd-73",
+      "api_id": 73,
+      "name": "Tottenham Hotspur FC",
+      "short": "TOT"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564722",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T16:30:00Z",
+    "home_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL"
+    },
+    "away_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL"
+    },
+    "home_score": 1,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564727",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T14:15:00Z",
+    "home_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN"
+    },
+    "away_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560616",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T14:00:00Z",
+    "home_team": {
+      "id": "fd-57",
+      "api_id": 57,
+      "name": "Arsenal FC",
+      "short": "ARS"
+    },
+    "away_team": {
+      "id": "fd-62",
+      "api_id": 62,
+      "name": "Everton FC",
+      "short": "EVE"
+    },
+    "home_score": 2,
+    "away_score": 0,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "560618",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T14:00:00Z",
+    "home_team": {
+      "id": "fd-1076",
+      "api_id": 1076,
+      "name": "Coventry City FC",
+      "short": "COV"
+    },
+    "away_team": {
+      "id": "fd-63",
+      "api_id": 63,
+      "name": "Fulham FC",
+      "short": "FUL"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564718",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T12:00:00Z",
+    "home_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY"
+    },
+    "away_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC"
+    },
+    "home_score": 0,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "560614",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 8,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-24T11:30:00Z",
+    "home_team": {
+      "id": "fd-58",
+      "api_id": 58,
+      "name": "Aston Villa FC",
+      "short": "AVL"
+    },
+    "away_team": {
+      "id": "fd-65",
+      "api_id": 65,
+      "name": "Manchester City FC",
+      "short": "MCI"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
     "id": "560620",
     "league_id": "pl",
     "competition_code": "PL",
