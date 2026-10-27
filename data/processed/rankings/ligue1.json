@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 8,
     "source": "football-data.org",
-    "updated_at": "2026-10-26T05:16:15.949600+00:00",
+    "updated_at": "2026-10-27T05:34:14.140139+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1732,6 +1732,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-366",
+      "football_data_player_id": 366,
+      "player_name": "Corentin Tolisso",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
       "player_id": "fdp-82197",
       "football_data_player_id": 82197,
       "player_name": "Dame Guèye",
@@ -1762,6 +1773,39 @@
       "team_name": "RC Strasbourg Alsace",
       "position": null,
       "nationality": "Portugal",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-184726",
+      "football_data_player_id": 184726,
+      "player_name": "Ernest Nuamah",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Ghana",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-75196",
+      "football_data_player_id": 75196,
+      "player_name": "Felix Bacher",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Austria",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-33154",
+      "football_data_player_id": 33154,
+      "player_name": "Ferrán Torres",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Spain",
       "value": 8
     },
     {
@@ -2007,6 +2051,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-169204",
+      "football_data_player_id": 169204,
+      "player_name": "Lucas Beraldo",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 8
+    },
+    {
       "player_id": "fdp-176335",
       "football_data_player_id": 176335,
       "player_name": "Lucas Calodat",
@@ -2051,6 +2106,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-175701",
+      "football_data_player_id": 175701,
+      "player_name": "Maghnes Akliouche",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
       "player_id": "fdp-290088",
       "football_data_player_id": 290088,
       "player_name": "Mamadou Koné",
@@ -2081,6 +2147,17 @@
       "team_name": "Le Havre AC",
       "position": null,
       "nationality": "Tanzania",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-215864",
+      "football_data_player_id": 215864,
+      "player_name": "Noah Nartey",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Denmark",
       "value": 8
     },
     {
@@ -2194,15 +2271,26 @@
       "value": 8
     },
     {
-      "player_id": "fdp-366",
-      "football_data_player_id": 366,
-      "player_name": "Corentin Tolisso",
+      "player_id": "fdp-178722",
+      "football_data_player_id": 178722,
+      "player_name": "Vitinha",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-256424",
+      "football_data_player_id": 256424,
+      "player_name": "Zachary Athekame",
       "team_id": "fd-523",
       "football_data_team_id": 523,
       "team_name": "Olympique Lyonnais",
       "position": null,
-      "nationality": "France",
-      "value": 7
+      "nationality": "Switzerland",
+      "value": 8
     },
     {
       "player_id": "fdp-151295",
@@ -2213,17 +2301,6 @@
       "team_name": "Lille OSC",
       "position": null,
       "nationality": "France",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-184726",
-      "football_data_player_id": 184726,
-      "player_name": "Ernest Nuamah",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Ghana",
       "value": 7
     },
     {
@@ -2249,25 +2326,14 @@
       "value": 7
     },
     {
-      "player_id": "fdp-75196",
-      "football_data_player_id": 75196,
-      "player_name": "Felix Bacher",
+      "player_id": "fdp-281451",
+      "football_data_player_id": 281451,
+      "player_name": "Khalis Merah",
       "team_id": "fd-523",
       "football_data_team_id": 523,
       "team_name": "Olympique Lyonnais",
       "position": null,
-      "nationality": "Austria",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-33154",
-      "football_data_player_id": 33154,
-      "player_name": "Ferrán Torres",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Spain",
+      "nationality": "France",
       "value": 7
     },
     {
@@ -2279,28 +2345,6 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "Georgia",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-169204",
-      "football_data_player_id": 169204,
-      "player_name": "Lucas Beraldo",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Brazil",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-175701",
-      "football_data_player_id": 175701,
-      "player_name": "Maghnes Akliouche",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "France",
       "value": 7
     },
     {
@@ -2337,17 +2381,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-215864",
-      "football_data_player_id": 215864,
-      "player_name": "Noah Nartey",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 7
-    },
-    {
       "player_id": "fdp-206809",
       "football_data_player_id": 206809,
       "player_name": "Samuel Amo-Ameyaw",
@@ -2367,28 +2400,6 @@
       "team_name": "OGC Nice",
       "position": null,
       "nationality": "Ivory Coast",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-178722",
-      "football_data_player_id": 178722,
-      "player_name": "Vitinha",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-256424",
-      "football_data_player_id": 256424,
-      "player_name": "Zachary Athekame",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Switzerland",
       "value": 7
     },
     {
@@ -2486,17 +2497,6 @@
       "team_id": "fd-531",
       "football_data_team_id": 531,
       "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-281451",
-      "football_data_player_id": 281451,
-      "player_name": "Khalis Merah",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
       "position": null,
       "nationality": "France",
       "value": 6
