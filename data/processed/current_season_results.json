@@ -1,5 +1,89 @@
 [
   {
+    "id": "558555",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-27T19:45:00Z",
+    "home_team": {
+      "id": "fd-100",
+      "api_id": 100,
+      "name": "AS Roma",
+      "short": "ROM"
+    },
+    "away_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG"
+    },
+    "home_score": 4,
+    "away_score": 2,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558557",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-27T19:45:00Z",
+    "home_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR"
+    },
+    "away_team": {
+      "id": "fd-7397",
+      "api_id": 7397,
+      "name": "Como 1907",
+      "short": "COM"
+    },
+    "home_score": 1,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558556",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-10-27T17:30:00Z",
+    "home_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS"
+    },
+    "away_team": {
+      "id": "fd-110",
+      "api_id": 110,
+      "name": "SS Lazio",
+      "short": "LAZ"
+    },
+    "home_score": 2,
+    "away_score": 6,
+    "actual_result": "Away Win"
+  },
+  {
     "id": "564721",
     "league_id": "laliga",
     "competition_code": "PD",

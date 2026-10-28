@@ -31,6 +31,130 @@
     "recorded_at": "2026-10-27T05:34:23.303441+00:00"
   },
   {
+    "id": "564731",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 41.3,
+    "draw_probability": 44.9,
+    "away_win_probability": 13.8,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895237+00:00"
+  },
+  {
+    "id": "564729",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-11-01T20:00:00Z",
+    "home_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-92",
+      "api_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "short": "RSO",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 28.2,
+    "draw_probability": 28.8,
+    "away_win_probability": 43.0,
+    "predicted_result": "Away Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895234+00:00"
+  },
+  {
+    "id": "559645",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-11-01T19:45:00Z",
+    "home_team": {
+      "id": "fd-516",
+      "api_id": 516,
+      "name": "Olympique de Marseille",
+      "short": "MAR",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-511",
+      "api_id": 511,
+      "name": "Toulouse FC",
+      "short": "TOU",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 37.5,
+    "draw_probability": 24.7,
+    "away_win_probability": 37.9,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895231+00:00"
+  },
+  {
+    "id": "564728",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-11-01T17:30:00Z",
+    "home_team": {
+      "id": "fd-285",
+      "api_id": 285,
+      "name": "Elche CF",
+      "short": "ELC",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-95",
+      "api_id": 95,
+      "name": "Valencia CF",
+      "short": "VAL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 30.3,
+    "draw_probability": 47.4,
+    "away_win_probability": 22.3,
+    "predicted_result": "Draw",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895228+00:00"
+  },
+  {
     "id": "560631",
     "league_id": "pl",
     "league_name": "Premier League",
@@ -93,6 +217,68 @@
     "recorded_at": "2026-10-27T05:34:23.303438+00:00"
   },
   {
+    "id": "559642",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-11-01T16:15:00Z",
+    "home_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-548",
+      "api_id": 548,
+      "name": "AS Monaco FC",
+      "short": "ASM",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 25.8,
+    "draw_probability": 34.5,
+    "away_win_probability": 39.7,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895224+00:00"
+  },
+  {
+    "id": "564734",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-11-01T15:15:00Z",
+    "home_team": {
+      "id": "fd-5335",
+      "api_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "short": "SAN",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-86",
+      "api_id": 86,
+      "name": "Real Madrid CF",
+      "short": "RMA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 6.5,
+    "draw_probability": 53.1,
+    "away_win_probability": 40.5,
+    "predicted_result": "Draw",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895221+00:00"
+  },
+  {
     "id": "565841",
     "league_id": "bundesliga",
     "league_name": "Bundesliga",
@@ -124,6 +310,68 @@
     "recorded_at": "2026-10-27T05:34:23.303432+00:00"
   },
   {
+    "id": "559647",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-11-01T14:00:00Z",
+    "home_team": {
+      "id": "fd-576",
+      "api_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "short": "RC ",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-519",
+      "api_id": 519,
+      "name": "AJ Auxerre",
+      "short": "AJA",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 59.8,
+    "draw_probability": 13.4,
+    "away_win_probability": 26.8,
+    "predicted_result": "Home Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895218+00:00"
+  },
+  {
+    "id": "564733",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-11-01T13:00:00Z",
+    "home_team": {
+      "id": "fd-82",
+      "api_id": 82,
+      "name": "Getafe CF",
+      "short": "GET",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 24.1,
+    "draw_probability": 43.7,
+    "away_win_probability": 32.3,
+    "predicted_result": "Draw",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895213+00:00"
+  },
+  {
     "id": "560628",
     "league_id": "pl",
     "league_name": "Premier League",
@@ -153,6 +401,130 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-10-27T05:34:23.303427+00:00"
+  },
+  {
+    "id": "564732",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-10-31T20:00:00Z",
+    "home_team": {
+      "id": "fd-81",
+      "api_id": 81,
+      "name": "FC Barcelona",
+      "short": "FCB",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-263",
+      "api_id": 263,
+      "name": "Deportivo Alavés",
+      "short": "ALA",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 30.8,
+    "draw_probability": 32.9,
+    "away_win_probability": 36.3,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895210+00:00"
+  },
+  {
+    "id": "559640",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-10-31T19:45:00Z",
+    "home_team": {
+      "id": "fd-523",
+      "api_id": 523,
+      "name": "Olympique Lyonnais",
+      "short": "LYO",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-532",
+      "api_id": 532,
+      "name": "Angers SCO",
+      "short": "ANG",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 46.1,
+    "draw_probability": 36.3,
+    "away_win_probability": 17.6,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895200+00:00"
+  },
+  {
+    "id": "559641",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-10-31T19:45:00Z",
+    "home_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 35.1,
+    "draw_probability": 35.3,
+    "away_win_probability": 29.6,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895203+00:00"
+  },
+  {
+    "id": "559643",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-10-31T19:45:00Z",
+    "home_team": {
+      "id": "fd-531",
+      "api_id": 531,
+      "name": "ES Troyes AC",
+      "short": "ETR",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-535",
+      "api_id": 535,
+      "name": "Le Mans FC",
+      "short": "LMF",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 34.3,
+    "draw_probability": 28.3,
+    "away_win_probability": 37.3,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895206+00:00"
   },
   {
     "id": "560627",
@@ -215,6 +587,99 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-10-27T05:34:23.303424+00:00"
+  },
+  {
+    "id": "564736",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-10-31T17:30:00Z",
+    "home_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 58.8,
+    "draw_probability": 26.5,
+    "away_win_probability": 14.7,
+    "predicted_result": "Home Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895193+00:00"
+  },
+  {
+    "id": "559646",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-10-31T16:15:00Z",
+    "home_team": {
+      "id": "fd-522",
+      "api_id": 522,
+      "name": "OGC Nice",
+      "short": "NIC",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-529",
+      "api_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "short": "REN",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 21.1,
+    "draw_probability": 11.3,
+    "away_win_probability": 67.6,
+    "predicted_result": "Away Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895189+00:00"
+  },
+  {
+    "id": "564735",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-10-31T15:15:00Z",
+    "home_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-558",
+      "api_id": 558,
+      "name": "RC Celta de Vigo",
+      "short": "CEL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 54.0,
+    "draw_probability": 25.6,
+    "away_win_probability": 20.4,
+    "predicted_result": "Home Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895186+00:00"
   },
   {
     "id": "560623",
@@ -527,6 +992,37 @@
     "recorded_at": "2026-10-27T05:34:23.303400+00:00"
   },
   {
+    "id": "564730",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-10-31T13:00:00Z",
+    "home_team": {
+      "id": "fd-88",
+      "api_id": 88,
+      "name": "Levante UD",
+      "short": "LEV",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 29.5,
+    "draw_probability": 53.3,
+    "away_win_probability": 17.1,
+    "predicted_result": "Draw",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895182+00:00"
+  },
+  {
     "id": "560626",
     "league_id": "pl",
     "league_name": "Premier League",
@@ -558,6 +1054,68 @@
     "recorded_at": "2026-10-27T05:34:23.303380+00:00"
   },
   {
+    "id": "559639",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-10-30T20:05:00Z",
+    "home_team": {
+      "id": "fd-521",
+      "api_id": 521,
+      "name": "Lille OSC",
+      "short": "LIL",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-546",
+      "api_id": 546,
+      "name": "Racing Club de Lens",
+      "short": "RCL",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 6.8,
+    "draw_probability": 21.6,
+    "away_win_probability": 71.5,
+    "predicted_result": "Away Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895179+00:00"
+  },
+  {
+    "id": "564737",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-10-30T20:00:00Z",
+    "home_team": {
+      "id": "fd-94",
+      "api_id": 94,
+      "name": "Villarreal CF",
+      "short": "VIL",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-80",
+      "api_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "short": "ESP",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 45.6,
+    "draw_probability": 22.3,
+    "away_win_probability": 32.2,
+    "predicted_result": "Home Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895172+00:00"
+  },
+  {
     "id": "565846",
     "league_id": "bundesliga",
     "league_name": "Bundesliga",
@@ -587,6 +1145,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-10-27T05:34:23.303377+00:00"
+  },
+  {
+    "id": "559644",
+    "league_id": "ligue1",
+    "league_name": "Ligue 1",
+    "kickoff": "2026-10-30T18:00:00Z",
+    "home_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-524",
+      "api_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "short": "PSG",
+      "league_id": "ligue1",
+      "color": "#334155"
+    },
+    "home_win_probability": 35.5,
+    "draw_probability": 17.3,
+    "away_win_probability": 47.3,
+    "predicted_result": "Away Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-28T06:16:32.895155+00:00"
   },
   {
     "id": "558551",
