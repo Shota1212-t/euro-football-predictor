@@ -1,5 +1,75 @@
 [
   {
+    "id": "558551",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-29T19:45:00Z",
+    "home_team": {
+      "id": "fd-99",
+      "api_id": 99,
+      "name": "ACF Fiorentina",
+      "short": "FIO",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_score": 2,
+    "away_score": 2,
+    "actual_result": "Draw",
+    "prediction_status": "recorded",
+    "prediction_available": true,
+    "predicted_result": "Draw",
+    "home_win_probability": 24.8,
+    "draw_probability": 43.6,
+    "away_win_probability": 31.5,
+    "is_correct": true,
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558558",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-29T17:30:00Z",
+    "home_team": {
+      "id": "fd-470",
+      "api_id": 470,
+      "name": "Frosinone Calcio",
+      "short": "FRO",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-5890",
+      "api_id": 5890,
+      "name": "US Lecce",
+      "short": "USL",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_score": 5,
+    "away_score": 1,
+    "actual_result": "Home Win",
+    "prediction_status": "recorded",
+    "prediction_available": true,
+    "predicted_result": "Home Win",
+    "home_win_probability": 60.7,
+    "draw_probability": 16.4,
+    "away_win_probability": 22.9,
+    "is_correct": true,
+    "confidence": "High",
+    "data_quality": "full_history",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
     "id": "558552",
     "league_id": "seriea",
     "league_name": "Serie A",

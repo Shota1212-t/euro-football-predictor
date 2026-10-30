@@ -1,299 +1,5 @@
 [
   {
-    "id": "558558",
-    "league_id": "seriea",
-    "league_name": "Serie A",
-    "kickoff": "2026-10-29T17:30:00Z",
-    "home_team": {
-      "id": "fd-470",
-      "api_id": 470,
-      "name": "Frosinone Calcio",
-      "short": "FRO",
-      "league_id": "seriea",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-5890",
-      "api_id": 5890,
-      "name": "US Lecce",
-      "short": "USL",
-      "league_id": "seriea",
-      "color": "#334155"
-    },
-    "home_win_probability": 70.4,
-    "draw_probability": 17.7,
-    "away_win_probability": 11.9,
-    "predicted_result": "Home Win",
-    "confidence": "High",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 34,
-      "level": "Low",
-      "matches_last_7d": 1,
-      "matches_last_14d": 2,
-      "days_since_last_match": 4,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 158,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "1.60",
-        "away_value": "2.00"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "2.20",
-        "away_value": "1.20"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "2.00",
-        "away_value": "0.80"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "DWLWD",
-        "away_value": "DWLWW"
-      }
-    ],
-    "reasons": [
-      "Frosinone Calcio: 直近勝点平均 1.60",
-      "US Lecce: 直近勝点平均 2.00",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "rest_days_diff",
-        "label": "休養日数差",
-        "value": -154.0,
-        "shap_value": 0.352417,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "休養日数差がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "recent_gf_diff",
-        "label": "平均得点差",
-        "value": 1.0,
-        "shap_value": 0.300576,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "平均得点差がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_shots",
-        "label": "アウェイ側の平均シュート数",
-        "value": 9.4,
-        "shap_value": 0.287061,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "アウェイ側の平均シュート数がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_gf",
-        "label": "ホーム側の平均得点",
-        "value": 2.2,
-        "shap_value": 0.200688,
-        "impact": "supports",
-        "target": "Home Win",
-        "text": "ホーム側の平均得点がHome Winのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 158.0,
-        "shap_value": -0.146103,
-        "impact": "opposes",
-        "target": "Home Win",
-        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
-    "id": "558551",
-    "league_id": "seriea",
-    "league_name": "Serie A",
-    "kickoff": "2026-10-29T19:45:00Z",
-    "home_team": {
-      "id": "fd-99",
-      "api_id": 99,
-      "name": "ACF Fiorentina",
-      "short": "FIO",
-      "league_id": "seriea",
-      "color": "#334155"
-    },
-    "away_team": {
-      "id": "fd-102",
-      "api_id": 102,
-      "name": "Atalanta BC",
-      "short": "ATA",
-      "league_id": "seriea",
-      "color": "#334155"
-    },
-    "home_win_probability": 24.8,
-    "draw_probability": 43.6,
-    "away_win_probability": 31.5,
-    "predicted_result": "Draw",
-    "confidence": "Medium",
-    "data_quality": "full_history",
-    "home_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 160,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "away_fatigue": {
-      "index": 0,
-      "level": "Low",
-      "matches_last_7d": 0,
-      "matches_last_14d": 0,
-      "days_since_last_match": 160,
-      "after_european_competition": false,
-      "after_domestic_cup": false,
-      "had_extra_time_or_penalties": false,
-      "extra_matches_last_7d": 0,
-      "extra_matches_last_14d": 0,
-      "last_extra_competition": null,
-      "last_extra_match_source": null,
-      "european_competition_data_status": "available",
-      "domestic_cup_data_status": "partial_last_event_only",
-      "extra_time_data_status": "partial",
-      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
-    },
-    "comparison": [
-      {
-        "label": "直近勝点",
-        "home_value": "1.20",
-        "away_value": "1.00"
-      },
-      {
-        "label": "平均得点",
-        "home_value": "0.60",
-        "away_value": "1.20"
-      },
-      {
-        "label": "平均失点",
-        "home_value": "1.00",
-        "away_value": "1.40"
-      },
-      {
-        "label": "直近成績",
-        "home_value": "DLDWD",
-        "away_value": "LDWLD"
-      }
-    ],
-    "reasons": [
-      "ACF Fiorentina: 直近勝点平均 1.20",
-      "Atalanta BC: 直近勝点平均 1.00",
-      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
-    ],
-    "h2h_summary": null,
-    "odds": null,
-    "explanations": [
-      {
-        "feature": "away_days_rest",
-        "label": "アウェイ側の休養日数",
-        "value": 160.0,
-        "shap_value": 0.347416,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_recent_sot",
-        "label": "ホーム側の平均枠内シュート数",
-        "value": 3.0,
-        "shap_value": 0.123912,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "away_recent_gf",
-        "label": "アウェイ側の平均得点",
-        "value": 1.2,
-        "shap_value": -0.116836,
-        "impact": "opposes",
-        "target": "Draw",
-        "text": "アウェイ側の平均得点がDrawのモデル出力を押し下げた"
-      },
-      {
-        "feature": "away_recent_sot",
-        "label": "アウェイ側の平均枠内シュート数",
-        "value": 5.0,
-        "shap_value": 0.06059,
-        "impact": "supports",
-        "target": "Draw",
-        "text": "アウェイ側の平均枠内シュート数がDrawのモデル出力を押し上げた"
-      },
-      {
-        "feature": "home_days_rest",
-        "label": "ホーム側の休養日数",
-        "value": 160.0,
-        "shap_value": -0.059203,
-        "impact": "opposes",
-        "target": "Draw",
-        "text": "ホーム側の休養日数がDrawのモデル出力を押し下げた"
-      }
-    ],
-    "explanation_method": "SHAP TreeExplainer",
-    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
-    "history_source": {
-      "home": "first_division",
-      "away": "first_division"
-    },
-    "model_version": "lightgbm_no_odds_uncalibrated_v2"
-  },
-  {
     "id": "559644",
     "league_id": "ligue1",
     "league_name": "Ligue 1",
@@ -1312,6 +1018,153 @@
         "impact": "opposes",
         "target": "Draw",
         "text": "ホーム側の休養日数がDrawのモデル出力を押し下げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558539",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-31T14:00:00Z",
+    "home_team": {
+      "id": "fd-103",
+      "api_id": 103,
+      "name": "Bologna FC 1909",
+      "short": "BOL",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-5911",
+      "api_id": 5911,
+      "name": "AC Monza",
+      "short": "MON",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 37.4,
+    "draw_probability": 47.2,
+    "away_win_probability": 15.4,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 161,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 525,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.60",
+        "away_value": "0.60"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.40",
+        "away_value": "0.60"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.40",
+        "away_value": "2.40"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "LDWWD",
+        "away_value": "LLWLL"
+      }
+    ],
+    "reasons": [
+      "Bologna FC 1909: 直近勝点平均 1.60",
+      "AC Monza: 直近勝点平均 0.60",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 525.0,
+        "shap_value": 0.217792,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 10.8,
+        "shap_value": 0.21116,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "ホーム側の平均シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 3.6,
+        "shap_value": 0.162363,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": 1.0,
+        "shap_value": 0.142312,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "直近勝点差がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.8,
+        "shap_value": -0.073441,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "平均得点差がDrawのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
@@ -2940,6 +2793,153 @@
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
   {
+    "id": "558542",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-31T17:00:00Z",
+    "home_team": {
+      "id": "fd-115",
+      "api_id": 115,
+      "name": "Udinese Calcio",
+      "short": "UDI",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-100",
+      "api_id": 100,
+      "name": "AS Roma",
+      "short": "ROM",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 26.7,
+    "draw_probability": 24.3,
+    "away_win_probability": 49.1,
+    "predicted_result": "Away Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 160,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 15,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 1,
+      "days_since_last_match": 10,
+      "after_european_competition": true,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 1,
+      "last_extra_competition": "UEFA Champions League",
+      "last_extra_match_source": "football-data.org",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.40",
+        "away_value": "3.00"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.40",
+        "away_value": "2.60"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.00",
+        "away_value": "0.40"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "DWWLL",
+        "away_value": "WWWWW"
+      }
+    ],
+    "reasons": [
+      "Udinese Calcio: 直近勝点平均 1.40",
+      "AS Roma: 直近勝点平均 3.00",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -1.6,
+        "shap_value": 0.351978,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 160.0,
+        "shap_value": 0.126215,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 12.8,
+        "shap_value": -0.10319,
+        "impact": "opposes",
+        "target": "Away Win",
+        "text": "ホーム側の平均シュート数がAway Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "away_recent_ga",
+        "label": "アウェイ側の平均失点",
+        "value": 0.4,
+        "shap_value": 0.099586,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の平均失点がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -1.2,
+        "shap_value": 0.084346,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
     "id": "560627",
     "league_id": "pl",
     "league_name": "Premier League",
@@ -3370,6 +3370,153 @@
         "impact": "opposes",
         "target": "Home Win",
         "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558548",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-31T19:45:00Z",
+    "home_team": {
+      "id": "fd-98",
+      "api_id": 98,
+      "name": "AC Milan",
+      "short": "MIL",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-108",
+      "api_id": 108,
+      "name": "FC Internazionale Milano",
+      "short": "INT",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 25.3,
+    "draw_probability": 35.7,
+    "away_win_probability": 39.0,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 160,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 15,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 1,
+      "days_since_last_match": 10,
+      "after_european_competition": true,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 1,
+      "last_extra_competition": "UEFA Champions League",
+      "last_extra_match_source": "football-data.org",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "0.80",
+        "away_value": "1.80"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.00",
+        "away_value": "2.20"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.60",
+        "away_value": "1.20"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "DLLWL",
+        "away_value": "DWWDD"
+      }
+    ],
+    "reasons": [
+      "AC Milan: 直近勝点平均 0.80",
+      "FC Internazionale Milano: 直近勝点平均 1.80",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -1.0,
+        "shap_value": 0.171265,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "直近勝点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_ga_diff",
+        "label": "平均失点差",
+        "value": 0.4,
+        "shap_value": -0.077218,
+        "impact": "opposes",
+        "target": "Away Win",
+        "text": "平均失点差がAway Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -1.2,
+        "shap_value": 0.074997,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "平均得点差がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 161.0,
+        "shap_value": 0.070195,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "アウェイ側の休養日数がAway Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_ga",
+        "label": "ホーム側の平均失点",
+        "value": 1.6,
+        "shap_value": 0.054136,
+        "impact": "supports",
+        "target": "Away Win",
+        "text": "ホーム側の平均失点がAway Winのモデル出力を押し上げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
@@ -3822,6 +3969,153 @@
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
   {
+    "id": "558543",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T11:30:00Z",
+    "home_team": {
+      "id": "fd-7397",
+      "api_id": 7397,
+      "name": "Como 1907",
+      "short": "COM",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-454",
+      "api_id": 454,
+      "name": "Venezia FC",
+      "short": "VEN",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 46.4,
+    "draw_probability": 43.5,
+    "away_win_probability": 10.1,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 15,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 1,
+      "days_since_last_match": 10,
+      "after_european_competition": true,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 1,
+      "last_extra_competition": "UEFA Champions League",
+      "last_extra_match_source": "football-data.org",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 58,
+      "level": "Medium",
+      "matches_last_7d": 2,
+      "matches_last_14d": 2,
+      "days_since_last_match": 3,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "2.60",
+        "away_value": "0.60"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.60",
+        "away_value": "0.40"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "0.20",
+        "away_value": "1.60"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WDWWW",
+        "away_value": "LLWLL"
+      }
+    ],
+    "reasons": [
+      "Como 1907: 直近勝点平均 2.60",
+      "Venezia FC: 直近勝点平均 0.60",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 3.0,
+        "shap_value": -0.498412,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 161.0,
+        "shap_value": 0.259643,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 4.8,
+        "shap_value": -0.197518,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 1.2,
+        "shap_value": 0.196504,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_points",
+        "label": "アウェイ側の直近勝点",
+        "value": 0.6,
+        "shap_value": 0.108985,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "アウェイ側の直近勝点がHome Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
     "id": "564733",
     "league_id": "laliga",
     "league_name": "La Liga",
@@ -3958,6 +4252,300 @@
         "impact": "supports",
         "target": "Draw",
         "text": "アウェイ側の平均枠内シュート数がDrawのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558544",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T14:00:00Z",
+    "home_team": {
+      "id": "fd-470",
+      "api_id": 470,
+      "name": "Frosinone Calcio",
+      "short": "FRO",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 59.6,
+    "draw_probability": 28.3,
+    "away_win_probability": 12.1,
+    "predicted_result": "Home Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 60,
+      "level": "Medium",
+      "matches_last_7d": 2,
+      "matches_last_14d": 2,
+      "days_since_last_match": 2,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 161,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "2.00",
+        "away_value": "1.00"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "3.00",
+        "away_value": "1.40"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "2.00",
+        "away_value": "1.80"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "WLWDW",
+        "away_value": "DLWLD"
+      }
+    ],
+    "reasons": [
+      "Frosinone Calcio: 直近勝点平均 2.00",
+      "Torino FC: 直近勝点平均 1.00",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -159.0,
+        "shap_value": 0.188225,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "休養日数差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 161.0,
+        "shap_value": -0.175106,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の休養日数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 2.0,
+        "shap_value": 0.130699,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_points",
+        "label": "ホーム側の直近勝点",
+        "value": 2.0,
+        "shap_value": 0.117993,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の直近勝点がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_gf",
+        "label": "ホーム側の平均得点",
+        "value": 3.0,
+        "shap_value": 0.113178,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の平均得点がHome Winのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558546",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T14:00:00Z",
+    "home_team": {
+      "id": "fd-110",
+      "api_id": 110,
+      "name": "SS Lazio",
+      "short": "LAZ",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 38.7,
+    "draw_probability": 25.3,
+    "away_win_probability": 35.9,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 162,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 161,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.40",
+        "away_value": "2.00"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.40",
+        "away_value": "1.40"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "2.00",
+        "away_value": "1.20"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "DWLLW",
+        "away_value": "WDLWW"
+      }
+    ],
+    "reasons": [
+      "SS Lazio: 直近勝点平均 1.40",
+      "Cagliari Calcio: 直近勝点平均 2.00",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 162.0,
+        "shap_value": 0.297999,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 15.4,
+        "shap_value": -0.140827,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の平均シュート数がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "recent_points_diff",
+        "label": "直近勝点差",
+        "value": -0.6,
+        "shap_value": 0.12737,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "直近勝点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.0,
+        "shap_value": 0.086699,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 10.2,
+        "shap_value": -0.082493,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "ホーム側の平均シュート数がHome Winのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
@@ -4998,6 +5586,153 @@
     "model_version": "lightgbm_no_odds_uncalibrated_v2"
   },
   {
+    "id": "558540",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T17:00:00Z",
+    "home_team": {
+      "id": "fd-5890",
+      "api_id": 5890,
+      "name": "US Lecce",
+      "short": "USL",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-107",
+      "api_id": 107,
+      "name": "Genoa CFC",
+      "short": "GEN",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 25.8,
+    "draw_probability": 68.6,
+    "away_win_probability": 5.7,
+    "predicted_result": "Draw",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 161,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 161,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "2.00",
+        "away_value": "0.40"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.20",
+        "away_value": "0.20"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "0.80",
+        "away_value": "1.00"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "DWLWW",
+        "away_value": "LDDLL"
+      }
+    ],
+    "reasons": [
+      "US Lecce: 直近勝点平均 2.00",
+      "Genoa CFC: 直近勝点平均 0.40",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_recent_sot",
+        "label": "アウェイ側の平均枠内シュート数",
+        "value": 1.8,
+        "shap_value": 0.387646,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均枠内シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 8.8,
+        "shap_value": 0.222594,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 9.4,
+        "shap_value": 0.209241,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "ホーム側の平均シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 1.0,
+        "shap_value": -0.156841,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "平均得点差がDrawのモデル出力を押し下げた"
+      },
+      {
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 0.2,
+        "shap_value": 0.14607,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
     "id": "564728",
     "league_id": "laliga",
     "league_name": "La Liga",
@@ -5134,6 +5869,153 @@
         "impact": "supports",
         "target": "Draw",
         "text": "アウェイ側の平均シュート数がDrawのモデル出力を押し上げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558547",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T19:45:00Z",
+    "home_team": {
+      "id": "fd-109",
+      "api_id": 109,
+      "name": "Juventus FC",
+      "short": "JUV",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-113",
+      "api_id": 113,
+      "name": "SSC Napoli",
+      "short": "NAP",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 41.0,
+    "draw_probability": 40.1,
+    "away_win_probability": 18.9,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 161,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 15,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 1,
+      "days_since_last_match": 12,
+      "after_european_competition": true,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 1,
+      "last_extra_competition": "UEFA Champions League",
+      "last_extra_match_source": "football-data.org",
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.20",
+        "away_value": "2.00"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "0.80",
+        "away_value": "2.00"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.00",
+        "away_value": "0.60"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "DDWLD",
+        "away_value": "WDLWW"
+      }
+    ],
+    "reasons": [
+      "Juventus FC: 直近勝点平均 1.20",
+      "SSC Napoli: 直近勝点平均 2.00",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "home_recent_shots",
+        "label": "ホーム側の平均シュート数",
+        "value": 19.4,
+        "shap_value": 0.349178,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の平均シュート数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": -1.2,
+        "shap_value": -0.324403,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "平均得点差がHome Winのモデル出力を押し下げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 6.2,
+        "shap_value": 0.174513,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の平均枠内シュート数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_days_rest",
+        "label": "ホーム側の休養日数",
+        "value": 161.0,
+        "shap_value": 0.13678,
+        "impact": "supports",
+        "target": "Home Win",
+        "text": "ホーム側の休養日数がHome Winのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_recent_shots",
+        "label": "アウェイ側の平均シュート数",
+        "value": 14.2,
+        "shap_value": -0.121499,
+        "impact": "opposes",
+        "target": "Home Win",
+        "text": "アウェイ側の平均シュート数がHome Winのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",
@@ -5428,6 +6310,300 @@
         "impact": "opposes",
         "target": "Away Win",
         "text": "ホーム側の休養日数がAway Winのモデル出力を押し下げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558541",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-02T17:30:00Z",
+    "home_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-99",
+      "api_id": 99,
+      "name": "ACF Fiorentina",
+      "short": "FIO",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 31.3,
+    "draw_probability": 36.6,
+    "away_win_probability": 32.1,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 162,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 164,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "0.80",
+        "away_value": "1.20"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.00",
+        "away_value": "0.60"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.20",
+        "away_value": "1.00"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "DWLLL",
+        "away_value": "DLDWD"
+      }
+    ],
+    "reasons": [
+      "US Sassuolo Calcio: 直近勝点平均 0.80",
+      "ACF Fiorentina: 直近勝点平均 1.20",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 164.0,
+        "shap_value": 0.299232,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.4,
+        "shap_value": -0.224487,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "平均得点差がDrawのモデル出力を押し下げた"
+      },
+      {
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 0.6,
+        "shap_value": 0.200531,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 3.8,
+        "shap_value": 0.121744,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": -2.0,
+        "shap_value": -0.050078,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "休養日数差がDrawのモデル出力を押し下げた"
+      }
+    ],
+    "explanation_method": "SHAP TreeExplainer",
+    "explanation_note": "SHAP値は予測クラスのモデル出力への寄与であり、確率差そのものではありません。",
+    "history_source": {
+      "home": "first_division",
+      "away": "first_division"
+    },
+    "model_version": "lightgbm_no_odds_uncalibrated_v2"
+  },
+  {
+    "id": "558545",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-02T19:45:00Z",
+    "home_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-112",
+      "api_id": 112,
+      "name": "Parma Calcio 1913",
+      "short": "PAR",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 33.2,
+    "draw_probability": 42.2,
+    "away_win_probability": 24.6,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "home_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 164,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "away_fatigue": {
+      "index": 0,
+      "level": "Low",
+      "matches_last_7d": 0,
+      "matches_last_14d": 0,
+      "days_since_last_match": 162,
+      "after_european_competition": false,
+      "after_domestic_cup": false,
+      "had_extra_time_or_penalties": false,
+      "extra_matches_last_7d": 0,
+      "extra_matches_last_14d": 0,
+      "last_extra_competition": null,
+      "last_extra_match_source": null,
+      "european_competition_data_status": "available",
+      "domestic_cup_data_status": "partial_last_event_only",
+      "extra_time_data_status": "partial",
+      "official_matches_data_completeness": "league_and_champions_league_with_partial_cup_supplement"
+    },
+    "comparison": [
+      {
+        "label": "直近勝点",
+        "home_value": "1.00",
+        "away_value": "1.20"
+      },
+      {
+        "label": "平均得点",
+        "home_value": "1.20",
+        "away_value": "0.80"
+      },
+      {
+        "label": "平均失点",
+        "home_value": "1.40",
+        "away_value": "1.20"
+      },
+      {
+        "label": "直近成績",
+        "home_value": "LDWLD",
+        "away_value": "WLLLW"
+      }
+    ],
+    "reasons": [
+      "Atalanta BC: 直近勝点平均 1.00",
+      "Parma Calcio 1913: 直近勝点平均 1.20",
+      "試合前オッズは未取得のため、モデル内の欠損値補完を使用しています。"
+    ],
+    "h2h_summary": null,
+    "odds": null,
+    "explanations": [
+      {
+        "feature": "away_recent_gf",
+        "label": "アウェイ側の平均得点",
+        "value": 0.8,
+        "shap_value": 0.168869,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の平均得点がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "rest_days_diff",
+        "label": "休養日数差",
+        "value": 2.0,
+        "shap_value": 0.138171,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "休養日数差がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "away_days_rest",
+        "label": "アウェイ側の休養日数",
+        "value": 162.0,
+        "shap_value": 0.097595,
+        "impact": "supports",
+        "target": "Draw",
+        "text": "アウェイ側の休養日数がDrawのモデル出力を押し上げた"
+      },
+      {
+        "feature": "recent_gf_diff",
+        "label": "平均得点差",
+        "value": 0.4,
+        "shap_value": -0.097308,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "平均得点差がDrawのモデル出力を押し下げた"
+      },
+      {
+        "feature": "home_recent_sot",
+        "label": "ホーム側の平均枠内シュート数",
+        "value": 5.0,
+        "shap_value": -0.094659,
+        "impact": "opposes",
+        "target": "Draw",
+        "text": "ホーム側の平均枠内シュート数がDrawのモデル出力を押し下げた"
       }
     ],
     "explanation_method": "SHAP TreeExplainer",

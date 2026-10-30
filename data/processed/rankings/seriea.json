@@ -6,9 +6,9 @@
     "season_id": 2494,
     "season_start": "2026-08-23",
     "season_end": "2027-05-30",
-    "current_matchday": 9,
+    "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-10-29T06:26:17.649171+00:00",
+    "updated_at": "2026-10-30T06:25:14.135773+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -23,6 +23,17 @@
   },
   "goals": [
     {
+      "player_id": "fdp-169216",
+      "football_data_player_id": 169216,
+      "player_name": "Antonio Raimondo",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 8
+    },
+    {
       "player_id": "fdp-252836",
       "football_data_player_id": 252836,
       "player_name": "Gustavo Varela",
@@ -32,17 +43,6 @@
       "position": null,
       "nationality": "Portugal",
       "value": 8
-    },
-    {
-      "player_id": "fdp-169216",
-      "football_data_player_id": 169216,
-      "player_name": "Antonio Raimondo",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 7
     },
     {
       "player_id": "fdp-7457",
@@ -133,6 +133,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-40786",
+      "football_data_player_id": 40786,
+      "player_name": "Giacomo Calò",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 4
+    },
+    {
       "player_id": "fdp-3654",
       "football_data_player_id": 3654,
       "player_name": "Kevin De Bruyne",
@@ -196,17 +207,6 @@
       "team_name": "ACF Fiorentina",
       "position": null,
       "nationality": "Argentina",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-40786",
-      "football_data_player_id": 40786,
-      "player_name": "Giacomo Calò",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
       "value": 3
     },
     {
@@ -427,6 +427,17 @@
       "team_name": "AC Milan",
       "position": null,
       "nationality": "USA",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-129635",
+      "football_data_player_id": 129635,
+      "player_name": "Daniel Birligea",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Romania",
       "value": 2
     },
     {
@@ -1002,17 +1013,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-1911",
-      "football_data_player_id": 1911,
-      "player_name": "Nicolò Barella",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Italy",
-      "value": 1
-    },
-    {
       "player_id": "fdp-226967",
       "football_data_player_id": 226967,
       "player_name": "Olaf Gorter",
@@ -1136,6 +1136,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-16346",
+      "football_data_player_id": 16346,
+      "player_name": "Romano Schmid",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Austria",
+      "value": 4
+    },
+    {
       "player_id": "fdp-3368",
       "football_data_player_id": 3368,
       "player_name": "Adrien Rabiot",
@@ -1144,6 +1155,17 @@
       "team_name": "AC Milan",
       "position": null,
       "nationality": "France",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-211564",
+      "football_data_player_id": 211564,
+      "player_name": "Giorgi Kvernadze",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Georgia",
       "value": 3
     },
     {
@@ -1169,17 +1191,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-16346",
-      "football_data_player_id": 16346,
-      "player_name": "Romano Schmid",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Austria",
-      "value": 3
-    },
-    {
       "player_id": "fdp-167689",
       "football_data_player_id": 167689,
       "player_name": "Carlos Augusto Lobaton",
@@ -1199,17 +1210,6 @@
       "team_name": "FC Internazionale Milano",
       "position": null,
       "nationality": "France",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-1911",
-      "football_data_player_id": 1911,
-      "player_name": "Nicolò Barella",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Italy",
       "value": 2
     },
     {
@@ -1254,6 +1254,17 @@
       "team_name": "SS Lazio",
       "position": null,
       "nationality": "Netherlands",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-227048",
+      "football_data_player_id": 227048,
+      "player_name": "Álex Jiménez",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
+      "position": null,
+      "nationality": "Spain",
       "value": 2
     },
     {
@@ -1375,17 +1386,6 @@
       "team_name": "Frosinone Calcio",
       "position": null,
       "nationality": "Italy",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-211564",
-      "football_data_player_id": 211564,
-      "player_name": "Giorgi Kvernadze",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Georgia",
       "value": 1
     },
     {
@@ -1554,6 +1554,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-226967",
+      "football_data_player_id": 226967,
+      "player_name": "Olaf Gorter",
+      "team_id": "fd-5890",
+      "football_data_team_id": 5890,
+      "team_name": "US Lecce",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 1
+    },
+    {
       "player_id": "fdp-292394",
       "football_data_player_id": 292394,
       "player_name": "Paul Mendy",
@@ -1640,17 +1651,6 @@
       "position": null,
       "nationality": "Germany",
       "value": 1
-    },
-    {
-      "player_id": "fdp-227048",
-      "football_data_player_id": 227048,
-      "player_name": "Álex Jiménez",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
     }
   ],
   "appearances": [
@@ -1729,6 +1729,17 @@
       "team_name": "Venezia FC",
       "position": null,
       "nationality": "France",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-169216",
+      "football_data_player_id": 169216,
+      "player_name": "Antonio Raimondo",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
       "value": 9
     },
     {
@@ -1828,6 +1839,50 @@
       "team_name": "FC Internazionale Milano",
       "position": null,
       "nationality": "Italy",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-250304",
+      "football_data_player_id": 250304,
+      "player_name": "Franco Mastantuono",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-186575",
+      "football_data_player_id": 186575,
+      "player_name": "Gabriele Bracaglia",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-40786",
+      "football_data_player_id": 40786,
+      "player_name": "Giacomo Calò",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Italy",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-211564",
+      "football_data_player_id": 211564,
+      "player_name": "Giorgi Kvernadze",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Georgia",
       "value": 9
     },
     {
@@ -2018,6 +2073,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-130420",
+      "football_data_player_id": 130420,
+      "player_name": "Lazar Samardzic",
+      "team_id": "fd-102",
+      "football_data_team_id": 102,
+      "team_name": "Atalanta BC",
+      "position": null,
+      "nationality": "Serbia",
+      "value": 9
+    },
+    {
       "player_id": "fdp-8685",
       "football_data_player_id": 8685,
       "player_name": "Marcus Thuram-Ulien",
@@ -2048,6 +2114,17 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Croatia",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-157538",
+      "football_data_player_id": 157538,
+      "player_name": "Mateo Pellegrino",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
+      "position": null,
+      "nationality": "Argentina",
       "value": 9
     },
     {
@@ -2106,14 +2183,25 @@
       "value": 9
     },
     {
-      "player_id": "fdp-1911",
-      "football_data_player_id": 1911,
-      "player_name": "Nicolò Barella",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
+      "player_id": "fdp-120679",
+      "football_data_player_id": 120679,
+      "player_name": "Nikola Krstović",
+      "team_id": "fd-102",
+      "football_data_team_id": 102,
+      "team_name": "Atalanta BC",
       "position": null,
-      "nationality": "Italy",
+      "nationality": "Montenegro",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-226967",
+      "football_data_player_id": 226967,
+      "player_name": "Olaf Gorter",
+      "team_id": "fd-5890",
+      "football_data_team_id": 5890,
+      "team_name": "US Lecce",
+      "position": null,
+      "nationality": "Netherlands",
       "value": 9
     },
     {
@@ -2194,6 +2282,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-16346",
+      "football_data_player_id": 16346,
+      "player_name": "Romano Schmid",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Austria",
+      "value": 9
+    },
+    {
       "player_id": "fdp-59075",
       "football_data_player_id": 59075,
       "player_name": "Sandro Kulenović",
@@ -2271,15 +2370,26 @@
       "value": 9
     },
     {
-      "player_id": "fdp-169216",
-      "football_data_player_id": 169216,
-      "player_name": "Antonio Raimondo",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
+      "player_id": "fdp-227048",
+      "football_data_player_id": 227048,
+      "player_name": "Álex Jiménez",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
       "position": null,
-      "nationality": "Italy",
-      "value": 8
+      "nationality": "Spain",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-81440",
+      "football_data_player_id": 81440,
+      "player_name": "Éderson",
+      "team_id": "fd-102",
+      "football_data_team_id": 102,
+      "team_name": "Atalanta BC",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 9
     },
     {
       "player_id": "fdp-2202",
@@ -2326,39 +2436,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-250304",
-      "football_data_player_id": 250304,
-      "player_name": "Franco Mastantuono",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-186575",
-      "football_data_player_id": 186575,
-      "player_name": "Gabriele Bracaglia",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-40786",
-      "football_data_player_id": 40786,
-      "player_name": "Giacomo Calò",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 8
-    },
-    {
       "player_id": "fdp-2681",
       "football_data_player_id": 2681,
       "player_name": "Gianluca Scamacca",
@@ -2367,17 +2444,6 @@
       "team_name": "Atalanta BC",
       "position": null,
       "nationality": "Italy",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-211564",
-      "football_data_player_id": 211564,
-      "player_name": "Giorgi Kvernadze",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
-      "position": null,
-      "nationality": "Georgia",
       "value": 8
     },
     {
@@ -2403,34 +2469,12 @@
       "value": 8
     },
     {
-      "player_id": "fdp-130420",
-      "football_data_player_id": 130420,
-      "player_name": "Lazar Samardzic",
-      "team_id": "fd-102",
-      "football_data_team_id": 102,
-      "team_name": "Atalanta BC",
-      "position": null,
-      "nationality": "Serbia",
-      "value": 8
-    },
-    {
       "player_id": "fdp-82020",
       "football_data_player_id": 82020,
       "player_name": "Leonardo Balerdi",
       "team_id": "fd-100",
       "football_data_team_id": 100,
       "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-157538",
-      "football_data_player_id": 157538,
-      "player_name": "Mateo Pellegrino",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
       "position": null,
       "nationality": "Argentina",
       "value": 8
@@ -2447,28 +2491,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-120679",
-      "football_data_player_id": 120679,
-      "player_name": "Nikola Krstović",
-      "team_id": "fd-102",
-      "football_data_team_id": 102,
-      "team_name": "Atalanta BC",
-      "position": null,
-      "nationality": "Montenegro",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-226967",
-      "football_data_player_id": 226967,
-      "player_name": "Olaf Gorter",
-      "team_id": "fd-5890",
-      "football_data_team_id": 5890,
-      "team_name": "US Lecce",
-      "position": null,
-      "nationality": "Netherlands",
-      "value": 8
-    },
-    {
       "player_id": "fdp-2230",
       "football_data_player_id": 2230,
       "player_name": "Rolando Mandragora",
@@ -2480,36 +2502,14 @@
       "value": 8
     },
     {
-      "player_id": "fdp-16346",
-      "football_data_player_id": 16346,
-      "player_name": "Romano Schmid",
-      "team_id": "fd-470",
-      "football_data_team_id": 470,
-      "team_name": "Frosinone Calcio",
+      "player_id": "fdp-246341",
+      "football_data_player_id": 246341,
+      "player_name": "Tiago Gabriel",
+      "team_id": "fd-5890",
+      "football_data_team_id": 5890,
+      "team_name": "US Lecce",
       "position": null,
-      "nationality": "Austria",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-227048",
-      "football_data_player_id": 227048,
-      "player_name": "Álex Jiménez",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
-      "position": null,
-      "nationality": "Spain",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-81440",
-      "football_data_player_id": 81440,
-      "player_name": "Éderson",
-      "team_id": "fd-102",
-      "football_data_team_id": 102,
-      "team_name": "Atalanta BC",
-      "position": null,
-      "nationality": "Brazil",
+      "nationality": "Portugal",
       "value": 8
     },
     {
@@ -2565,6 +2565,17 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Australia",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-129635",
+      "football_data_player_id": 129635,
+      "player_name": "Daniel Birligea",
+      "team_id": "fd-470",
+      "football_data_team_id": 470,
+      "team_name": "Frosinone Calcio",
+      "position": null,
+      "nationality": "Romania",
       "value": 7
     },
     {
@@ -2642,17 +2653,6 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Italy",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-246341",
-      "football_data_player_id": 246341,
-      "player_name": "Tiago Gabriel",
-      "team_id": "fd-5890",
-      "football_data_team_id": 5890,
-      "team_name": "US Lecce",
-      "position": null,
-      "nationality": "Portugal",
       "value": 7
     },
     {
