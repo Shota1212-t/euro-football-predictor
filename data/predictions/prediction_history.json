@@ -62,6 +62,68 @@
     "recorded_at": "2026-10-28T06:16:32.895237+00:00"
   },
   {
+    "id": "558545",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-02T19:45:00Z",
+    "home_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-112",
+      "api_id": 112,
+      "name": "Parma Calcio 1913",
+      "short": "PAR",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 33.2,
+    "draw_probability": 42.2,
+    "away_win_probability": 24.6,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.592019+00:00"
+  },
+  {
+    "id": "558541",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-02T17:30:00Z",
+    "home_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-99",
+      "api_id": 99,
+      "name": "ACF Fiorentina",
+      "short": "FIO",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 31.3,
+    "draw_probability": 36.6,
+    "away_win_probability": 32.1,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.592017+00:00"
+  },
+  {
     "id": "564729",
     "league_id": "laliga",
     "league_name": "La Liga",
@@ -124,6 +186,37 @@
     "recorded_at": "2026-10-28T06:16:32.895231+00:00"
   },
   {
+    "id": "558547",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T19:45:00Z",
+    "home_team": {
+      "id": "fd-109",
+      "api_id": 109,
+      "name": "Juventus FC",
+      "short": "JUV",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-113",
+      "api_id": 113,
+      "name": "SSC Napoli",
+      "short": "NAP",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 41.0,
+    "draw_probability": 40.1,
+    "away_win_probability": 18.9,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.592013+00:00"
+  },
+  {
     "id": "564728",
     "league_id": "laliga",
     "league_name": "La Liga",
@@ -153,6 +246,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-10-28T06:16:32.895228+00:00"
+  },
+  {
+    "id": "558540",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T17:00:00Z",
+    "home_team": {
+      "id": "fd-5890",
+      "api_id": 5890,
+      "name": "US Lecce",
+      "short": "USL",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-107",
+      "api_id": 107,
+      "name": "Genoa CFC",
+      "short": "GEN",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 25.8,
+    "draw_probability": 68.6,
+    "away_win_probability": 5.7,
+    "predicted_result": "Draw",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.592009+00:00"
   },
   {
     "id": "560631",
@@ -341,6 +465,68 @@
     "recorded_at": "2026-10-28T06:16:32.895218+00:00"
   },
   {
+    "id": "558544",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T14:00:00Z",
+    "home_team": {
+      "id": "fd-470",
+      "api_id": 470,
+      "name": "Frosinone Calcio",
+      "short": "FRO",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-586",
+      "api_id": 586,
+      "name": "Torino FC",
+      "short": "TOR",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 59.6,
+    "draw_probability": 28.3,
+    "away_win_probability": 12.1,
+    "predicted_result": "Home Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.592003+00:00"
+  },
+  {
+    "id": "558546",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T14:00:00Z",
+    "home_team": {
+      "id": "fd-110",
+      "api_id": 110,
+      "name": "SS Lazio",
+      "short": "LAZ",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-104",
+      "api_id": 104,
+      "name": "Cagliari Calcio",
+      "short": "CAG",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 38.7,
+    "draw_probability": 25.3,
+    "away_win_probability": 35.9,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.592006+00:00"
+  },
+  {
     "id": "564733",
     "league_id": "laliga",
     "league_name": "La Liga",
@@ -370,6 +556,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-10-28T06:16:32.895213+00:00"
+  },
+  {
+    "id": "558543",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-11-01T11:30:00Z",
+    "home_team": {
+      "id": "fd-7397",
+      "api_id": 7397,
+      "name": "Como 1907",
+      "short": "COM",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-454",
+      "api_id": 454,
+      "name": "Venezia FC",
+      "short": "VEN",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 46.4,
+    "draw_probability": 43.5,
+    "away_win_probability": 10.1,
+    "predicted_result": "Home Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.592000+00:00"
   },
   {
     "id": "560628",
@@ -527,6 +744,37 @@
     "recorded_at": "2026-10-28T06:16:32.895206+00:00"
   },
   {
+    "id": "558548",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-31T19:45:00Z",
+    "home_team": {
+      "id": "fd-98",
+      "api_id": 98,
+      "name": "AC Milan",
+      "short": "MIL",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-108",
+      "api_id": 108,
+      "name": "FC Internazionale Milano",
+      "short": "INT",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 25.3,
+    "draw_probability": 35.7,
+    "away_win_probability": 39.0,
+    "predicted_result": "Away Win",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.591995+00:00"
+  },
+  {
     "id": "560627",
     "league_id": "pl",
     "league_name": "Premier League",
@@ -618,6 +866,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-10-28T06:16:32.895193+00:00"
+  },
+  {
+    "id": "558542",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-31T17:00:00Z",
+    "home_team": {
+      "id": "fd-115",
+      "api_id": 115,
+      "name": "Udinese Calcio",
+      "short": "UDI",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-100",
+      "api_id": 100,
+      "name": "AS Roma",
+      "short": "ROM",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 26.7,
+    "draw_probability": 24.3,
+    "away_win_probability": 49.1,
+    "predicted_result": "Away Win",
+    "confidence": "High",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.591990+00:00"
   },
   {
     "id": "559646",
@@ -990,6 +1269,37 @@
     "history_source": "initial_prediction",
     "model_version": "lightgbm_no_odds_uncalibrated_v2",
     "recorded_at": "2026-10-27T05:34:23.303400+00:00"
+  },
+  {
+    "id": "558539",
+    "league_id": "seriea",
+    "league_name": "Serie A",
+    "kickoff": "2026-10-31T14:00:00Z",
+    "home_team": {
+      "id": "fd-103",
+      "api_id": 103,
+      "name": "Bologna FC 1909",
+      "short": "BOL",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-5911",
+      "api_id": 5911,
+      "name": "AC Monza",
+      "short": "MON",
+      "league_id": "seriea",
+      "color": "#334155"
+    },
+    "home_win_probability": 37.4,
+    "draw_probability": 47.2,
+    "away_win_probability": 15.4,
+    "predicted_result": "Draw",
+    "confidence": "Low",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-10-31T06:16:05.591973+00:00"
   },
   {
     "id": "564730",

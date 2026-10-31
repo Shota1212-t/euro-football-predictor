@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 8,
     "source": "football-data.org",
-    "updated_at": "2026-10-30T06:25:21.299614+00:00",
+    "updated_at": "2026-10-31T06:15:48.706608+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -111,6 +111,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-183780",
+      "football_data_player_id": 183780,
+      "player_name": "Maurice Krattenmacher",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 4
+    },
+    {
       "player_id": "fdp-6661",
       "football_data_player_id": 6661,
       "player_name": "Michael Gregoritsch",
@@ -196,17 +207,6 @@
       "team_name": "Borussia Mönchengladbach",
       "position": null,
       "nationality": "USA",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-183780",
-      "football_data_player_id": 183780,
-      "player_name": "Maurice Krattenmacher",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "Germany",
       "value": 3
     },
     {
@@ -309,6 +309,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-150647",
+      "football_data_player_id": 150647,
+      "player_name": "Benedict Hollerbach",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
       "player_id": "fdp-193605",
       "football_data_player_id": 193605,
       "player_name": "Can Uzun",
@@ -328,6 +339,17 @@
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
       "nationality": "Cameroon",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-265182",
+      "football_data_player_id": 265182,
+      "player_name": "Cole Campbell",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "USA",
       "value": 2
     },
     {
@@ -381,6 +403,17 @@
       "team_id": "fd-4",
       "football_data_team_id": 4,
       "team_name": "Borussia Dortmund",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-182225",
+      "football_data_player_id": 182225,
+      "player_name": "Felix Keidel",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
       "position": null,
       "nationality": "Germany",
       "value": 2
@@ -683,17 +716,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-150647",
-      "football_data_player_id": 150647,
-      "player_name": "Benedict Hollerbach",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Germany",
-      "value": 1
-    },
-    {
       "player_id": "fdp-189873",
       "football_data_player_id": 189873,
       "player_name": "Bilal El Khannouss",
@@ -713,17 +735,6 @@
       "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-265182",
-      "football_data_player_id": 265182,
-      "player_name": "Cole Campbell",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "USA",
       "value": 1
     },
     {
@@ -801,17 +812,6 @@
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
       "nationality": "Argentina",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-182225",
-      "football_data_player_id": 182225,
-      "player_name": "Felix Keidel",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "Germany",
       "value": 1
     },
     {
@@ -1400,6 +1400,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-213737",
+      "football_data_player_id": 213737,
+      "player_name": "David Mokwa Ntusu",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-150733",
       "football_data_player_id": 150733,
       "player_name": "Eren Dinkci",
@@ -1611,6 +1622,116 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-8785",
+      "football_data_player_id": 8785,
+      "player_name": "Anthony Caci",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-6707",
+      "football_data_player_id": 6707,
+      "player_name": "Danny da Costa",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Germany",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-213737",
+      "football_data_player_id": 213737,
+      "player_name": "David Mokwa Ntusu",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-182225",
+      "football_data_player_id": 182225,
+      "player_name": "Felix Keidel",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-98330",
+      "football_data_player_id": 98330,
+      "player_name": "Lukas Petkov",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Bulgaria",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-183780",
+      "football_data_player_id": 183780,
+      "player_name": "Maurice Krattenmacher",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "Germany",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-6576",
+      "football_data_player_id": 6576,
+      "player_name": "Philipp Mwene",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Austria",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-45593",
+      "football_data_player_id": 45593,
+      "player_name": "Phillip Tietz",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Germany",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-137302",
+      "football_data_player_id": 137302,
+      "player_name": "Ransford Königsdörffer",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Ghana",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-7633",
+      "football_data_player_id": 7633,
+      "player_name": "Sheraldo Becker",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Suriname",
+      "value": 8
+    },
+    {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
       "player_name": "Adam Daghim",
@@ -1644,17 +1765,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-8785",
-      "football_data_player_id": 8785,
-      "player_name": "Anthony Caci",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "France",
-      "value": 7
-    },
-    {
       "player_id": "fdp-169295",
       "football_data_player_id": 169295,
       "player_name": "Antonio Nusa",
@@ -1683,6 +1793,17 @@
       "team_id": "fd-2",
       "football_data_team_id": 2,
       "team_name": "TSG 1899 Hoffenheim",
+      "position": null,
+      "nationality": "Germany",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-150647",
+      "football_data_player_id": 150647,
+      "player_name": "Benedict Hollerbach",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
       "position": null,
       "nationality": "Germany",
       "value": 7
@@ -1721,6 +1842,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-265182",
+      "football_data_player_id": 265182,
+      "player_name": "Cole Campbell",
+      "team_id": "fd-719",
+      "football_data_team_id": 719,
+      "team_name": "SV 07 Elversberg",
+      "position": null,
+      "nationality": "USA",
+      "value": 7
+    },
+    {
       "player_id": "fdp-145937",
       "football_data_player_id": 145937,
       "player_name": "Daniel Svensson",
@@ -1732,17 +1864,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-6707",
-      "football_data_player_id": 6707,
-      "player_name": "Danny da Costa",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Germany",
-      "value": 7
-    },
-    {
       "player_id": "fdp-264833",
       "football_data_player_id": 264833,
       "player_name": "Dariusz Stalmach",
@@ -1751,17 +1872,6 @@
       "team_name": "SV Werder Bremen",
       "position": null,
       "nationality": "Poland",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-213737",
-      "football_data_player_id": 213737,
-      "player_name": "David Mokwa Ntusu",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "France",
       "value": 7
     },
     {
@@ -1837,17 +1947,6 @@
       "team_id": "fd-4",
       "football_data_team_id": 4,
       "team_name": "Borussia Dortmund",
-      "position": null,
-      "nationality": "Germany",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-182225",
-      "football_data_player_id": 182225,
-      "player_name": "Felix Keidel",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
       "position": null,
       "nationality": "Germany",
       "value": 7
@@ -2018,17 +2117,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-98330",
-      "football_data_player_id": 98330,
-      "player_name": "Lukas Petkov",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "Bulgaria",
-      "value": 7
-    },
-    {
       "player_id": "fdp-61630",
       "football_data_player_id": 61630,
       "player_name": "Marco Grüll",
@@ -2037,17 +2125,6 @@
       "team_name": "SV Werder Bremen",
       "position": null,
       "nationality": "Austria",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-183780",
-      "football_data_player_id": 183780,
-      "player_name": "Maurice Krattenmacher",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "Germany",
       "value": 7
     },
     {
@@ -2150,39 +2227,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-6576",
-      "football_data_player_id": 6576,
-      "player_name": "Philipp Mwene",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Austria",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-45593",
-      "football_data_player_id": 45593,
-      "player_name": "Phillip Tietz",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Germany",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-137302",
-      "football_data_player_id": 137302,
-      "player_name": "Ransford Königsdörffer",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Ghana",
-      "value": 7
-    },
-    {
       "player_id": "fdp-6634",
       "football_data_player_id": 6634,
       "player_name": "Ridle Baku",
@@ -2257,17 +2301,6 @@
       "team_name": "Borussia Dortmund",
       "position": null,
       "nationality": "Guinea",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-7633",
-      "football_data_player_id": 7633,
-      "player_name": "Sheraldo Becker",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Suriname",
       "value": 7
     },
     {
@@ -2381,17 +2414,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-150647",
-      "football_data_player_id": 150647,
-      "player_name": "Benedict Hollerbach",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Germany",
-      "value": 6
-    },
-    {
       "player_id": "fdp-8484",
       "football_data_player_id": 8484,
       "player_name": "Christopher Nkunku",
@@ -2400,17 +2422,6 @@
       "team_name": "RB Leipzig",
       "position": null,
       "nationality": "France",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-265182",
-      "football_data_player_id": 265182,
-      "player_name": "Cole Campbell",
-      "team_id": "fd-719",
-      "football_data_team_id": 719,
-      "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "USA",
       "value": 6
     },
     {
@@ -2535,6 +2546,17 @@
       "value": 6
     },
     {
+      "player_id": "fdp-152726",
+      "football_data_player_id": 152726,
+      "player_name": "Eric Martel",
+      "team_id": "fd-15",
+      "football_data_team_id": 15,
+      "team_name": "1. FSV Mainz 05",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
       "player_id": "fdp-9522",
       "football_data_player_id": 9522,
       "player_name": "Florian Neuhaus",
@@ -2609,17 +2631,6 @@
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
       "nationality": "Cameroon",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-152726",
-      "football_data_player_id": 152726,
-      "player_name": "Eric Martel",
-      "team_id": "fd-15",
-      "football_data_team_id": 15,
-      "team_name": "1. FSV Mainz 05",
-      "position": null,
-      "nationality": "Germany",
       "value": 4
     },
     {

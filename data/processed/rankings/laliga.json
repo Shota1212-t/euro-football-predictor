@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 11,
     "source": "football-data.org",
-    "updated_at": "2026-10-30T06:25:06.409016+00:00",
+    "updated_at": "2026-10-31T06:15:33.893259+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1611,6 +1611,72 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-150533",
+      "football_data_player_id": 150533,
+      "player_name": "Alberto Moleiro",
+      "team_id": "fd-94",
+      "football_data_team_id": 94,
+      "team_name": "Villarreal CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-136646",
+      "football_data_player_id": 136646,
+      "player_name": "Georges Mikautadze",
+      "team_id": "fd-94",
+      "football_data_team_id": 94,
+      "team_name": "Villarreal CF",
+      "position": null,
+      "nationality": "Georgia",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-32719",
+      "football_data_player_id": 32719,
+      "player_name": "Gerard Moreno",
+      "team_id": "fd-94",
+      "football_data_team_id": 94,
+      "team_name": "Villarreal CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-278018",
+      "football_data_player_id": 278018,
+      "player_name": "Marcos Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-180218",
+      "football_data_player_id": 180218,
+      "player_name": "Roberto Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-149049",
+      "football_data_player_id": 149049,
+      "player_name": "Tyrhys Dolan",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "England",
+      "value": 11
+    },
+    {
       "player_id": "fdp-9554",
       "football_data_player_id": 9554,
       "player_name": "Ademola Lookman",
@@ -1628,17 +1694,6 @@
       "team_id": "fd-77",
       "football_data_team_id": 77,
       "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Spain",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-150533",
-      "football_data_player_id": 150533,
-      "player_name": "Alberto Moleiro",
-      "team_id": "fd-94",
-      "football_data_team_id": 94,
-      "team_name": "Villarreal CF",
       "position": null,
       "nationality": "Spain",
       "value": 10
@@ -1782,28 +1837,6 @@
       "team_id": "fd-558",
       "football_data_team_id": 558,
       "team_name": "RC Celta de Vigo",
-      "position": null,
-      "nationality": "Spain",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-136646",
-      "football_data_player_id": 136646,
-      "player_name": "Georges Mikautadze",
-      "team_id": "fd-94",
-      "football_data_team_id": 94,
-      "team_name": "Villarreal CF",
-      "position": null,
-      "nationality": "Georgia",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-32719",
-      "football_data_player_id": 32719,
-      "player_name": "Gerard Moreno",
-      "team_id": "fd-94",
-      "football_data_team_id": 94,
-      "team_name": "Villarreal CF",
       "position": null,
       "nationality": "Spain",
       "value": 10
@@ -1974,17 +2007,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-278018",
-      "football_data_player_id": 278018,
-      "player_name": "Marcos Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 10
-    },
-    {
       "player_id": "fdp-8474",
       "football_data_player_id": 8474,
       "player_name": "Mariano Díaz",
@@ -2106,17 +2128,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-180218",
-      "football_data_player_id": 180218,
-      "player_name": "Roberto Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 10
-    },
-    {
       "player_id": "fdp-101870",
       "football_data_player_id": 101870,
       "player_name": "Roberto Navarro",
@@ -2147,17 +2158,6 @@
       "team_name": "Rayo Vallecano de Madrid",
       "position": null,
       "nationality": "Spain",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-149049",
-      "football_data_player_id": 149049,
-      "player_name": "Tyrhys Dolan",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "England",
       "value": 10
     },
     {
@@ -2502,6 +2502,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-8412",
+      "football_data_player_id": 8412,
+      "player_name": "Nicolas Pépé",
+      "team_id": "fd-94",
+      "football_data_team_id": 94,
+      "team_name": "Villarreal CF",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 8
+    },
+    {
       "player_id": "fdp-1556",
       "football_data_player_id": 1556,
       "player_name": "Vinicius Junior",
@@ -2576,17 +2587,6 @@
       "team_name": "Club Atlético de Madrid",
       "position": null,
       "nationality": "Canada",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-8412",
-      "football_data_player_id": 8412,
-      "player_name": "Nicolas Pépé",
-      "team_id": "fd-94",
-      "football_data_team_id": 94,
-      "team_name": "Villarreal CF",
-      "position": null,
-      "nationality": "Ivory Coast",
       "value": 7
     },
     {
