@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-10-31T06:15:41.677033+00:00",
+    "updated_at": "2026-11-01T06:49:13.724811+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -23,6 +23,17 @@
   },
   "goals": [
     {
+      "player_id": "fdp-252836",
+      "football_data_player_id": 252836,
+      "player_name": "Gustavo Varela",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 9
+    },
+    {
       "player_id": "fdp-169216",
       "football_data_player_id": 169216,
       "player_name": "Antonio Raimondo",
@@ -34,17 +45,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-252836",
-      "football_data_player_id": 252836,
-      "player_name": "Gustavo Varela",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 8
-    },
-    {
       "player_id": "fdp-7457",
       "football_data_player_id": 7457,
       "player_name": "Donyell Malen",
@@ -53,7 +53,7 @@
       "team_name": "AS Roma",
       "position": null,
       "nationality": "Netherlands",
-      "value": 7
+      "value": 8
     },
     {
       "player_id": "fdp-120679",
@@ -65,6 +65,17 @@
       "position": null,
       "nationality": "Montenegro",
       "value": 6
+    },
+    {
+      "player_id": "fdp-3368",
+      "football_data_player_id": 3368,
+      "player_name": "Adrien Rabiot",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "France",
+      "value": 5
     },
     {
       "player_id": "fdp-43285",
@@ -100,17 +111,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-3368",
-      "football_data_player_id": 3368,
-      "player_name": "Adrien Rabiot",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
-      "position": null,
-      "nationality": "France",
-      "value": 4
-    },
-    {
       "player_id": "fdp-192142",
       "football_data_player_id": 192142,
       "player_name": "Alphadjo Cisse",
@@ -130,6 +130,17 @@
       "team_name": "Torino FC",
       "position": null,
       "nationality": "Scotland",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-182192",
+      "football_data_player_id": 182192,
+      "player_name": "Diego Moreira",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "Belgium",
       "value": 4
     },
     {
@@ -177,6 +188,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-145",
+      "football_data_player_id": 145,
+      "player_name": "Christian Pulisic",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "USA",
+      "value": 3
+    },
+    {
       "player_id": "fdp-2200",
       "football_data_player_id": 2200,
       "player_name": "Davide Frattesi",
@@ -188,14 +210,14 @@
       "value": 3
     },
     {
-      "player_id": "fdp-182192",
-      "football_data_player_id": 182192,
-      "player_name": "Diego Moreira",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
+      "player_id": "fdp-2040",
+      "football_data_player_id": 2040,
+      "player_name": "Federico Bernardeschi",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
       "position": null,
-      "nationality": "Belgium",
+      "nationality": "Italy",
       "value": 3
     },
     {
@@ -320,6 +342,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-261273",
+      "football_data_player_id": 261273,
+      "player_name": "Rodrigo Mora",
+      "team_id": "fd-100",
+      "football_data_team_id": 100,
+      "team_name": "AS Roma",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 3
+    },
+    {
       "player_id": "fdp-217678",
       "football_data_player_id": 217678,
       "player_name": "Samuel Mbangula",
@@ -419,17 +452,6 @@
       "value": 2
     },
     {
-      "player_id": "fdp-145",
-      "football_data_player_id": 145,
-      "player_name": "Christian Pulisic",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
-      "position": null,
-      "nationality": "USA",
-      "value": 2
-    },
-    {
       "player_id": "fdp-129635",
       "football_data_player_id": 129635,
       "player_name": "Daniel Birligea",
@@ -469,17 +491,6 @@
       "team_id": "fd-100",
       "football_data_team_id": 100,
       "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Italy",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-2040",
-      "football_data_player_id": 2040,
-      "player_name": "Federico Bernardeschi",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
       "position": null,
       "nationality": "Italy",
       "value": 2
@@ -661,17 +672,6 @@
       "value": 2
     },
     {
-      "player_id": "fdp-261273",
-      "football_data_player_id": 261273,
-      "player_name": "Rodrigo Mora",
-      "team_id": "fd-100",
-      "football_data_team_id": 100,
-      "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 2
-    },
-    {
       "player_id": "fdp-16346",
       "football_data_player_id": 16346,
       "player_name": "Romano Schmid",
@@ -735,6 +735,17 @@
       "team_name": "US Lecce",
       "position": null,
       "nationality": "Portugal",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-99013",
+      "football_data_player_id": 99013,
+      "player_name": "Tommaso Pobega",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Italy",
       "value": 2
     },
     {
@@ -889,17 +900,6 @@
       "team_name": "Udinese Calcio",
       "position": null,
       "nationality": "Poland",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-187208",
-      "football_data_player_id": 187208,
-      "player_name": "James Abankwah",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Ireland",
       "value": 1
     },
     {
@@ -1158,6 +1158,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-182192",
+      "football_data_player_id": 182192,
+      "player_name": "Diego Moreira",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 3
+    },
+    {
       "player_id": "fdp-211564",
       "football_data_player_id": 211564,
       "player_name": "Giorgi Kvernadze",
@@ -1166,6 +1177,17 @@
       "team_name": "Frosinone Calcio",
       "position": null,
       "nationality": "Georgia",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-171121",
+      "football_data_player_id": 171121,
+      "player_name": "Matias Soule",
+      "team_id": "fd-100",
+      "football_data_team_id": 100,
+      "team_name": "AS Roma",
+      "position": null,
+      "nationality": "Argentina",
       "value": 3
     },
     {
@@ -1199,6 +1221,17 @@
       "team_name": "FC Internazionale Milano",
       "position": null,
       "nationality": "Brazil",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-822",
+      "football_data_player_id": 822,
+      "player_name": "Hassane Kamara",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Ivory Coast",
       "value": 2
     },
     {
@@ -1298,17 +1331,6 @@
       "team_name": "AC Milan",
       "position": null,
       "nationality": "USA",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-182192",
-      "football_data_player_id": 182192,
-      "player_name": "Diego Moreira",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
-      "position": null,
-      "nationality": "Belgium",
       "value": 1
     },
     {
@@ -1433,17 +1455,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-822",
-      "football_data_player_id": 822,
-      "player_name": "Hassane Kamara",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Ivory Coast",
-      "value": 1
-    },
-    {
       "player_id": "fdp-265567",
       "football_data_player_id": 265567,
       "player_name": "Jay Robinson",
@@ -1529,17 +1540,6 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Croatia",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-171121",
-      "football_data_player_id": 171121,
-      "player_name": "Matias Soule",
-      "team_id": "fd-100",
-      "football_data_team_id": 100,
-      "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Argentina",
       "value": 1
     },
     {
@@ -1655,6 +1655,248 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-192142",
+      "football_data_player_id": 192142,
+      "player_name": "Alphadjo Cisse",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "Italy",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-1852",
+      "football_data_player_id": 1852,
+      "player_name": "Andrea Colpani",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Italy",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-152738",
+      "football_data_player_id": 152738,
+      "player_name": "Ange-Yoan Bonny",
+      "team_id": "fd-108",
+      "football_data_team_id": 108,
+      "team_name": "FC Internazionale Milano",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-167689",
+      "football_data_player_id": 167689,
+      "player_name": "Carlos Augusto Lobaton",
+      "team_id": "fd-108",
+      "football_data_team_id": 108,
+      "team_name": "FC Internazionale Milano",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-145",
+      "football_data_player_id": 145,
+      "player_name": "Christian Pulisic",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "USA",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-290391",
+      "football_data_player_id": 290391,
+      "player_name": "Emanuele Lulli",
+      "team_id": "fd-100",
+      "football_data_team_id": 100,
+      "team_name": "AS Roma",
+      "position": null,
+      "nationality": "Italy",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-2040",
+      "football_data_player_id": 2040,
+      "player_name": "Federico Bernardeschi",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Italy",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-215433",
+      "football_data_player_id": 215433,
+      "player_name": "Francesco Esposito",
+      "team_id": "fd-108",
+      "football_data_team_id": 108,
+      "team_name": "FC Internazionale Milano",
+      "position": null,
+      "nationality": "Italy",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-101431",
+      "football_data_player_id": 101431,
+      "player_name": "Gonçalo Ramos",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-822",
+      "football_data_player_id": 822,
+      "player_name": "Hassane Kamara",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-265567",
+      "football_data_player_id": 265567,
+      "player_name": "Jay Robinson",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "England",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-31065",
+      "football_data_player_id": 31065,
+      "player_name": "Jesper Karlström",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-7567",
+      "football_data_player_id": 7567,
+      "player_name": "Jurgen Ekkelenkamp",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-8685",
+      "football_data_player_id": 8685,
+      "player_name": "Marcus Thuram-Ulien",
+      "team_id": "fd-108",
+      "football_data_team_id": 108,
+      "team_name": "FC Internazionale Milano",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-32703",
+      "football_data_player_id": 32703,
+      "player_name": "Mario Hermoso",
+      "team_id": "fd-100",
+      "football_data_team_id": 100,
+      "team_name": "AS Roma",
+      "position": null,
+      "nationality": "Spain",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-171121",
+      "football_data_player_id": 171121,
+      "player_name": "Matias Soule",
+      "team_id": "fd-100",
+      "football_data_team_id": 100,
+      "team_name": "AS Roma",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-192382",
+      "football_data_player_id": 192382,
+      "player_name": "Niccolo Pisilli",
+      "team_id": "fd-100",
+      "football_data_team_id": 100,
+      "team_name": "AS Roma",
+      "position": null,
+      "nationality": "Italy",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-2097",
+      "football_data_player_id": 2097,
+      "player_name": "Piotr Zieliński",
+      "team_id": "fd-108",
+      "football_data_team_id": 108,
+      "team_name": "FC Internazionale Milano",
+      "position": null,
+      "nationality": "Poland",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-53190",
+      "football_data_player_id": 53190,
+      "player_name": "Ricardo Mangas",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-261273",
+      "football_data_player_id": 261273,
+      "player_name": "Rodrigo Mora",
+      "team_id": "fd-100",
+      "football_data_team_id": 100,
+      "team_name": "AS Roma",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-99013",
+      "football_data_player_id": 99013,
+      "player_name": "Tommaso Pobega",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Italy",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-193",
+      "football_data_player_id": 193,
+      "player_name": "Yann Aurel Bisseck",
+      "team_id": "fd-108",
+      "football_data_team_id": 108,
+      "team_name": "FC Internazionale Milano",
+      "position": null,
+      "nationality": "Germany",
+      "value": 10
+    },
+    {
       "player_id": "fdp-82132",
       "football_data_player_id": 82132,
       "player_name": "Akor Adams",
@@ -1677,17 +1919,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-192142",
-      "football_data_player_id": 192142,
-      "player_name": "Alphadjo Cisse",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
-      "position": null,
-      "nationality": "Italy",
-      "value": 9
-    },
-    {
       "player_id": "fdp-43285",
       "football_data_player_id": 43285,
       "player_name": "Anastasios Douvikas",
@@ -1696,28 +1927,6 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Greece",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-1852",
-      "football_data_player_id": 1852,
-      "player_name": "Andrea Colpani",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Italy",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-152738",
-      "football_data_player_id": 152738,
-      "player_name": "Ange-Yoan Bonny",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Ivory Coast",
       "value": 9
     },
     {
@@ -1754,17 +1963,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-167689",
-      "football_data_player_id": 167689,
-      "player_name": "Carlos Augusto Lobaton",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Brazil",
-      "value": 9
-    },
-    {
       "player_id": "fdp-125523",
       "football_data_player_id": 125523,
       "player_name": "Cas Odenthal",
@@ -1773,17 +1971,6 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Netherlands",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-145",
-      "football_data_player_id": 145,
-      "player_name": "Christian Pulisic",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
-      "position": null,
-      "nationality": "USA",
       "value": 9
     },
     {
@@ -1809,36 +1996,14 @@
       "value": 9
     },
     {
-      "player_id": "fdp-290391",
-      "football_data_player_id": 290391,
-      "player_name": "Emanuele Lulli",
+      "player_id": "fdp-7457",
+      "football_data_player_id": 7457,
+      "player_name": "Donyell Malen",
       "team_id": "fd-100",
       "football_data_team_id": 100,
       "team_name": "AS Roma",
       "position": null,
-      "nationality": "Italy",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-2040",
-      "football_data_player_id": 2040,
-      "player_name": "Federico Bernardeschi",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
-      "position": null,
-      "nationality": "Italy",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-215433",
-      "football_data_player_id": 215433,
-      "player_name": "Francesco Esposito",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Italy",
+      "nationality": "Netherlands",
       "value": 9
     },
     {
@@ -1897,17 +2062,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-101431",
-      "football_data_player_id": 101431,
-      "player_name": "Gonçalo Ramos",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 9
-    },
-    {
       "player_id": "fdp-128007",
       "football_data_player_id": 128007,
       "player_name": "Gustav Isaksen",
@@ -1919,14 +2073,14 @@
       "value": 9
     },
     {
-      "player_id": "fdp-822",
-      "football_data_player_id": 822,
-      "player_name": "Hassane Kamara",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
+      "player_id": "fdp-252836",
+      "football_data_player_id": 252836,
+      "player_name": "Gustavo Varela",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
       "position": null,
-      "nationality": "Ivory Coast",
+      "nationality": "Portugal",
       "value": 9
     },
     {
@@ -1938,39 +2092,6 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Spain",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-187208",
-      "football_data_player_id": 187208,
-      "player_name": "James Abankwah",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Ireland",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-265567",
-      "football_data_player_id": 265567,
-      "player_name": "Jay Robinson",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "England",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-31065",
-      "football_data_player_id": 31065,
-      "player_name": "Jesper Karlström",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Sweden",
       "value": 9
     },
     {
@@ -2004,17 +2125,6 @@
       "team_name": "Parma Calcio 1913",
       "position": null,
       "nationality": "Argentina",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-7567",
-      "football_data_player_id": 7567,
-      "player_name": "Jurgen Ekkelenkamp",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Netherlands",
       "value": 9
     },
     {
@@ -2084,25 +2194,14 @@
       "value": 9
     },
     {
-      "player_id": "fdp-8685",
-      "football_data_player_id": 8685,
-      "player_name": "Marcus Thuram-Ulien",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-32703",
-      "football_data_player_id": 32703,
-      "player_name": "Mario Hermoso",
+      "player_id": "fdp-82020",
+      "football_data_player_id": 82020,
+      "player_name": "Leonardo Balerdi",
       "team_id": "fd-100",
       "football_data_team_id": 100,
       "team_name": "AS Roma",
       "position": null,
-      "nationality": "Spain",
+      "nationality": "Argentina",
       "value": 9
     },
     {
@@ -2128,17 +2227,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-171121",
-      "football_data_player_id": 171121,
-      "player_name": "Matias Soule",
-      "team_id": "fd-100",
-      "football_data_team_id": 100,
-      "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 9
-    },
-    {
       "player_id": "fdp-2193",
       "football_data_player_id": 2193,
       "player_name": "Matteo Politano",
@@ -2156,17 +2244,6 @@
       "team_id": "fd-110",
       "football_data_team_id": 110,
       "team_name": "SS Lazio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-192382",
-      "football_data_player_id": 192382,
-      "player_name": "Niccolo Pisilli",
-      "team_id": "fd-100",
-      "football_data_team_id": 100,
-      "team_name": "AS Roma",
       "position": null,
       "nationality": "Italy",
       "value": 9
@@ -2227,17 +2304,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-2097",
-      "football_data_player_id": 2097,
-      "player_name": "Piotr Zieliński",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Poland",
-      "value": 9
-    },
-    {
       "player_id": "fdp-152770",
       "football_data_player_id": 152770,
       "player_name": "Rasmus Højlund",
@@ -2249,17 +2315,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-53190",
-      "football_data_player_id": 53190,
-      "player_name": "Ricardo Mangas",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 9
-    },
-    {
       "player_id": "fdp-187435",
       "football_data_player_id": 187435,
       "player_name": "Richie Sagrado",
@@ -2268,17 +2323,6 @@
       "team_name": "Venezia FC",
       "position": null,
       "nationality": "Belgium",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-261273",
-      "football_data_player_id": 261273,
-      "player_name": "Rodrigo Mora",
-      "team_id": "fd-100",
-      "football_data_team_id": 100,
-      "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Portugal",
       "value": 9
     },
     {
@@ -2359,17 +2403,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-193",
-      "football_data_player_id": 193,
-      "player_name": "Yann Aurel Bisseck",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Germany",
-      "value": 9
-    },
-    {
       "player_id": "fdp-227048",
       "football_data_player_id": 227048,
       "player_name": "Álex Jiménez",
@@ -2392,6 +2425,39 @@
       "value": 9
     },
     {
+      "player_id": "fdp-3368",
+      "football_data_player_id": 3368,
+      "player_name": "Adrien Rabiot",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-24217",
+      "football_data_player_id": 24217,
+      "player_name": "Artem Dovbyk",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Ukraine",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-182192",
+      "football_data_player_id": 182192,
+      "player_name": "Diego Moreira",
+      "team_id": "fd-98",
+      "football_data_team_id": 98,
+      "team_name": "AC Milan",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 8
+    },
+    {
       "player_id": "fdp-2202",
       "football_data_player_id": 2202,
       "player_name": "Domenico Berardi",
@@ -2400,17 +2466,6 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Italy",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-7457",
-      "football_data_player_id": 7457,
-      "player_name": "Donyell Malen",
-      "team_id": "fd-100",
-      "football_data_team_id": 100,
-      "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Netherlands",
       "value": 8
     },
     {
@@ -2447,14 +2502,14 @@
       "value": 8
     },
     {
-      "player_id": "fdp-252836",
-      "football_data_player_id": 252836,
-      "player_name": "Gustavo Varela",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
+      "player_id": "fdp-1754",
+      "football_data_player_id": 1754,
+      "player_name": "Hakan Çalhanoğlu",
+      "team_id": "fd-108",
+      "football_data_team_id": 108,
+      "team_name": "FC Internazionale Milano",
       "position": null,
-      "nationality": "Portugal",
+      "nationality": "Turkey",
       "value": 8
     },
     {
@@ -2466,17 +2521,6 @@
       "team_name": "Genoa CFC",
       "position": null,
       "nationality": "Mexico",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-82020",
-      "football_data_player_id": 82020,
-      "player_name": "Leonardo Balerdi",
-      "team_id": "fd-100",
-      "football_data_team_id": 100,
-      "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Argentina",
       "value": 8
     },
     {
@@ -2513,17 +2557,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-3368",
-      "football_data_player_id": 3368,
-      "player_name": "Adrien Rabiot",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
-      "position": null,
-      "nationality": "France",
-      "value": 7
-    },
-    {
       "player_id": "fdp-176944",
       "football_data_player_id": 176944,
       "player_name": "Antonio Vergara",
@@ -2532,17 +2565,6 @@
       "team_name": "SSC Napoli",
       "position": null,
       "nationality": "Italy",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-24217",
-      "football_data_player_id": 24217,
-      "player_name": "Artem Dovbyk",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
-      "position": null,
-      "nationality": "Ukraine",
       "value": 7
     },
     {
@@ -2579,25 +2601,14 @@
       "value": 7
     },
     {
-      "player_id": "fdp-182192",
-      "football_data_player_id": 182192,
-      "player_name": "Diego Moreira",
-      "team_id": "fd-98",
-      "football_data_team_id": 98,
-      "team_name": "AC Milan",
+      "player_id": "fdp-64243",
+      "football_data_player_id": 64243,
+      "player_name": "Jakub Piotrowski",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
       "position": null,
-      "nationality": "Belgium",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-1754",
-      "football_data_player_id": 1754,
-      "player_name": "Hakan Çalhanoğlu",
-      "team_id": "fd-108",
-      "football_data_team_id": 108,
-      "team_name": "FC Internazionale Milano",
-      "position": null,
-      "nationality": "Turkey",
+      "nationality": "Poland",
       "value": 7
     },
     {
@@ -2645,6 +2656,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-217678",
+      "football_data_player_id": 217678,
+      "player_name": "Samuel Mbangula",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 7
+    },
+    {
       "player_id": "fdp-114054",
       "football_data_player_id": 114054,
       "player_name": "Sebastiano Esposito",
@@ -2667,6 +2689,17 @@
       "value": 6
     },
     {
+      "player_id": "fdp-153632",
+      "football_data_player_id": 153632,
+      "player_name": "Exequiel Zeballos",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 6
+    },
+    {
       "player_id": "fdp-114117",
       "football_data_player_id": 114117,
       "player_name": "Giacomo Raspadori",
@@ -2675,17 +2708,6 @@
       "team_name": "Atalanta BC",
       "position": null,
       "nationality": "Italy",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-64243",
-      "football_data_player_id": 64243,
-      "player_name": "Jakub Piotrowski",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Poland",
       "value": 6
     },
     {
@@ -2711,17 +2733,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-217678",
-      "football_data_player_id": 217678,
-      "player_name": "Samuel Mbangula",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
-      "position": null,
-      "nationality": "Belgium",
-      "value": 6
-    },
-    {
       "player_id": "fdp-7905",
       "football_data_player_id": 7905,
       "player_name": "Scott McTominay",
@@ -2741,17 +2752,6 @@
       "team_name": "SS Lazio",
       "position": null,
       "nationality": "Iceland",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-153632",
-      "football_data_player_id": 153632,
-      "player_name": "Exequiel Zeballos",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Argentina",
       "value": 5
     }
   ],

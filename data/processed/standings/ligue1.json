@@ -201,17 +201,17 @@
       "recent_form": ""
     },
     {
-      "team_id": "fd-535",
-      "api_id": 535,
-      "team_name": "Le Mans FC",
+      "team_id": "fd-531",
+      "api_id": 531,
+      "team_name": "ES Troyes AC",
       "position": 15,
-      "played": 8,
-      "win": 1,
-      "draw": 4,
-      "loss": 3,
-      "goals_for": 11,
+      "played": 9,
+      "win": 2,
+      "draw": 2,
+      "loss": 5,
+      "goals_for": 7,
       "goals_against": 16,
-      "points": 7,
+      "points": 8,
       "recent_form": ""
     },
     {
@@ -229,17 +229,17 @@
       "recent_form": ""
     },
     {
-      "team_id": "fd-531",
-      "api_id": 531,
-      "team_name": "ES Troyes AC",
+      "team_id": "fd-535",
+      "api_id": 535,
+      "team_name": "Le Mans FC",
       "position": 17,
-      "played": 8,
+      "played": 9,
       "win": 1,
-      "draw": 2,
-      "loss": 5,
-      "goals_for": 5,
-      "goals_against": 16,
-      "points": 5,
+      "draw": 4,
+      "loss": 4,
+      "goals_for": 11,
+      "goals_against": 18,
+      "points": 7,
       "recent_form": ""
     },
     {
