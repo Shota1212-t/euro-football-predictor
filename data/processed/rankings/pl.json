@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 9,
     "source": "football-data.org",
-    "updated_at": "2026-11-01T06:48:57.631901+00:00",
+    "updated_at": "2026-11-02T06:47:10.266216+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -207,6 +207,17 @@
       "team_name": "Coventry City FC",
       "position": null,
       "nationality": "England",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-171",
+      "football_data_player_id": 171,
+      "player_name": "Kai Havertz",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Germany",
       "value": 3
     },
     {
@@ -427,17 +438,6 @@
       "team_name": "Ipswich Town FC",
       "position": null,
       "nationality": "Paraguay",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-171",
-      "football_data_player_id": 171,
-      "player_name": "Kai Havertz",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Germany",
       "value": 2
     },
     {
@@ -1908,6 +1908,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-171",
+      "football_data_player_id": 171,
+      "player_name": "Kai Havertz",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 9
+    },
+    {
       "player_id": "fdp-101910",
       "football_data_player_id": 101910,
       "player_name": "Keane Lewis-Potter",
@@ -1982,6 +1993,17 @@
       "team_name": "AFC Bournemouth",
       "position": null,
       "nationality": "England",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-7427",
+      "football_data_player_id": 7427,
+      "player_name": "Martin Ødegaard",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Norway",
       "value": 9
     },
     {
@@ -2095,6 +2117,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-133512",
+      "football_data_player_id": 133512,
+      "player_name": "Riccardo Calafiori",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Italy",
+      "value": 9
+    },
+    {
       "player_id": "fdp-172738",
       "football_data_player_id": 172738,
       "player_name": "Romeo Lavia",
@@ -2139,6 +2172,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-6486",
+      "football_data_player_id": 6486,
+      "player_name": "Alexander Isak",
+      "team_id": "fd-64",
+      "football_data_team_id": 64,
+      "team_name": "Liverpool FC",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 8
+    },
+    {
       "player_id": "fdp-260718",
       "football_data_player_id": 260718,
       "player_name": "Alysson",
@@ -2161,6 +2205,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-1684",
+      "football_data_player_id": 1684,
+      "player_name": "Bruno Guimarães",
+      "team_id": "fd-57",
+      "football_data_team_id": 57,
+      "team_name": "Arsenal FC",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 8
+    },
+    {
       "player_id": "fdp-9053",
       "football_data_player_id": 9053,
       "player_name": "Chuba Akpom",
@@ -2169,6 +2224,17 @@
       "team_name": "Ipswich Town FC",
       "position": null,
       "nationality": "England",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-7459",
+      "football_data_player_id": 7459,
+      "player_name": "Cody Gakpo",
+      "team_id": "fd-64",
+      "football_data_team_id": 64,
+      "team_name": "Liverpool FC",
+      "position": null,
+      "nationality": "Netherlands",
       "value": 8
     },
     {
@@ -2227,17 +2293,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-171",
-      "football_data_player_id": 171,
-      "player_name": "Kai Havertz",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Germany",
-      "value": 8
-    },
-    {
       "player_id": "fdp-140194",
       "football_data_player_id": 140194,
       "player_name": "Kiernan Dewsbury Hall",
@@ -2282,17 +2337,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-7427",
-      "football_data_player_id": 7427,
-      "player_name": "Martin Ødegaard",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Norway",
-      "value": 8
-    },
-    {
       "player_id": "fdp-4091",
       "football_data_player_id": 4091,
       "player_name": "Morgan Gibbs-White",
@@ -2323,17 +2367,6 @@
       "team_name": "Leeds United FC",
       "position": null,
       "nationality": "Switzerland",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-133512",
-      "football_data_player_id": 133512,
-      "player_name": "Riccardo Calafiori",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Italy",
       "value": 8
     },
     {
@@ -2370,6 +2403,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-273423",
+      "football_data_player_id": 273423,
+      "player_name": "Víctor Muñoz",
+      "team_id": "fd-64",
+      "football_data_team_id": 64,
+      "team_name": "Liverpool FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 8
+    },
+    {
       "player_id": "fdp-145613",
       "football_data_player_id": 145613,
       "player_name": "Yasin Ayari",
@@ -2392,17 +2436,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-6486",
-      "football_data_player_id": 6486,
-      "player_name": "Alexander Isak",
-      "team_id": "fd-64",
-      "football_data_team_id": 64,
-      "team_name": "Liverpool FC",
-      "position": null,
-      "nationality": "Sweden",
-      "value": 7
-    },
-    {
       "player_id": "fdp-4417",
       "football_data_player_id": 4417,
       "player_name": "Antoine Semenyo",
@@ -2422,17 +2455,6 @@
       "team_name": "Sunderland AFC",
       "position": null,
       "nationality": "Netherlands",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-1684",
-      "football_data_player_id": 1684,
-      "player_name": "Bruno Guimarães",
-      "team_id": "fd-57",
-      "football_data_team_id": 57,
-      "team_name": "Arsenal FC",
-      "position": null,
-      "nationality": "Brazil",
       "value": 7
     },
     {
@@ -2458,14 +2480,14 @@
       "value": 7
     },
     {
-      "player_id": "fdp-7459",
-      "football_data_player_id": 7459,
-      "player_name": "Cody Gakpo",
+      "player_id": "fdp-16347",
+      "football_data_player_id": 16347,
+      "player_name": "Dominik Szoboszlai",
       "team_id": "fd-64",
       "football_data_team_id": 64,
       "team_name": "Liverpool FC",
       "position": null,
-      "nationality": "Netherlands",
+      "nationality": "Hungary",
       "value": 7
     },
     {
@@ -2488,17 +2510,6 @@
       "team_name": "Crystal Palace FC",
       "position": null,
       "nationality": "Norway",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-273423",
-      "football_data_player_id": 273423,
-      "player_name": "Víctor Muñoz",
-      "team_id": "fd-64",
-      "football_data_team_id": 64,
-      "team_name": "Liverpool FC",
-      "position": null,
-      "nationality": "Spain",
       "value": 7
     },
     {
@@ -2532,17 +2543,6 @@
       "team_name": "Everton FC",
       "position": null,
       "nationality": "England",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-16347",
-      "football_data_player_id": 16347,
-      "player_name": "Dominik Szoboszlai",
-      "team_id": "fd-64",
-      "football_data_team_id": 64,
-      "team_name": "Liverpool FC",
-      "position": null,
-      "nationality": "Hungary",
       "value": 6
     },
     {
