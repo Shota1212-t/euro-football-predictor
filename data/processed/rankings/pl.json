@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 9,
     "source": "football-data.org",
-    "updated_at": "2026-11-02T06:47:10.266216+00:00",
+    "updated_at": "2026-11-03T07:13:48.458373+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -117,6 +117,17 @@
       "team_id": "fd-65",
       "football_data_team_id": 65,
       "team_name": "Manchester City FC",
+      "position": null,
+      "nationality": "France",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-171995",
+      "football_data_player_id": 171995,
+      "player_name": "Thierno Barry",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
       "position": null,
       "nationality": "France",
       "value": 4
@@ -262,17 +273,6 @@
       "team_name": "Chelsea FC",
       "position": null,
       "nationality": "Portugal",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-171995",
-      "football_data_player_id": 171995,
-      "player_name": "Thierno Barry",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "France",
       "value": 3
     },
     {
@@ -1644,6 +1644,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-249312",
+      "football_data_player_id": 249312,
+      "player_name": "Bazoumana Touré",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 9
+    },
+    {
       "player_id": "fdp-3257",
       "football_data_player_id": 3257,
       "player_name": "Bruno Fernandes",
@@ -1798,6 +1809,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-8076",
+      "football_data_player_id": 8076,
+      "player_name": "Harvey Barnes",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 9
+    },
+    {
       "player_id": "fdp-4158",
       "football_data_player_id": 4158,
       "player_name": "Jack Clarke",
@@ -1842,6 +1864,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-3316",
+      "football_data_player_id": 3316,
+      "player_name": "James Tarkowski",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 9
+    },
+    {
       "player_id": "fdp-98566",
       "football_data_player_id": 98566,
       "player_name": "Jan Paul van Hecke",
@@ -1870,6 +1903,17 @@
       "team_id": "fd-341",
       "football_data_team_id": 341,
       "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-7798",
+      "football_data_player_id": 7798,
+      "player_name": "Joe Willock",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "England",
       "value": 9
@@ -1941,12 +1985,34 @@
       "value": 9
     },
     {
+      "player_id": "fdp-140194",
+      "football_data_player_id": 140194,
+      "player_name": "Kiernan Dewsbury Hall",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 9
+    },
+    {
       "player_id": "fdp-99120",
       "football_data_player_id": 99120,
       "player_name": "Leif Davis",
       "team_id": "fd-349",
       "football_data_team_id": 349,
       "team_name": "Ipswich Town FC",
+      "position": null,
+      "nationality": "England",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-191140",
+      "football_data_player_id": 191140,
+      "player_name": "Lewis Hall",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "England",
       "value": 9
@@ -2161,6 +2227,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-171995",
+      "football_data_player_id": 171995,
+      "player_name": "Thierno Barry",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "France",
+      "value": 9
+    },
+    {
       "player_id": "fdp-137068",
       "football_data_player_id": 137068,
       "player_name": "Tyrick Mitchell",
@@ -2169,6 +2246,28 @@
       "team_name": "Crystal Palace FC",
       "position": null,
       "nationality": "England",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-250436",
+      "football_data_player_id": 250436,
+      "player_name": "Tyrique George",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-612",
+      "football_data_player_id": 612,
+      "player_name": "Yoane Wissa",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "Congo DR",
       "value": 9
     },
     {
@@ -2191,17 +2290,6 @@
       "team_name": "Aston Villa FC",
       "position": null,
       "nationality": "Brazil",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-249312",
-      "football_data_player_id": 249312,
-      "player_name": "Bazoumana Touré",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "Ivory Coast",
       "value": 8
     },
     {
@@ -2249,28 +2337,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-8076",
-      "football_data_player_id": 8076,
-      "player_name": "Harvey Barnes",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-3316",
-      "football_data_player_id": 3316,
-      "player_name": "James Tarkowski",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
       "player_id": "fdp-147891",
       "football_data_player_id": 147891,
       "player_name": "Jaouen Hadjam",
@@ -2282,45 +2348,12 @@
       "value": 8
     },
     {
-      "player_id": "fdp-7798",
-      "football_data_player_id": 7798,
-      "player_name": "Joe Willock",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-140194",
-      "football_data_player_id": 140194,
-      "player_name": "Kiernan Dewsbury Hall",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
       "player_id": "fdp-8259",
       "football_data_player_id": 8259,
       "player_name": "Lewis Dunk",
       "team_id": "fd-397",
       "football_data_team_id": 397,
       "team_name": "Brighton & Hove Albion FC",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-191140",
-      "football_data_player_id": 191140,
-      "player_name": "Lewis Hall",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
       "position": null,
       "nationality": "England",
       "value": 8
@@ -2370,28 +2403,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-171995",
-      "football_data_player_id": 171995,
-      "player_name": "Thierno Barry",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "France",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-250436",
-      "football_data_player_id": 250436,
-      "player_name": "Tyrique George",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
       "player_id": "fdp-10000",
       "football_data_player_id": 10000,
       "player_name": "Vitaly Janelt",
@@ -2425,15 +2436,15 @@
       "value": 8
     },
     {
-      "player_id": "fdp-612",
-      "football_data_player_id": 612,
-      "player_name": "Yoane Wissa",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
+      "player_id": "fdp-7792",
+      "football_data_player_id": 7792,
+      "player_name": "Ainsley Maitland-Niles",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
       "position": null,
-      "nationality": "Congo DR",
-      "value": 8
+      "nationality": "England",
+      "value": 7
     },
     {
       "player_id": "fdp-4417",
@@ -2535,17 +2546,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-7792",
-      "football_data_player_id": 7792,
-      "player_name": "Ainsley Maitland-Niles",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 6
-    },
-    {
       "player_id": "fdp-151119",
       "football_data_player_id": 151119,
       "player_name": "Fabio Carvalho",
@@ -2554,6 +2554,17 @@
       "team_name": "Brentford FC",
       "position": null,
       "nationality": "Portugal",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-111437",
+      "football_data_player_id": 111437,
+      "player_name": "Jacob Ramsey",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "England",
       "value": 6
     },
     {
@@ -2623,6 +2634,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-166376",
+      "football_data_player_id": 166376,
+      "player_name": "Anthony Elanga",
+      "team_id": "fd-67",
+      "football_data_team_id": 67,
+      "team_name": "Newcastle United FC",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 5
+    },
+    {
       "player_id": "fdp-8065",
       "football_data_player_id": 8065,
       "player_name": "Ben Chilwell",
@@ -2643,28 +2665,6 @@
       "position": null,
       "nationality": "Brazil",
       "value": 5
-    },
-    {
-      "player_id": "fdp-111437",
-      "football_data_player_id": 111437,
-      "player_name": "Jacob Ramsey",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "England",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-166376",
-      "football_data_player_id": 166376,
-      "player_name": "Anthony Elanga",
-      "team_id": "fd-67",
-      "football_data_team_id": 67,
-      "team_name": "Newcastle United FC",
-      "position": null,
-      "nationality": "Sweden",
-      "value": 4
     },
     {
       "player_id": "fdp-124244",

@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 11,
     "source": "football-data.org",
-    "updated_at": "2026-11-02T06:47:17.861414+00:00",
+    "updated_at": "2026-11-03T07:13:56.043713+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -56,6 +56,17 @@
       "value": 10
     },
     {
+      "player_id": "fdp-2237",
+      "football_data_player_id": 2237,
+      "player_name": "Ante Budimir",
+      "team_id": "fd-79",
+      "football_data_team_id": 79,
+      "team_name": "CA Osasuna",
+      "position": null,
+      "nationality": "Croatia",
+      "value": 8
+    },
+    {
       "player_id": "fdp-265516",
       "football_data_player_id": 265516,
       "player_name": "Yassir Zabiri",
@@ -65,17 +76,6 @@
       "position": null,
       "nationality": "Morocco",
       "value": 8
-    },
-    {
-      "player_id": "fdp-2237",
-      "football_data_player_id": 2237,
-      "player_name": "Ante Budimir",
-      "team_id": "fd-79",
-      "football_data_team_id": 79,
-      "team_name": "CA Osasuna",
-      "position": null,
-      "nationality": "Croatia",
-      "value": 7
     },
     {
       "player_id": "fdp-115175",
@@ -584,6 +584,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-69837",
+      "football_data_player_id": 69837,
+      "player_name": "Mario Soriano",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Spain",
+      "value": 2
+    },
+    {
       "player_id": "fdp-226950",
       "football_data_player_id": 226950,
       "player_name": "Miguel Ángel Sierra",
@@ -614,6 +625,17 @@
       "team_name": "Villarreal CF",
       "position": null,
       "nationality": "Ivory Coast",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-288836",
+      "football_data_player_id": 288836,
+      "player_name": "Nsongo Tonfack",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Cameroon",
       "value": 2
     },
     {
@@ -991,17 +1013,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-154000",
-      "football_data_player_id": 154000,
-      "player_name": "RamónTerrats Espacio",
-      "team_id": "fd-82",
-      "football_data_team_id": 82,
-      "team_name": "Getafe CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
-    },
-    {
       "player_id": "fdp-283400",
       "football_data_player_id": 283400,
       "player_name": "Sergio Martínez",
@@ -1065,17 +1076,6 @@
       "team_name": "Real Madrid CF",
       "position": null,
       "nationality": "Brazil",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-287848",
-      "football_data_player_id": 287848,
-      "player_name": "Xavi Espart",
-      "team_id": "fd-81",
-      "football_data_team_id": 81,
-      "team_name": "FC Barcelona",
-      "position": null,
-      "nationality": "Spain",
       "value": 1
     },
     {
@@ -1345,6 +1345,28 @@
       "value": 2
     },
     {
+      "player_id": "fdp-176255",
+      "football_data_player_id": 176255,
+      "player_name": "Luismi Cruz",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Spain",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-69837",
+      "football_data_player_id": 69837,
+      "player_name": "Mario Soriano",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Spain",
+      "value": 2
+    },
+    {
       "player_id": "fdp-152458",
       "football_data_player_id": 152458,
       "player_name": "Martin Satriano",
@@ -1609,17 +1631,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-176255",
-      "football_data_player_id": 176255,
-      "player_name": "Luismi Cruz",
-      "team_id": "fd-560",
-      "football_data_team_id": 560,
-      "team_name": "RC Deportivo La Coruña",
-      "position": null,
-      "nationality": "Spain",
-      "value": 1
-    },
-    {
       "player_id": "fdp-278018",
       "football_data_player_id": 278018,
       "player_name": "Marcos Fernández",
@@ -1661,17 +1672,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Ireland",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-287848",
-      "football_data_player_id": 287848,
-      "player_name": "Xavi Espart",
-      "team_id": "fd-81",
-      "football_data_team_id": 81,
-      "team_name": "FC Barcelona",
-      "position": null,
-      "nationality": "Spain",
       "value": 1
     }
   ],
@@ -1729,6 +1729,17 @@
       "team_name": "Real Sociedad de Fútbol",
       "position": null,
       "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-2237",
+      "football_data_player_id": 2237,
+      "player_name": "Ante Budimir",
+      "team_id": "fd-79",
+      "football_data_team_id": 79,
+      "team_name": "CA Osasuna",
+      "position": null,
+      "nationality": "Croatia",
       "value": 11
     },
     {
@@ -2007,6 +2018,17 @@
       "value": 11
     },
     {
+      "player_id": "fdp-176255",
+      "football_data_player_id": 176255,
+      "player_name": "Luismi Cruz",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
       "player_id": "fdp-82516",
       "football_data_player_id": 82516,
       "player_name": "Luka Sučić",
@@ -2040,6 +2062,17 @@
       "value": 11
     },
     {
+      "player_id": "fdp-69837",
+      "football_data_player_id": 69837,
+      "player_name": "Mario Soriano",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
       "player_id": "fdp-152458",
       "football_data_player_id": 152458,
       "player_name": "Martin Satriano",
@@ -2070,6 +2103,17 @@
       "team_name": "Deportivo Alavés",
       "position": null,
       "nationality": "Argentina",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-288836",
+      "football_data_player_id": 288836,
+      "player_name": "Nsongo Tonfack",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Cameroon",
       "value": 11
     },
     {
@@ -2260,17 +2304,6 @@
       "value": 11
     },
     {
-      "player_id": "fdp-2237",
-      "football_data_player_id": 2237,
-      "player_name": "Ante Budimir",
-      "team_id": "fd-79",
-      "football_data_team_id": 79,
-      "team_name": "CA Osasuna",
-      "position": null,
-      "nationality": "Croatia",
-      "value": 10
-    },
-    {
       "player_id": "fdp-180282",
       "football_data_player_id": 180282,
       "player_name": "Brugui",
@@ -2348,6 +2381,17 @@
       "value": 10
     },
     {
+      "player_id": "fdp-32004",
+      "football_data_player_id": 32004,
+      "player_name": "Kike Barja",
+      "team_id": "fd-79",
+      "football_data_team_id": 79,
+      "team_name": "CA Osasuna",
+      "position": null,
+      "nationality": "Spain",
+      "value": 10
+    },
+    {
       "player_id": "fdp-11113",
       "football_data_player_id": 11113,
       "player_name": "Lucas Boyé",
@@ -2356,17 +2400,6 @@
       "team_name": "Deportivo Alavés",
       "position": null,
       "nationality": "Argentina",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-176255",
-      "football_data_player_id": 176255,
-      "player_name": "Luismi Cruz",
-      "team_id": "fd-560",
-      "football_data_team_id": 560,
-      "team_name": "RC Deportivo La Coruña",
-      "position": null,
-      "nationality": "Spain",
       "value": 10
     },
     {
@@ -2414,17 +2447,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-154000",
-      "football_data_player_id": 154000,
-      "player_name": "RamónTerrats Espacio",
-      "team_id": "fd-82",
-      "football_data_team_id": 82,
-      "team_name": "Getafe CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 10
-    },
-    {
       "player_id": "fdp-37428",
       "football_data_player_id": 37428,
       "player_name": "Raphinha",
@@ -2444,17 +2466,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Ireland",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-287848",
-      "football_data_player_id": 287848,
-      "player_name": "Xavi Espart",
-      "team_id": "fd-81",
-      "football_data_team_id": 81,
-      "team_name": "FC Barcelona",
-      "position": null,
-      "nationality": "Spain",
       "value": 10
     },
     {
@@ -2508,17 +2519,6 @@
       "team_id": "fd-87",
       "football_data_team_id": 87,
       "team_name": "Rayo Vallecano de Madrid",
-      "position": null,
-      "nationality": "Spain",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-32004",
-      "football_data_player_id": 32004,
-      "player_name": "Kike Barja",
-      "team_id": "fd-79",
-      "football_data_team_id": 79,
-      "team_name": "CA Osasuna",
       "position": null,
       "nationality": "Spain",
       "value": 9
@@ -2634,6 +2634,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-7801",
+      "football_data_player_id": 7801,
+      "player_name": "Pierre-Emerick Aubameyang",
+      "team_id": "fd-560",
+      "football_data_team_id": 560,
+      "team_name": "RC Deportivo La Coruña",
+      "position": null,
+      "nationality": "Gabon",
+      "value": 8
+    },
+    {
       "player_id": "fdp-3369",
       "football_data_player_id": 3369,
       "player_name": "Thomas Lemar",
@@ -2686,17 +2697,6 @@
       "team_name": "Athletic Club",
       "position": null,
       "nationality": "Spain",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-7801",
-      "football_data_player_id": 7801,
-      "player_name": "Pierre-Emerick Aubameyang",
-      "team_id": "fd-560",
-      "football_data_team_id": 560,
-      "team_name": "RC Deportivo La Coruña",
-      "position": null,
-      "nationality": "Gabon",
       "value": 7
     },
     {

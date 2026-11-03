@@ -1,5 +1,145 @@
 [
   {
+    "id": "560622",
+    "league_id": "pl",
+    "competition_code": "PL",
+    "competition_name": "Premier League",
+    "season_id": 2502,
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-67",
+      "api_id": 67,
+      "name": "Newcastle United FC",
+      "short": "NEW"
+    },
+    "away_team": {
+      "id": "fd-62",
+      "api_id": 62,
+      "name": "Everton FC",
+      "short": "EVE"
+    },
+    "home_score": 0,
+    "away_score": 1,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "564731",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 11,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "home_team": {
+      "id": "fd-560",
+      "api_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "short": "DEP"
+    },
+    "away_team": {
+      "id": "fd-79",
+      "api_id": 79,
+      "name": "CA Osasuna",
+      "short": "OSA"
+    },
+    "home_score": 2,
+    "away_score": 1,
+    "actual_result": "Home Win"
+  },
+  {
+    "id": "558545",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-11-02T19:45:00Z",
+    "home_team": {
+      "id": "fd-102",
+      "api_id": 102,
+      "name": "Atalanta BC",
+      "short": "ATA"
+    },
+    "away_team": {
+      "id": "fd-112",
+      "api_id": 112,
+      "name": "Parma Calcio 1913",
+      "short": "PAR"
+    },
+    "home_score": 0,
+    "away_score": 3,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "559641",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 9,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-11-02T19:45:00Z",
+    "home_team": {
+      "id": "fd-525",
+      "api_id": 525,
+      "name": "FC Lorient",
+      "short": "FCL"
+    },
+    "away_team": {
+      "id": "fd-512",
+      "api_id": 512,
+      "name": "Stade Brestois 29",
+      "short": "BRE"
+    },
+    "home_score": 0,
+    "away_score": 2,
+    "actual_result": "Away Win"
+  },
+  {
+    "id": "558541",
+    "league_id": "seriea",
+    "competition_code": "SA",
+    "competition_name": "Serie A",
+    "season_id": 2494,
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "matchday": 10,
+    "stage": "REGULAR_SEASON",
+    "status": "FINISHED",
+    "kickoff": "2026-11-02T17:30:00Z",
+    "home_team": {
+      "id": "fd-471",
+      "api_id": 471,
+      "name": "US Sassuolo Calcio",
+      "short": "SAS"
+    },
+    "away_team": {
+      "id": "fd-99",
+      "api_id": 99,
+      "name": "ACF Fiorentina",
+      "short": "FIO"
+    },
+    "home_score": 2,
+    "away_score": 4,
+    "actual_result": "Away Win"
+  },
+  {
     "id": "564729",
     "league_id": "laliga",
     "competition_code": "PD",
