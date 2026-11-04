@@ -977,15 +977,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T17:45:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-1887",
       "fd-498"
     ],
     "home_team_id": "fd-1887",
     "away_team_id": "fd-498",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -995,15 +995,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T17:45:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-610",
       "fd-10"
     ],
     "home_team_id": "fd-610",
     "away_team_id": "fd-10",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 0,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -1013,15 +1013,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-675",
       "fd-108"
     ],
     "home_team_id": "fd-675",
     "away_team_id": "fd-108",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 3,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -1031,15 +1031,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-81",
       "fd-58"
     ],
     "home_team_id": "fd-81",
     "away_team_id": "fd-58",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 0,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -1049,15 +1049,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-78",
       "fd-5"
     ],
     "home_team_id": "fd-78",
     "away_team_id": "fd-5",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 2,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -1067,15 +1067,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-94",
       "fd-524"
     ],
     "home_team_id": "fd-94",
     "away_team_id": "fd-524",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 6,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -1085,15 +1085,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-66",
       "fd-100"
     ],
     "home_team_id": "fd-66",
     "away_team_id": "fd-100",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 2,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -1103,15 +1103,15 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-5721",
       "fd-521"
     ],
     "home_team_id": "fd-5721",
     "away_team_id": "fd-521",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
   },
@@ -1121,17 +1121,34 @@
     "competition_name": "UEFA Champions League",
     "competition_type": "european",
     "kickoff": "2026-11-03T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "team_ids": [
       "fd-2016",
       "fd-7509"
     ],
     "home_team_id": "fd-2016",
     "away_team_id": "fd-7509",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 0,
     "had_extra_time_or_penalties": false,
     "data_quality": "official"
+  },
+  {
+    "id": "tsdb-2594624",
+    "source": "TheSportsDB",
+    "competition_name": "UEFA Champions League",
+    "competition_type": "european",
+    "kickoff": "2026-11-03T20:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-94"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "0",
+    "away_score": "6",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
   },
   {
     "id": "fd-cl-575386",
