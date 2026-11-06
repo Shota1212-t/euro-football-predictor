@@ -1313,6 +1313,40 @@
     "data_quality": "official"
   },
   {
+    "id": "tsdb-2594743",
+    "source": "TheSportsDB",
+    "competition_name": "UEFA Conference League",
+    "competition_type": "european",
+    "kickoff": "2026-11-05T20:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-82"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "0",
+    "away_score": "1",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
+    "id": "tsdb-2594879",
+    "source": "TheSportsDB",
+    "competition_name": "UEFA Europa League",
+    "competition_type": "european",
+    "kickoff": "2026-11-05T20:00:00Z",
+    "status": "FT",
+    "team_ids": [
+      "fd-558"
+    ],
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_score": "1",
+    "away_score": "2",
+    "had_extra_time_or_penalties": false,
+    "data_quality": "supplemental_last_event_only"
+  },
+  {
     "id": "fd-cl-575395",
     "source": "football-data.org",
     "competition_name": "UEFA Champions League",
