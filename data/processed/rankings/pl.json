@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-11-06T07:21:50.018760+00:00",
+    "updated_at": "2026-11-07T06:33:45.447401+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -42,6 +42,17 @@
       "team_name": "Liverpool FC",
       "position": null,
       "nationality": "Sweden",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-171995",
+      "football_data_player_id": 171995,
+      "player_name": "Thierno Barry",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "France",
       "value": 6
     },
     {
@@ -117,17 +128,6 @@
       "team_id": "fd-65",
       "football_data_team_id": 65,
       "team_name": "Manchester City FC",
-      "position": null,
-      "nationality": "France",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-171995",
-      "football_data_player_id": 171995,
-      "player_name": "Thierno Barry",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
       "position": null,
       "nationality": "France",
       "value": 4
@@ -240,6 +240,17 @@
       "team_name": "Brentford FC",
       "position": null,
       "nationality": "Germany",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-140194",
+      "football_data_player_id": 140194,
+      "player_name": "Kiernan Dewsbury Hall",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
       "value": 3
     },
     {
@@ -447,17 +458,6 @@
       "team_id": "fd-402",
       "football_data_team_id": 402,
       "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-140194",
-      "football_data_player_id": 140194,
-      "player_name": "Kiernan Dewsbury Hall",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
       "position": null,
       "nationality": "England",
       "value": 2
@@ -1587,6 +1587,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-171995",
+      "football_data_player_id": 171995,
+      "player_name": "Thierno Barry",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-145613",
       "football_data_player_id": 145613,
       "player_name": "Yasin Ayari",
@@ -1610,6 +1621,72 @@
     }
   ],
   "appearances": [
+    {
+      "player_id": "fdp-114123",
+      "football_data_player_id": 114123,
+      "player_name": "Jack Rudoni",
+      "team_id": "fd-1076",
+      "football_data_team_id": 1076,
+      "team_name": "Coventry City FC",
+      "position": null,
+      "nationality": "England",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-3316",
+      "football_data_player_id": 3316,
+      "player_name": "James Tarkowski",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-6308",
+      "football_data_player_id": 6308,
+      "player_name": "Jay Dasilva",
+      "team_id": "fd-1076",
+      "football_data_team_id": 1076,
+      "team_name": "Coventry City FC",
+      "position": null,
+      "nationality": "Wales",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-140194",
+      "football_data_player_id": 140194,
+      "player_name": "Kiernan Dewsbury Hall",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-171995",
+      "football_data_player_id": 171995,
+      "player_name": "Thierno Barry",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-250436",
+      "football_data_player_id": 250436,
+      "player_name": "Tyrique George",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 10
+    },
     {
       "player_id": "fdp-270889",
       "football_data_player_id": 270889,
@@ -1831,17 +1908,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-114123",
-      "football_data_player_id": 114123,
-      "player_name": "Jack Rudoni",
-      "team_id": "fd-1076",
-      "football_data_team_id": 1076,
-      "team_name": "Coventry City FC",
-      "position": null,
-      "nationality": "England",
-      "value": 9
-    },
-    {
       "player_id": "fdp-150778",
       "football_data_player_id": 150778,
       "player_name": "Jaidon Anthony",
@@ -1864,17 +1930,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-3316",
-      "football_data_player_id": 3316,
-      "player_name": "James Tarkowski",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 9
-    },
-    {
       "player_id": "fdp-98566",
       "football_data_player_id": 98566,
       "player_name": "Jan Paul van Hecke",
@@ -1883,17 +1938,6 @@
       "team_name": "Tottenham Hotspur FC",
       "position": null,
       "nationality": "Netherlands",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-6308",
-      "football_data_player_id": 6308,
-      "player_name": "Jay Dasilva",
-      "team_id": "fd-1076",
-      "football_data_team_id": 1076,
-      "team_name": "Coventry City FC",
-      "position": null,
-      "nationality": "Wales",
       "value": 9
     },
     {
@@ -1982,17 +2026,6 @@
       "team_name": "Brentford FC",
       "position": null,
       "nationality": "Germany",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-140194",
-      "football_data_player_id": 140194,
-      "player_name": "Kiernan Dewsbury Hall",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
       "value": 9
     },
     {
@@ -2227,34 +2260,12 @@
       "value": 9
     },
     {
-      "player_id": "fdp-171995",
-      "football_data_player_id": 171995,
-      "player_name": "Thierno Barry",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
       "player_id": "fdp-137068",
       "football_data_player_id": 137068,
       "player_name": "Tyrick Mitchell",
       "team_id": "fd-354",
       "football_data_team_id": 354,
       "team_name": "Crystal Palace FC",
-      "position": null,
-      "nationality": "England",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-250436",
-      "football_data_player_id": 250436,
-      "player_name": "Tyrique George",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
       "position": null,
       "nationality": "England",
       "value": 9
@@ -2269,6 +2280,17 @@
       "position": null,
       "nationality": "Congo DR",
       "value": 9
+    },
+    {
+      "player_id": "fdp-7792",
+      "football_data_player_id": 7792,
+      "player_name": "Ainsley Maitland-Niles",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 8
     },
     {
       "player_id": "fdp-6486",
@@ -2434,17 +2456,6 @@
       "position": null,
       "nationality": "Sweden",
       "value": 8
-    },
-    {
-      "player_id": "fdp-7792",
-      "football_data_player_id": 7792,
-      "player_name": "Ainsley Maitland-Niles",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 7
     },
     {
       "player_id": "fdp-4417",

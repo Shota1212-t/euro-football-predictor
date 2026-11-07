@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-11-06T07:22:20.989179+00:00",
+    "updated_at": "2026-11-07T06:34:14.882013+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -254,6 +254,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-136733",
+      "football_data_player_id": 136733,
+      "player_name": "Gio Reyna",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "USA",
+      "value": 3
+    },
+    {
       "player_id": "fdp-80754",
       "football_data_player_id": 80754,
       "player_name": "Himad Abdelli",
@@ -284,6 +295,17 @@
       "team_name": "Lille OSC",
       "position": null,
       "nationality": "France",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-215679",
+      "football_data_player_id": 215679,
+      "player_name": "Thomas Jørgensen",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
       "value": 3
     },
     {
@@ -394,17 +416,6 @@
       "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "Austria",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-136733",
-      "football_data_player_id": 136733,
-      "player_name": "Gio Reyna",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "USA",
       "value": 2
     },
     {
@@ -570,17 +581,6 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "France",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-215679",
-      "football_data_player_id": 215679,
-      "player_name": "Thomas Jørgensen",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
       "value": 2
     },
     {
@@ -1677,6 +1677,83 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-299684",
+      "football_data_player_id": 299684,
+      "player_name": "Christ Tapé",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-262361",
+      "football_data_player_id": 262361,
+      "player_name": "Diogo Lobão",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-245336",
+      "football_data_player_id": 245336,
+      "player_name": "Gessime Yassine",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-136733",
+      "football_data_player_id": 136733,
+      "player_name": "Gio Reyna",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "USA",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-182406",
+      "football_data_player_id": 182406,
+      "player_name": "Jacen Russell-Rowe",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Canada",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-295761",
+      "football_data_player_id": 295761,
+      "player_name": "Jacobo Ortega",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Spain",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-215679",
+      "football_data_player_id": 215679,
+      "player_name": "Thomas Jørgensen",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 10
+    },
+    {
       "player_id": "fdp-8706",
       "football_data_player_id": 8706,
       "player_name": "Adrien Thomasson",
@@ -1765,17 +1842,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-299684",
-      "football_data_player_id": 299684,
-      "player_name": "Christ Tapé",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Ivory Coast",
-      "value": 9
-    },
-    {
       "player_id": "fdp-366",
       "football_data_player_id": 366,
       "player_name": "Corentin Tolisso",
@@ -1806,17 +1872,6 @@
       "team_name": "AJ Auxerre",
       "position": null,
       "nationality": "Cameroon",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-262361",
-      "football_data_player_id": 262361,
-      "player_name": "Diogo Lobão",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Portugal",
       "value": 9
     },
     {
@@ -1908,28 +1963,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-245336",
-      "football_data_player_id": 245336,
-      "player_name": "Gessime Yassine",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-136733",
-      "football_data_player_id": 136733,
-      "player_name": "Gio Reyna",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "USA",
-      "value": 9
-    },
-    {
       "player_id": "fdp-287857",
       "football_data_player_id": 287857,
       "player_name": "Harouna Djibirin",
@@ -1982,28 +2015,6 @@
       "team_name": "Paris FC",
       "position": null,
       "nationality": "Algeria",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-182406",
-      "football_data_player_id": 182406,
-      "player_name": "Jacen Russell-Rowe",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Canada",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-295761",
-      "football_data_player_id": 295761,
-      "player_name": "Jacobo Ortega",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Spain",
       "value": 9
     },
     {
@@ -2260,6 +2271,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-206809",
+      "football_data_player_id": 206809,
+      "player_name": "Samuel Amo-Ameyaw",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "England",
+      "value": 9
+    },
+    {
       "player_id": "fdp-10201",
       "football_data_player_id": 10201,
       "player_name": "Sebastian Szymański",
@@ -2268,17 +2290,6 @@
       "team_name": "Stade Rennais FC 1901",
       "position": null,
       "nationality": "Poland",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-215679",
-      "football_data_player_id": 215679,
-      "player_name": "Thomas Jørgensen",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
       "value": 9
     },
     {
@@ -2334,6 +2345,39 @@
       "team_name": "Angers SCO",
       "position": null,
       "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-129381",
+      "football_data_player_id": 129381,
+      "player_name": "Casper Tengstedt",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-206744",
+      "football_data_player_id": 206744,
+      "player_name": "Conrad Harder",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-165314",
+      "football_data_player_id": 165314,
+      "player_name": "Dario Essugo",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Portugal",
       "value": 8
     },
     {
@@ -2414,17 +2458,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-206809",
-      "football_data_player_id": 206809,
-      "player_name": "Samuel Amo-Ameyaw",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
       "player_id": "fdp-156808",
       "football_data_player_id": 156808,
       "player_name": "Sepe Elye Wahi",
@@ -2455,39 +2488,6 @@
       "team_name": "AJ Auxerre",
       "position": null,
       "nationality": "England",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-129381",
-      "football_data_player_id": 129381,
-      "player_name": "Casper Tengstedt",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-206744",
-      "football_data_player_id": 206744,
-      "player_name": "Conrad Harder",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-165314",
-      "football_data_player_id": 165314,
-      "player_name": "Dario Essugo",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Portugal",
       "value": 7
     },
     {

@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 9,
     "source": "football-data.org",
-    "updated_at": "2026-11-06T07:22:13.692074+00:00",
+    "updated_at": "2026-11-07T06:34:07.696682+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -144,6 +144,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-82442",
+      "football_data_player_id": 82442,
+      "player_name": "Joseph Scally",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "USA",
+      "value": 4
+    },
+    {
       "player_id": "fdp-22396",
       "football_data_player_id": 22396,
       "player_name": "Luis Díaz",
@@ -243,17 +254,6 @@
       "value": 3
     },
     {
-      "player_id": "fdp-82442",
-      "football_data_player_id": 82442,
-      "player_name": "Joseph Scally",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "USA",
-      "value": 3
-    },
-    {
       "player_id": "fdp-9452",
       "football_data_player_id": 9452,
       "player_name": "Maximilian Eggestein",
@@ -262,6 +262,17 @@
       "team_name": "SC Freiburg",
       "position": null,
       "nationality": "Germany",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-50215",
+      "football_data_player_id": 50215,
+      "player_name": "Miro Muheim",
+      "team_id": "fd-7",
+      "football_data_team_id": 7,
+      "team_name": "Hamburger SV",
+      "position": null,
+      "nationality": "Switzerland",
       "value": 3
     },
     {
@@ -559,17 +570,6 @@
       "team_name": "Borussia Dortmund",
       "position": null,
       "nationality": "Germany",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-50215",
-      "football_data_player_id": 50215,
-      "player_name": "Miro Muheim",
-      "team_id": "fd-7",
-      "football_data_team_id": 7,
-      "team_name": "Hamburger SV",
-      "position": null,
-      "nationality": "Switzerland",
       "value": 2
     },
     {
@@ -1644,6 +1644,50 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-82442",
+      "football_data_player_id": 82442,
+      "player_name": "Joseph Scally",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "USA",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-48988",
+      "football_data_player_id": 48988,
+      "player_name": "Shuto Machino",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Japan",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-113427",
+      "football_data_player_id": 113427,
+      "player_name": "Terem Moffi",
+      "team_id": "fd-7",
+      "football_data_team_id": 7,
+      "team_name": "Hamburger SV",
+      "position": null,
+      "nationality": "Nigeria",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-282450",
+      "football_data_player_id": 282450,
+      "player_name": "Wael Mohya",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Germany",
+      "value": 9
+    },
+    {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
       "player_name": "Adam Daghim",
@@ -1919,6 +1963,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-44463",
+      "football_data_player_id": 44463,
+      "player_name": "Isac Lidberg",
+      "team_id": "fd-18",
+      "football_data_team_id": 18,
+      "team_name": "Borussia Mönchengladbach",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 8
+    },
+    {
       "player_id": "fdp-130173",
       "football_data_player_id": 130173,
       "player_name": "Ismael Saibari",
@@ -1949,17 +2004,6 @@
       "team_name": "Eintracht Frankfurt",
       "position": null,
       "nationality": "Germany",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-82442",
-      "football_data_player_id": 82442,
-      "player_name": "Joseph Scally",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "USA",
       "value": 8
     },
     {
@@ -2260,17 +2304,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-48988",
-      "football_data_player_id": 48988,
-      "player_name": "Shuto Machino",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Japan",
-      "value": 8
-    },
-    {
       "player_id": "fdp-176617",
       "football_data_player_id": 176617,
       "player_name": "Stefano Marino",
@@ -2290,17 +2323,6 @@
       "team_name": "SC Paderborn 07",
       "position": null,
       "nationality": "Germany",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-113427",
-      "football_data_player_id": 113427,
-      "player_name": "Terem Moffi",
-      "team_id": "fd-7",
-      "football_data_team_id": 7,
-      "team_name": "Hamburger SV",
-      "position": null,
-      "nationality": "Nigeria",
       "value": 8
     },
     {
@@ -2326,17 +2348,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-282450",
-      "football_data_player_id": 282450,
-      "player_name": "Wael Mohya",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Germany",
-      "value": 8
-    },
-    {
       "player_id": "fdp-9537",
       "football_data_player_id": 9537,
       "player_name": "Willi Orban",
@@ -2356,6 +2367,17 @@
       "team_name": "Eintracht Frankfurt",
       "position": null,
       "nationality": "Germany",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-3466",
+      "football_data_player_id": 3466,
+      "player_name": "Yussuf Poulsen",
+      "team_id": "fd-7",
+      "football_data_team_id": 7,
+      "team_name": "Hamburger SV",
+      "position": null,
+      "nationality": "Denmark",
       "value": 8
     },
     {
@@ -2436,20 +2458,20 @@
       "value": 7
     },
     {
-      "player_id": "fdp-188201",
-      "football_data_player_id": 188201,
-      "player_name": "Hugo Bolin",
+      "player_id": "fdp-9522",
+      "football_data_player_id": 9522,
+      "player_name": "Florian Neuhaus",
       "team_id": "fd-18",
       "football_data_team_id": 18,
       "team_name": "Borussia Mönchengladbach",
       "position": null,
-      "nationality": "Sweden",
+      "nationality": "Germany",
       "value": 7
     },
     {
-      "player_id": "fdp-44463",
-      "football_data_player_id": 44463,
-      "player_name": "Isac Lidberg",
+      "player_id": "fdp-188201",
+      "football_data_player_id": 188201,
+      "player_name": "Hugo Bolin",
       "team_id": "fd-18",
       "football_data_team_id": 18,
       "team_name": "Borussia Mönchengladbach",
@@ -2511,28 +2533,6 @@
       "position": null,
       "nationality": "Japan",
       "value": 7
-    },
-    {
-      "player_id": "fdp-3466",
-      "football_data_player_id": 3466,
-      "player_name": "Yussuf Poulsen",
-      "team_id": "fd-7",
-      "football_data_team_id": 7,
-      "team_name": "Hamburger SV",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-9522",
-      "football_data_player_id": 9522,
-      "player_name": "Florian Neuhaus",
-      "team_id": "fd-18",
-      "football_data_team_id": 18,
-      "team_name": "Borussia Mönchengladbach",
-      "position": null,
-      "nationality": "Germany",
-      "value": 6
     },
     {
       "player_id": "fdp-6523",
@@ -2645,6 +2645,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-50215",
+      "football_data_player_id": 50215,
+      "player_name": "Miro Muheim",
+      "team_id": "fd-7",
+      "football_data_team_id": 7,
+      "team_name": "Hamburger SV",
+      "position": null,
+      "nationality": "Switzerland",
+      "value": 5
+    },
+    {
       "player_id": "fdp-150517",
       "football_data_player_id": 150517,
       "player_name": "Rocco Reitz",
@@ -2675,17 +2686,6 @@
       "team_name": "Bayer 04 Leverkusen",
       "position": null,
       "nationality": "Cameroon",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-50215",
-      "football_data_player_id": 50215,
-      "player_name": "Miro Muheim",
-      "team_id": "fd-7",
-      "football_data_team_id": 7,
-      "team_name": "Hamburger SV",
-      "position": null,
-      "nationality": "Switzerland",
       "value": 4
     },
     {

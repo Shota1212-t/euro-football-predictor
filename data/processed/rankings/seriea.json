@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 11,
     "source": "football-data.org",
-    "updated_at": "2026-11-06T07:22:06.450040+00:00",
+    "updated_at": "2026-11-07T06:34:00.952681+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1235,6 +1235,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-188464",
+      "football_data_player_id": 188464,
+      "player_name": "Antoine Hainaut",
+      "team_id": "fd-454",
+      "football_data_team_id": 454,
+      "team_name": "Venezia FC",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
       "player_id": "fdp-167689",
       "football_data_player_id": 167689,
       "player_name": "Carlos Augusto Lobaton",
@@ -1331,17 +1342,6 @@
       "team_name": "SS Lazio",
       "position": null,
       "nationality": "Italy",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-188464",
-      "football_data_player_id": 188464,
-      "player_name": "Antoine Hainaut",
-      "team_id": "fd-454",
-      "football_data_team_id": 454,
-      "team_name": "Venezia FC",
-      "position": null,
-      "nationality": "France",
       "value": 1
     },
     {
@@ -1685,7 +1685,73 @@
       "team_name": "Venezia FC",
       "position": null,
       "nationality": "Nigeria",
-      "value": 10
+      "value": 11
+    },
+    {
+      "player_id": "fdp-188464",
+      "football_data_player_id": 188464,
+      "player_name": "Antoine Hainaut",
+      "team_id": "fd-454",
+      "football_data_team_id": 454,
+      "team_name": "Venezia FC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-822",
+      "football_data_player_id": 822,
+      "player_name": "Hassane Kamara",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-31065",
+      "football_data_player_id": 31065,
+      "player_name": "Jesper Karlström",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-98549",
+      "football_data_player_id": 98549,
+      "player_name": "John Yeboah",
+      "team_id": "fd-454",
+      "football_data_team_id": 454,
+      "team_name": "Venezia FC",
+      "position": null,
+      "nationality": "Ecuador",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-7567",
+      "football_data_player_id": 7567,
+      "player_name": "Jurgen Ekkelenkamp",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Netherlands",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-187435",
+      "football_data_player_id": 187435,
+      "player_name": "Richie Sagrado",
+      "team_id": "fd-454",
+      "football_data_team_id": 454,
+      "team_name": "Venezia FC",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 11
     },
     {
       "player_id": "fdp-274076",
@@ -1751,17 +1817,6 @@
       "team_name": "FC Internazionale Milano",
       "position": null,
       "nationality": "Ivory Coast",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-188464",
-      "football_data_player_id": 188464,
-      "player_name": "Antoine Hainaut",
-      "team_id": "fd-454",
-      "football_data_team_id": 454,
-      "team_name": "Venezia FC",
-      "position": null,
-      "nationality": "France",
       "value": 10
     },
     {
@@ -1963,17 +2018,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-822",
-      "football_data_player_id": 822,
-      "player_name": "Hassane Kamara",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Ivory Coast",
-      "value": 10
-    },
-    {
       "player_id": "fdp-247056",
       "football_data_player_id": 247056,
       "player_name": "Jacobo Ramón",
@@ -1993,28 +2037,6 @@
       "team_name": "AC Monza",
       "position": null,
       "nationality": "England",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-31065",
-      "football_data_player_id": 31065,
-      "player_name": "Jesper Karlström",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Sweden",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-98549",
-      "football_data_player_id": 98549,
-      "player_name": "John Yeboah",
-      "team_id": "fd-454",
-      "football_data_team_id": 454,
-      "team_name": "Venezia FC",
-      "position": null,
-      "nationality": "Ecuador",
       "value": 10
     },
     {
@@ -2048,17 +2070,6 @@
       "team_name": "Genoa CFC",
       "position": null,
       "nationality": "Brazil",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-7567",
-      "football_data_player_id": 7567,
-      "player_name": "Jurgen Ekkelenkamp",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Netherlands",
       "value": 10
     },
     {
@@ -2246,17 +2257,6 @@
       "team_name": "FC Internazionale Milano",
       "position": null,
       "nationality": "Poland",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-187435",
-      "football_data_player_id": 187435,
-      "player_name": "Richie Sagrado",
-      "team_id": "fd-454",
-      "football_data_team_id": 454,
-      "team_name": "Venezia FC",
-      "position": null,
-      "nationality": "Belgium",
       "value": 10
     },
     {
@@ -2601,6 +2601,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-64243",
+      "football_data_player_id": 64243,
+      "player_name": "Jakub Piotrowski",
+      "team_id": "fd-115",
+      "football_data_team_id": 115,
+      "team_name": "Udinese Calcio",
+      "position": null,
+      "nationality": "Poland",
+      "value": 8
+    },
+    {
       "player_id": "fdp-152787",
       "football_data_player_id": 152787,
       "player_name": "Matteo Cancellieri",
@@ -2642,17 +2653,6 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Australia",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-64243",
-      "football_data_player_id": 64243,
-      "player_name": "Jakub Piotrowski",
-      "team_id": "fd-115",
-      "football_data_team_id": 115,
-      "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Poland",
       "value": 7
     },
     {
