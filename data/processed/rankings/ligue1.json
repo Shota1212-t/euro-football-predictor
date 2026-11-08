@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-11-07T06:34:14.882013+00:00",
+    "updated_at": "2026-11-08T06:41:32.099800+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -31,7 +31,7 @@
       "team_name": "Paris FC",
       "position": null,
       "nationality": "Mali",
-      "value": 8
+      "value": 9
     },
     {
       "player_id": "fdp-149850",
@@ -430,6 +430,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-143573",
+      "football_data_player_id": 143573,
+      "player_name": "Illia Zabarnyi",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Ukraine",
+      "value": 2
+    },
+    {
       "player_id": "fdp-182406",
       "football_data_player_id": 182406,
       "player_name": "Jacen Russell-Rowe",
@@ -746,17 +757,6 @@
       "team_name": "AS Monaco FC",
       "position": null,
       "nationality": "Portugal",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-279671",
-      "football_data_player_id": 279671,
-      "player_name": "Gabin Bernardeau",
-      "team_id": "fd-525",
-      "football_data_team_id": 525,
-      "team_name": "FC Lorient",
-      "position": null,
-      "nationality": "France",
       "value": 1
     },
     {
@@ -1268,6 +1268,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-177248",
+      "football_data_player_id": 177248,
+      "player_name": "Pablo Pagis",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
       "player_id": "fdp-3540",
       "football_data_player_id": 3540,
       "player_name": "Przemysław Frankowski",
@@ -1276,6 +1287,17 @@
       "team_name": "Stade Rennais FC 1901",
       "position": null,
       "nationality": "Poland",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-246066",
+      "football_data_player_id": 246066,
+      "player_name": "Senny Mayulu",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "France",
       "value": 2
     },
     {
@@ -1598,17 +1620,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-177248",
-      "football_data_player_id": 177248,
-      "player_name": "Pablo Pagis",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
       "player_id": "fdp-218249",
       "football_data_player_id": 218249,
       "player_name": "Pathé Mboup",
@@ -1642,17 +1653,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-246066",
-      "football_data_player_id": 246066,
-      "player_name": "Senny Mayulu",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
       "player_id": "fdp-215679",
       "football_data_player_id": 215679,
       "player_name": "Thomas Jørgensen",
@@ -1677,6 +1677,17 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-134600",
+      "football_data_player_id": 134600,
+      "player_name": "Antoine Mille",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
       "player_id": "fdp-299684",
       "football_data_player_id": 299684,
       "player_name": "Christ Tapé",
@@ -1688,6 +1699,17 @@
       "value": 10
     },
     {
+      "player_id": "fdp-4289",
+      "football_data_player_id": 4289,
+      "player_name": "Daniel Namaso",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "Cameroon",
+      "value": 10
+    },
+    {
       "player_id": "fdp-262361",
       "football_data_player_id": 262361,
       "player_name": "Diogo Lobão",
@@ -1696,6 +1718,17 @@
       "team_name": "RC Strasbourg Alsace",
       "position": null,
       "nationality": "Portugal",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-33154",
+      "football_data_player_id": 33154,
+      "player_name": "Ferrán Torres",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Spain",
       "value": 10
     },
     {
@@ -1721,6 +1754,17 @@
       "value": 10
     },
     {
+      "player_id": "fdp-108520",
+      "football_data_player_id": 108520,
+      "player_name": "Ilan Kebbal",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "Algeria",
+      "value": 10
+    },
+    {
       "player_id": "fdp-182406",
       "football_data_player_id": 182406,
       "player_name": "Jacen Russell-Rowe",
@@ -1743,6 +1787,83 @@
       "value": 10
     },
     {
+      "player_id": "fdp-177412",
+      "football_data_player_id": 177412,
+      "player_name": "Lamine Sy",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-552",
+      "football_data_player_id": 552,
+      "player_name": "Lassine Sinayoko",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "Mali",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-178696",
+      "football_data_player_id": 178696,
+      "player_name": "Lucas Maronnier",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-8352",
+      "football_data_player_id": 8352,
+      "player_name": "Maxime López",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-189574",
+      "football_data_player_id": 189574,
+      "player_name": "Mika Godts",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-177248",
+      "football_data_player_id": 177248,
+      "player_name": "Pablo Pagis",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-851",
+      "football_data_player_id": 851,
+      "player_name": "Renaud Ripart",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
       "player_id": "fdp-215679",
       "football_data_player_id": 215679,
       "player_name": "Thomas Jørgensen",
@@ -1751,6 +1872,17 @@
       "team_name": "Toulouse FC",
       "position": null,
       "nationality": "Denmark",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-178722",
+      "football_data_player_id": 178722,
+      "player_name": "Vitinha",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Portugal",
       "value": 10
     },
     {
@@ -1809,17 +1941,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-134600",
-      "football_data_player_id": 134600,
-      "player_name": "Antoine Mille",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
       "player_id": "fdp-53397",
       "football_data_player_id": 53397,
       "player_name": "Branco van den Boomen",
@@ -1864,17 +1985,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-4289",
-      "football_data_player_id": 4289,
-      "player_name": "Daniel Namaso",
-      "team_id": "fd-519",
-      "football_data_team_id": 519,
-      "team_name": "AJ Auxerre",
-      "position": null,
-      "nationality": "Cameroon",
-      "value": 9
-    },
-    {
       "player_id": "fdp-184726",
       "football_data_player_id": 184726,
       "player_name": "Ernest Nuamah",
@@ -1894,17 +2004,6 @@
       "team_name": "Olympique Lyonnais",
       "position": null,
       "nationality": "Austria",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-33154",
-      "football_data_player_id": 33154,
-      "player_name": "Ferrán Torres",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Spain",
       "value": 9
     },
     {
@@ -1952,17 +2051,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-279671",
-      "football_data_player_id": 279671,
-      "player_name": "Gabin Bernardeau",
-      "team_id": "fd-525",
-      "football_data_team_id": 525,
-      "team_name": "FC Lorient",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
       "player_id": "fdp-287857",
       "football_data_player_id": 287857,
       "player_name": "Harouna Djibirin",
@@ -2007,14 +2095,14 @@
       "value": 9
     },
     {
-      "player_id": "fdp-108520",
-      "football_data_player_id": 108520,
-      "player_name": "Ilan Kebbal",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
+      "player_id": "fdp-143573",
+      "football_data_player_id": 143573,
+      "player_name": "Illia Zabarnyi",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
       "position": null,
-      "nationality": "Algeria",
+      "nationality": "Ukraine",
       "value": 9
     },
     {
@@ -2073,28 +2161,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-177412",
-      "football_data_player_id": 177412,
-      "player_name": "Lamine Sy",
-      "team_id": "fd-519",
-      "football_data_team_id": 519,
-      "team_name": "AJ Auxerre",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-552",
-      "football_data_player_id": 552,
-      "player_name": "Lassine Sinayoko",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "Mali",
-      "value": 9
-    },
-    {
       "player_id": "fdp-124178",
       "football_data_player_id": 124178,
       "player_name": "Louis Mafouta",
@@ -2112,17 +2178,6 @@
       "team_id": "fd-535",
       "football_data_team_id": 535,
       "team_name": "Le Mans FC",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-178696",
-      "football_data_player_id": 178696,
-      "player_name": "Lucas Maronnier",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
       "position": null,
       "nationality": "France",
       "value": 9
@@ -2150,17 +2205,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-8352",
-      "football_data_player_id": 8352,
-      "player_name": "Maxime López",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
       "player_id": "fdp-215579",
       "football_data_player_id": 215579,
       "player_name": "Mbwana Samatta",
@@ -2169,17 +2213,6 @@
       "team_name": "Le Havre AC",
       "position": null,
       "nationality": "Tanzania",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-189574",
-      "football_data_player_id": 189574,
-      "player_name": "Mika Godts",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Belgium",
       "value": 9
     },
     {
@@ -2200,17 +2233,6 @@
       "team_id": "fd-521",
       "football_data_team_id": 521,
       "team_name": "Lille OSC",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-177248",
-      "football_data_player_id": 177248,
-      "player_name": "Pablo Pagis",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
       "position": null,
       "nationality": "France",
       "value": 9
@@ -2260,17 +2282,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-851",
-      "football_data_player_id": 851,
-      "player_name": "Renaud Ripart",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
       "player_id": "fdp-206809",
       "football_data_player_id": 206809,
       "player_name": "Samuel Amo-Ameyaw",
@@ -2304,17 +2315,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-178722",
-      "football_data_player_id": 178722,
-      "player_name": "Vitinha",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 9
-    },
-    {
       "player_id": "fdp-256424",
       "football_data_player_id": 256424,
       "player_name": "Zachary Athekame",
@@ -2345,6 +2345,17 @@
       "team_name": "Angers SCO",
       "position": null,
       "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-128242",
+      "football_data_player_id": 128242,
+      "player_name": "Cameron Archer",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "England",
       "value": 8
     },
     {
@@ -2398,6 +2409,17 @@
       "team_id": "fd-521",
       "football_data_team_id": 521,
       "team_name": "Lille OSC",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-134582",
+      "football_data_player_id": 134582,
+      "player_name": "Jérémy Le Douaron",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
       "position": null,
       "nationality": "France",
       "value": 8
@@ -2480,17 +2502,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-128242",
-      "football_data_player_id": 128242,
-      "player_name": "Cameron Archer",
-      "team_id": "fd-519",
-      "football_data_team_id": 519,
-      "team_name": "AJ Auxerre",
-      "position": null,
-      "nationality": "England",
-      "value": 7
-    },
-    {
       "player_id": "fdp-3314",
       "football_data_player_id": 3314,
       "player_name": "Eric Dier",
@@ -2546,17 +2557,6 @@
       "value": 7
     },
     {
-      "player_id": "fdp-134582",
-      "football_data_player_id": 134582,
-      "player_name": "Jérémy Le Douaron",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
-      "value": 7
-    },
-    {
       "player_id": "fdp-180827",
       "football_data_player_id": 180827,
       "player_name": "Mohammed Amoura",
@@ -2601,6 +2601,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-565",
+      "football_data_player_id": 565,
+      "player_name": "Vincent Marchetti",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "France",
+      "value": 7
+    },
+    {
       "player_id": "fdp-204238",
       "football_data_player_id": 204238,
       "player_name": "Edan Diop",
@@ -2634,6 +2645,28 @@
       "value": 6
     },
     {
+      "player_id": "fdp-204240",
+      "football_data_player_id": 204240,
+      "player_name": "Rémy Labeau Lascary",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "Guadeloupe",
+      "value": 6
+    },
+    {
+      "player_id": "fdp-246066",
+      "football_data_player_id": 246066,
+      "player_name": "Senny Mayulu",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "France",
+      "value": 6
+    },
+    {
       "player_id": "fdp-188087",
       "football_data_player_id": 188087,
       "player_name": "Tiago Santos",
@@ -2642,17 +2675,6 @@
       "team_name": "Lille OSC",
       "position": null,
       "nationality": "Portugal",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-565",
-      "football_data_player_id": 565,
-      "player_name": "Vincent Marchetti",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "France",
       "value": 6
     },
     {
@@ -2700,17 +2722,6 @@
       "value": 5
     },
     {
-      "player_id": "fdp-204240",
-      "football_data_player_id": 204240,
-      "player_name": "Rémy Labeau Lascary",
-      "team_id": "fd-519",
-      "football_data_team_id": 519,
-      "team_name": "AJ Auxerre",
-      "position": null,
-      "nationality": "Guadeloupe",
-      "value": 5
-    },
-    {
       "player_id": "fdp-129098",
       "football_data_player_id": 129098,
       "player_name": "Saud Abdulhamid",
@@ -2719,17 +2730,6 @@
       "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "Saudi Arabia",
-      "value": 5
-    },
-    {
-      "player_id": "fdp-246066",
-      "football_data_player_id": 246066,
-      "player_name": "Senny Mayulu",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "France",
       "value": 5
     },
     {
