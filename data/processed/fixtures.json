@@ -3836,62 +3836,6 @@
     "actual_result": null
   },
   {
-    "id": "564769",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-06T00:00:00Z",
-    "home_team": {
-      "id": "fd-559",
-      "api_id": 559,
-      "name": "Sevilla FC",
-      "short": "SEV"
-    },
-    "away_team": {
-      "id": "fd-84",
-      "api_id": 84,
-      "name": "Málaga CF",
-      "short": "MAL"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
-    "id": "564771",
-    "league_id": "laliga",
-    "competition_code": "PD",
-    "competition_name": "Primera Division",
-    "season_id": 2518,
-    "season_start": "2026-08-16",
-    "season_end": "2027-05-30",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "SCHEDULED",
-    "kickoff": "2026-12-06T00:00:00Z",
-    "home_team": {
-      "id": "fd-78",
-      "api_id": 78,
-      "name": "Club Atlético de Madrid",
-      "short": "ATL"
-    },
-    "away_team": {
-      "id": "fd-90",
-      "api_id": 90,
-      "name": "Real Betis Balompié",
-      "short": "BET"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "558499",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -4312,6 +4256,34 @@
     "actual_result": null
   },
   {
+    "id": "564771",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-06T20:00:00Z",
+    "home_team": {
+      "id": "fd-78",
+      "api_id": 78,
+      "name": "Club Atlético de Madrid",
+      "short": "ATL"
+    },
+    "away_team": {
+      "id": "fd-90",
+      "api_id": 90,
+      "name": "Real Betis Balompié",
+      "short": "BET"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
     "id": "558506",
     "league_id": "seriea",
     "competition_code": "SA",
@@ -4362,6 +4334,34 @@
       "api_id": 104,
       "name": "Cagliari Calcio",
       "short": "CAG"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "564769",
+    "league_id": "laliga",
+    "competition_code": "PD",
+    "competition_name": "Primera Division",
+    "season_id": 2518,
+    "season_start": "2026-08-16",
+    "season_end": "2027-05-30",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2026-12-07T20:00:00Z",
+    "home_team": {
+      "id": "fd-559",
+      "api_id": 559,
+      "name": "Sevilla FC",
+      "short": "SEV"
+    },
+    "away_team": {
+      "id": "fd-84",
+      "api_id": 84,
+      "name": "Málaga CF",
+      "short": "MAL"
     },
     "home_score": null,
     "away_score": null,
