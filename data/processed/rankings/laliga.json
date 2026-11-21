@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 13,
     "source": "football-data.org",
-    "updated_at": "2026-11-20T07:44:18.679153+00:00",
+    "updated_at": "2026-11-21T07:41:20.186548+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -89,6 +89,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-180218",
+      "football_data_player_id": 180218,
+      "player_name": "Roberto Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 7
+    },
+    {
       "player_id": "fdp-115175",
       "football_data_player_id": 115175,
       "player_name": "Sergio Camello",
@@ -106,17 +117,6 @@
       "team_id": "fd-285",
       "football_data_team_id": 285,
       "team_name": "Elche CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-180218",
-      "football_data_player_id": 180218,
-      "player_name": "Roberto Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
       "position": null,
       "nationality": "Spain",
       "value": 6
@@ -1695,9 +1695,75 @@
       "position": null,
       "nationality": "Ireland",
       "value": 1
+    },
+    {
+      "player_id": "fdp-149049",
+      "football_data_player_id": 149049,
+      "player_name": "Tyrhys Dolan",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "England",
+      "value": 1
     }
   ],
   "appearances": [
+    {
+      "player_id": "fdp-32629",
+      "football_data_player_id": 32629,
+      "player_name": "Iñaki Williams",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
+      "position": null,
+      "nationality": "Ghana",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-180218",
+      "football_data_player_id": 180218,
+      "player_name": "Roberto Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-101870",
+      "football_data_player_id": 101870,
+      "player_name": "Roberto Navarro",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
+      "position": null,
+      "nationality": "Spain",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-149049",
+      "football_data_player_id": 149049,
+      "player_name": "Tyrhys Dolan",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "England",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-2294",
+      "football_data_player_id": 2294,
+      "player_name": "Álex Berenguer",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
+      "position": null,
+      "nationality": "Spain",
+      "value": 13
+    },
     {
       "player_id": "fdp-9554",
       "football_data_player_id": 9554,
@@ -1707,6 +1773,17 @@
       "team_name": "Club Atlético de Madrid",
       "position": null,
       "nationality": "England",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-151439",
+      "football_data_player_id": 151439,
+      "player_name": "Aitor Paredes Casamichana",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
+      "position": null,
+      "nationality": "Spain",
       "value": 12
     },
     {
@@ -1930,17 +2007,6 @@
       "value": 12
     },
     {
-      "player_id": "fdp-32629",
-      "football_data_player_id": 32629,
-      "player_name": "Iñaki Williams",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Ghana",
-      "value": 12
-    },
-    {
       "player_id": "fdp-161293",
       "football_data_player_id": 161293,
       "player_name": "Jon Olasagasti",
@@ -2051,6 +2117,17 @@
       "value": 12
     },
     {
+      "player_id": "fdp-278018",
+      "football_data_player_id": 278018,
+      "player_name": "Marcos Fernández",
+      "team_id": "fd-80",
+      "football_data_team_id": 80,
+      "team_name": "RCD Espanyol de Barcelona",
+      "position": null,
+      "nationality": "Spain",
+      "value": 12
+    },
+    {
       "player_id": "fdp-8474",
       "football_data_player_id": 8474,
       "player_name": "Mariano Díaz",
@@ -2150,28 +2227,6 @@
       "value": 12
     },
     {
-      "player_id": "fdp-180218",
-      "football_data_player_id": 180218,
-      "player_name": "Roberto Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-101870",
-      "football_data_player_id": 101870,
-      "player_name": "Roberto Navarro",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Spain",
-      "value": 12
-    },
-    {
       "player_id": "fdp-128731",
       "football_data_player_id": 128731,
       "player_name": "Rodrigo Riquelme",
@@ -2191,17 +2246,6 @@
       "team_name": "Rayo Vallecano de Madrid",
       "position": null,
       "nationality": "Spain",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-149049",
-      "football_data_player_id": 149049,
-      "player_name": "Tyrhys Dolan",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "England",
       "value": 12
     },
     {
@@ -2247,28 +2291,6 @@
       "position": null,
       "nationality": "Spain",
       "value": 12
-    },
-    {
-      "player_id": "fdp-2294",
-      "football_data_player_id": 2294,
-      "player_name": "Álex Berenguer",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Spain",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-151439",
-      "football_data_player_id": 151439,
-      "player_name": "Aitor Paredes Casamichana",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Spain",
-      "value": 11
     },
     {
       "player_id": "fdp-180282",
@@ -2381,23 +2403,23 @@
       "value": 11
     },
     {
-      "player_id": "fdp-278018",
-      "football_data_player_id": 278018,
-      "player_name": "Marcos Fernández",
-      "team_id": "fd-80",
-      "football_data_team_id": 80,
-      "team_name": "RCD Espanyol de Barcelona",
-      "position": null,
-      "nationality": "Spain",
-      "value": 11
-    },
-    {
       "player_id": "fdp-180137",
       "football_data_player_id": 180137,
       "player_name": "Mikel Oyarzabal",
       "team_id": "fd-92",
       "football_data_team_id": 92,
       "team_name": "Real Sociedad de Fútbol",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-157135",
+      "football_data_player_id": 157135,
+      "player_name": "Nico Williams",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
       "position": null,
       "nationality": "Spain",
       "value": 11
@@ -2535,17 +2557,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-157135",
-      "football_data_player_id": 157135,
-      "player_name": "Nico Williams",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
-      "position": null,
-      "nationality": "Spain",
-      "value": 10
-    },
-    {
       "player_id": "fdp-175941",
       "football_data_player_id": 175941,
       "player_name": "Abdessamad Ezzalzouli",
@@ -2645,6 +2656,17 @@
       "value": 9
     },
     {
+      "player_id": "fdp-126878",
+      "football_data_player_id": 126878,
+      "player_name": "Oihan Sancet",
+      "team_id": "fd-77",
+      "football_data_team_id": 77,
+      "team_name": "Athletic Club",
+      "position": null,
+      "nationality": "Spain",
+      "value": 9
+    },
+    {
       "player_id": "fdp-7801",
       "football_data_player_id": 7801,
       "player_name": "Pierre-Emerick Aubameyang",
@@ -2673,17 +2695,6 @@
       "team_id": "fd-559",
       "football_data_team_id": 559,
       "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Spain",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-126878",
-      "football_data_player_id": 126878,
-      "player_name": "Oihan Sancet",
-      "team_id": "fd-77",
-      "football_data_team_id": 77,
-      "team_name": "Athletic Club",
       "position": null,
       "nationality": "Spain",
       "value": 8

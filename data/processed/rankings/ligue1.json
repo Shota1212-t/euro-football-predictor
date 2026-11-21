@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 11,
     "source": "football-data.org",
-    "updated_at": "2026-11-20T07:44:39.940490+00:00",
+    "updated_at": "2026-11-21T07:41:43.419178+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -111,6 +111,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-4072",
+      "football_data_player_id": 4072,
+      "player_name": "Josh Maja",
+      "team_id": "fd-533",
+      "football_data_team_id": 533,
+      "team_name": "Le Havre AC",
+      "position": null,
+      "nationality": "Nigeria",
+      "value": 5
+    },
+    {
       "player_id": "fdp-723",
       "football_data_player_id": 723,
       "player_name": "Ludovic Ajorque",
@@ -152,17 +163,6 @@
       "team_name": "RC Strasbourg Alsace",
       "position": null,
       "nationality": "France",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-4072",
-      "football_data_player_id": 4072,
-      "player_name": "Josh Maja",
-      "team_id": "fd-533",
-      "football_data_team_id": 533,
-      "team_name": "Le Havre AC",
-      "position": null,
-      "nationality": "Nigeria",
       "value": 4
     },
     {
@@ -240,6 +240,17 @@
       "team_name": "Olympique de Marseille",
       "position": null,
       "nationality": "Morocco",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-134600",
+      "football_data_player_id": 134600,
+      "player_name": "Antoine Mille",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
       "value": 3
     },
     {
@@ -606,6 +617,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-851",
+      "football_data_player_id": 851,
+      "player_name": "Renaud Ripart",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
       "player_id": "fdp-206809",
       "football_data_player_id": 206809,
       "player_name": "Samuel Amo-Ameyaw",
@@ -691,17 +713,6 @@
       "team_name": "Olympique de Marseille",
       "position": null,
       "nationality": "England",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-134600",
-      "football_data_player_id": 134600,
-      "player_name": "Antoine Mille",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
       "value": 1
     },
     {
@@ -1021,17 +1032,6 @@
       "team_name": "Stade Rennais FC 1901",
       "position": null,
       "nationality": "Poland",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-851",
-      "football_data_player_id": 851,
-      "player_name": "Renaud Ripart",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
       "value": 1
     },
     {
@@ -1710,6 +1710,72 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-134600",
+      "football_data_player_id": 134600,
+      "player_name": "Antoine Mille",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-4072",
+      "football_data_player_id": 4072,
+      "player_name": "Josh Maja",
+      "team_id": "fd-533",
+      "football_data_team_id": 533,
+      "team_name": "Le Havre AC",
+      "position": null,
+      "nationality": "Nigeria",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-178696",
+      "football_data_player_id": 178696,
+      "player_name": "Lucas Maronnier",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-215579",
+      "football_data_player_id": 215579,
+      "player_name": "Mbwana Samatta",
+      "team_id": "fd-533",
+      "football_data_team_id": 533,
+      "team_name": "Le Havre AC",
+      "position": null,
+      "nationality": "Tanzania",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-276430",
+      "football_data_player_id": 276430,
+      "player_name": "Rayan Fofana",
+      "team_id": "fd-533",
+      "football_data_team_id": 533,
+      "team_name": "Le Havre AC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-851",
+      "football_data_player_id": 851,
+      "player_name": "Renaud Ripart",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
       "player_id": "fdp-8706",
       "football_data_player_id": 8706,
       "player_name": "Adrien Thomasson",
@@ -1762,17 +1828,6 @@
       "team_name": "Olympique de Marseille",
       "position": null,
       "nationality": "England",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-134600",
-      "football_data_player_id": 134600,
-      "player_name": "Antoine Mille",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
       "value": 10
     },
     {
@@ -2040,17 +2095,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-4072",
-      "football_data_player_id": 4072,
-      "player_name": "Josh Maja",
-      "team_id": "fd-533",
-      "football_data_team_id": 533,
-      "team_name": "Le Havre AC",
-      "position": null,
-      "nationality": "Nigeria",
-      "value": 10
-    },
-    {
       "player_id": "fdp-175942",
       "football_data_player_id": 175942,
       "player_name": "Kamory Doumbia",
@@ -2106,17 +2150,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-178696",
-      "football_data_player_id": 178696,
-      "player_name": "Lucas Maronnier",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
       "player_id": "fdp-723",
       "football_data_player_id": 723,
       "player_name": "Ludovic Ajorque",
@@ -2136,17 +2169,6 @@
       "team_name": "Paris FC",
       "position": null,
       "nationality": "France",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-215579",
-      "football_data_player_id": 215579,
-      "player_name": "Mbwana Samatta",
-      "team_id": "fd-533",
-      "football_data_team_id": 533,
-      "team_name": "Le Havre AC",
-      "position": null,
-      "nationality": "Tanzania",
       "value": 10
     },
     {
@@ -2224,28 +2246,6 @@
       "team_name": "Stade Rennais FC 1901",
       "position": null,
       "nationality": "Poland",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-276430",
-      "football_data_player_id": 276430,
-      "player_name": "Rayan Fofana",
-      "team_id": "fd-533",
-      "football_data_team_id": 533,
-      "team_name": "Le Havre AC",
-      "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-851",
-      "football_data_player_id": 851,
-      "player_name": "Renaud Ripart",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
       "value": 10
     },
     {
@@ -2356,6 +2356,17 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "Ukraine",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-134582",
+      "football_data_player_id": 134582,
+      "player_name": "Jérémy Le Douaron",
+      "team_id": "fd-531",
+      "football_data_team_id": 531,
+      "team_name": "ES Troyes AC",
+      "position": null,
+      "nationality": "France",
       "value": 9
     },
     {
@@ -2532,17 +2543,6 @@
       "team_name": "FC Lorient",
       "position": null,
       "nationality": "Denmark",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-134582",
-      "football_data_player_id": 134582,
-      "player_name": "Jérémy Le Douaron",
-      "team_id": "fd-531",
-      "football_data_team_id": 531,
-      "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
       "value": 8
     },
     {

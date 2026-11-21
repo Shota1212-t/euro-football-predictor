@@ -8,7 +8,7 @@
     "season_end": "2027-05-22",
     "current_matchday": 10,
     "source": "football-data.org",
-    "updated_at": "2026-11-20T07:44:32.526439+00:00",
+    "updated_at": "2026-11-21T07:41:35.999528+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -639,6 +639,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-184533",
+      "football_data_player_id": 184533,
+      "player_name": "Nathaniel Brown",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
       "player_id": "fdp-6634",
       "football_data_player_id": 6634,
       "player_name": "Ridle Baku",
@@ -823,17 +834,6 @@
       "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Germany",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-145937",
-      "football_data_player_id": 145937,
-      "player_name": "Daniel Svensson",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
-      "position": null,
-      "nationality": "Sweden",
       "value": 1
     },
     {
@@ -1334,6 +1334,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-184533",
+      "football_data_player_id": 184533,
+      "player_name": "Nathaniel Brown",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 2
+    },
+    {
       "player_id": "fdp-1826",
       "football_data_player_id": 1826,
       "player_name": "Patrik Schick",
@@ -1631,6 +1642,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-247659",
+      "football_data_player_id": 247659,
+      "player_name": "Said El Mala",
+      "team_id": "fd-1",
+      "football_data_team_id": 1,
+      "team_name": "1. FC Köln",
+      "position": null,
+      "nationality": "Germany",
+      "value": 1
+    },
+    {
       "player_id": "fdp-10561",
       "football_data_player_id": 10561,
       "player_name": "Steffen Tigges",
@@ -1677,6 +1699,72 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-9541",
+      "football_data_player_id": 9541,
+      "player_name": "Dayot Upamecano",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-8004",
+      "football_data_player_id": 8004,
+      "player_name": "Harry Kane",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "England",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-277592",
+      "football_data_player_id": 277592,
+      "player_name": "Lennart Karl",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-327",
+      "football_data_player_id": 327,
+      "player_name": "Linton Maina",
+      "team_id": "fd-1",
+      "football_data_team_id": 1,
+      "team_name": "1. FC Köln",
+      "position": null,
+      "nationality": "Germany",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-113765",
+      "football_data_player_id": 113765,
+      "player_name": "Michael Olise",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "France",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-184533",
+      "football_data_player_id": 184533,
+      "player_name": "Nathaniel Brown",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
+      "value": 10
+    },
+    {
       "player_id": "fdp-182004",
       "football_data_player_id": 182004,
       "player_name": "Adam Daghim",
@@ -1707,6 +1795,17 @@
       "team_name": "FC Schalke 04",
       "position": null,
       "nationality": "Algeria",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-202665",
+      "football_data_player_id": 202665,
+      "player_name": "Aleksandar Pavlović",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
+      "position": null,
+      "nationality": "Germany",
       "value": 9
     },
     {
@@ -1765,17 +1864,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-145937",
-      "football_data_player_id": 145937,
-      "player_name": "Daniel Svensson",
-      "team_id": "fd-4",
-      "football_data_team_id": 4,
-      "team_name": "Borussia Dortmund",
-      "position": null,
-      "nationality": "Sweden",
-      "value": 9
-    },
-    {
       "player_id": "fdp-6707",
       "football_data_player_id": 6707,
       "player_name": "Danny da Costa",
@@ -1804,17 +1892,6 @@
       "team_id": "fd-719",
       "football_data_team_id": 719,
       "team_name": "SV 07 Elversberg",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-9541",
-      "football_data_player_id": 9541,
-      "player_name": "Dayot Upamecano",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
       "position": null,
       "nationality": "France",
       "value": 9
@@ -1930,17 +2007,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-8004",
-      "football_data_player_id": 8004,
-      "player_name": "Harry Kane",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "England",
-      "value": 9
-    },
-    {
       "player_id": "fdp-202532",
       "football_data_player_id": 202532,
       "player_name": "Ibrahim Maza",
@@ -1996,17 +2062,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-277592",
-      "football_data_player_id": 277592,
-      "player_name": "Lennart Karl",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Germany",
-      "value": 9
-    },
-    {
       "player_id": "fdp-206319",
       "football_data_player_id": 206319,
       "player_name": "Leon Avdullahu",
@@ -2026,17 +2081,6 @@
       "team_name": "1. FC Union Berlin",
       "position": null,
       "nationality": "Austria",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-327",
-      "football_data_player_id": 327,
-      "player_name": "Linton Maina",
-      "team_id": "fd-1",
-      "football_data_team_id": 1,
-      "team_name": "1. FC Köln",
-      "position": null,
-      "nationality": "Germany",
       "value": 9
     },
     {
@@ -2114,17 +2158,6 @@
       "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Austria",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-113765",
-      "football_data_player_id": 113765,
-      "player_name": "Michael Olise",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "France",
       "value": 9
     },
     {
@@ -2235,6 +2268,17 @@
       "team_name": "FC Augsburg",
       "position": null,
       "nationality": "Portugal",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-247659",
+      "football_data_player_id": 247659,
+      "player_name": "Said El Mala",
+      "team_id": "fd-1",
+      "football_data_team_id": 1,
+      "team_name": "1. FC Köln",
+      "position": null,
+      "nationality": "Germany",
       "value": 9
     },
     {
@@ -2359,17 +2403,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-202665",
-      "football_data_player_id": 202665,
-      "player_name": "Aleksandar Pavlović",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Germany",
-      "value": 8
-    },
-    {
       "player_id": "fdp-150647",
       "football_data_player_id": 150647,
       "player_name": "Benedict Hollerbach",
@@ -2464,17 +2497,6 @@
       "team_id": "fd-6",
       "football_data_team_id": 6,
       "team_name": "FC Schalke 04",
-      "position": null,
-      "nationality": "Germany",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-247659",
-      "football_data_player_id": 247659,
-      "player_name": "Said El Mala",
-      "team_id": "fd-1",
-      "football_data_team_id": 1,
-      "team_name": "1. FC Köln",
       "position": null,
       "nationality": "Germany",
       "value": 8
@@ -2700,6 +2722,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-7772",
+      "football_data_player_id": 7772,
+      "player_name": "Ragnar Ache",
+      "team_id": "fd-1",
+      "football_data_team_id": 1,
+      "team_name": "1. FC Köln",
+      "position": null,
+      "nationality": "Germany",
+      "value": 5
+    },
+    {
       "player_id": "fdp-113457",
       "football_data_player_id": 113457,
       "player_name": "Alexander Prass",
@@ -2722,12 +2755,12 @@
       "value": 4
     },
     {
-      "player_id": "fdp-7772",
-      "football_data_player_id": 7772,
-      "player_name": "Ragnar Ache",
-      "team_id": "fd-1",
-      "football_data_team_id": 1,
-      "team_name": "1. FC Köln",
+      "player_id": "fdp-144393",
+      "football_data_player_id": 144393,
+      "player_name": "Jamal Musiala",
+      "team_id": "fd-5",
+      "football_data_team_id": 5,
+      "team_name": "FC Bayern München",
       "position": null,
       "nationality": "Germany",
       "value": 4
@@ -2741,17 +2774,6 @@
       "team_name": "RB Leipzig",
       "position": null,
       "nationality": "Austria",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-144393",
-      "football_data_player_id": 144393,
-      "player_name": "Jamal Musiala",
-      "team_id": "fd-5",
-      "football_data_team_id": 5,
-      "team_name": "FC Bayern München",
-      "position": null,
-      "nationality": "Germany",
       "value": 3
     },
     {
