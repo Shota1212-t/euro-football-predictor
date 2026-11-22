@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 11,
     "source": "football-data.org",
-    "updated_at": "2026-11-21T07:41:43.419178+00:00",
+    "updated_at": "2026-11-22T07:26:23.797946+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -100,6 +100,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-33154",
+      "football_data_player_id": 33154,
+      "player_name": "Ferrán Torres",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 5
+    },
+    {
       "player_id": "fdp-3370",
       "football_data_player_id": 3370,
       "player_name": "Florian Thauvin",
@@ -141,17 +152,6 @@
       "team_name": "Olympique Lyonnais",
       "position": null,
       "nationality": "Ghana",
-      "value": 4
-    },
-    {
-      "player_id": "fdp-33154",
-      "football_data_player_id": 33154,
-      "player_name": "Ferrán Torres",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Spain",
       "value": 4
     },
     {
@@ -265,6 +265,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-204238",
+      "football_data_player_id": 204238,
+      "player_name": "Edan Diop",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
       "player_id": "fdp-136733",
       "football_data_player_id": 136733,
       "player_name": "Gio Reyna",
@@ -284,6 +295,17 @@
       "team_name": "Olympique de Marseille",
       "position": null,
       "nationality": "Algeria",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-182406",
+      "football_data_player_id": 182406,
+      "player_name": "Jacen Russell-Rowe",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Canada",
       "value": 3
     },
     {
@@ -309,12 +331,45 @@
       "value": 3
     },
     {
+      "player_id": "fdp-180827",
+      "football_data_player_id": 180827,
+      "player_name": "Mohammed Amoura",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "Algeria",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-212975",
+      "football_data_player_id": 212975,
+      "player_name": "Noah Edjouma",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
       "player_id": "fdp-3371",
       "football_data_player_id": 3371,
       "player_name": "Olivier Giroud",
       "team_id": "fd-521",
       "football_data_team_id": 521,
       "team_name": "Lille OSC",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-246066",
+      "football_data_player_id": 246066,
+      "player_name": "Senny Mayulu",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "France",
       "value": 3
@@ -397,23 +452,23 @@
       "value": 2
     },
     {
+      "player_id": "fdp-177522",
+      "football_data_player_id": 177522,
+      "player_name": "Desire Doue",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
       "player_id": "fdp-151295",
       "football_data_player_id": 151295,
       "player_name": "Dilane Bakwa",
       "team_id": "fd-521",
       "football_data_team_id": 521,
       "team_name": "Lille OSC",
-      "position": null,
-      "nationality": "France",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-204238",
-      "football_data_player_id": 204238,
-      "player_name": "Edan Diop",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
       "position": null,
       "nationality": "France",
       "value": 2
@@ -460,17 +515,6 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "Ukraine",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-182406",
-      "football_data_player_id": 182406,
-      "player_name": "Jacen Russell-Rowe",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Canada",
       "value": 2
     },
     {
@@ -551,28 +595,6 @@
       "value": 2
     },
     {
-      "player_id": "fdp-180827",
-      "football_data_player_id": 180827,
-      "player_name": "Mohammed Amoura",
-      "team_id": "fd-522",
-      "football_data_team_id": 522,
-      "team_name": "OGC Nice",
-      "position": null,
-      "nationality": "Algeria",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-212975",
-      "football_data_player_id": 212975,
-      "player_name": "Noah Edjouma",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "France",
-      "value": 2
-    },
-    {
       "player_id": "fdp-177248",
       "football_data_player_id": 177248,
       "player_name": "Pablo Pagis",
@@ -628,6 +650,17 @@
       "value": 2
     },
     {
+      "player_id": "fdp-8762",
+      "football_data_player_id": 8762,
+      "player_name": "Romain Faivre",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "France",
+      "value": 2
+    },
+    {
       "player_id": "fdp-206809",
       "football_data_player_id": 206809,
       "player_name": "Samuel Amo-Ameyaw",
@@ -636,17 +669,6 @@
       "team_name": "RC Strasbourg Alsace",
       "position": null,
       "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-246066",
-      "football_data_player_id": 246066,
-      "player_name": "Senny Mayulu",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "France",
       "value": 2
     },
     {
@@ -793,17 +815,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-64837",
-      "football_data_player_id": 64837,
-      "player_name": "Florian Sotoca",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
       "player_id": "fdp-165315",
       "football_data_player_id": 165315,
       "player_name": "Flávio Nazinho",
@@ -898,17 +909,6 @@
       "team_id": "fd-531",
       "football_data_team_id": 531,
       "team_name": "ES Troyes AC",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-281451",
-      "football_data_player_id": 281451,
-      "player_name": "Khalis Merah",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
       "position": null,
       "nationality": "France",
       "value": 1
@@ -1147,6 +1147,17 @@
       "value": 5
     },
     {
+      "player_id": "fdp-53",
+      "football_data_player_id": 53,
+      "player_name": "Achraf Hakimi",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Morocco",
+      "value": 3
+    },
+    {
       "player_id": "fdp-8476",
       "football_data_player_id": 8476,
       "player_name": "Amine Gouiri",
@@ -1180,6 +1191,28 @@
       "value": 3
     },
     {
+      "player_id": "fdp-1023",
+      "football_data_player_id": 1023,
+      "player_name": "Jonathan Clauss",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
+      "player_id": "fdp-8762",
+      "football_data_player_id": 8762,
+      "player_name": "Romain Faivre",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "France",
+      "value": 3
+    },
+    {
       "player_id": "fdp-76723",
       "football_data_player_id": 76723,
       "player_name": "Sofiane Diop",
@@ -1200,17 +1233,6 @@
       "position": null,
       "nationality": "Switzerland",
       "value": 3
-    },
-    {
-      "player_id": "fdp-53",
-      "football_data_player_id": 53,
-      "player_name": "Achraf Hakimi",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Morocco",
-      "value": 2
     },
     {
       "player_id": "fdp-292172",
@@ -1455,6 +1477,17 @@
       "value": 1
     },
     {
+      "player_id": "fdp-177522",
+      "football_data_player_id": 177522,
+      "player_name": "Desire Doue",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "France",
+      "value": 1
+    },
+    {
       "player_id": "fdp-151295",
       "football_data_player_id": 151295,
       "player_name": "Dilane Bakwa",
@@ -1521,17 +1554,6 @@
       "value": 1
     },
     {
-      "player_id": "fdp-64837",
-      "football_data_player_id": 64837,
-      "player_name": "Florian Sotoca",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
       "player_id": "fdp-165315",
       "football_data_player_id": 165315,
       "player_name": "Flávio Nazinho",
@@ -1582,17 +1604,6 @@
       "team_id": "fd-525",
       "football_data_team_id": 525,
       "team_name": "FC Lorient",
-      "position": null,
-      "nationality": "France",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-1023",
-      "football_data_player_id": 1023,
-      "player_name": "Jonathan Clauss",
-      "team_id": "fd-522",
-      "football_data_team_id": 522,
-      "team_name": "OGC Nice",
       "position": null,
       "nationality": "France",
       "value": 1
@@ -1721,6 +1732,160 @@
       "value": 11
     },
     {
+      "player_id": "fdp-299684",
+      "football_data_player_id": 299684,
+      "player_name": "Christ Tapé",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Ivory Coast",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-366",
+      "football_data_player_id": 366,
+      "player_name": "Corentin Tolisso",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-177522",
+      "football_data_player_id": 177522,
+      "player_name": "Desire Doue",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-262361",
+      "football_data_player_id": 262361,
+      "player_name": "Diogo Lobão",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-184726",
+      "football_data_player_id": 184726,
+      "player_name": "Ernest Nuamah",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Ghana",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-75196",
+      "football_data_player_id": 75196,
+      "player_name": "Felix Bacher",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Austria",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-33154",
+      "football_data_player_id": 33154,
+      "player_name": "Ferrán Torres",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-3370",
+      "football_data_player_id": 3370,
+      "player_name": "Florian Thauvin",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-165315",
+      "football_data_player_id": 165315,
+      "player_name": "Flávio Nazinho",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-245336",
+      "football_data_player_id": 245336,
+      "player_name": "Gessime Yassine",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-213221",
+      "football_data_player_id": 213221,
+      "player_name": "Hákon Haraldsson",
+      "team_id": "fd-521",
+      "football_data_team_id": 521,
+      "team_name": "Lille OSC",
+      "position": null,
+      "nationality": "Iceland",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-182406",
+      "football_data_player_id": 182406,
+      "player_name": "Jacen Russell-Rowe",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Canada",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-295761",
+      "football_data_player_id": 295761,
+      "player_name": "Jacobo Ortega",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-1023",
+      "football_data_player_id": 1023,
+      "player_name": "Jonathan Clauss",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
       "player_id": "fdp-4072",
       "football_data_player_id": 4072,
       "player_name": "Josh Maja",
@@ -1729,6 +1894,17 @@
       "team_name": "Le Havre AC",
       "position": null,
       "nationality": "Nigeria",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-177412",
+      "football_data_player_id": 177412,
+      "player_name": "Lamine Sy",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "France",
       "value": 11
     },
     {
@@ -1743,6 +1919,17 @@
       "value": 11
     },
     {
+      "player_id": "fdp-723",
+      "football_data_player_id": 723,
+      "player_name": "Ludovic Ajorque",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
       "player_id": "fdp-215579",
       "football_data_player_id": 215579,
       "player_name": "Mbwana Samatta",
@@ -1751,6 +1938,50 @@
       "team_name": "Le Havre AC",
       "position": null,
       "nationality": "Tanzania",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-189574",
+      "football_data_player_id": 189574,
+      "player_name": "Mika Godts",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-215864",
+      "football_data_player_id": 215864,
+      "player_name": "Noah Nartey",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-3371",
+      "football_data_player_id": 3371,
+      "player_name": "Olivier Giroud",
+      "team_id": "fd-521",
+      "football_data_team_id": 521,
+      "team_name": "Lille OSC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-218249",
+      "football_data_player_id": 218249,
+      "player_name": "Pathé Mboup",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Senegal",
       "value": 11
     },
     {
@@ -1773,6 +2004,61 @@
       "team_name": "ES Troyes AC",
       "position": null,
       "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-8762",
+      "football_data_player_id": 8762,
+      "player_name": "Romain Faivre",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-76723",
+      "football_data_player_id": 76723,
+      "player_name": "Sofiane Diop",
+      "team_id": "fd-522",
+      "football_data_team_id": 522,
+      "team_name": "OGC Nice",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-215679",
+      "football_data_player_id": 215679,
+      "player_name": "Thomas Jørgensen",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-178722",
+      "football_data_player_id": 178722,
+      "player_name": "Vitinha",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-256424",
+      "football_data_player_id": 256424,
+      "player_name": "Zachary Athekame",
+      "team_id": "fd-523",
+      "football_data_team_id": 523,
+      "team_name": "Olympique Lyonnais",
+      "position": null,
+      "nationality": "Switzerland",
       "value": 11
     },
     {
@@ -1853,28 +2139,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-299684",
-      "football_data_player_id": 299684,
-      "player_name": "Christ Tapé",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Ivory Coast",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-366",
-      "football_data_player_id": 366,
-      "player_name": "Corentin Tolisso",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
       "player_id": "fdp-82197",
       "football_data_player_id": 82197,
       "player_name": "Dame Guèye",
@@ -1897,89 +2161,23 @@
       "value": 10
     },
     {
-      "player_id": "fdp-262361",
-      "football_data_player_id": 262361,
-      "player_name": "Diogo Lobão",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-184726",
-      "football_data_player_id": 184726,
-      "player_name": "Ernest Nuamah",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Ghana",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-75196",
-      "football_data_player_id": 75196,
-      "player_name": "Felix Bacher",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Austria",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-33154",
-      "football_data_player_id": 33154,
-      "player_name": "Ferrán Torres",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Spain",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-64837",
-      "football_data_player_id": 64837,
-      "player_name": "Florian Sotoca",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
+      "player_id": "fdp-151295",
+      "football_data_player_id": 151295,
+      "player_name": "Dilane Bakwa",
+      "team_id": "fd-521",
+      "football_data_team_id": 521,
+      "team_name": "Lille OSC",
       "position": null,
       "nationality": "France",
       "value": 10
     },
     {
-      "player_id": "fdp-3370",
-      "football_data_player_id": 3370,
-      "player_name": "Florian Thauvin",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-165315",
-      "football_data_player_id": 165315,
-      "player_name": "Flávio Nazinho",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-245336",
-      "football_data_player_id": 245336,
-      "player_name": "Gessime Yassine",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
+      "player_id": "fdp-218468",
+      "football_data_player_id": 218468,
+      "player_name": "Ethan Mbappé",
+      "team_id": "fd-521",
+      "football_data_team_id": 521,
+      "team_name": "Lille OSC",
       "position": null,
       "nationality": "France",
       "value": 10
@@ -2018,17 +2216,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-213221",
-      "football_data_player_id": 213221,
-      "player_name": "Hákon Haraldsson",
-      "team_id": "fd-521",
-      "football_data_team_id": 521,
-      "team_name": "Lille OSC",
-      "position": null,
-      "nationality": "Iceland",
-      "value": 10
-    },
-    {
       "player_id": "fdp-119703",
       "football_data_player_id": 119703,
       "player_name": "Igor Paixão",
@@ -2051,25 +2238,14 @@
       "value": 10
     },
     {
-      "player_id": "fdp-182406",
-      "football_data_player_id": 182406,
-      "player_name": "Jacen Russell-Rowe",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
+      "player_id": "fdp-143573",
+      "football_data_player_id": 143573,
+      "player_name": "Illia Zabarnyi",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
       "position": null,
-      "nationality": "Canada",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-295761",
-      "football_data_player_id": 295761,
-      "player_name": "Jacobo Ortega",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Spain",
+      "nationality": "Ukraine",
       "value": 10
     },
     {
@@ -2084,17 +2260,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-1023",
-      "football_data_player_id": 1023,
-      "player_name": "Jonathan Clauss",
-      "team_id": "fd-522",
-      "football_data_team_id": 522,
-      "team_name": "OGC Nice",
-      "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
       "player_id": "fdp-175942",
       "football_data_player_id": 175942,
       "player_name": "Kamory Doumbia",
@@ -2103,17 +2268,6 @@
       "team_name": "Stade Brestois 29",
       "position": null,
       "nationality": "Mali",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-177412",
-      "football_data_player_id": 177412,
-      "player_name": "Lamine Sy",
-      "team_id": "fd-519",
-      "football_data_team_id": 519,
-      "team_name": "AJ Auxerre",
-      "position": null,
-      "nationality": "France",
       "value": 10
     },
     {
@@ -2150,12 +2304,23 @@
       "value": 10
     },
     {
-      "player_id": "fdp-723",
-      "football_data_player_id": 723,
-      "player_name": "Ludovic Ajorque",
+      "player_id": "fdp-43707",
+      "football_data_player_id": 43707,
+      "player_name": "Mama Baldé",
       "team_id": "fd-512",
       "football_data_team_id": 512,
       "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Guinea-Bissau",
+      "value": 10
+    },
+    {
+      "player_id": "fdp-8717",
+      "football_data_player_id": 8717,
+      "player_name": "Matthieu Udol",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "France",
       "value": 10
@@ -2172,39 +2337,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-189574",
-      "football_data_player_id": 189574,
-      "player_name": "Mika Godts",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Belgium",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-215864",
-      "football_data_player_id": 215864,
-      "player_name": "Noah Nartey",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-3371",
-      "football_data_player_id": 3371,
-      "player_name": "Olivier Giroud",
-      "team_id": "fd-521",
-      "football_data_team_id": 521,
-      "team_name": "Lille OSC",
-      "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
       "player_id": "fdp-177248",
       "football_data_player_id": 177248,
       "player_name": "Pablo Pagis",
@@ -2213,17 +2345,6 @@
       "team_name": "Paris FC",
       "position": null,
       "nationality": "France",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-218249",
-      "football_data_player_id": 218249,
-      "player_name": "Pathé Mboup",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Senegal",
       "value": 10
     },
     {
@@ -2249,6 +2370,17 @@
       "value": 10
     },
     {
+      "player_id": "fdp-206809",
+      "football_data_player_id": 206809,
+      "player_name": "Samuel Amo-Ameyaw",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "England",
+      "value": 10
+    },
+    {
       "player_id": "fdp-10201",
       "football_data_player_id": 10201,
       "player_name": "Sebastian Szymański",
@@ -2260,25 +2392,14 @@
       "value": 10
     },
     {
-      "player_id": "fdp-76723",
-      "football_data_player_id": 76723,
-      "player_name": "Sofiane Diop",
+      "player_id": "fdp-156808",
+      "football_data_player_id": 156808,
+      "player_name": "Sepe Elye Wahi",
       "team_id": "fd-522",
       "football_data_team_id": 522,
       "team_name": "OGC Nice",
       "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-215679",
-      "football_data_player_id": 215679,
-      "player_name": "Thomas Jørgensen",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
+      "nationality": "Ivory Coast",
       "value": 10
     },
     {
@@ -2293,47 +2414,69 @@
       "value": 10
     },
     {
-      "player_id": "fdp-178722",
-      "football_data_player_id": 178722,
-      "player_name": "Vitinha",
+      "player_id": "fdp-53",
+      "football_data_player_id": 53,
+      "player_name": "Achraf Hakimi",
       "team_id": "fd-524",
       "football_data_team_id": 524,
       "team_name": "Paris Saint-Germain FC",
       "position": null,
-      "nationality": "Portugal",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-256424",
-      "football_data_player_id": 256424,
-      "player_name": "Zachary Athekame",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "Switzerland",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-151295",
-      "football_data_player_id": 151295,
-      "player_name": "Dilane Bakwa",
-      "team_id": "fd-521",
-      "football_data_team_id": 521,
-      "team_name": "Lille OSC",
-      "position": null,
-      "nationality": "France",
+      "nationality": "Morocco",
       "value": 9
     },
     {
-      "player_id": "fdp-218468",
-      "football_data_player_id": 218468,
-      "player_name": "Ethan Mbappé",
-      "team_id": "fd-521",
-      "football_data_team_id": 521,
-      "team_name": "Lille OSC",
+      "player_id": "fdp-128242",
+      "football_data_player_id": 128242,
+      "player_name": "Cameron Archer",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
       "position": null,
-      "nationality": "France",
+      "nationality": "England",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-129381",
+      "football_data_player_id": 129381,
+      "player_name": "Casper Tengstedt",
+      "team_id": "fd-511",
+      "football_data_team_id": 511,
+      "team_name": "Toulouse FC",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-206744",
+      "football_data_player_id": 206744,
+      "player_name": "Conrad Harder",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Denmark",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-165314",
+      "football_data_player_id": 165314,
+      "player_name": "Dario Essugo",
+      "team_id": "fd-576",
+      "football_data_team_id": 576,
+      "team_name": "RC Strasbourg Alsace",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-3314",
+      "football_data_player_id": 3314,
+      "player_name": "Eric Dier",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
+      "position": null,
+      "nationality": "England",
       "value": 9
     },
     {
@@ -2345,17 +2488,6 @@
       "team_name": "Racing Club de Lens",
       "position": null,
       "nationality": "Austria",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-143573",
-      "football_data_player_id": 143573,
-      "player_name": "Illia Zabarnyi",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Ukraine",
       "value": 9
     },
     {
@@ -2381,28 +2513,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-281451",
-      "football_data_player_id": 281451,
-      "player_name": "Khalis Merah",
-      "team_id": "fd-523",
-      "football_data_team_id": 523,
-      "team_name": "Olympique Lyonnais",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-43707",
-      "football_data_player_id": 43707,
-      "player_name": "Mama Baldé",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Guinea-Bissau",
-      "value": 9
-    },
-    {
       "player_id": "fdp-290088",
       "football_data_player_id": 290088,
       "player_name": "Mamadou Koné",
@@ -2414,48 +2524,26 @@
       "value": 9
     },
     {
-      "player_id": "fdp-8717",
-      "football_data_player_id": 8717,
-      "player_name": "Matthieu Udol",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "France",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-206809",
-      "football_data_player_id": 206809,
-      "player_name": "Samuel Amo-Ameyaw",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "England",
-      "value": 9
-    },
-    {
-      "player_id": "fdp-156808",
-      "football_data_player_id": 156808,
-      "player_name": "Sepe Elye Wahi",
+      "player_id": "fdp-180827",
+      "football_data_player_id": 180827,
+      "player_name": "Mohammed Amoura",
       "team_id": "fd-522",
       "football_data_team_id": 522,
       "team_name": "OGC Nice",
       "position": null,
-      "nationality": "Ivory Coast",
+      "nationality": "Algeria",
       "value": 9
     },
     {
-      "player_id": "fdp-53",
-      "football_data_player_id": 53,
-      "player_name": "Achraf Hakimi",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
+      "player_id": "fdp-244696",
+      "football_data_player_id": 244696,
+      "player_name": "Paris Brunner",
+      "team_id": "fd-548",
+      "football_data_team_id": 548,
+      "team_name": "AS Monaco FC",
       "position": null,
-      "nationality": "Morocco",
-      "value": 8
+      "nationality": "Germany",
+      "value": 9
     },
     {
       "player_id": "fdp-137515",
@@ -2480,58 +2568,14 @@
       "value": 8
     },
     {
-      "player_id": "fdp-128242",
-      "football_data_player_id": 128242,
-      "player_name": "Cameron Archer",
-      "team_id": "fd-519",
-      "football_data_team_id": 519,
-      "team_name": "AJ Auxerre",
-      "position": null,
-      "nationality": "England",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-129381",
-      "football_data_player_id": 129381,
-      "player_name": "Casper Tengstedt",
-      "team_id": "fd-511",
-      "football_data_team_id": 511,
-      "team_name": "Toulouse FC",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-206744",
-      "football_data_player_id": 206744,
-      "player_name": "Conrad Harder",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Denmark",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-165314",
-      "football_data_player_id": 165314,
-      "player_name": "Dario Essugo",
-      "team_id": "fd-576",
-      "football_data_team_id": 576,
-      "team_name": "RC Strasbourg Alsace",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-3314",
-      "football_data_player_id": 3314,
-      "player_name": "Eric Dier",
+      "player_id": "fdp-204238",
+      "football_data_player_id": 204238,
+      "player_name": "Edan Diop",
       "team_id": "fd-548",
       "football_data_team_id": 548,
       "team_name": "AS Monaco FC",
       "position": null,
-      "nationality": "England",
+      "nationality": "France",
       "value": 8
     },
     {
@@ -2546,28 +2590,6 @@
       "value": 8
     },
     {
-      "player_id": "fdp-180827",
-      "football_data_player_id": 180827,
-      "player_name": "Mohammed Amoura",
-      "team_id": "fd-522",
-      "football_data_team_id": 522,
-      "team_name": "OGC Nice",
-      "position": null,
-      "nationality": "Algeria",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-244696",
-      "football_data_player_id": 244696,
-      "player_name": "Paris Brunner",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
-      "position": null,
-      "nationality": "Germany",
-      "value": 8
-    },
-    {
       "player_id": "fdp-8093",
       "football_data_player_id": 8093,
       "player_name": "Pierre Emile Højbjerg",
@@ -2577,17 +2599,6 @@
       "position": null,
       "nationality": "Denmark",
       "value": 8
-    },
-    {
-      "player_id": "fdp-204238",
-      "football_data_player_id": 204238,
-      "player_name": "Edan Diop",
-      "team_id": "fd-548",
-      "football_data_team_id": 548,
-      "team_name": "AS Monaco FC",
-      "position": null,
-      "nationality": "France",
-      "value": 7
     },
     {
       "player_id": "fdp-149850",
@@ -2623,6 +2634,39 @@
       "value": 7
     },
     {
+      "player_id": "fdp-3225",
+      "football_data_player_id": 3225,
+      "player_name": "Marquinhos",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "Brazil",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-212975",
+      "football_data_player_id": 212975,
+      "player_name": "Noah Edjouma",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-204240",
+      "football_data_player_id": 204240,
+      "player_name": "Rémy Labeau Lascary",
+      "team_id": "fd-519",
+      "football_data_team_id": 519,
+      "team_name": "AJ Auxerre",
+      "position": null,
+      "nationality": "Guadeloupe",
+      "value": 7
+    },
+    {
       "player_id": "fdp-116150",
       "football_data_player_id": 116150,
       "player_name": "Samir Chergui",
@@ -2631,6 +2675,28 @@
       "team_name": "Paris FC",
       "position": null,
       "nationality": "Algeria",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-129098",
+      "football_data_player_id": 129098,
+      "player_name": "Saud Abdulhamid",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "Saudi Arabia",
+      "value": 7
+    },
+    {
+      "player_id": "fdp-246066",
+      "football_data_player_id": 246066,
+      "player_name": "Senny Mayulu",
+      "team_id": "fd-524",
+      "football_data_team_id": 524,
+      "team_name": "Paris Saint-Germain FC",
+      "position": null,
+      "nationality": "France",
       "value": 7
     },
     {
@@ -2645,6 +2711,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-151264",
+      "football_data_player_id": 151264,
+      "player_name": "Abdallah Sima",
+      "team_id": "fd-546",
+      "football_data_team_id": 546,
+      "team_name": "Racing Club de Lens",
+      "position": null,
+      "nationality": "Senegal",
+      "value": 6
+    },
+    {
       "player_id": "fdp-73215",
       "football_data_player_id": 73215,
       "player_name": "Loïs Openda",
@@ -2653,28 +2730,6 @@
       "team_name": "Olympique Lyonnais",
       "position": null,
       "nationality": "Belgium",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-3225",
-      "football_data_player_id": 3225,
-      "player_name": "Marquinhos",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
-      "position": null,
-      "nationality": "Brazil",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-212975",
-      "football_data_player_id": 212975,
-      "player_name": "Noah Edjouma",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "France",
       "value": 6
     },
     {
@@ -2689,34 +2744,12 @@
       "value": 6
     },
     {
-      "player_id": "fdp-204240",
-      "football_data_player_id": 204240,
-      "player_name": "Rémy Labeau Lascary",
-      "team_id": "fd-519",
-      "football_data_team_id": 519,
-      "team_name": "AJ Auxerre",
-      "position": null,
-      "nationality": "Guadeloupe",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-129098",
-      "football_data_player_id": 129098,
-      "player_name": "Saud Abdulhamid",
+      "player_id": "fdp-188468",
+      "football_data_player_id": 188468,
+      "player_name": "Pierre Ganiou",
       "team_id": "fd-546",
       "football_data_team_id": 546,
       "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "Saudi Arabia",
-      "value": 6
-    },
-    {
-      "player_id": "fdp-246066",
-      "football_data_player_id": 246066,
-      "player_name": "Senny Mayulu",
-      "team_id": "fd-524",
-      "football_data_team_id": 524,
-      "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "France",
       "value": 6
@@ -2733,17 +2766,6 @@
       "value": 6
     },
     {
-      "player_id": "fdp-151264",
-      "football_data_player_id": 151264,
-      "player_name": "Abdallah Sima",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
-      "position": null,
-      "nationality": "Senegal",
-      "value": 5
-    },
-    {
       "player_id": "fdp-292172",
       "football_data_player_id": 292172,
       "player_name": "Adil Bourabaa",
@@ -2755,14 +2777,14 @@
       "value": 5
     },
     {
-      "player_id": "fdp-188468",
-      "football_data_player_id": 188468,
-      "player_name": "Pierre Ganiou",
-      "team_id": "fd-546",
-      "football_data_team_id": 546,
-      "team_name": "Racing Club de Lens",
+      "player_id": "fdp-119460",
+      "football_data_player_id": 119460,
+      "player_name": "Ayase Ueda",
+      "team_id": "fd-521",
+      "football_data_team_id": 521,
+      "team_name": "Lille OSC",
       "position": null,
-      "nationality": "France",
+      "nationality": "Japan",
       "value": 5
     },
     {
@@ -2775,17 +2797,6 @@
       "position": null,
       "nationality": "Belgium",
       "value": 5
-    },
-    {
-      "player_id": "fdp-119460",
-      "football_data_player_id": 119460,
-      "player_name": "Ayase Ueda",
-      "team_id": "fd-521",
-      "football_data_team_id": 521,
-      "team_name": "Lille OSC",
-      "position": null,
-      "nationality": "Japan",
-      "value": 4
     },
     {
       "player_id": "fdp-187065",
