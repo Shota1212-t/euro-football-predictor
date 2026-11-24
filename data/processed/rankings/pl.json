@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 11,
     "source": "football-data.org",
-    "updated_at": "2026-11-23T08:09:49.285149+00:00",
+    "updated_at": "2026-11-24T10:24:18.460364+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -150,6 +150,17 @@
       "team_id": "fd-341",
       "football_data_team_id": 341,
       "team_name": "Leeds United FC",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-101910",
+      "football_data_player_id": 101910,
+      "player_name": "Keane Lewis-Potter",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
       "position": null,
       "nationality": "England",
       "value": 4
@@ -353,6 +364,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-10000",
+      "football_data_player_id": 10000,
+      "player_name": "Vitaly Janelt",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 3
+    },
+    {
       "player_id": "fdp-273423",
       "football_data_player_id": 273423,
       "player_name": "Víctor Muñoz",
@@ -471,6 +493,17 @@
       "team_name": "Ipswich Town FC",
       "position": null,
       "nationality": "Brazil",
+      "value": 2
+    },
+    {
+      "player_id": "fdp-151119",
+      "football_data_player_id": 151119,
+      "player_name": "Fabio Carvalho",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Portugal",
       "value": 2
     },
     {
@@ -606,17 +639,6 @@
       "value": 2
     },
     {
-      "player_id": "fdp-101910",
-      "football_data_player_id": 101910,
-      "player_name": "Keane Lewis-Potter",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "England",
-      "value": 2
-    },
-    {
       "player_id": "fdp-99120",
       "football_data_player_id": 99120,
       "player_name": "Leif Davis",
@@ -713,17 +735,6 @@
       "team_name": "Crystal Palace FC",
       "position": null,
       "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-10000",
-      "football_data_player_id": 10000,
-      "player_name": "Vitaly Janelt",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Germany",
       "value": 2
     },
     {
@@ -889,17 +900,6 @@
       "team_name": "Aston Villa FC",
       "position": null,
       "nationality": "Argentina",
-      "value": 1
-    },
-    {
-      "player_id": "fdp-151119",
-      "football_data_player_id": 151119,
-      "player_name": "Fabio Carvalho",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Portugal",
       "value": 1
     },
     {
@@ -1147,6 +1147,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-150778",
+      "football_data_player_id": 150778,
+      "player_name": "Jaidon Anthony",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "England",
+      "value": 4
+    },
+    {
       "player_id": "fdp-34646",
       "football_data_player_id": 34646,
       "player_name": "John McGinn",
@@ -1329,17 +1340,6 @@
       "team_id": "fd-1076",
       "football_data_team_id": 1076,
       "team_name": "Coventry City FC",
-      "position": null,
-      "nationality": "England",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-150778",
-      "football_data_player_id": 150778,
-      "player_name": "Jaidon Anthony",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
       "position": null,
       "nationality": "England",
       "value": 2
@@ -1952,6 +1952,28 @@
       "value": 11
     },
     {
+      "player_id": "fdp-150778",
+      "football_data_player_id": 150778,
+      "player_name": "Jaidon Anthony",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "England",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-3316",
+      "football_data_player_id": 3316,
+      "player_name": "James Tarkowski",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 11
+    },
+    {
       "player_id": "fdp-98566",
       "football_data_player_id": 98566,
       "player_name": "Jan Paul van Hecke",
@@ -2040,6 +2062,39 @@
       "value": 11
     },
     {
+      "player_id": "fdp-101910",
+      "football_data_player_id": 101910,
+      "player_name": "Keane Lewis-Potter",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "England",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-123286",
+      "football_data_player_id": 123286,
+      "player_name": "Kevin Schade",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Germany",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-140194",
+      "football_data_player_id": 140194,
+      "player_name": "Kiernan Dewsbury Hall",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 11
+    },
+    {
       "player_id": "fdp-99120",
       "football_data_player_id": 99120,
       "player_name": "Leif Davis",
@@ -2114,6 +2169,17 @@
       "team_name": "Brighton & Hove Albion FC",
       "position": null,
       "nationality": "Belgium",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-204348",
+      "football_data_player_id": 204348,
+      "player_name": "Michael Kayode",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Italy",
       "value": 11
     },
     {
@@ -2238,12 +2304,34 @@
       "value": 11
     },
     {
+      "player_id": "fdp-171995",
+      "football_data_player_id": 171995,
+      "player_name": "Thierno Barry",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "France",
+      "value": 11
+    },
+    {
       "player_id": "fdp-137068",
       "football_data_player_id": 137068,
       "player_name": "Tyrick Mitchell",
       "team_id": "fd-354",
       "football_data_team_id": 354,
       "team_name": "Crystal Palace FC",
+      "position": null,
+      "nationality": "England",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-250436",
+      "football_data_player_id": 250436,
+      "player_name": "Tyrique George",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
       "position": null,
       "nationality": "England",
       "value": 11
@@ -2337,61 +2425,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-150778",
-      "football_data_player_id": 150778,
-      "player_name": "Jaidon Anthony",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "England",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-3316",
-      "football_data_player_id": 3316,
-      "player_name": "James Tarkowski",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-101910",
-      "football_data_player_id": 101910,
-      "player_name": "Keane Lewis-Potter",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "England",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-123286",
-      "football_data_player_id": 123286,
-      "player_name": "Kevin Schade",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Germany",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-140194",
-      "football_data_player_id": 140194,
-      "player_name": "Kiernan Dewsbury Hall",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 10
-    },
-    {
       "player_id": "fdp-8259",
       "football_data_player_id": 8259,
       "player_name": "Lewis Dunk",
@@ -2422,17 +2455,6 @@
       "team_name": "Brighton & Hove Albion FC",
       "position": null,
       "nationality": "Mali",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-204348",
-      "football_data_player_id": 204348,
-      "player_name": "Michael Kayode",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Italy",
       "value": 10
     },
     {
@@ -2491,25 +2513,14 @@
       "value": 10
     },
     {
-      "player_id": "fdp-171995",
-      "football_data_player_id": 171995,
-      "player_name": "Thierno Barry",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
+      "player_id": "fdp-10000",
+      "football_data_player_id": 10000,
+      "player_name": "Vitaly Janelt",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
       "position": null,
-      "nationality": "France",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-250436",
-      "football_data_player_id": 250436,
-      "player_name": "Tyrique George",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
+      "nationality": "Germany",
       "value": 10
     },
     {
@@ -2533,6 +2544,17 @@
       "position": null,
       "nationality": "Sweden",
       "value": 10
+    },
+    {
+      "player_id": "fdp-7792",
+      "football_data_player_id": 7792,
+      "player_name": "Ainsley Maitland-Niles",
+      "team_id": "fd-62",
+      "football_data_team_id": 62,
+      "team_name": "Everton FC",
+      "position": null,
+      "nationality": "England",
+      "value": 9
     },
     {
       "player_id": "fdp-270273",
@@ -2601,17 +2623,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-10000",
-      "football_data_player_id": 10000,
-      "player_name": "Vitaly Janelt",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Germany",
-      "value": 9
-    },
-    {
       "player_id": "fdp-83599",
       "football_data_player_id": 83599,
       "player_name": "Wilson Isidor",
@@ -2632,17 +2643,6 @@
       "position": null,
       "nationality": "Netherlands",
       "value": 9
-    },
-    {
-      "player_id": "fdp-7792",
-      "football_data_player_id": 7792,
-      "player_name": "Ainsley Maitland-Niles",
-      "team_id": "fd-62",
-      "football_data_team_id": 62,
-      "team_name": "Everton FC",
-      "position": null,
-      "nationality": "England",
-      "value": 8
     },
     {
       "player_id": "fdp-97535",
@@ -2733,6 +2733,17 @@
       "value": 7
     },
     {
+      "player_id": "fdp-151119",
+      "football_data_player_id": 151119,
+      "player_name": "Fabio Carvalho",
+      "team_id": "fd-402",
+      "football_data_team_id": 402,
+      "team_name": "Brentford FC",
+      "position": null,
+      "nationality": "Portugal",
+      "value": 7
+    },
+    {
       "player_id": "fdp-256339",
       "football_data_player_id": 256339,
       "player_name": "Igor Jesus",
@@ -2753,17 +2764,6 @@
       "position": null,
       "nationality": "England",
       "value": 7
-    },
-    {
-      "player_id": "fdp-151119",
-      "football_data_player_id": 151119,
-      "player_name": "Fabio Carvalho",
-      "team_id": "fd-402",
-      "football_data_team_id": 402,
-      "team_name": "Brentford FC",
-      "position": null,
-      "nationality": "Portugal",
-      "value": 6
     },
     {
       "player_id": "fdp-190851",

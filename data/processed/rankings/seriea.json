@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 12,
     "source": "football-data.org",
-    "updated_at": "2026-11-23T08:10:04.396581+00:00",
+    "updated_at": "2026-11-24T10:24:36.111661+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -42,7 +42,7 @@
       "team_name": "AC Monza",
       "position": null,
       "nationality": "Portugal",
-      "value": 9
+      "value": 11
     },
     {
       "player_id": "fdp-169216",
@@ -364,6 +364,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-265567",
+      "football_data_player_id": 265567,
+      "player_name": "Jay Robinson",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "England",
+      "value": 3
+    },
+    {
       "player_id": "fdp-7567",
       "football_data_player_id": 7567,
       "player_name": "Jurgen Ekkelenkamp",
@@ -647,17 +658,6 @@
       "team_name": "Udinese Calcio",
       "position": null,
       "nationality": "Ivory Coast",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-265567",
-      "football_data_player_id": 265567,
-      "player_name": "Jay Robinson",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "England",
       "value": 2
     },
     {
@@ -1710,6 +1710,17 @@
       "value": 12
     },
     {
+      "player_id": "fdp-246508",
+      "football_data_player_id": 246508,
+      "player_name": "Alieu Njie",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
+      "position": null,
+      "nationality": "Sweden",
+      "value": 12
+    },
+    {
       "player_id": "fdp-192142",
       "football_data_player_id": 192142,
       "player_name": "Alphadjo Cisse",
@@ -1729,6 +1740,17 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Greece",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-1852",
+      "football_data_player_id": 1852,
+      "player_name": "Andrea Colpani",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "Italy",
       "value": 12
     },
     {
@@ -1864,6 +1886,17 @@
       "value": 12
     },
     {
+      "player_id": "fdp-250304",
+      "football_data_player_id": 250304,
+      "player_name": "Franco Mastantuono",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
+      "position": null,
+      "nationality": "Argentina",
+      "value": 12
+    },
+    {
       "player_id": "fdp-40786",
       "football_data_player_id": 40786,
       "player_name": "Giacomo Calò",
@@ -1938,6 +1971,17 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Spain",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-265567",
+      "football_data_player_id": 265567,
+      "player_name": "Jay Robinson",
+      "team_id": "fd-5911",
+      "football_data_team_id": 5911,
+      "team_name": "AC Monza",
+      "position": null,
+      "nationality": "England",
       "value": 12
     },
     {
@@ -2059,6 +2103,17 @@
       "team_name": "Como 1907",
       "position": null,
       "nationality": "Croatia",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-157538",
+      "football_data_player_id": 157538,
+      "player_name": "Mateo Pellegrino",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
+      "position": null,
+      "nationality": "Argentina",
       "value": 12
     },
     {
@@ -2260,6 +2315,17 @@
       "value": 12
     },
     {
+      "player_id": "fdp-227048",
+      "football_data_player_id": 227048,
+      "player_name": "Álex Jiménez",
+      "team_id": "fd-99",
+      "football_data_team_id": 99,
+      "team_name": "ACF Fiorentina",
+      "position": null,
+      "nationality": "Spain",
+      "value": 12
+    },
+    {
       "player_id": "fdp-81440",
       "football_data_player_id": 81440,
       "player_name": "Éderson",
@@ -2269,28 +2335,6 @@
       "position": null,
       "nationality": "Brazil",
       "value": 12
-    },
-    {
-      "player_id": "fdp-246508",
-      "football_data_player_id": 246508,
-      "player_name": "Alieu Njie",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
-      "position": null,
-      "nationality": "Sweden",
-      "value": 11
-    },
-    {
-      "player_id": "fdp-1852",
-      "football_data_player_id": 1852,
-      "player_name": "Andrea Colpani",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Italy",
-      "value": 11
     },
     {
       "player_id": "fdp-152738",
@@ -2337,17 +2381,6 @@
       "value": 11
     },
     {
-      "player_id": "fdp-250304",
-      "football_data_player_id": 250304,
-      "player_name": "Franco Mastantuono",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 11
-    },
-    {
       "player_id": "fdp-186575",
       "football_data_player_id": 186575,
       "player_name": "Gabriele Bracaglia",
@@ -2359,14 +2392,14 @@
       "value": 11
     },
     {
-      "player_id": "fdp-265567",
-      "football_data_player_id": 265567,
-      "player_name": "Jay Robinson",
+      "player_id": "fdp-252836",
+      "football_data_player_id": 252836,
+      "player_name": "Gustavo Varela",
       "team_id": "fd-5911",
       "football_data_team_id": 5911,
       "team_name": "AC Monza",
       "position": null,
-      "nationality": "England",
+      "nationality": "Portugal",
       "value": 11
     },
     {
@@ -2398,17 +2431,6 @@
       "team_id": "fd-100",
       "football_data_team_id": 100,
       "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Argentina",
-      "value": 11
-    },
-    {
-      "player_id": "fdp-157538",
-      "football_data_player_id": 157538,
-      "player_name": "Mateo Pellegrino",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
       "position": null,
       "nationality": "Argentina",
       "value": 11
@@ -2466,17 +2488,6 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Montenegro",
-      "value": 11
-    },
-    {
-      "player_id": "fdp-227048",
-      "football_data_player_id": 227048,
-      "player_name": "Álex Jiménez",
-      "team_id": "fd-99",
-      "football_data_team_id": 99,
-      "team_name": "ACF Fiorentina",
-      "position": null,
-      "nationality": "Spain",
       "value": 11
     },
     {
@@ -2565,17 +2576,6 @@
       "team_name": "US Sassuolo Calcio",
       "position": null,
       "nationality": "Italy",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-252836",
-      "football_data_player_id": 252836,
-      "player_name": "Gustavo Varela",
-      "team_id": "fd-5911",
-      "football_data_team_id": 5911,
-      "team_name": "AC Monza",
-      "position": null,
-      "nationality": "Portugal",
       "value": 10
     },
     {
