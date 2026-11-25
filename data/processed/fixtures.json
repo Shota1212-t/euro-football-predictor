@@ -6496,34 +6496,6 @@
     "actual_result": null
   },
   {
-    "id": "559591",
-    "league_id": "ligue1",
-    "competition_code": "FL1",
-    "competition_name": "Ligue 1",
-    "season_id": 2497,
-    "season_start": "2026-08-22",
-    "season_end": "2027-05-29",
-    "matchday": 15,
-    "stage": "REGULAR_SEASON",
-    "status": "TIMED",
-    "kickoff": "2027-01-02T20:00:00Z",
-    "home_team": {
-      "id": "fd-1045",
-      "api_id": 1045,
-      "name": "Paris FC",
-      "short": "PFC"
-    },
-    "away_team": {
-      "id": "fd-533",
-      "api_id": 533,
-      "name": "Le Havre AC",
-      "short": "HAC"
-    },
-    "home_score": null,
-    "away_score": null,
-    "actual_result": null
-  },
-  {
     "id": "559592",
     "league_id": "ligue1",
     "competition_code": "FL1",
@@ -6966,6 +6938,34 @@
       "api_id": 523,
       "name": "Olympique Lyonnais",
       "short": "LYO"
+    },
+    "home_score": null,
+    "away_score": null,
+    "actual_result": null
+  },
+  {
+    "id": "559591",
+    "league_id": "ligue1",
+    "competition_code": "FL1",
+    "competition_name": "Ligue 1",
+    "season_id": 2497,
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "matchday": 15,
+    "stage": "REGULAR_SEASON",
+    "status": "TIMED",
+    "kickoff": "2027-01-03T16:15:00Z",
+    "home_team": {
+      "id": "fd-1045",
+      "api_id": 1045,
+      "name": "Paris FC",
+      "short": "PFC"
+    },
+    "away_team": {
+      "id": "fd-533",
+      "api_id": 533,
+      "name": "Le Havre AC",
+      "short": "HAC"
     },
     "home_score": null,
     "away_score": null,
