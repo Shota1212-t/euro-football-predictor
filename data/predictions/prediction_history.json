@@ -1,5 +1,36 @@
 [
   {
+    "id": "564698",
+    "league_id": "laliga",
+    "league_name": "La Liga",
+    "kickoff": "2026-12-09T19:00:00Z",
+    "home_team": {
+      "id": "fd-87",
+      "api_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "short": "RAY",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "away_team": {
+      "id": "fd-77",
+      "api_id": 77,
+      "name": "Athletic Club",
+      "short": "ATH",
+      "league_id": "laliga",
+      "color": "#334155"
+    },
+    "home_win_probability": 47.3,
+    "draw_probability": 18.6,
+    "away_win_probability": 34.1,
+    "predicted_result": "Home Win",
+    "confidence": "Medium",
+    "data_quality": "full_history",
+    "history_source": "initial_prediction",
+    "model_version": "lightgbm_no_odds_uncalibrated_v2",
+    "recorded_at": "2026-11-27T09:02:43.135275+00:00"
+  },
+  {
     "id": "564763",
     "league_id": "laliga",
     "league_name": "La Liga",
