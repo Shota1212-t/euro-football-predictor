@@ -75,10 +75,24 @@
       "recent_form": ""
     },
     {
+      "team_id": "fd-5335",
+      "api_id": 5335,
+      "team_name": "Real Racing Club de Santander",
+      "position": 6,
+      "played": 14,
+      "win": 6,
+      "draw": 2,
+      "loss": 6,
+      "goals_for": 23,
+      "goals_against": 33,
+      "points": 20,
+      "recent_form": ""
+    },
+    {
       "team_id": "fd-559",
       "api_id": 559,
       "team_name": "Sevilla FC",
-      "position": 6,
+      "position": 7,
       "played": 13,
       "win": 5,
       "draw": 4,
@@ -86,20 +100,6 @@
       "goals_for": 18,
       "goals_against": 20,
       "points": 19,
-      "recent_form": ""
-    },
-    {
-      "team_id": "fd-5335",
-      "api_id": 5335,
-      "team_name": "Real Racing Club de Santander",
-      "position": 7,
-      "played": 13,
-      "win": 5,
-      "draw": 2,
-      "loss": 6,
-      "goals_for": 20,
-      "goals_against": 32,
-      "points": 17,
       "recent_form": ""
     },
     {
@@ -205,12 +205,12 @@
       "api_id": 88,
       "team_name": "Levante UD",
       "position": 15,
-      "played": 13,
+      "played": 14,
       "win": 2,
       "draw": 6,
-      "loss": 5,
-      "goals_for": 17,
-      "goals_against": 22,
+      "loss": 6,
+      "goals_for": 18,
+      "goals_against": 25,
       "points": 12,
       "recent_form": ""
     },

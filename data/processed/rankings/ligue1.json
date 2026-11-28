@@ -8,7 +8,7 @@
     "season_end": "2027-05-29",
     "current_matchday": 12,
     "source": "football-data.org",
-    "updated_at": "2026-11-27T09:02:35.746413+00:00",
+    "updated_at": "2026-11-28T08:25:12.606616+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1202,6 +1202,17 @@
       "value": 3
     },
     {
+      "player_id": "fdp-175942",
+      "football_data_player_id": 175942,
+      "player_name": "Kamory Doumbia",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Mali",
+      "value": 3
+    },
+    {
       "player_id": "fdp-177248",
       "football_data_player_id": 177248,
       "player_name": "Pablo Pagis",
@@ -1276,17 +1287,6 @@
       "team_name": "AJ Auxerre",
       "position": null,
       "nationality": "Cameroon",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-175942",
-      "football_data_player_id": 175942,
-      "player_name": "Kamory Doumbia",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Mali",
       "value": 2
     },
     {
@@ -1710,6 +1710,72 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-108520",
+      "football_data_player_id": 108520,
+      "player_name": "Ilan Kebbal",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "Algeria",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-552",
+      "football_data_player_id": 552,
+      "player_name": "Lassine Sinayoko",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "Mali",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-723",
+      "football_data_player_id": 723,
+      "player_name": "Ludovic Ajorque",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-8352",
+      "football_data_player_id": 8352,
+      "player_name": "Maxime López",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "France",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-177248",
+      "football_data_player_id": 177248,
+      "player_name": "Pablo Pagis",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "France",
+      "value": 12
+    },
+    {
+      "player_id": "fdp-218249",
+      "football_data_player_id": 218249,
+      "player_name": "Pathé Mboup",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Senegal",
+      "value": 12
+    },
+    {
       "player_id": "fdp-8706",
       "football_data_player_id": 8706,
       "player_name": "Adrien Thomasson",
@@ -1930,17 +1996,6 @@
       "value": 11
     },
     {
-      "player_id": "fdp-108520",
-      "football_data_player_id": 108520,
-      "player_name": "Ilan Kebbal",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "Algeria",
-      "value": 11
-    },
-    {
       "player_id": "fdp-182406",
       "football_data_player_id": 182406,
       "player_name": "Jacen Russell-Rowe",
@@ -1996,6 +2051,17 @@
       "value": 11
     },
     {
+      "player_id": "fdp-175942",
+      "football_data_player_id": 175942,
+      "player_name": "Kamory Doumbia",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "Mali",
+      "value": 11
+    },
+    {
       "player_id": "fdp-177412",
       "football_data_player_id": 177412,
       "player_name": "Lamine Sy",
@@ -2004,17 +2070,6 @@
       "team_name": "AJ Auxerre",
       "position": null,
       "nationality": "France",
-      "value": 11
-    },
-    {
-      "player_id": "fdp-552",
-      "football_data_player_id": 552,
-      "player_name": "Lassine Sinayoko",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "Mali",
       "value": 11
     },
     {
@@ -2051,25 +2106,14 @@
       "value": 11
     },
     {
-      "player_id": "fdp-723",
-      "football_data_player_id": 723,
-      "player_name": "Ludovic Ajorque",
+      "player_id": "fdp-43707",
+      "football_data_player_id": 43707,
+      "player_name": "Mama Baldé",
       "team_id": "fd-512",
       "football_data_team_id": 512,
       "team_name": "Stade Brestois 29",
       "position": null,
-      "nationality": "France",
-      "value": 11
-    },
-    {
-      "player_id": "fdp-8352",
-      "football_data_player_id": 8352,
-      "player_name": "Maxime López",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "France",
+      "nationality": "Guinea-Bissau",
       "value": 11
     },
     {
@@ -2114,28 +2158,6 @@
       "team_name": "Lille OSC",
       "position": null,
       "nationality": "France",
-      "value": 11
-    },
-    {
-      "player_id": "fdp-177248",
-      "football_data_player_id": 177248,
-      "player_name": "Pablo Pagis",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "France",
-      "value": 11
-    },
-    {
-      "player_id": "fdp-218249",
-      "football_data_player_id": 218249,
-      "player_name": "Pathé Mboup",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Senegal",
       "value": 11
     },
     {
@@ -2315,17 +2337,6 @@
       "value": 10
     },
     {
-      "player_id": "fdp-175942",
-      "football_data_player_id": 175942,
-      "player_name": "Kamory Doumbia",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "Mali",
-      "value": 10
-    },
-    {
       "player_id": "fdp-250795",
       "football_data_player_id": 250795,
       "player_name": "Keyliane Abdallah",
@@ -2337,14 +2348,14 @@
       "value": 10
     },
     {
-      "player_id": "fdp-43707",
-      "football_data_player_id": 43707,
-      "player_name": "Mama Baldé",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
+      "player_id": "fdp-182267",
+      "football_data_player_id": 182267,
+      "player_name": "Luca Koleosho",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
       "position": null,
-      "nationality": "Guinea-Bissau",
+      "nationality": "Italy",
       "value": 10
     },
     {
@@ -2524,17 +2535,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-182267",
-      "football_data_player_id": 182267,
-      "player_name": "Luca Koleosho",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "Italy",
-      "value": 9
-    },
-    {
       "player_id": "fdp-180827",
       "football_data_player_id": 180827,
       "player_name": "Mohammed Amoura",
@@ -2554,6 +2554,28 @@
       "team_name": "AS Monaco FC",
       "position": null,
       "nationality": "Germany",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-116150",
+      "football_data_player_id": 116150,
+      "player_name": "Samir Chergui",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "Algeria",
+      "value": 9
+    },
+    {
+      "player_id": "fdp-565",
+      "football_data_player_id": 565,
+      "player_name": "Vincent Marchetti",
+      "team_id": "fd-1045",
+      "football_data_team_id": 1045,
+      "team_name": "Paris FC",
+      "position": null,
+      "nationality": "France",
       "value": 9
     },
     {
@@ -2590,6 +2612,17 @@
       "value": 8
     },
     {
+      "player_id": "fdp-212975",
+      "football_data_player_id": 212975,
+      "player_name": "Noah Edjouma",
+      "team_id": "fd-512",
+      "football_data_team_id": 512,
+      "team_name": "Stade Brestois 29",
+      "position": null,
+      "nationality": "France",
+      "value": 8
+    },
+    {
       "player_id": "fdp-8093",
       "football_data_player_id": 8093,
       "player_name": "Pierre Emile Højbjerg",
@@ -2598,28 +2631,6 @@
       "team_name": "Olympique de Marseille",
       "position": null,
       "nationality": "Denmark",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-116150",
-      "football_data_player_id": 116150,
-      "player_name": "Samir Chergui",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "Algeria",
-      "value": 8
-    },
-    {
-      "player_id": "fdp-565",
-      "football_data_player_id": 565,
-      "player_name": "Vincent Marchetti",
-      "team_id": "fd-1045",
-      "football_data_team_id": 1045,
-      "team_name": "Paris FC",
-      "position": null,
-      "nationality": "France",
       "value": 8
     },
     {
@@ -2642,17 +2653,6 @@
       "team_name": "Paris Saint-Germain FC",
       "position": null,
       "nationality": "Brazil",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-212975",
-      "football_data_player_id": 212975,
-      "player_name": "Noah Edjouma",
-      "team_id": "fd-512",
-      "football_data_team_id": 512,
-      "team_name": "Stade Brestois 29",
-      "position": null,
-      "nationality": "France",
       "value": 7
     },
     {

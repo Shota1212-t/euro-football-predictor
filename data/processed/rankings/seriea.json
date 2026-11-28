@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 13,
     "source": "football-data.org",
-    "updated_at": "2026-11-27T09:02:20.732848+00:00",
+    "updated_at": "2026-11-28T08:24:56.530037+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -1696,7 +1696,51 @@
       "team_name": "Venezia FC",
       "position": null,
       "nationality": "Nigeria",
-      "value": 12
+      "value": 13
+    },
+    {
+      "player_id": "fdp-188464",
+      "football_data_player_id": 188464,
+      "player_name": "Antoine Hainaut",
+      "team_id": "fd-454",
+      "football_data_team_id": 454,
+      "team_name": "Venezia FC",
+      "position": null,
+      "nationality": "France",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-2040",
+      "football_data_player_id": 2040,
+      "player_name": "Federico Bernardeschi",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Italy",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-98549",
+      "football_data_player_id": 98549,
+      "player_name": "John Yeboah",
+      "team_id": "fd-454",
+      "football_data_team_id": 454,
+      "team_name": "Venezia FC",
+      "position": null,
+      "nationality": "Ecuador",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-99013",
+      "football_data_player_id": 99013,
+      "player_name": "Tommaso Pobega",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Italy",
+      "value": 13
     },
     {
       "player_id": "fdp-274076",
@@ -1751,17 +1795,6 @@
       "team_name": "AC Monza",
       "position": null,
       "nationality": "Italy",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-188464",
-      "football_data_player_id": 188464,
-      "player_name": "Antoine Hainaut",
-      "team_id": "fd-454",
-      "football_data_team_id": 454,
-      "team_name": "Venezia FC",
-      "position": null,
-      "nationality": "France",
       "value": 12
     },
     {
@@ -1859,17 +1892,6 @@
       "team_id": "fd-100",
       "football_data_team_id": 100,
       "team_name": "AS Roma",
-      "position": null,
-      "nationality": "Italy",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-2040",
-      "football_data_player_id": 2040,
-      "player_name": "Federico Bernardeschi",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
       "position": null,
       "nationality": "Italy",
       "value": 12
@@ -1982,17 +2004,6 @@
       "team_name": "AC Monza",
       "position": null,
       "nationality": "England",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-98549",
-      "football_data_player_id": 98549,
-      "player_name": "John Yeboah",
-      "team_id": "fd-454",
-      "football_data_team_id": 454,
-      "team_name": "Venezia FC",
-      "position": null,
-      "nationality": "Ecuador",
       "value": 12
     },
     {
@@ -2290,17 +2301,6 @@
       "team_name": "SS Lazio",
       "position": null,
       "nationality": "Netherlands",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-99013",
-      "football_data_player_id": 99013,
-      "player_name": "Tommaso Pobega",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
-      "position": null,
-      "nationality": "Italy",
       "value": 12
     },
     {
@@ -2623,6 +2623,17 @@
       "value": 10
     },
     {
+      "player_id": "fdp-217678",
+      "football_data_player_id": 217678,
+      "player_name": "Samuel Mbangula",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Belgium",
+      "value": 10
+    },
+    {
       "player_id": "fdp-114054",
       "football_data_player_id": 114054,
       "player_name": "Sebastiano Esposito",
@@ -2656,17 +2667,6 @@
       "value": 9
     },
     {
-      "player_id": "fdp-217678",
-      "football_data_player_id": 217678,
-      "player_name": "Samuel Mbangula",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
-      "position": null,
-      "nationality": "Belgium",
-      "value": 9
-    },
-    {
       "player_id": "fdp-7905",
       "football_data_player_id": 7905,
       "player_name": "Scott McTominay",
@@ -2686,6 +2686,17 @@
       "team_name": "AS Roma",
       "position": null,
       "nationality": "France",
+      "value": 8
+    },
+    {
+      "player_id": "fdp-1886",
+      "football_data_player_id": 1886,
+      "player_name": "Riccardo Orsolini",
+      "team_id": "fd-103",
+      "football_data_team_id": 103,
+      "team_name": "Bologna FC 1909",
+      "position": null,
+      "nationality": "Italy",
       "value": 8
     },
     {
@@ -2739,17 +2750,6 @@
       "team_id": "fd-115",
       "football_data_team_id": 115,
       "team_name": "Udinese Calcio",
-      "position": null,
-      "nationality": "Italy",
-      "value": 7
-    },
-    {
-      "player_id": "fdp-1886",
-      "football_data_player_id": 1886,
-      "player_name": "Riccardo Orsolini",
-      "team_id": "fd-103",
-      "football_data_team_id": 103,
-      "team_name": "Bologna FC 1909",
       "position": null,
       "nationality": "Italy",
       "value": 7

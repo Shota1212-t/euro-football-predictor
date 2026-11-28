@@ -8,7 +8,7 @@
     "season_end": "2027-05-30",
     "current_matchday": 14,
     "source": "football-data.org",
-    "updated_at": "2026-11-27T09:02:12.033007+00:00",
+    "updated_at": "2026-11-28T08:24:47.573351+00:00",
     "state": "available",
     "message": null,
     "available_types": [
@@ -53,7 +53,7 @@
       "team_name": "Real Racing Club de Santander",
       "position": null,
       "nationality": "Morocco",
-      "value": 11
+      "value": 12
     },
     {
       "player_id": "fdp-202283",
@@ -210,6 +210,17 @@
       "value": 4
     },
     {
+      "player_id": "fdp-156746",
+      "football_data_player_id": 156746,
+      "player_name": "Iván Romero",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 4
+    },
+    {
       "player_id": "fdp-82516",
       "football_data_player_id": 82516,
       "player_name": "Luka Sučić",
@@ -240,6 +251,17 @@
       "team_name": "Real Sociedad de Fútbol",
       "position": null,
       "nationality": "Iceland",
+      "value": 4
+    },
+    {
+      "player_id": "fdp-274546",
+      "football_data_player_id": 274546,
+      "player_name": "Pablo García",
+      "team_id": "fd-5335",
+      "football_data_team_id": 5335,
+      "team_name": "Real Racing Club de Santander",
+      "position": null,
+      "nationality": "Spain",
       "value": 4
     },
     {
@@ -337,17 +359,6 @@
       "team_id": "fd-559",
       "football_data_team_id": 559,
       "team_name": "Sevilla FC",
-      "position": null,
-      "nationality": "Spain",
-      "value": 3
-    },
-    {
-      "player_id": "fdp-156746",
-      "football_data_player_id": 156746,
-      "player_name": "Iván Romero",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 3
@@ -713,17 +724,6 @@
       "team_name": "RC Deportivo La Coruña",
       "position": null,
       "nationality": "Cameroon",
-      "value": 2
-    },
-    {
-      "player_id": "fdp-274546",
-      "football_data_player_id": 274546,
-      "player_name": "Pablo García",
-      "team_id": "fd-5335",
-      "football_data_team_id": 5335,
-      "team_name": "Real Racing Club de Santander",
-      "position": null,
-      "nationality": "Spain",
       "value": 2
     },
     {
@@ -1732,6 +1732,61 @@
   ],
   "appearances": [
     {
+      "player_id": "fdp-25",
+      "football_data_player_id": 25,
+      "player_name": "Canales",
+      "team_id": "fd-5335",
+      "football_data_team_id": 5335,
+      "team_name": "Real Racing Club de Santander",
+      "position": null,
+      "nationality": "Spain",
+      "value": 14
+    },
+    {
+      "player_id": "fdp-156746",
+      "football_data_player_id": 156746,
+      "player_name": "Iván Romero",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 14
+    },
+    {
+      "player_id": "fdp-161293",
+      "football_data_player_id": 161293,
+      "player_name": "Jon Olasagasti",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 14
+    },
+    {
+      "player_id": "fdp-274546",
+      "football_data_player_id": 274546,
+      "player_name": "Pablo García",
+      "team_id": "fd-5335",
+      "football_data_team_id": 5335,
+      "team_name": "Real Racing Club de Santander",
+      "position": null,
+      "nationality": "Spain",
+      "value": 14
+    },
+    {
+      "player_id": "fdp-265516",
+      "football_data_player_id": 265516,
+      "player_name": "Yassir Zabiri",
+      "team_id": "fd-5335",
+      "football_data_team_id": 5335,
+      "team_name": "Real Racing Club de Santander",
+      "position": null,
+      "nationality": "Morocco",
+      "value": 14
+    },
+    {
       "player_id": "fdp-150533",
       "football_data_player_id": 150533,
       "player_name": "Alberto Moleiro",
@@ -1798,12 +1853,12 @@
       "value": 13
     },
     {
-      "player_id": "fdp-25",
-      "football_data_player_id": 25,
-      "player_name": "Canales",
-      "team_id": "fd-5335",
-      "football_data_team_id": 5335,
-      "team_name": "Real Racing Club de Santander",
+      "player_id": "fdp-180282",
+      "football_data_player_id": 180282,
+      "player_name": "Brugui",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 13
@@ -1837,6 +1892,17 @@
       "team_id": "fd-84",
       "football_data_team_id": 84,
       "team_name": "Málaga CF",
+      "position": null,
+      "nationality": "Spain",
+      "value": 13
+    },
+    {
+      "player_id": "fdp-206721",
+      "football_data_player_id": 206721,
+      "player_name": "Dani Requena",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 13
@@ -1919,17 +1985,6 @@
       "value": 13
     },
     {
-      "player_id": "fdp-156746",
-      "football_data_player_id": 156746,
-      "player_name": "Iván Romero",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 13
-    },
-    {
       "player_id": "fdp-32629",
       "football_data_player_id": 32629,
       "player_name": "Iñaki Williams",
@@ -1938,17 +1993,6 @@
       "team_name": "Athletic Club",
       "position": null,
       "nationality": "Ghana",
-      "value": 13
-    },
-    {
-      "player_id": "fdp-161293",
-      "football_data_player_id": 161293,
-      "player_name": "Jon Olasagasti",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
       "value": 13
     },
     {
@@ -2095,17 +2139,6 @@
       "value": 13
     },
     {
-      "player_id": "fdp-274546",
-      "football_data_player_id": 274546,
-      "player_name": "Pablo García",
-      "team_id": "fd-5335",
-      "football_data_team_id": 5335,
-      "team_name": "Real Racing Club de Santander",
-      "position": null,
-      "nationality": "Spain",
-      "value": 13
-    },
-    {
       "player_id": "fdp-173617",
       "football_data_player_id": 173617,
       "player_name": "Pablo Ibáñez Tébar",
@@ -2194,17 +2227,6 @@
       "value": 13
     },
     {
-      "player_id": "fdp-265516",
-      "football_data_player_id": 265516,
-      "player_name": "Yassir Zabiri",
-      "team_id": "fd-5335",
-      "football_data_team_id": 5335,
-      "team_name": "Real Racing Club de Santander",
-      "position": null,
-      "nationality": "Morocco",
-      "value": 13
-    },
-    {
       "player_id": "fdp-213278",
       "football_data_player_id": 213278,
       "player_name": "Álex Baena",
@@ -2238,6 +2260,17 @@
       "value": 12
     },
     {
+      "player_id": "fdp-98741",
+      "football_data_player_id": 98741,
+      "player_name": "Adrián de la Fuente",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "Spain",
+      "value": 12
+    },
+    {
       "player_id": "fdp-151439",
       "football_data_player_id": 151439,
       "player_name": "Aitor Paredes Casamichana",
@@ -2260,34 +2293,12 @@
       "value": 12
     },
     {
-      "player_id": "fdp-180282",
-      "football_data_player_id": 180282,
-      "player_name": "Brugui",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 12
-    },
-    {
       "player_id": "fdp-189380",
       "football_data_player_id": 189380,
       "player_name": "Carlos Dotor",
       "team_id": "fd-84",
       "football_data_team_id": 84,
       "team_name": "Málaga CF",
-      "position": null,
-      "nationality": "Spain",
-      "value": 12
-    },
-    {
-      "player_id": "fdp-206721",
-      "football_data_player_id": 206721,
-      "player_name": "Dani Requena",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
       "position": null,
       "nationality": "Spain",
       "value": 12
@@ -2480,17 +2491,6 @@
       "value": 12
     },
     {
-      "player_id": "fdp-98741",
-      "football_data_player_id": 98741,
-      "player_name": "Adrián de la Fuente",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "Spain",
-      "value": 11
-    },
-    {
       "player_id": "fdp-244544",
       "football_data_player_id": 244544,
       "player_name": "Buba",
@@ -2499,6 +2499,17 @@
       "team_name": "Elche CF",
       "position": null,
       "nationality": "Spain",
+      "value": 11
+    },
+    {
+      "player_id": "fdp-177245",
+      "football_data_player_id": 177245,
+      "player_name": "Enzo Bardeli",
+      "team_id": "fd-88",
+      "football_data_team_id": 88,
+      "team_name": "Levante UD",
+      "position": null,
+      "nationality": "France",
       "value": 11
     },
     {
@@ -2609,17 +2620,6 @@
       "team_name": "Real Betis Balompié",
       "position": null,
       "nationality": "Colombia",
-      "value": 10
-    },
-    {
-      "player_id": "fdp-177245",
-      "football_data_player_id": 177245,
-      "player_name": "Enzo Bardeli",
-      "team_id": "fd-88",
-      "football_data_team_id": 88,
-      "team_name": "Levante UD",
-      "position": null,
-      "nationality": "France",
       "value": 10
     },
     {
